@@ -778,9 +778,28 @@ ot、Mybatis-plus等常用服务器框架；
 3. 数据库：理解事务、索引原理，能编写高效SQL  
 4. 基础工具：Git代码管理、Maven项目构建  
 
+## 案例77
+3-5
+1.26届本科及以上学历，有使用java语言从事web项目开发经验优先；
+2.精通Java开发语言，熟练使用IDEA等开发工具；
+3.熟悉SpringBoot开发框架，有SpringCloud开发经验优先；
+4.熟练使用Maven、MyBatis、Hibernate技术进行架构设计及开发；
+5.熟悉Mysql、Oracle数据库中至少一个；
+6.熟悉Linux或者Unix操作系统环境下Tomcat、Nginx服务器配置。
 
+## 案例78
+4-5
+二、岗位要求
+1、计算机相关专业在读本科生或研究生，对 Java 开发有浓厚兴趣。
+2、具备一定的 Java 基础知识，了解面向对象编程思想。
+3、了解spring cloud,spring boot,react和VUE有一定基础优先。
+4、具备良好的学习能力、沟通能力和团队协作精神。
+5、2027届的同学需能稳定实习至少6个月以上，不接受短期实习。
+在深圳的优先考虑！！！
+来源：BOSS直聘
+链接：https://www.zhipin.com/web/geek/jobs?city=100010000&query=java%E5%AE%9E%E4%B9%A0%E7%94%9F
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjE3OTgyMzUsMTAwMDA0NTg3MCwtMT
-kwMzQyMTQyOSwtMTMzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4
-MTYwMl19
+eyJoaXN0b3J5IjpbLTkzODA0ODcxNCwxMDAwMDQ1ODcwLC0xOT
+AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
+NjAyXX0=
 -->
