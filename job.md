@@ -126,8 +126,16 @@ langchain4j、python，如果有spring ai经验则优先
 
 ## 案例11
 10-11
+1. 具备3年以上Java实际开发经验。
+2. 熟练掌握Java语言，包括但不限于Spring, Mybatis等开源框架。
+3. 对JVM、多线程、网络IO、锁机制有深入理解和实践经验。
+4. 能够设计和实现高并发、高可用的系统。
+5. 熟练使用Oracle、MySQL等数据库，具备数据库优化的实战经验。
+6. 具有高度的责任感和主动性，良好的团队合作能力和沟通能力。
+7. 具备较强的学习能力和执行力，能承受高压工作。
+8. 优先考虑有内部管理系统、协同办公等相关开发经验的候选人。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ2Mzk2MTksLTEzMzgxODg4OTEsLT
-g1NjAzNTYyOSw2MjM2ODE2MDJdfQ==
+eyJoaXN0b3J5IjpbMTMwMzYyMzMyMCwtMTMzODE4ODg5MSwtOD
+U2MDM1NjI5LDYyMzY4MTYwMl19
 -->
