@@ -324,8 +324,13 @@ langchain4j、python，如果有spring ai经验则优先
 6.掌握Linux环境下Tomcat/Nignx的集群环境搭建及配置；
 7.了解TCP/IP、HTTP等网络协议及基本知识，具备基本网络问题分析能力；
 
+## 案例30
+2-3
+1.具备扎实的Java编程技能，熟悉Spring等主流开发框架。
+2.能够熟练操作MySQL、Oracle等数据库，具备优秀的SQL编写能力。
+3.具有良好的团队合作意识，能有效沟通，解决技术问题。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzkwNTIxMTEsLTEzMzgxODg4OTEsLT
+eyJoaXN0b3J5IjpbLTE5MDM0MjE0MjksLTEzMzgxODg4OTEsLT
 g1NjAzNTYyOSw2MjM2ODE2MDJdfQ==
 -->
