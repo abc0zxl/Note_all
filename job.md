@@ -366,13 +366,18 @@ langchain4j、python，如果有spring ai经验则优先
 3、熟悉Spring、Spring MVC、Spring Boot等开源框架，熟悉常用的设计模式。
 4、熟悉MySQL、SQLServer、oracle其中一种关系数据库的应用与开发。
 
-
-邬女士
-刚刚活跃
-招商华软 · HRBP经理
+## 案例34
+1-2
+    1、热爱工作
+    2、无工作经验者 可培养；
+    3、具有面向对象的分析和设计的能力；
+    4、具有一些J2EE架构设计经验；
+    5、精通工作流、java、Struts、spring、O/R映射工具（hibernate/ibatis）；熟悉jsp、Jquery、JavaScript/Ajax；
+    6、熟悉统一建模语言（UML），能运用UML的方法和工具进行面向对象的分析和设计；
+    7、熟悉Oracle, MySql数据库；
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDgwNzExMywtMTkwMzQyMTQyOSwtMT
-MzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4MTYwMl19
+eyJoaXN0b3J5IjpbLTU5MTQ1Nzc3LC0xOTAzNDIxNDI5LC0xMz
+M4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgxNjAyXX0=
 -->
