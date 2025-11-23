@@ -274,7 +274,27 @@ langchain4j、python，如果有spring ai经验则优先
 5、沟通条理性强，积极主动反馈问题，虚心接受指导，同步具备独立解决问题的能力。
 6、实践期间提供导师帮带，每周可到岗实践三天及以上；
 
+## 案例25
+2-4
+1、大专及以上实习生并且为计算机，信息，通讯，自动化等相关专业；
+2、足够扎实的java基础掌握，良好的编码规范及规范的文档编写习惯；
+3、熟悉使用Spring，Spring MVC，Mybatis/JPA，SpringBoot，Spring Cloud Alibabab等框架；
+4、熟悉mysql、redis等结构化和非结构化数据库，了解数据表性能优化；
+5、熟悉Maven构建工具和svn版本管理工具；
+6、了解linux相关操作，能在linux环境下进行服务部署和配置；
+7、有使用redis，SpringBoot，SpringCloud经验优先；
+8、有商业项目开发或github开源项目开发经验的优先；
+9、有互联网产品开发经验的优先；
+
+## 案例26
+1.2026届本科计算机科学、软件工程、信息技术或相关专业的在校学生；
+2.熟悉JAVA ,Spring、SpringMVC、Mybatis等常用开发框架，熟悉Spring全家桶优先；熟悉Web前端基本知识，javascript，html,css，jquery，json等前端技术；
+3.具备良好的编程基础，能够编写清晰、可维护的代码；
+4.参与过至少一个完整的软件开发项目，了解软件开发的基本流程和规范
+5.对新技术和新知识有强烈的求知欲，能够快速掌握并应用于项目中；
+6.有强烈的责任心，抗压能力以及团队合作精神；有快速学习能力和独立解决问题能力；
+7、对人工智能感兴趣，接触过AI相关项目经验优先。an
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzMzNTIxMCwtMTMzODE4ODg5MSwtOD
-U2MDM1NjI5LDYyMzY4MTYwMl19
+eyJoaXN0b3J5IjpbNzc4NjkyNzY4LC0xMzM4MTg4ODkxLC04NT
+YwMzU2MjksNjIzNjgxNjAyXX0=
 -->
