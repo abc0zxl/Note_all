@@ -542,10 +542,42 @@ langchain4j、python，如果有spring ai经验则优先
 7、乐于尝试新事物，具有迎接挑战、克服困难的勇气；
 
 ## 案例53
-3
+5-6
+1、2026届计算机、软件、信息、电子等相关专业。
+2、熟练掌握JAVA或者Python。
+3、具备独立编写SQL能力。
+4、熟悉maven、git工具使用。
+5、良好的编码习惯，关键代码处会编写注释，代码可阅读性好，注重代码质量与扩展性。
+
+## 案例54
+3-4
+1、计算机及相关专业本科或以上在校学生，可保证连续实习3个月以上；
+2、具备扎实的Java编程基础，熟悉Spring Boot、MyBatis等主流企业级开发框架；
+3、熟练掌握MySQL数据库开发，具备SQL优化及数据库设计基础能力；
+4、了解Redis等NoSQL数据库的基本使用场景及常用操作；
+5、熟悉Linux常用命令，掌握Git等代码管理工具的基本操作；
+来源：BOSS直聘
+
+## 案例55
+3-4
+1、扎实的JAVA基础知识；
+2、熟悉SQL编写，熟练掌握至少一种常用数据库（Oracle、MySql、PG）；
+3、掌握一般的JS、HTML页面开发，熟悉layui优先；
+4、工作积极主动，乐于沟通，热爱学习。
+
+## 案例56
+6-7
+1、线下面试
+2、熟练掌握Spring MVC、Springboot、Springcloud、Redis、MySQL等技术栈
+3、熟悉常用数据库，具备扎实的SQL知识
+4、具备良好的责任心和沟通能力
+5、了解linux基本命令
+
+## 案例57
+3-4
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTM2NjU4OSwxMDAwMDQ1ODcwLC0xOT
+eyJoaXN0b3J5IjpbLTM1NTk0NzY3OCwxMDAwMDQ1ODcwLC0xOT
 AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
 NjAyXX0=
 -->
