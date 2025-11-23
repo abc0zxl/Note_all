@@ -575,9 +575,42 @@ langchain4j、python，如果有spring ai经验则优先
 
 ## 案例57
 3-4
+1、计算机相关专业，java基础扎实
+2、熟练使用springmvc、springboot框架
+3、熟练掌握mysql、oracle、SQLServer
+4、有ERP项目经验优先
+5、熟悉java常见设计模式，热爱技术，强烈的责任意识。
+
+## 案例58
+5-6
+1.精通设计、需求分析、各种开源工具，JavaEE底层技术等；
+2.熟悉工作流程、权限框架、门户框架等；
+3.精通Java技术(JSP、Servlet、Java语言)、SSM(SpringMVC、Spring、MyBatis)、SpringBoot/SpringCloud框架开发能力等；
+4.熟悉并具备数据库设计能力和数据库使用经验，主流数据库mysql、oracle等；
+5.实习期间公司不提供食宿，如果安排出差，费用实报实销。
+
+## 案例59
+3-4
+
+4、熟悉SpringBoot、SpringCloud，熟悉Spring、MyBatis等框架; 熟悉IDEA开发环境，熟悉分布式开发;
+5、熟悉MySQL，ORACLE等关系型数据开发及SQL性能优化;  熟悉linux常用操作;
+6、熟悉Redis，MQ等常用中间件和应用的开发;
+7、具备基本的 Git 版本控制能力;
+8、沟通能力强，良好的团队合作意识;
+9、依据开发规范与标准或实施规范与标准，提高代码及开发任务规范与质量;
+10、实习期限：至少 3 个月；
+
+## 案例60
+2-3
+1、计算机相关专业，熟悉Oracle、MSSqlserver、Mysql至少一种数据库；
+2、熟悉Jquery、Css、HTML、Javascript、XML等；
+3、熟悉J2EE体系的技术应用架构及流行架构，J2EE相关开发技术（如Servlet、Spring，SpringMVC，Mybatis等）；
+4、熟悉微信小程序、公众号接口开发，微信、支付宝支付接口等优先；
+5、具有严谨的逻辑思维，独立思考与架构能力，有团队合作精神。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTk0NzY3OCwxMDAwMDQ1ODcwLC0xOT
-AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
-NjAyXX0=
+eyJoaXN0b3J5IjpbLTE1MTI2MDgxMTgsMTAwMDA0NTg3MCwtMT
+kwMzQyMTQyOSwtMTMzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4
+MTYwMl19
 -->
