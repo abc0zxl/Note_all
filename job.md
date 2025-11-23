@@ -459,7 +459,41 @@ langchain4j、python，如果有spring ai经验则优先
 • 熟悉微服务（Spring Cloud）或容器化技术（Docker/K8s）  
 • 有开源项目贡献、技术博客或校内外实践项目成果  
 
+## 案例44
+5-6
+1.全日制统招本科以上学历，计算机、软件工程、信息管理等相关专业；
+2.熟练掌握操作系统、数据库、数据结构和算法、网络等基础知识； 
+3.熟悉JAVA语言，熟悉面向对象的软件设计方法，具备JAVA应用开发经验，熟悉Spring，springBoot，MyBatis等开源框架和其理念；
+4.了解 Oracle/MySql/PostgreSQL等一种常用数据库。
+5.热爱计算机以及IT技术，积极主动，善于学习，具备较强的沟通能力和抗压能力。
+
+## 案例45
+
+5-6
+1、计算机相关专业大专及以上学历，对Java开发有浓厚兴趣；
+2、熟悉Java语言基础，了解Java EE架构，有实际项目经验者优先；
+3、掌握Spring、MyBatis等主流框架，了解Spring Boot者优先；
+4、具备良好的编码习惯，注重代码的可读性和维护性；
+5、具有较强的学习能力和团队合作精神，能够适应快节奏的工作环境。
+
+## 案例46
+4-5
+1. 2026年毕业的在校学生，计算机类相关专业本科及以上学历，对Java开发有浓厚兴趣；
+2. 掌握Java基础语法与面向对象思想，了解Spring Boot、MyBatis等框架的基本使用优先；
+3. 具备基本的SQL编写能力，了解MySQL等关系型数据库；
+4. 性格开朗，善于沟通协作，能快速融入团队；有强烈的学习意愿，乐于主动探索新技术；
+5. 认同“高效工作、快乐生活”的理念，拒绝无效内卷，注重工作与生活的平衡。
+
+## 案例47
+1-2
+1、计算机、软件工程等相关专业。
+2、熟练掌握java编程语言。
+3、熟练掌握Springboot。
+4、熟悉vue,uniapp等前端技术。
+5、能熟练编写sql脚本。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MTA5MjMyLC0xOTAzNDIxNDI5LC0xMz
-M4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgxNjAyXX0=
+eyJoaXN0b3J5IjpbMTc3MzM2NTM5MiwtMTkwMzQyMTQyOSwtMT
+MzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4MTYwMl19
 -->
