@@ -746,8 +746,41 @@ ot、Mybatis-plus等常用服务器框架；
 4、熟悉java编程基础，理解集合、IO、NIO、线程、异常等java底层技术，了解事务处理、异步处理、定时任务、并发等问题及相关的处理机制；
 5、有实际动手开发经验，并具备一定的解决问题能力者优先。
 
+## 案例75
+2-3
+计算机、软件工程或相关专业在校生，有扎实的计算机基础；
+熟悉Java基础知识，理解面向对象编程思想；
+熟悉Spring、Spring Boot或其他主流Java框架，有相关项目经验者优先；
+熟悉常用的数据库（如MySQL、PostgreSQL等），掌握基本的SQL语句编写；
+理解RESTful API设计，了解HTTP协议及相关开发工具；
+对分布式系统、微服务架构有一定了解者优先；
+良好的学习能力与团队协作精神，具备较强的逻辑思维能力与责任心；
+能够快速适应新环境，积极主动完成任务。
+
+加分项
+参与过实际的后端开发项目，并能够提供代码或案例；
+熟悉Redis、Kafka、RabbitMQ等分布式工具或消息中间件；
+有测试驱动开发（TDD）或单元测试经验；
+对代码质量和性能优化有较高的敏感度；
+熟悉Docker、Kubernetes等容器化相关技术；
+熟悉前后端联调及开发流程。
+我们提供
+有竞争力的实习薪资；
+系统的技术培训与成长空间；
+与技术大牛一起工作的机会，开放且友好的团队氛围；
+实习表现优异者有转正机会。
+
+## 案例76
+5-6
+必备技术能力
+1. Java基础：掌握集合、多线程、IO等核心语法  
+2. 开发框架：熟悉Spring Boot基础开发流程  
+3. 数据库：理解事务、索引原理，能编写高效SQL  
+4. 基础工具：Git代码管理、Maven项目构建  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjc5ODI4NywxMDAwMDQ1ODcwLC0xOT
-AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
-NjAyXX0=
+eyJoaXN0b3J5IjpbLTE1MjE3OTgyMzUsMTAwMDA0NTg3MCwtMT
+kwMzQyMTQyOSwtMTMzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4
+MTYwMl19
 -->
