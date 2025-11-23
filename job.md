@@ -135,7 +135,15 @@ langchain4j、python，如果有spring ai经验则优先
 7. 具备较强的学习能力和执行力，能承受高压工作。
 8. 优先考虑有内部管理系统、协同办公等相关开发经验的候选人。
 
+## 案例12
+8-13
+1.精通Spring Boot/Spring Cloud框架并有大型项目应用经验；
+2.掌握Oracle、MySQL、Redis等主流数据库的开发技巧；
+3.熟悉微服务、云原生等技术，并参与过大型项目的实施和运行经验；
+4.熟悉Linux/Unix平台，熟练使用常见命令，熟悉shell脚本；
+5.具有很好的编程习惯，思路清晰，工作规范；
+案例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzYyMzMyMCwtMTMzODE4ODg5MSwtOD
+eyJoaXN0b3J5IjpbLTYyOTk5NDAzMCwtMTMzODE4ODg5MSwtOD
 U2MDM1NjI5LDYyMzY4MTYwMl19
 -->
