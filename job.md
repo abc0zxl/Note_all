@@ -239,7 +239,17 @@ langchain4j、python，如果有spring ai经验则优先
 9、对新技术充满热情，积极学习，具有高度的责任心以及良好团队合作精神。
 10、具有良好的设计思维，能够高效地提供安全、高性能、可扩展的技术方案；
 
+## 案例21
+2-5
+1、 计算机软件相关专业专科及以上学历;
+2、Java基础扎实，理解IO、多线程、集合等基础框架;
+3、掌握基本数据库操作，MySQL或oracle；
+4、对计算机编程有浓厚兴趣，有良好沟通能力和学习能力，能吃苦耐劳，有较好的逻辑思维能力；
+5、品学兼优、态度认真负责，有较强学习能力、沟通协调能力，有团队合作精神；
+6、实习期间每周至少保证能出勤3天以上，表现优秀的同学优先获得录用机会。
+7、可接受长期实习（3-6个月）
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTI3MDk5MCwtMTMzODE4ODg5MSwtOD
+eyJoaXN0b3J5IjpbMTM5NjA5NzgwOCwtMTMzODE4ODg5MSwtOD
 U2MDM1NjI5LDYyMzY4MTYwMl19
 -->
