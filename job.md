@@ -531,7 +531,21 @@ langchain4j、python，如果有spring ai经验则优先
 2. 有博客，并且有原创内容；
 3. 熟悉spring boot
 
+## 案例52
+3-4
+1、大专及以上学历，计算机、软件工程等相关专业；
+2、了解Java语言、Java面向对象基础知识扎实、了解Linux基础操作；
+3、了解能使用Spring boot，Mybatis等常用java开发框架；
+4、了解Oracle、SqlServer、PostgreSql、MySQL其中一种数据库的sql编写；
+5、了解Vue、javascript、html、css等页面开发技术；
+6、能承受压力，具备良好的沟通理解能力，工作认真负责，富有团队精神，具有良好的自学能力。
+7、乐于尝试新事物，具有迎接挑战、克服困难的勇气；
+
+## 案例53
+3
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDA0NTg3MCwtMTkwMzQyMTQyOSwtMT
-MzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4MTYwMl19
+eyJoaXN0b3J5IjpbLTMzMTM2NjU4OSwxMDAwMDQ1ODcwLC0xOT
+AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
+NjAyXX0=
 -->
