@@ -53,9 +53,38 @@ freelancer 的主要竞争对手
 沟通交流能力好，具有质量意识、团队合作意识和时间意识。
 有 springcloud，jenkins，docker 经验优先
 
+## 案例4
+11-16
+1. 大专及以上学历，3年及以上Java开发经验；
+2. 熟悉SpringCloud、SpringBoot等开发框架；
+3. 熟悉MySQL、SQLServer等数据库体系；
+4. 了解Docker、K8s等部署工具，有在云平台进行部署和发布的经验。
 
-案例4
+## 案例5
+12-15
+1、统招全日制专科及以上学历，有供应链相关开发经验，自毕业时间算起，至少5年及以上JAVA开发经验
+2、JAVA基础扎实，理解io、多线程、集合等基础框架，对JVM原理有一定的了解，熟悉主流的java开源框架;
+3、熟练使用spring，spring mvc，springcloud，mybatis等主流框架
+4、熟练使用消息队列、微服务、redis、xxl-job等中间件技术
+5、熟悉微服务架构，熟悉mysql数据库和基本调优
+6、良好的沟通协作能力，有责任心主动性高
+7、具有较强的压力承受能力，能接受随项目情况的加班。
+
+## 案例6
+1.3年以上开发经验；
+2.精通JAVA、J2EE、Webservice、Springboot、Spring、Hibernate、Mybatis等；
+3.熟悉Rose 、Weblogic、PowerDesigner等开发设计工具；
+4.熟练Oracle、mysql等关系型数据库至少一种；
+5.熟悉UML、常用数据库建模，熟悉并使用过主流非关系型数据库、中间件等，具备极强的问题解决能力；
+6.对k8s/Openshift/Docker/SpringCloud等主流微服务软件架构有较深入的了解；
+7.对OOAD、UML、微服务有较深理解，有微服务开发经验优先；
+8.3年以上系统分析设计经验优先；
+9.良好的沟通意识和服务态度，团队意识强；
+10.思路清晰敏捷，责任心强，具备概要设计，详细设计说明文档编写能力；
+11.善于学习和独立解决问题；
+12.具有一定的抗压能力。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjkyNDc0MCwtMTMzODE4ODg5MSwtOD
-U2MDM1NjI5LDYyMzY4MTYwMl19
+eyJoaXN0b3J5IjpbLTE0NTI1Mzc0NTIsLTEzMzgxODg4OTEsLT
+g1NjAzNTYyOSw2MjM2ODE2MDJdfQ==
 -->
