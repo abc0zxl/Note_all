@@ -720,9 +720,34 @@ ot、Mybatis-plus等常用服务器框架；
 8、有责任心，团队协作意识强，乐于沟通并积极解决问题；
 9、有个人开发项目（如课程设计、小工具等）或开源社区贡献经验者优先。
 
+## 案例72
+
+3-4
+1、计算机、通信、数学、物理等理工科专业。对数据结构，计算机组成原理，操作系统，数据库设计，计算机网络有深入学习。
+2、具备扎实的Java语言功底，精通JavaEE技术体系，熟悉设计模式、JVM原理、多线程编程等。
+3、熟练掌握SSH、Spring MVC、Spring Boot、MyBatis等主流基础技术框架的原理和技术细节。
+4、熟悉Mysql、Redis、MQ、NoSQL、ES等产品和技术。
+
+## 案例73
+3-5
+1、熟悉SSM框架开发（springmvc、spring、mybatis或hibernate）、SpringBoot开发；
+2、熟悉MySQL数据库，对性能定位、SQL优化、参数定制与集群配置熟悉更佳；
+3、熟悉redis的使用，在业务中有相关的开发经验。
+4、对于微服务有相关的开发经验优先，包含但不限于springcloud/dubbo；
+5、对于大数据有相关的开发经验优先，包含但不限于kafka/spark/opentsdb等时序数据处理能力；
+6、能够适应快速成长型技术团队的要求，具有自我管理能力和创业精神，能够承受一定的工作压力。
+
+## 案例74
+
+3-4
+1、了解springboot、spring、spring mvc、mybatis开发框架，能独立进行简单业务功能的开发；
+2、熟悉oracle、mysql数据库的sql使用，能独立编写增删改查，以及分页、分组、连接、联合、聚合、统计查询等sql语句，另外对sql优化有了解。
+3、了解redis、mq、nginx等中间件或工具；
+4、熟悉java编程基础，理解集合、IO、NIO、线程、异常等java底层技术，了解事务处理、异步处理、定时任务、并发等问题及相关的处理机制；
+5、有实际动手开发经验，并具备一定的解决问题能力者优先。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MzAyNjg4LDEwMDAwNDU4NzAsLTE5MD
-M0MjE0MjksLTEzMzgxODg4OTEsLTg1NjAzNTYyOSw2MjM2ODE2
-MDJdfQ==
+eyJoaXN0b3J5IjpbMTAwNjc5ODI4NywxMDAwMDQ1ODcwLC0xOT
+AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
+NjAyXX0=
 -->
