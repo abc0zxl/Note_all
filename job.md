@@ -492,8 +492,46 @@ langchain4j、python，如果有spring ai经验则优先
 4、熟悉vue,uniapp等前端技术。
 5、能熟练编写sql脚本。
 
+## 案例48
+3-4
+熟悉spring、springmvc、springboot
+熟悉mybatis、jpa
+熟悉mysql数据库
+学习能力强
+沟通能力强
+
+## 案例49
+5-8
+1、熟悉Java，熟悉java开发环境，了解软件开发流程、规范 ； 
+2、懂前端优先；
+3、了解javascript,jQuery，vue的使用；
+4、了解SpringMVC，Hibernate开发框架； 
+5、具备一定的数据库基础，了解MySql, Oracle；
+6、具有较强的学习能力和编码能力；
+7、态度端正，踏实肯干，富有责任心； 
+
+## 案例50
+1.计算机相关专业，公办统招本科及以上学历，2026届或2027届毕业生。
+2.熟悉Java，MySQL，了解Redis、Kafka、Flink等基础使用。
+3.前端基础：熟悉HTML、CSS和Vue。
+4.学习能力强，责任心好，能够配合团队完成任务。
+5.最好吉林省内或长期在长春发展的。
+
+## 案例51
+职位要求：
+1. 思维逻辑清晰；
+2. 熟悉J2EE项目开发，熟练使用spring/springMVC/mybatis等应用开发框架；
+3. 熟悉Maven、Gradle等构建工具；
+4. 熟悉Tomcat/Nginx等中间件；
+5. 熟悉Oracle、MySql等数据库；
+6. 可独立完成功能模块的开发和软件详细设计。
+
+加分项：
+1. 有Github，并且有个人项目；
+2. 有博客，并且有原创内容；
+3. 熟悉spring boot
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzM2NTM5MiwtMTkwMzQyMTQyOSwtMT
+eyJoaXN0b3J5IjpbMTAwMDA0NTg3MCwtMTkwMzQyMTQyOSwtMT
 MzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4MTYwMl19
 -->
