@@ -422,7 +422,24 @@ langchain4j、python，如果有spring ai经验则优先
 9、对工作有责任心；
 10. 对技术有足够的热情，喜欢去了解及尝试前沿的技术，追求编写优雅的代码。
 
+## 案例40
+3-4
+1、2026年毕业，全日制统招相关计算机、软件工程或相关专业本科及以上学历；
+2、掌握面向对象思想，扎实的Java基础，掌握Spring，SpringMVC，SpringBoot，MyBatis 等流行的开源框架，熟悉Linux基本命令，有用SpringCloud框架开发项目经验；
+3、掌握mysql等主流数据库和redis缓存技术;
+4、了解Maven、Git、IDEA等工具；
+5、善于团队协作，思路清晰，有上进心，有良好工作心态;
+
+## 案例41
+6-7
+1.熟练java基础，有良好的编程习惯，熟悉常用的JavaAPI
+2.熟练掌握Spring、SpringBoot、Mybatis、Mybatis-plus 等主流框架
+3.熟练使用MySQL、Mongo、Redis等数据库，了解SQL优化
+4.理解面向对象设计原则，具备扎实的计算机基础知识。
+5.了解Linux操作系统基本操作命令，有Docker等容器化技术使用经验者优先
+6.熟练使用Git进行版本控制，具备良好的代码管理习惯
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDk1NTkyOSwtMTkwMzQyMTQyOSwtMT
+eyJoaXN0b3J5IjpbLTQ5MzU4NjUzNSwtMTkwMzQyMTQyOSwtMT
 MzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4MTYwMl19
 -->
