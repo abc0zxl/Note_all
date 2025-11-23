@@ -330,7 +330,49 @@ langchain4j、python，如果有spring ai经验则优先
 2.能够熟练操作MySQL、Oracle等数据库，具备优秀的SQL编写能力。
 3.具有良好的团队合作意识，能有效沟通，解决技术问题。
 
+## 案例31
+2-3
+1、本科及以上学历，计算机软件或相关专业；
+2、掌握Java基础理论，一种或多种数据库及SQL脚本者优先；
+3、前后端技术都有了解或掌握者优先；
+4、责任心强，具有良好的沟通能力、学习能力及团队协作能力。
+加分项：
+1、	了解Vue/React者；
+2、	有实际项目经验者；
+
+## 案例32
+6-7
+2. 熟悉Java基础知识
+
+3. 熟悉MySQL数据库，熟练使用SQL语言；
+
+## 案例33
+4-5
+岗位职责：
+1、配合相关技术人员参与公司数据平台后端开发工作。
+2、配合参与软件系统设计。
+3、根据领导要求完成开发文档编写工作。
+4、配合相关技术人员解决产品中存在的技术问题并定期做版本升级。
+任职资格：1、本科及以上学历，计算机科学、电子信息、通信工程、电气自动化等相关专业优先。2、熟悉Java编程语言，了解面向对象编程思想；
+3、有Spring Boot、MyBatis等主流Java开发框架经验，有物联网开发经验开发经验者优先。
+4、了解MySQL数据库的基本操作，有MongoDB、Redis等数据库开发经验优先。
+5、有使用Git、SVN等集成构建工具经验者优先。
+6、有用Linux常用命令及容器化技术（如Docker、Kubernetes）经验者优先。
+7、拥有良好的表达能力和沟通技巧，能够清晰准确地阐述问题，具有良好的团队合作精神。
+案例34
+3-4
+1、计算机及相关专业，应届本科（大三、大四），研究生（研二，研三）。
+2、具有扎实的计算机理论基础和Java基础知识功底。
+3、熟悉Spring、Spring MVC、Spring Boot等开源框架，熟悉常用的设计模式。
+4、熟悉MySQL、SQLServer、oracle其中一种关系数据库的应用与开发。
+
+
+邬女士
+刚刚活跃
+招商华软 · HRBP经理
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM0MjE0MjksLTEzMzgxODg4OTEsLT
-g1NjAzNTYyOSw2MjM2ODE2MDJdfQ==
+eyJoaXN0b3J5IjpbLTkxMDgwNzExMywtMTkwMzQyMTQyOSwtMT
+MzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4MTYwMl19
 -->
