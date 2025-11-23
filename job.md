@@ -71,6 +71,7 @@ freelancer 的主要竞争对手
 7、具有较强的压力承受能力，能接受随项目情况的加班。
 
 ## 案例6
+11-15
 1.3年以上开发经验；
 2.精通JAVA、J2EE、Webservice、Springboot、Spring、Hibernate、Mybatis等；
 3.熟悉Rose 、Weblogic、PowerDesigner等开发设计工具；
@@ -84,7 +85,26 @@ freelancer 的主要竞争对手
 11.善于学习和独立解决问题；
 12.具有一定的抗压能力。
 
+## 案例7
+12-20
+1、精通主流开发平台（JAVA、J2EE）、熟悉mysql数据库、熟悉sql语言；
+2、精通常用的Java开发工具，熟练掌握Linux操作系统，熟悉主流应用服务器(tomcat、JBoss等)；
+3、精通Java语言，熟悉Maven、Springboot框架，熟悉SpringCloud微服务开发者优先
+4、了解HTML/CSS和Javascript等前端语言，了解HTML5、Javascript库(如jquery等)；
+2、专业知识要求：
+1、本科以上学历，计算机相关专业，2年以上相关工作经验；
+2、具有较强的业务理解能力、沟通能力，热爱软件开发工作，能够承担工作压力；
+3、良好的周边沟通协调能力。
+
+## 案例8
+10
+1、3年以上Java项目开发经验，计算机或相关专业本科及以上学历；
+2、扎实的Java编程基础，熟练掌握Spring Boot等开发框架；
+3、熟悉Mysql、Oracle等关系型数据库编程；
+4、熟悉docker的常用操作,对docker的网络、存储、安全有深入的理解；
+5、熟练使用maven，熟悉Tomcat、Nginx等中间件;
+6、对新技术有钻研精神，具有良好的沟通、需求理解和团
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI1Mzc0NTIsLTEzMzgxODg4OTEsLT
-g1NjAzNTYyOSw2MjM2ODE2MDJdfQ==
+eyJoaXN0b3J5IjpbMTQ5Mjg4Mzc3NywtMTMzODE4ODg5MSwtOD
+U2MDM1NjI5LDYyMzY4MTYwMl19
 -->
