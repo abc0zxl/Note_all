@@ -608,9 +608,60 @@ langchain4j、python，如果有spring ai经验则优先
 4、熟悉微信小程序、公众号接口开发，微信、支付宝支付接口等优先；
 5、具有严谨的逻辑思维，独立思考与架构能力，有团队合作精神。
 
+## 案例61
+
+3-5
+1、全日制大专及以上学历,计算机及相关专业毕业；
+2、精通JAVA开发,熟悉常见的设计模式；
+3、熟悉Spring、SpringMVC、SpringBo
+ot、Mybatis-plus等常用服务器框架；
+4、熟练掌握MySQL应用开发,熟练掌握Redis并理解其适用场景；
+5、熟练使用IntelliJ IDEA开发工具；
+6、熟悉常用的项目构建工具及版本管理工具,如Maven、Git、SVN等。
+
+## 案例62
+
+4-5
+1.熟悉基本的Java、SSH、AJAX，VELOCITY，JDBC，CSS等技术；熟悉相关开发工具（Eclipse/Jbuider）等； 
+2.熟悉MySQL、Oracle等数据库开发技术； 
+3.具备一定的数据分析基础优先；
+4.学习能力较强，独立工作能力较强；
+5.有强烈的责任心和团队合作精神、具备良好的沟通能力。
+
+## 案例63
+4-5
+1.本科及以上学历，计算机及其相关专业，2026届实习生优先考虑；
+2.JAVA基础扎实，理解io、多线程、集合等基础框架，对JVM原理有一定的了解，熟悉 Spring、Mybatis、Spring Boot、Spring Cloud 等主流的java开源框架原理及使用；
+3.熟悉后端常用的数据组件，如MySQL、0racle、Redis、RabbitMQ、Kafka 等；
+4.熟悉linux的基本操作及常用命令。
+5.良好的编程思想及规范，了解微服务，有相关开发经验更好，对分布式、缓存、消息、搜索等机制有一定了解；
+6.性格开朗，具有较强的学习、分析问题解决问题的能力，高度的责任感，具有良好的团队合作精神和与人沟通的能力，勇于承担压力。
+
+## 案例64
+3-4
+任职要求:
+1、计算机相关专业，1-3年开发经验;
+2、熟悉Java语言，熟悉一种常用软件开发框架，如Springboot、Springcloud;
+3、熟悉数据库基础，如Mysgl、SQLserver、Oracle、DB2等，掌握基础SQL语句;
+4、熟悉Linux、Unix等主流操作系统;
+5、具有良好的沟通和逻辑思维能力，有强烈的责任心和团队协作精神。
+6、 熟悉Vue框架优先考虑
+
+## 案例65
+3-4
+1. 有较好的Java编程基础, 并熟悉Java的后端开发，熟悉Springboot、mybatis框架，清楚基本的算法和数据结构，了解基本的Linux操作，具有一定的工程实践能力。
+2.了解redis、mq，并有使用实践经验。
+3. 有优秀的逻辑分析能力，能够对业务逻辑进行合理的抽象和拆分。
+4. 计算机相关专业，熟悉springai或dify的优先考虑。
+5. 有较为充分的实习时间(每周五天以上，可实习半年以上)
+6. 为人坦诚、工作积极、善于沟通，有独立探索解决问题的能力。
+7.本岗位不提供住宿，表现优秀者可转正。
+8.本岗位是实习生岗位，25届应届生或者已毕业的请勿投递。
+9.能到现场面试者优先考虑。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI2MDgxMTgsMTAwMDA0NTg3MCwtMT
-kwMzQyMTQyOSwtMTMzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4
-MTYwMl19
+eyJoaXN0b3J5IjpbMTM2NTU5OTM3LDEwMDAwNDU4NzAsLTE5MD
+M0MjE0MjksLTEzMzgxODg4OTEsLTg1NjAzNTYyOSw2MjM2ODE2
+MDJdfQ==
 -->
