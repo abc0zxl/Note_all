@@ -384,7 +384,45 @@ langchain4j、python，如果有spring ai经验则优先
 5.熟悉Linux；熟练使用常用工具和脚本进行问题追踪排查；
 6.对开发工作富有激情，有责任感，并具有较强自驱学习和沟通合作的能力
 
+## 案例36
+3-4
+1、熟练掌握java语法；
+2、熟练使用 Java 开发框架，对SpringBoot,SpringCloud,JPA 等框架有应用经验；
+3、熟悉MQ、Redis等相关中间件技术；
+4、熟悉 MySQL、Oracle 等数据库，有 SQL 性能调优经验；
+5、熟练 Vue 及 Vue 脚手架开发，掌握基础前端开发技能。
+
+## 案例37
+5-6
+3、优先考虑（如果你还了解以下一点或几点，会是很大的加分项）：
+（1）有过个人或学校的项目开发经验，有可展示的代码仓库（如GitHub）或项目作品。
+（2）对Spring家族（尤其是Spring Boot）框架有初步的了解和实践。
+（3）了解常用的软件开发工具和概念，如Maven/Gradle、Redis、RESTful API、HTTP协议等。
+（4）有活跃的技术博客、开源项目贡献经历或在编程相关竞赛中获奖。
+
+## 案例38
+5-6
+1、有过Java独立开发过小应用程序
+2.了解SpringCloud，熟悉SpringBoot、SpringMVC、myBatis、Maven等开源技术;了解Dubbo、MQ、Redis等开源技术
+3.熟悉oracle mysql等数据库，具有较好的SQL编写能力;
+4.工作认真细致负责，有良好的自学能力，独立思考能力，能够短时间内学习并应用新技术;
+5.团队意识、责任感强，善于沟通，能够承受压力。
+6、2026年毕业全日制本科且计算机相关专业
+
+## 案例39
+2-3
+1. 25年毕业，本科以上在校学生，计算机或相关专业；
+2. Java基本功扎实；
+3. 熟悉spring mvc、spring boot、mybatis、spring cloud等主流开发框架；熟悉常用的缓存技术；了解常用的设计模式；
+4. 熟练掌握SQLServer、Oracle、MySQL等主流数据库，具备较好的SQL功底，有性能优化方面的经验优先，对nosql数据库有经验者优先；
+5. 熟悉WEB前端技术和常用的前端框架，如JQuery、Bootstrap、Vue等；
+6. 熟悉Linux常用命令，能独立在上面进行开发，测试和部署；
+7、有良好的编码习惯、代码规范；
+8、有良好团队合作精神，具有良好的沟通协作能力；
+9、对工作有责任心；
+10. 对技术有足够的热情，喜欢去了解及尝试前沿的技术，追求编写优雅的代码。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwOTc2MjEyLC0xOTAzNDIxNDI5LC0xMz
-M4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgxNjAyXX0=
+eyJoaXN0b3J5IjpbLTM3MDk1NTkyOSwtMTkwMzQyMTQyOSwtMT
+MzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4MTYwMl19
 -->
