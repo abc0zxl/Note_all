@@ -796,10 +796,38 @@ ot、Mybatis-plus等常用服务器框架；
 4、具备良好的学习能力、沟通能力和团队协作精神。
 5、2027届的同学需能稳定实习至少6个月以上，不接受短期实习。
 在深圳的优先考虑！！！
-来源：BOSS直聘
-链接：https://www.zhipin.com/web/geek/jobs?city=100010000&query=java%E5%AE%9E%E4%B9%A0%E7%94%9F
+
+
+## 案例79
+4-6
+1. 熟练掌握Java后端开发技术栈，熟练运用Spring Boot 3.1+框架，并结合JDK 17/21进行高效编程；
+* 理解并熟练应用Mybatis/Mybatis Plus进行持久层开发；
+* 熟练配置与使用PostgreSQL数据库，并能处理复杂查询和事务控制；
+* 熟练利用Redis进行缓存管理和数据存储；
+2. 对Service Mesh微服务架构技术有强烈的学习意愿，熟悉微服务间通信机制，包括但不限于GRPC等RPC协议，对服务网格（如Istio）及其生态系统有深入了解，有实践经历优先；
+3. 具备领域驱动设计(DDD) 的理论基础和实战经验，能在项目中成功实施DDD模式进行微服务设计并采用测试驱动开发（TDD）；
+4. 广泛使用中间件技术，包括但不限于消息队列、分布式任务调度系统、工作流引擎以及搜索引擎，并在实际项目中有具体应用案例；
+5. 具备前端技能，能够有效对接Vue 3.0后台管理系统进行前后端整合开发；
+6. 熟练掌握AI辅助工具，例如copilot等，用于提升代码质量和效率，同时具备从GitHub等开源社区挖掘优秀源码并学习分析的能力；
+7. 具备完整的软件开发生命周期能力，包括需求分析、数据库设计、前后端代码编写、单元测试及问题调试等；
+8. 教育背景要求：本科及以上学历，主修计算机科学或相关专业；
+9. 综合素质要求：具备良好的团队协作精神，耐心细致，责任心强，积极主动，具备出色的自我学习和解决问题的能力。
+10. 至少保证能实习6个月以上时间，毕业后根据表现可转正；
+
+## 案例80
+2-5
+1.计算机相关专业
+2.掌握Java基础
+3.能够应用Servlet，JDBC，Mysql，Redis
+4.能够应用Springboot，Mybatis
+5.有积极的工作和学习态度，有良好的团队配合精神
+6.能够应用Vue+ElementUI优先考虑
+
+## 案例81
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODA0ODcxNCwxMDAwMDQ1ODcwLC0xOT
-AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
-NjAyXX0=
+eyJoaXN0b3J5IjpbMjgxMDM3MTE0LDEwMDAwNDU4NzAsLTE5MD
+M0MjE0MjksLTEzMzgxODg4OTEsLTg1NjAzNTYyOSw2MjM2ODE2
+MDJdfQ==
 -->
