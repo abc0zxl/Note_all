@@ -708,9 +708,21 @@ ot、Mybatis-plus等常用服务器框架；
 5、性格活泼开朗热爱编程，有专研精神
 实习生可以一周2天远程办公
 
+## 案例71
+5-6
+1、计算机科学与技术、软件工程、信息工程等相关专业，本科及以上学历；
+2、熟练掌握 Java 基础语法，理解面向对象思想（封装、继承、多态），能灵活运用；
+3、熟悉 Java 常用类及集合框架，包括 String、List、Map、Set 等，了解其底层原理及使用场景；
+4、对 SpringBoot 框架有了解，有简单项目开发经验（如搭建基础工程、配置接口等）；
+5、对 MyBatis 框架有了解，会编写简单的 Mapper 映射文件或注解式 SQL，了解数据库交互逻辑；
+6、了解 MySQL 等关系型数据库基本操作（增删改查、简单索引设计）。
+7、具备良好的学习能力和逻辑思维，能快速理解技术文档及业务需求；
+8、有责任心，团队协作意识强，乐于沟通并积极解决问题；
+9、有个人开发项目（如课程设计、小工具等）或开源社区贡献经验者优先。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjM5ODczMSwxMDAwMDQ1ODcwLC0xOT
-AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
-NjAyXX0=
+eyJoaXN0b3J5IjpbOTY5MzAyNjg4LDEwMDAwNDU4NzAsLTE5MD
+M0MjE0MjksLTEzMzgxODg4OTEsLTg1NjAzNTYyOSw2MjM2ODE2
+MDJdfQ==
 -->
