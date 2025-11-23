@@ -193,8 +193,53 @@ langchain4j、python，如果有spring ai经验则优先
 6、有强烈的责任心和敬业精神，对工作充满热情，能够承受一定的工作压力。
 
 ## 案例17
+9-12
+汽车营销相关项目开发经验优先，熟悉MP框架优先。 java主流开发技术，Spring Cloud  ,
+
+
+1、计算机或相关专业，3年以上使用Java语言开发经验;
+2、精通Java语言，精通J2EE相关技术，精通MVO构架模式，Spring MVC、Spring Boot等框架开发Web应用:
+3、熟练使用Eclipse、SVN等开发工具
+4、精通Oracle、MySal、Sal Server等一种或多种数据库的基本环境配置、具有数据库方面的开发基础;
+5、良好的团队合作和沟通能力
+6、有完整的项目开发经历
+7、具有良好规范的文档和编程习惯，逻辑清晰有较强的解决问题的能力
+8、责任心强，工作踏实，能承受较大的工作压力，良好的交流与沟通能力和团队合作精神:
+9、有团队领导能力，能辅导和帮助其它开发人员解决
+
+## 案例18
+3-5
+1.26届本科及以上学历，有使用java语言从事web项目开发经验优先；
+2.精通Java开发语言，熟练使用IDEA等开发工具；
+3.熟悉SpringBoot开发框架，有SpringCloud开发经验优先；
+4.熟练使用Maven、MyBatis、Hibernate技术进行架构设计及开发；
+5.熟悉Mysql、Oracle数据库中至少一个；
+6.熟悉Linux或者Unix操作系统环境下Tomcat、Nginx服务器配置。
+
+## 案例19
+5-8
+学历必须在学信网上可查，不可查的同学请勿投简历！！！
+有1年以上java开发经验，熟悉springcloud、j2ee等技术；
+有1年以上uniapp、vue、react开发经验；
+熟悉html5、css、javascript等前端技术；
+熟悉oracle、SQLServer、mysql等数据库；
+熟悉eclipse、idea、tomcat等；
+有企业管理软件开发经验者优先考虑；
+
+## 案例20
+10-14
+1、专科及以上学历，计算机、软件工程、信息系统等相关专业；
+2、熟练使用Spring、myBatis等常用框架；
+3、熟练运用数据库MySQL、Oracle，并能进行数据库的数据结构设计；
+4、熟悉Springboot、Redis、RabbitMQ等中间件；
+5、熟悉HTTPS、WebSocket、TCP/IP等网络协议；
+6、熟悉github开发工具的使用；
+7、具有Linux上的开发经验，熟悉命令行，能够编写基本的Shell脚本；
+8、具备良好的结构化思维，有较好的问题分析与解决能力；
+9、对新技术充满热情，积极学习，具有高度的责任心以及良好团队合作精神。
+10、具有良好的设计思维，能够高效地提供安全、高性能、可扩展的技术方案；
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc4NzI4MTMsLTEzMzgxODg4OTEsLT
-g1NjAzNTYyOSw2MjM2ODE2MDJdfQ==
+eyJoaXN0b3J5IjpbMTY2NTI3MDk5MCwtMTMzODE4ODg5MSwtOD
+U2MDM1NjI5LDYyMzY4MTYwMl19
 -->
