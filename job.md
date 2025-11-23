@@ -659,9 +659,58 @@ ot、Mybatis-plus等常用服务器框架；
 8.本岗位是实习生岗位，25届应届生或者已毕业的请勿投递。
 9.能到现场面试者优先考虑。
 
+## 案例66
+
+4-5
+
+1.本科及以上学历，计算机相关专业；
+2.熟悉JAVA编程语言，掌握面向对象编程的基本原理；了解spring技术栈
+3.熟悉数据库原理，具备SQL编写能力；
+4.了解Web前端技术，如HTML、CSS、JavaScript,VUE3等；
+5 了解linux，会linux的基本命令
+6.具有良好的沟通能力和团队协作精神；热衷于技术研究，善于学习，有较强的自我驱动力。
+7. 相关项目或者实习经历者优先。
+
+## 案例67
+4-5
+1、熟悉JAVA技术栈，能使用Spring、MyBatis等主流JAVA技术框架进行系统开发，能遵守采购人提出的代码规范；
+2、熟悉主流中间件，如Tomcat、Weblogic、JBoss等；
+3、熟练使用主流数据库进行系统开发，包括但不限于：Oracle、MySQL、Redis等关系型和非关系型数据库，有良好的SQL功底；
+4、熟练使用HTML、Javascript等技术进行前端页面开发。
+5、有中间件参数调优经验，能根据应用系统运行情况，JAVA虚拟机使用情况，服务器硬件指标等对JAVA虚拟机，中间件参数进行调优；
+6、有团队精神，沟通能力强，积极上进；
+7、统招本科以上，必须是计算机类专业，有保险经验可以优先。
+
+## 案例68
+4-5
+1、熟悉JAVA技术栈，能使用Spring、MyBatis等主流JAVA技术框架进行系统开发，能遵守采购人提出的代码规范；
+2、熟悉主流中间件，如Tomcat、Weblogic、JBoss等；
+3、熟练使用主流数据库进行系统开发，包括但不限于：Oracle、MySQL、Redis等关系型和非关系型数据库，有良好的SQL功底；
+4、熟练使用HTML、Javascript等技术进行前端页面开发。
+5、有中间件参数调优经验，能根据应用系统运行情况，JAVA虚拟机使用情况，服务器硬件指标等对JAVA虚拟机，中间件参数进行调优；
+6、有团队精神，沟通能力强，积极上进；
+7、统招本科以上，必须是计算机类专业，有保险经验可以优先。
+
+## 案例69
+2-3
+1、Java 及Java Web 开发经验，具有扎实的程序设计基本功，有志于从事技术工作，能够独立担当功能模块的设计开发;
+2、熟练使用Java 常用框架和工具，如 Spring boot、SpringMVC Sprinacloud、Struts、Hibernate、Mvbatis等:
+3、熟练掌握MySQL、PostgreSQL等常用数据库，熟练掌握 SQL 语句，能够设计数据库结构。
+全日制本科大四，研一，研二
+实习时间能保证在三个月及以上
+
+## 案例70
+4-6
+1、负责Web系统开发（Bug修复及优化）
+2、熟悉Spring mvc、jpa、mybatis等基本框架开发
+3、有Web前端框架如vue、ElementUI等基础
+4、熟悉Git，Linux基本操作
+5、性格活泼开朗热爱编程，有专研精神
+实习生可以一周2天远程办公
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTU5OTM3LDEwMDAwNDU4NzAsLTE5MD
-M0MjE0MjksLTEzMzgxODg4OTEsLTg1NjAzNTYyOSw2MjM2ODE2
-MDJdfQ==
+eyJoaXN0b3J5IjpbLTMyNjM5ODczMSwxMDAwMDQ1ODcwLC0xOT
+AzNDIxNDI5LC0xMzM4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgx
+NjAyXX0=
 -->
