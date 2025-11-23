@@ -376,8 +376,15 @@ langchain4j、python，如果有spring ai经验则优先
     6、熟悉统一建模语言（UML），能运用UML的方法和工具进行面向对象的分析和设计；
     7、熟悉Oracle, MySql数据库；
 
+## 案例35
+1.java基础 扎实，理解IO，多线程，集合等基础框架，对JVM原理有一定的了解
+2.1年及以上使用JAVA开发的经验
+3.了解分布式系统的设计和应用，了解分布式，缓存，消息，搜索等
+4.至少掌握一种数据库（Oracle、SQL Server和MySQL），拥有较好的数据库设计能力；
+5.熟悉Linux；熟练使用常用工具和脚本进行问题追踪排查；
+6.对开发工作富有激情，有责任感，并具有较强自驱学习和沟通合作的能力
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTQ1Nzc3LC0xOTAzNDIxNDI5LC0xMz
+eyJoaXN0b3J5IjpbMzcwOTc2MjEyLC0xOTAzNDIxNDI5LC0xMz
 M4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgxNjAyXX0=
 -->
