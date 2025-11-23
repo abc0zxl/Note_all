@@ -439,7 +439,27 @@ langchain4j、python，如果有spring ai经验则优先
 5.了解Linux操作系统基本操作命令，有Docker等容器化技术使用经验者优先
 6.熟练使用Git进行版本控制，具备良好的代码管理习惯
 
+## 案例42
+5-6
+1、本科及以上学历，具备扎实的Java及Web应用开发能力;
+2、熟练掌握Spring Cloud, Spring Boot,Spring MVC等框架;
+3、熟悉掌握Mysql、Oracle、Redis等数据存储技术;
+4、熟悉Linux系统，能熟练使用命令行工具;
+5、熟悉面向对象设计，具备一定的系统设计能力
+
+## 案例43
+3-4
+  • 熟练掌握Java（集合/多线程）或Python（协程/内存管理），有2个以上项目实战经验  
+  • 至少掌握一种框架：Spring Boot/MyBatis（Java）或Django/Flask（Python）  
+  • 熟悉MySQL/PostgreSQL数据库操作及SQL优化，了解Redis缓存基础使用  
+  • 掌握Git版本控制工具，熟悉分支管理流程（如Git Flow）  
+
+加分项：  
+• 有低代码平台/AI模型开发经验（如TensorFlow/PyTorch）  
+• 熟悉微服务（Spring Cloud）或容器化技术（Docker/K8s）  
+• 有开源项目贡献、技术博客或校内外实践项目成果  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzU4NjUzNSwtMTkwMzQyMTQyOSwtMT
-MzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4MTYwMl19
+eyJoaXN0b3J5IjpbNDQ2MTA5MjMyLC0xOTAzNDIxNDI5LC0xMz
+M4MTg4ODkxLC04NTYwMzU2MjksNjIzNjgxNjAyXX0=
 -->
