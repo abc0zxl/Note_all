@@ -293,8 +293,39 @@ langchain4j、python，如果有spring ai经验则优先
 4.参与过至少一个完整的软件开发项目，了解软件开发的基本流程和规范
 5.对新技术和新知识有强烈的求知欲，能够快速掌握并应用于项目中；
 6.有强烈的责任心，抗压能力以及团队合作精神；有快速学习能力和独立解决问题能力；
-7、对人工智能感兴趣，接触过AI相关项目经验优先。an
+7、对人工智能感兴趣，接触过AI相关项目经验优先。
+
+## 案例27
+3-5
+1、本科及以上学历，2026届毕业生，计算机、软件工程等相关专业；
+2、做事条理，有一定的分析解决技术问题能力；
+3、工作态度积极主动，责任心强，良好的沟通能力及团队合作精神；
+4、熟悉linux等操作系统，熟悉基本的操作命令；
+5、熟悉掌握Spring、SpringMVC、SpringBoot、Mybatis等常用开源框架；
+6、了解memcache，redis等内存数据库.
+
+## 案例28
+4-5
+1.本科以上学历，计算机相关专业；
+2.半年以上Java体系技术经验，有AI应用项目经验优先；
+3.熟悉Java语言主要特性，熟悉JVM基本参数配置，具备基础调优能力；
+4.熟悉Spring/MyBatis/Spring mvc等开发框架并具备开发经验，Spring Cloud和SpringBoot实际项目开发经验1年以上；
+5.熟悉MySQL数据库，具备复杂SQL编写能力及基础调优经验， 熟悉Mongo数据库，熟练使用Redis；
+6.掌握Linux环境下Tomcat/Nignx的集群环境搭建及配置；
+7.了解TCP/IP、HTTP等网络协议及基本知识，具备基本网络问题分析能力；
+
+## 案例29
+4-5
+1.本科以上学历，计算机相关专业；
+2.半年以上Java体系技术经验，有AI应用项目经验优先；
+3.熟悉Java语言主要特性，熟悉JVM基本参数配置，具备基础调优能力；
+4.熟悉Spring/MyBatis/Spring mvc等开发框架并具备开发经验，Spring Cloud和SpringBoot实际项目开发经验1年以上；
+5.熟悉MySQL数据库，具备复杂SQL编写能力及基础调优经验， 熟悉Mongo数据库，熟练使用Redis；
+6.掌握Linux环境下Tomcat/Nignx的集群环境搭建及配置；
+7.了解TCP/IP、HTTP等网络协议及基本知识，具备基本网络问题分析能力；
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NjkyNzY4LC0xMzM4MTg4ODkxLC04NT
-YwMzU2MjksNjIzNjgxNjAyXX0=
+eyJoaXN0b3J5IjpbLTIwNzkwNTIxMTEsLTEzMzgxODg4OTEsLT
+g1NjAzNTYyOSw2MjM2ODE2MDJdfQ==
 -->
