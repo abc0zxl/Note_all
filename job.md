@@ -104,7 +104,30 @@ freelancer 的主要竞争对手
 4、熟悉docker的常用操作,对docker的网络、存储、安全有深入的理解；
 5、熟练使用maven，熟悉Tomcat、Nginx等中间件;
 6、对新技术有钻研精神，具有良好的沟通、需求理解和团
+
+## 案例9
+10-15
+langchain4j、python，如果有spring ai经验则优先
+1.至少3年以上Java开发经验，熟悉J2EE框架；
+2.精通Spring Boot、Spring Cloud等微服务架构技术栈；
+3.熟练掌握MySQL、Oracle等数据库的设计和优化；
+4.熟悉Linux操作系统，具备一定的Shell脚本编写能力；
+5.对分布式系统、缓存、消息队列等有深入理解并有实际项目经验；
+6.具备良好的编程习惯和文档编写能力；
+7.良好的沟通能力和团队协作精神，能够快速学习新技术。
+
+## 案例10
+12-25
+1.1-10年Java开发经验，精通java, spring boot，精通微服务等。
+2.计算机相关专业优先
+3.英语可以基本简单交流（面试的时候自我介绍，项目介绍，回答几个简单技术问题）
+4.有金融银行相关开发环境和专业知识加分。有金融科技外企项目经验优先。
+5.为人醒目，乐观开朗，热爱与人交流，乐于挑战和学习。
+
+## 案例11
+10-11
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mjg4Mzc3NywtMTMzODE4ODg5MSwtOD
-U2MDM1NjI5LDYyMzY4MTYwMl19
+eyJoaXN0b3J5IjpbLTE1NjQ2Mzk2MTksLTEzMzgxODg4OTEsLT
+g1NjAzNTYyOSw2MjM2ODE2MDJdfQ==
 -->
