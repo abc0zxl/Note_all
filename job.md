@@ -824,10 +824,25 @@ ot、Mybatis-plus等常用服务器框架；
 6.能够应用Vue+ElementUI优先考虑
 
 ## 案例81
+3-6
+1. 大专及以上学历，计算机相关专业； 
+2. Java基础扎实，精通多线程、并发、集合、网络、io等基础知识，熟悉JVM；以及分布式web系统应用设计和开发经验 
+3. 熟练掌握各类算法、常用数据结构、设计模式； 
+4. 会使用svn、git进行代码协同管理； 
+5. 熟练使用SpringMVC，SpringBoot, SpringCloud, Mybatis, Dubbo, zookeeper等领域的框架或产品的机制与代码； 
+6. 具备Mysql等数据库使用经验、缓存、消息通信、队列、异步框架等技术；熟悉高性能、高并发系统设计方案，如分布式缓存、ElasticSearch、消息队列等；
+
+## 案例82
+2-3
+1、大三、大四在校生，本科及以上学历，计算机相关专业；
+2、熟悉Java开发语言，有软件作品优先；
+3、了解Spring/Spring MVC/Spring Data JPA或Mybatis等主流框架；
+4、该岗位为日常实习，要求近期到岗，能够全职实习至毕业，每周至少到岗5天；
+5、优秀者有转正名额
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMDM3MTE0LDEwMDAwNDU4NzAsLTE5MD
-M0MjE0MjksLTEzMzgxODg4OTEsLTg1NjAzNTYyOSw2MjM2ODE2
-MDJdfQ==
+eyJoaXN0b3J5IjpbLTEwOTEzNTU2MjEsMTAwMDA0NTg3MCwtMT
+kwMzQyMTQyOSwtMTMzODE4ODg5MSwtODU2MDM1NjI5LDYyMzY4
+MTYwMl19
 -->
