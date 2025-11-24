@@ -26,7 +26,8 @@ WAR 专门面向 Java Web 应用
 
 ## 目录结构
 **resource:**存放java文件的地方
-**加粗文本**
+****
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDM2ODQ3MCw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTE1MDA4NzA1MTAsMTk2NDM2ODQ3MCw0ND
+A5MDU2MTldfQ==
 -->
