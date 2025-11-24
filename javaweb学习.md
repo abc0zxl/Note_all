@@ -26,8 +26,11 @@ WAR 专门面向 Java Web 应用
 
 ## 目录结构
 **resource:**存放java文件的地方
-****
+**xml**存放web的配置文件
+**jar**依赖的包
+**WebContent**存放web的项目文件
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA4NzA1MTAsMTk2NDM2ODQ3MCw0ND
-A5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTY2MzE3OTg2MywtMTUwMDg3MDUxMCwxOT
+Y0MzY4NDcwLDQ0MDkwNTYxOV19
 -->
