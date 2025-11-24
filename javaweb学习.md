@@ -19,8 +19,10 @@ Spring Boot 项目：必须有 Bootstrap 启动类（比如 `TakeawayApplication
 都是java生态的打包，分发，部署
 **JAR**：java archive
 JAR 面向通用 Java 程序 / 组件
+用于把各种结构类打包成一个压缩文件
 **WAR**：Web Application Archive
 WAR 专门面向 Java Web 应用
+把所有web应用的所有资源
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTg0OTQ2Niw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTE5NjE4NDQ5NjIsNDQwOTA1NjE5XX0=
 -->
