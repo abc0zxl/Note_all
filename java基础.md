@@ -56,8 +56,16 @@ System.out.println("这是辅助类");
 ## getter和setter
 
 **功能**:修改私有属性
-**意义**：编程软件能快速生成这两个类，不用手打
+**意义**：**遵循java封装的规范**编程软件能快速生成这两个类，不用手打
+**vscode**中右键**源代码操作**，选择操作，就可以立马生成出来
 
+## java结构名词
+**构造方法**：
+**普通方法**：
+
+## 继承
+
+**extends**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzEwOTQ0MF19
+eyJoaXN0b3J5IjpbLTE3MjU1OTk1MThdfQ==
 -->
