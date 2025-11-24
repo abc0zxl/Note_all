@@ -16,10 +16,11 @@ Spring Boot 项目：必须有 Bootstrap 启动类（比如 `TakeawayApplication
 把 Artifacts（成品包）放到服务器 / 容器中，让项目可运行的过程。
 **以上四个是专属于idea中的操作，该项目放在eclipse中也可以运行**
 ## 组件
-都是java生态的打包
+都是java生态的打包，分发，部署
 **JAR**：java archive
-
+JAR 面向通用 Java 程序 / 组件
 **WAR**：Web Application Archive
+WAR 专门面向 Java Web 应用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDM4NDk3MCw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbMTE4MTg0OTQ2Niw0NDA5MDU2MTldfQ==
 -->
