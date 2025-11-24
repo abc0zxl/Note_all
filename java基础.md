@@ -1,4 +1,3 @@
-```
 package com.example.demo;
 import java.util.Date;
 import java.util.*;
@@ -31,7 +30,6 @@ class out_func{
 public void printfunc(){
 System.out.println("这是辅助类");
 }
-```
 
 **1.文件注释**用于说明该文件的作用
 
@@ -47,5 +45,5 @@ System.out.println("这是辅助类");
 |-主方法可以直接调用-|-主方法要new对象来调用-|
 **9.非公共类**：不在公共类中，外部不能调用，仅仅该文件内可以调用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDY4NzgzMTNdfQ==
+eyJoaXN0b3J5IjpbLTc5MzU0MDI5NV19
 -->
