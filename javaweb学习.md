@@ -22,7 +22,10 @@ JAR 面向通用 Java 程序 / 组件
 用于把各种结构类打包成一个压缩文件
 **WAR**：Web Application Archive
 WAR 专门面向 Java Web 应用
-把所有web应用的所有资源
+把所有web应用的所有资源打包，专门部署到web服务器中
+
+## 目录结构
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE4NDQ5NjIsNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbLTQxNTE2OTY1MCw0NDA5MDU2MTldfQ==
 -->
