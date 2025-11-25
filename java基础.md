@@ -60,12 +60,13 @@ System.out.println("这是辅助类");
 **vscode**中右键**源代码操作**，选择操作，就可以立马生成出来
 
 ## java结构名词
-**构造方法**：
-**普通方法**：
+**构造方法**：他的名称必须和公共类名（java文件名）必须一样，用于修改属性
+**普通方法**：和公共类名字不一样，是一种定义的方法，他的作用是使用属性值，而不会修改
 
 ## 继承
-
 **extends**
+构造方法、private、final、静态成员、父类的包资源，不可以继承
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU1OTk1MThdfQ==
+eyJoaXN0b3J5IjpbOTA1NzEwODIwXX0=
 -->
