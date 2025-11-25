@@ -6,6 +6,7 @@
  4. 每个java文件编译时都会生成至少一个class文件，
  5. java文件，一个文件中只能有一个public类
  6. 文件名必须和public名字相同
+ 7. 类中，方法内调用属性值，需要用this.
 
 package com.example.demo;
 import java.util.Date;
@@ -146,6 +147,8 @@ public class UnionPay implements Payable, Pointable {
  8. 私有方法：作为类中的公共方法的复用逻辑，只能在这个接口中调用
  9. 静态私有方法：用与静态方法的复用逻辑。
  10. 所有方法都是抽象的
+ 11. 接口中default的方法，子类可以直接调用其方法，不用加前缀名字
+ 12. static方法，子类调用时需要用到接口名字加方法名，调用其方法。
   
  ```
 ```java
@@ -191,6 +194,8 @@ public interface Payable {
 }
 ```
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDI3MDUwNF19
+eyJoaXN0b3J5IjpbLTg3OTY0MjAwMF19
 -->
