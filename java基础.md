@@ -4,6 +4,8 @@
  2. 公共类里面修改属性值的构造方法的方法名字必须和包名字
  3. 外部类的写法和重新写一个java结构差不多，除了主方法有异同，别的都一样。
  4. 每个java文件编译时都会生成至少一个class文件，
+ 5. java文件，一个文件中只能有一个public类
+ 6. 文件名必须和public名字相同
 
 package com.example.demo;
 import java.util.Date;
@@ -52,16 +54,25 @@ System.out.println("这是辅助类");
 |-主方法可以直接调用-|-主方法要new对象来调用-|
 **9.非公共类**：不在公共类中，外部不能调用，仅仅该文件内可以调用
 
-
-## getter和setter
+## 封装
+#### getter和setter
 
 **功能**:修改私有属性
 **意义**：**遵循java封装的规范**编程软件能快速生成这两个类，不用手打
 **vscode**中右键**源代码操作**，选择操作，就可以立马生成出来
 
-## java结构名词
+#### java结构名词
 **构造方法**：他的名称必须和公共类名（java文件名）必须一样，用于修改属性
 **普通方法**：和公共类名字不一样，是一种定义的方法，他的作用是使用属性值，而不会修改
+**final**:限制变量，方法，类的。
+
+ 1. 变量：不可变
+ 2. 类：不可被继承
+ 3. 方法：不可重写
+**static**：影响调用范围，可以用类名直接调用，主类中也可以。
+ 4. 属性：这个属性所有对象可以共享
+ 5. 方法：不用new就可以访问
+ 6. 代码：类加载时就执行
 
 ## 继承
 **extends**构造方法、private、final、静态成员、父类的包资源，不可以继承
@@ -92,8 +103,94 @@ System.out.println("这是辅助类");
 如果子类中有和父类同名的普通方法，则需要干预（也就是重写），如果不干预的话就会只调用子类中的，父类的就不会调用，可以用super显示调用父类中的同名方法。
 ![输入图片说明](/imgs/2025-11-25/gb5wcNTPpQfRcjtR.png)
 这种操作相当于**方法重写**，主要看super的位置在哪
+## 多态
+#### 重载
+指同一个类中的，两个名子相同的方法，但是参数不一样。
+#### 重写
+若子类中的方法与父类中的某一方法具有相同的方法名、返回类型和参数表，则新方法将覆盖原有的方法
+**@override**:是一个标注，表示这个是子类重写父类的方法。
+**vs快捷键**：alt+windows+n选择父类的方法，自动生成。
+
+ 1. 重写的方法，方法名，括号中的参数必须和父类中的某个方法一样，否则为子类的新方法。
+ 2. 子类的报错标准不能比父类还宽泛，只能一样或者说更少。
+ 3. 子类的返回类型必须相同，名字可以是继承父类的返回类型的新名字（**协变返回类型**），但不可以是别的返回类型。
+ 4. 子类的重写，他的访问级别只能相同或者更低。
+## 抽象
+**抽象类**也就是**模版类**
+ 1. 抽象类，按照如下定义
+ public abstract class Animal
+ {
+ public abstract void eat();
+ }
+ 2. 抽象类中的**抽象方法**，只有方法名和一个分号，没有方法体；（注意抽象方法和普通方法，后者可以有方法体）
+ 3. 如果这个类的方法里有抽象方法，则该类一定是一个抽象类
+ 4. 抽象类中可以有非抽象方法。
+ 5. 抽象方法的具体内容，由非抽象子类定义，具体实现被延迟到子类中实现。
+ 6. 如果非抽象类继承了抽象类，则必须重写所有**抽象方法**（非普通方法），或者作为抽象子类。
+ 7. 抽象类中的abstract方法，不可被实例化。
 
 
+## 接口
+
+ 1. 弥补了抽象类不可以继承多个类的缺陷
+      ```
+```java
+public class UnionPay implements Payable, Pointable {
+    private String bankCardNo; // 银行卡号
+```
+ 3. 继承的多个类可以没有任何关系
+ 4. 接口不能有普通变量，只能有静态变量，不用写类型的权限，自动补为public static final xxxx，只能是这个，且必须初始化。
+ 5. 接口里面的抽象方法可以不用谢abstract，编译器会自动补齐。
+ 6. 默认方法：子类可以直接继承或者重写，可以调用接口中的静态方法，或者抽象方法。
+ 7. 静态方法：只能通过接口名加方法名，不可被重写。
+ 8. 私有方法：作为类中的公共方法的复用逻辑，只能在这个接口中调用
+ 9. 静态私有方法：用与静态方法的复用逻辑。
+ 10. 所有方法都是抽象的
+  
+ ```
+```java
+public interface Payable {
+    // 1. 接口的属性：只能是 public static final 静态常量（关键字可省略，编译器自动补全）
+    // 必须初始化，属于接口本身，通过“接口名.属性名”访问
+    String PAY_VERSION = "V2.0"; // 支付接口版本（等价于 public static final String PAY_VERSION = "V2.0"）
+    BigDecimal MAX_PAY_AMOUNT = new BigDecimal("100000"); // 最大支付金额（10万元）
+
+    // 2. 抽象方法：无方法体，默认 public abstract（关键字可省略）
+    // 作用：强制实现类必须提供具体实现（核心规范）
+    boolean pay(BigDecimal amount, String password); // 支付（金额+支付密码）
+    void refund(String orderId); // 退款（订单号）
+
+    // 3. 默认方法（Java 8+）：default 修饰，有方法体
+    // 作用：提供默认实现，子类可直接继承或重写（解决接口扩展不破坏原有实现类的问题）
+    default String getPayDesc() {
+        // 可调用接口的静态方法或抽象方法（抽象方法由实现类提供具体逻辑）
+        return "使用" + PAY_VERSION + "版本支付，最大支持" + MAX_PAY_AMOUNT + "元";
+    }
+
+    // 4. 静态方法（Java 8+）：static 修饰，有方法体
+    // 作用：属于接口的工具方法，只能通过“接口名.方法名”调用，不能被子类重写
+    static boolean validateAmount(BigDecimal amount) {
+        // 校验支付金额合法性（大于0，小于等于最大支付金额）
+        return amount.compareTo(BigDecimal.ZERO) > 0 
+                && amount.compareTo(MAX_PAY_AMOUNT) <= 0;
+    }
+
+    // 5. 私有方法（Java 9+）：private 修饰，有方法体
+    // 作用：抽取接口内部复用逻辑（默认方法/静态方法可调用，外部不可见）
+    private String encryptPassword(String password) {
+        // 模拟密码加密（实际开发中用MD5/SHA等算法）
+        return password + "_encrypted";
+    }
+
+    // 6. 私有静态方法（Java 9+）：private static 修饰，有方法体
+    // 作用：接口静态方法的内部复用逻辑
+    private static String generateOrderNo() {
+        // 模拟生成唯一订单号（实际开发中用UUID+时间戳）
+        return "ORDER_" + System.currentTimeMillis();
+    }
+}
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMTM2MDExXX0=
+eyJoaXN0b3J5IjpbLTQ4MDI3MDUwNF19
 -->
