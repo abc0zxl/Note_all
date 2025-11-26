@@ -210,7 +210,8 @@ public interface Payable {
  修改：list_name.set(int place,int num);
  查找：int_name.indexOf(xx);返回位置
  2. **Set**：不允许重复元素
- 3. **Map**
+ 初始化：Set<Int
+ 4. **Map**
 
 ### **List 子类**
 
@@ -222,13 +223,13 @@ public interface Payable {
 #### LinkedList
  3. **优点**：便于添加，删除和定点修改删除
  4. **缺点**：查找慢，因为底层用的**二分法**
-### Set接口
+### **Set子类**
 #### HashSet
 不允许重复元素，元素没有顺序
 #### TreeSet
 不允许重复元素，元素有顺序，基于**红黑树**实现
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODcyNDcwNzgsODIxNjk5MTY3LC0yMD
-Y0ODcxMTk1LDYwODg0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2
-MDI1LC04Nzk2NDIwMDBdfQ==
+eyJoaXN0b3J5IjpbOTM2NzY2ODk3LDgyMTY5OTE2NywtMjA2ND
+g3MTE5NSw2MDg4NDA0NjIsMTUyNTE1NDUxNCwtMTYzMDU5NjAy
+NSwtODc5NjQyMDAwXX0=
 -->
