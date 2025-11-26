@@ -205,19 +205,21 @@ public interface Payable {
 **集合框架：**
 
  1. **List**：存储顺序就是存入的顺序，可重复，需要ArrayList和List包，存储的是Object数组
-**优点**:查找快，遍历数据快
-**缺点**：移动元素，修改效率慢
  初始化：List<Integer> list_name=new ArrayList<Integer>();
  插入：list.add(xx);
  修改：list_name.set(int place,int num);
  查找：int_name.indexOf(xx);返回位置
- 3. **Set**
- 4. **Map**
+ 2. **Set**
+ 3. **Map**
 
 **List 子类**
 
+ 1. **List优点**:查找快，遍历数据快
+ 2. **List缺点**：移动元素，修改效率慢
+ 3. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc1MjI2NzAsODIxNjk5MTY3LC0yMD
-Y0ODcxMTk1LDYwODg0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2
-MDI1LC04Nzk2NDIwMDBdfQ==
+eyJoaXN0b3J5IjpbMTEwNzU0MjA2MCw4MjE2OTkxNjcsLTIwNj
+Q4NzExOTUsNjA4ODQwNDYyLDE1MjUxNTQ1MTQsLTE2MzA1OTYw
+MjUsLTg3OTY0MjAwMF19
 -->
