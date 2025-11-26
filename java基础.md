@@ -197,8 +197,10 @@ public interface Payable {
 
 ## java内置类和库
 **内置类：**不用各种导入的，约有150-200个。
-**核心库**：不用import，java只有就一个，内置有150多个可直接用的类，接口等。
+**核心库**：java只有java.lang 对应的基础库，可以免import，别的都得用import导入，内置有150多个可直接用的类，接口等。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxNDE4MTQsMTUyNTE1NDUxNCwtMTYzMD
-U5NjAyNSwtODc5NjQyMDAwXX0=
+eyJoaXN0b3J5IjpbNjA4ODQwNDYyLDE1MjUxNTQ1MTQsLTE2Mz
+A1OTYwMjUsLTg3OTY0MjAwMF19
 -->
