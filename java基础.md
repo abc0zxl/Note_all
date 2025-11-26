@@ -210,7 +210,8 @@ public interface Payable {
  修改：list_name.set(int place,int num);
  查找：int_name.indexOf(xx);返回位置
  2. **Set**：不允许重复元素
- 初始化：Set<Int
+ 初始化：Set<Integer> list_name=new HashSet<>();
+ 长度：list_name.size();
  4. **Map**
 
 ### **List 子类**
@@ -229,7 +230,7 @@ public interface Payable {
 #### TreeSet
 不允许重复元素，元素有顺序，基于**红黑树**实现
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2NzY2ODk3LDgyMTY5OTE2NywtMjA2ND
+eyJoaXN0b3J5IjpbNzY5NDIwMzE3LDgyMTY5OTE2NywtMjA2ND
 g3MTE5NSw2MDg4NDA0NjIsMTUyNTE1NDUxNCwtMTYzMDU5NjAy
 NSwtODc5NjQyMDAwXX0=
 -->
