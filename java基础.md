@@ -193,7 +193,7 @@ public interface Payable {
     }
 }
 ```
-```
+
 
 ## java内置类和库
 **内置类：**不用各种导入的，约有150-200个。
@@ -201,8 +201,9 @@ public interface Payable {
 
  1. **String**
  2. **Math**
- 3. 
+ **集合框架：**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ4NzExOTUsNjA4ODQwNDYyLDE1Mj
-UxNTQ1MTQsLTE2MzA1OTYwMjUsLTg3OTY0MjAwMF19
+eyJoaXN0b3J5IjpbLTE3Njc3ODg2ODIsLTIwNjQ4NzExOTUsNj
+A4ODQwNDYyLDE1MjUxNTQ1MTQsLTE2MzA1OTYwMjUsLTg3OTY0
+MjAwMF19
 -->
