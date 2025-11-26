@@ -204,15 +204,15 @@ public interface Payable {
 
 **集合框架：**
 
- 1. **List**：有序，可重复
+ 1. **List**：存储顺序就是存入的顺序，可重复，需要ArrayList和List包
  初始化：List<Integer> list_name=new ArrayList<Integer>();
  插入：list.add(xx);
  修改：list_name.set(int place,int num);
- 查找：int 
+ 查找：list_name
  3. **Set**
  4. **Map**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNjk5MTY3LC0yMDY0ODcxMTk1LDYwOD
-g0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2MDI1LC04Nzk2NDIw
-MDBdfQ==
+eyJoaXN0b3J5IjpbLTE3MjM4Mjk1Miw4MjE2OTkxNjcsLTIwNj
+Q4NzExOTUsNjA4ODQwNDYyLDE1MjUxNTQ1MTQsLTE2MzA1OTYw
+MjUsLTg3OTY0MjAwMF19
 -->
