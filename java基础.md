@@ -234,12 +234,12 @@ public interface Payable {
 #### HashMap
 按照输入的键值对的顺序存储没有顺序
 #### TreeMap
-两种情况，默认顺序，自定义顺序（在初始化对象时，在后面的括号中输入标准，例如：(k1,k2)->k2-k1）。
+两种情况，默认顺序，自定义顺序（在初始化对象时，在后面的括号中输入标准，例如：((k1,k2)->k2-k1）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk3NTE4OTQsLTE4ODc5OTE0MzYsMT
-Q0ODM5Mjg2Myw4MjE2OTkxNjcsLTIwNjQ4NzExOTUsNjA4ODQw
-NDYyLDE1MjUxNTQ1MTQsLTE2MzA1OTYwMjUsLTg3OTY0MjAwMF
-19
+eyJoaXN0b3J5IjpbLTYyNTIxNDk5MiwtMTg4Nzk5MTQzNiwxND
+Q4MzkyODYzLDgyMTY5OTE2NywtMjA2NDg3MTE5NSw2MDg4NDA0
+NjIsMTUyNTE1NDUxNCwtMTYzMDU5NjAyNSwtODc5NjQyMDAwXX
+0=
 -->
