@@ -219,9 +219,12 @@ public interface Payable {
 存储的是Object数组、
  1. **优点**:查找快，遍历数据快
  2. **缺点**：移动元素，修改效率慢
+#### LinkedList
+ 3. **优点**：便于添加，删除和定点修改删除
+ 4. **缺点**：查找满，因为底层用的**二分法**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODQ1MjMwNCw4MjE2OTkxNjcsLTIwNj
+eyJoaXN0b3J5IjpbLTIwODU1NzA1Miw4MjE2OTkxNjcsLTIwNj
 Q4NzExOTUsNjA4ODQwNDYyLDE1MjUxNTQ1MTQsLTE2MzA1OTYw
 MjUsLTg3OTY0MjAwMF19
 -->
