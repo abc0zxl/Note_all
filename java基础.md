@@ -201,9 +201,15 @@ public interface Payable {
 
  1. **String**
  2. **Math**
- **集合框架：**
+
+**集合框架：**
+
+ 1. **List**
+ 
+ 3. **Set**
+ 4. **Map**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc3ODg2ODIsLTIwNjQ4NzExOTUsNj
-A4ODQwNDYyLDE1MjUxNTQ1MTQsLTE2MzA1OTYwMjUsLTg3OTY0
-MjAwMF19
+eyJoaXN0b3J5IjpbNDA5MTg3NjAyLC0yMDY0ODcxMTk1LDYwOD
+g0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2MDI1LC04Nzk2NDIw
+MDBdfQ==
 -->
