@@ -196,7 +196,8 @@ public interface Payable {
 ```
 
 ## java内置类和库
-
+内置类：不用各种
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA1OTYwMjUsLTg3OTY0MjAwMF19
+eyJoaXN0b3J5IjpbLTE0ODI5NjU5NTcsLTE2MzA1OTYwMjUsLT
+g3OTY0MjAwMF19
 -->
