@@ -240,10 +240,17 @@ public interface Payable {
 **自定义顺序**:（在初始化对象时，在后面的括号中输入标准，例如：((k1,k2)->k2-k1）
 例如：TreeMap<Integer,Integer> Tress_name=new TreeMap<>((k1,k2)->k2-k1);
 
-
+### java时间
+输出计算机的时间
+**输出现在时间**
+LocalDateTime A=LocalDateTime();
+**给变量设置指定时间**
+LocalDate B=LocalDate.of(XXXX,XX,XX);
+**时间变量修改添加时间**
+LocalDate C=B.plusDays(1);在原来的时间基础上加一天，加什么可以有plus设置。例如plusDays,plusHours……
+**取一个月的最后一天**
+LocalDate last_of_month=today.with(TemporalAdjusters.lastDayOfMonth());
+**取一年的 第一个星期的星期一**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjM5MjM2MSwtMTg4Nzk5MTQzNiwxND
-Q4MzkyODYzLDgyMTY5OTE2NywtMjA2NDg3MTE5NSw2MDg4NDA0
-NjIsMTUyNTE1NDUxNCwtMTYzMDU5NjAyNSwtODc5NjQyMDAwXX
-0=
+eyJoaXN0b3J5IjpbLTk0MzA0NjEyMF19
 -->
