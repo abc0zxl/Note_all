@@ -204,12 +204,14 @@ public interface Payable {
 
 **集合框架：**
 
- 1. **List**
+ 1. **List**：有序，可重复
+ 初始化：List<Integer> list_name=new ArrayList<Integer>();
+ 插入：list.add(xx);
  
  3. **Set**
  4. **Map**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MTg3NjAyLC0yMDY0ODcxMTk1LDYwOD
+eyJoaXN0b3J5IjpbNDMzMjU3NTAxLC0yMDY0ODcxMTk1LDYwOD
 g0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2MDI1LC04Nzk2NDIw
 MDBdfQ==
 -->
