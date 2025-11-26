@@ -233,6 +233,7 @@ public interface Payable {
 ### Map子类
 #### HashMap
 按照输入的键值对的顺序存储没有顺序
+例如：Map<String,Integer> map_name=new HashMap<>();
 #### TreeMap
 按顺序存储，存到红黑树中，两种情况
 **默认顺序**:数字，字符，日期（从小到大）
@@ -241,7 +242,8 @@ public interface Payable {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1NzE1OTAsLTE4ODc5OTE0MzYsMTQ0OD
-M5Mjg2Myw4MjE2OTkxNjcsLTIwNjQ4NzExOTUsNjA4ODQwNDYy
-LDE1MjUxNTQ1MTQsLTE2MzA1OTYwMjUsLTg3OTY0MjAwMF19
+eyJoaXN0b3J5IjpbMjEwMjM5MjM2MSwtMTg4Nzk5MTQzNiwxND
+Q4MzkyODYzLDgyMTY5OTE2NywtMjA2NDg3MTE5NSw2MDg4NDA0
+NjIsMTUyNTE1NDUxNCwtMTYzMDU5NjAyNSwtODc5NjQyMDAwXX
+0=
 -->
