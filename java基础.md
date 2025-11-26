@@ -208,11 +208,11 @@ public interface Payable {
  初始化：List<Integer> list_name=new ArrayList<Integer>();
  插入：list.add(xx);
  修改：list_name.set(int place,int num);
- chah
+ 查找：int 
  3. **Set**
  4. **Map**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODc3NDA0MywtMjA2NDg3MTE5NSw2MD
-g4NDA0NjIsMTUyNTE1NDUxNCwtMTYzMDU5NjAyNSwtODc5NjQy
-MDAwXX0=
+eyJoaXN0b3J5IjpbODIxNjk5MTY3LC0yMDY0ODcxMTk1LDYwOD
+g0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2MDI1LC04Nzk2NDIw
+MDBdfQ==
 -->
