@@ -211,11 +211,13 @@ public interface Payable {
  插入：list.add(xx);
  修改：list_name.set(int place,int num);
  查找：int_name.indexOf(xx);返回位置
- 
  3. **Set**
  4. **Map**
+
+**List 子类**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2Nzg2ODkzLDgyMTY5OTE2NywtMjA2ND
-g3MTE5NSw2MDg4NDA0NjIsMTUyNTE1NDUxNCwtMTYzMDU5NjAy
-NSwtODc5NjQyMDAwXX0=
+eyJoaXN0b3J5IjpbLTE4Mzc1MjI2NzAsODIxNjk5MTY3LC0yMD
+Y0ODcxMTk1LDYwODg0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2
+MDI1LC04Nzk2NDIwMDBdfQ==
 -->
