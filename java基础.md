@@ -234,10 +234,11 @@ public interface Payable {
 #### HashMap
 按照输入的键值对的顺序存储没有顺序
 #### TreeMap
-按照
+两种情况，默认顺序，自定义顺序。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTgxMjYyOCwxNDQ4MzkyODYzLDgyMT
-Y5OTE2NywtMjA2NDg3MTE5NSw2MDg4NDA0NjIsMTUyNTE1NDUx
-NCwtMTYzMDU5NjAyNSwtODc5NjQyMDAwXX0=
+eyJoaXN0b3J5IjpbLTE4ODc5OTE0MzYsMTQ0ODM5Mjg2Myw4Mj
+E2OTkxNjcsLTIwNjQ4NzExOTUsNjA4ODQwNDYyLDE1MjUxNTQ1
+MTQsLTE2MzA1OTYwMjUsLTg3OTY0MjAwMF19
 -->
