@@ -226,9 +226,9 @@ public interface Payable {
 #### HashSet
 不允许重复元素，元素没有顺序
 #### TreeSet
-不允许重复元素，元素有顺序，基于hongheis
+不允许重复元素，元素有顺序，基于**红黑树**实现
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc1ODkyMTcsODIxNjk5MTY3LC0yMD
+eyJoaXN0b3J5IjpbLTE1ODcyNDcwNzgsODIxNjk5MTY3LC0yMD
 Y0ODcxMTk1LDYwODg0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2
 MDI1LC04Nzk2NDIwMDBdfQ==
 -->
