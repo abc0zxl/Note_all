@@ -232,9 +232,12 @@ public interface Payable {
 
 ### Map子类
 #### HashMap
-#### TreMap
+按照输入的键值对的顺序存储没有顺序
+#### TreeMap
+按照
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk5NjU1MDQsMTQ0ODM5Mjg2Myw4Mj
-E2OTkxNjcsLTIwNjQ4NzExOTUsNjA4ODQwNDYyLDE1MjUxNTQ1
-MTQsLTE2MzA1OTYwMjUsLTg3OTY0MjAwMF19
+eyJoaXN0b3J5IjpbMjAxNTgxMjYyOCwxNDQ4MzkyODYzLDgyMT
+Y5OTE2NywtMjA2NDg3MTE5NSw2MDg4NDA0NjIsMTUyNTE1NDUx
+NCwtMTYzMDU5NjAyNSwtODc5NjQyMDAwXX0=
 -->
