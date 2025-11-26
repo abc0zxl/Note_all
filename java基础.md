@@ -7,6 +7,11 @@
  5. java文件，一个文件中只能有一个public类
  6. 文件名必须和public名字相同
  7. 类中，方法内调用属性值，需要用this.
+ 8. java设置日期时要用完整的位数比如01,02,03
+ 9. java文件的命名也不能用关键字，而且要注意大小写
+ 10. 找不到包的时候直接*
+ 11. 以后用英文代替中文，因为java要报错
+ 12. 调用接口interface需要用implements
 
 package com.example.demo;
 import java.util.Date;
@@ -241,16 +246,123 @@ public interface Payable {
 例如：TreeMap<Integer,Integer> Tress_name=new TreeMap<>((k1,k2)->k2-k1);
 
 ### java时间
-输出计算机的时间
-**输出现在时间**
-LocalDateTime A=LocalDateTime();
-**给变量设置指定时间**
-LocalDate B=LocalDate.of(XXXX,XX,XX);
-**时间变量修改添加时间**
-LocalDate C=B.plusDays(1);在原来的时间基础上加一天，加什么可以有plus设置。例如plusDays,plusHours……
-**取一个月的最后一天**
-LocalDate last_of_month=today.with(TemporalAdjusters.lastDayOfMonth());
-**取一年的 第一个星期的星期一**
+#### 获取时间
+ 1. **输出现在时间**
+ LocalDateTime A=LocalDateTime()；
+ 当前以毫秒为单位的时间
+ System.currentTimeMillis(); 
+ 3.  **给变量设置指定时间** LocalDate B=LocalDate.of(XXXX,XX,XX);
+ 4. **时间变量修改添加时间** LocalDate C=B.plusDays(1);在原来的时间基础上加一天，加什么可以有plus设置。例如plusDays,plusHours……
+ 5.  **取一个月的最后一天** LocalDate last_of_month=today.with(TemporalAdjusters.lastDayOfMonth());
+ 6.  **取一年的 第一个星期的星期一** LocalDate first_week=LocalDate.parse("2025-2-1").with(TemporalAdjusters.firstInMonth(DayOfWeek.Monday))
+
+#### **设置时间，时间对象**
+
+ 1. 通过时间戳创建
+用于将不同单位的时间转化为别的规格（ofErop……）
+ 2. 通过Date对象创建
+
+ 3. 通过解析字符串创建
+ 4. 设置时区，时区转换
+ 5. 规格化时间（DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");）
+自定义一个时间规格，然后，手动输入，让电脑识别，录入对象中
+
+
+#### 时间的计算
+**时差计算（Period）**
+创建：Period p=Period.between(A,B);
+
+
+## IO流
+### 字节流
+**创建文件流程**
+
+ 1. 设置路径
+ 2. 创建文件对象
+ 3. 判断创建文件的父目录是否存在，不存在则创建
+ 4. 创建
+输入对象：Scanner
+输出对象：OutputStream
+键盘写入对象：InputStream
+ 6. 可以向文件中写入数据
+ 7. 指定一个编码方式
+ 8. 吧键盘写入对象的数据写入到文件中·
+ 9. 输出文件内容
+ 10.判断是否有错误
+ catch(IOException e){
+ System.err.println("err information is:"+e.getMessage());
+ 这段告诉了“为什么错”
+ e.printStackTrace();
+ 这段告诉了“错在哪里”
+
+**注意**：
+
+ 1. 创建文件的文件名字是和路径一同给出的。
+ 2. file.createNewFile();和OutputStream outputStream = new FileOutputStream(file);都可以创建出来一个文件，前者是专门创建文件，后者是为了写入数据而创建。
+ 3. while ((content = fis.read()) != -1) { fos.write(content); }是读一个字节写一个字节。而不是字符。
+ 4. 用字节流写入完后，要强制刷入数据write_name.flush();
+  
+### 字符流
+
+**字符设置**
+字符流是由java的虚拟机将**字节**转换得到的
+因为有很多不同的字符标准，很容易乱码，所以直接提供了个操作字符的接口（Standard Charsets）
+**Reader**
+**Write**
+### 节点流
+就是从一个特定的数据源，使用不同的节点流读取数据，写入，但不支持修改和删除数据源。
+
+
+ 1. FileInputStream
+他读取的文件应该是FIle nameF=new File（“XXX”）
+赋给Stream
+FileInputStream name=new FIleInputStream(nameF)
+写入完后要关闭write_name.close();
+ 2. FileOutputStream
+ 3. ByteArrayInputStream
+ 4. ByteArrayOutputStream
+
+### 处理流
+连接在已存在的流之上，为程序提供强大的读写能力。
+### 缓冲流
+通过将数据缓存到一个区域，然后一次性读取或者写入多个字节，避免频繁的IO操作，从而提高流的传输效率。
+**装饰器**：例如BufferedInputStream
+可以用来增强普通的io功能
+BufferedInputStream buf=new BufferedInputStream(new FileInputStream("input.txt"))
+
+**Input**：是指从**外存**读取到**内存**
+**output**：是从**内存**写入到**外存**
+利用缓冲流会大大节省时间。
+100页pdf
+[图片上传中...(image-fOoV6CZupv7kM2Mi)][图片上传中...(image-MDQ4wUcTkcleL4hR)]![](https://p11-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/5d24850d07d44e4b977cda22f2d8b080.png~tplv-a9rns2rl98-24-95-exif:960:960.png?rcl=20251126201235FE3E9102B92FFDC1EE9E&rk3s=8e244e95&rrcfp=8a172a1a&x-expires=1764763955&x-signature=rPZXVTF8RFxpve0Awyapjer3N0k%3D)
+
+**字符缓冲流**
+BufferedReader
+BufferedWriter
+相比于之前的这个主要用来操作字符，之前的bufferedStream是字节
+
+
+### 对象处理流
+**序列化**:将数据的值和数据的数据类型同时存入到文件中（Output）
+**反序列化**：读取文件中的数据和数据类型，恢复到原来的样子。
+**关键字**：OjectOutputStream和OjectOutputStream
+### 转换流
+可以将字节流转换成字符流
+可以指定读取文件时按照什么样的编码
+**关键字**：InputStreamReader和OutputStreamWriter
+
+例子：创建一个缓冲流的读取对象
+他有两个内容，文件，读取格式。
+InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream("D:\\JAVA\\IDEA\\file\\3.txt"), UTF_8);
+
+他的缓冲读取关键字是
+BufferedReader
+写入的时候不需要这个
+
+**buffer关键字区别**
+
+## 异常处理
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzA0NjEyMF19
+eyJoaXN0b3J5IjpbMTYxMzI5NTA1NF19
 -->
