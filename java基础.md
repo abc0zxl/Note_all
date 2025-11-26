@@ -235,13 +235,13 @@ public interface Payable {
 按照输入的键值对的顺序存储没有顺序
 #### TreeMap
 按顺序存储，存到红黑树中，两种情况
-默认顺序数字，字符，日期（从小到大）
-自定义顺序（在初始化对象时，在后面的括号中输入标准，例如：((k1,k2)->k2-k1）
+**默认顺序**:数字，字符，日期（从小到大）
+**自定义顺序**:（在初始化对象时，在后面的括号中输入标准，例如：((k1,k2)->k2-k1）
+例如：TreeMap<Integer,Integer> Tress_name=new TreeMap<>((k1,k2)->k2-k1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcwMDM1MzYsLTE4ODc5OTE0MzYsMT
-Q0ODM5Mjg2Myw4MjE2OTkxNjcsLTIwNjQ4NzExOTUsNjA4ODQw
-NDYyLDE1MjUxNTQ1MTQsLTE2MzA1OTYwMjUsLTg3OTY0MjAwMF
-19
+eyJoaXN0b3J5IjpbMjE1NzE1OTAsLTE4ODc5OTE0MzYsMTQ0OD
+M5Mjg2Myw4MjE2OTkxNjcsLTIwNjQ4NzExOTUsNjA4ODQwNDYy
+LDE1MjUxNTQ1MTQsLTE2MzA1OTYwMjUsLTg3OTY0MjAwMF19
 -->
