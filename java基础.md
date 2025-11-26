@@ -207,11 +207,12 @@ public interface Payable {
  1. **List**：有序，可重复
  初始化：List<Integer> list_name=new ArrayList<Integer>();
  插入：list.add(xx);
- 
+ 修改：list_name.set(int place,int num);
+ chah
  3. **Set**
  4. **Map**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzMjU3NTAxLC0yMDY0ODcxMTk1LDYwOD
-g0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2MDI1LC04Nzk2NDIw
-MDBdfQ==
+eyJoaXN0b3J5IjpbLTIxODc3NDA0MywtMjA2NDg3MTE5NSw2MD
+g4NDA0NjIsMTUyNTE1NDUxNCwtMTYzMDU5NjAyNSwtODc5NjQy
+MDAwXX0=
 -->
