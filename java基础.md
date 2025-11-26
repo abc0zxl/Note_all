@@ -209,7 +209,7 @@ public interface Payable {
  插入：list.add(xx);
  修改：list_name.set(int place,int num);
  查找：int_name.indexOf(xx);返回位置
- 2. **Set**
+ 2. **Set**：不允许重复元素
  3. **Map**
 
 ### **List 子类**
@@ -223,9 +223,12 @@ public interface Payable {
  3. **优点**：便于添加，删除和定点修改删除
  4. **缺点**：查找慢，因为底层用的**二分法**
 ### Set接口
-
+#### HashSet
+不允许重复元素，元素没有顺序
+#### TreeSet
+不允许重复元素，元素有顺序，基于hongheis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjE0MDMxNiw4MjE2OTkxNjcsLTIwNj
-Q4NzExOTUsNjA4ODQwNDYyLDE1MjUxNTQ1MTQsLTE2MzA1OTYw
-MjUsLTg3OTY0MjAwMF19
+eyJoaXN0b3J5IjpbLTIxMDc1ODkyMTcsODIxNjk5MTY3LC0yMD
+Y0ODcxMTk1LDYwODg0MDQ2MiwxNTI1MTU0NTE0LC0xNjMwNTk2
+MDI1LC04Nzk2NDIwMDBdfQ==
 -->
