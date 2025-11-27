@@ -467,3 +467,6 @@ Tread t=new Tread(new runable_name());
 void interrupt()
 
 2。阻塞->唤醒：实现了线程的暂停，资源的转让，定时唤醒
+
+
+#### 线程的终止
