@@ -491,4 +491,8 @@ if(run)
 
 1。抢占式
 
+**设置优先级**：setPriority（）
+
+**获取优先级**：getPriority()
+
 2。非抢占式
