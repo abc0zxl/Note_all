@@ -392,8 +392,6 @@ BufferedWriter
 他有两个内容，文件，读取格式。
 InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream("D:\\JAVA\\IDEA\\file\\3.txt"), UTF_8);
 
-
-
 他的缓冲读取关键字是
 BufferedReader
 写入的时候不需要这个
@@ -426,8 +424,16 @@ finally{}
 
 ### 线程的实现
 
+### **第一种方法**
+
 1.重写java.lang.Thread中的run方法，
 2.new（创建）一个线程用start()启动
 3.创建的线程可以直接调用他的方法，让他运行，但这种还是单线程顺序执行，还是在主线程中
 4.用**start()**创建线程，不用调用他的方法名字就能运行，这个是因为**JVM的机制**。
 5.多线程能很大程度上节省时间。
+
+### 第二种
+
+1.重写java.long.Runnable的接口，实现run，
+
+2.也是用start（）启动
