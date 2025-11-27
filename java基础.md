@@ -440,3 +440,7 @@ finally{}
 2.也是用start（）启动
 
 3.这种方法创建线，需要在对象创建时写入实例化的线程接口
+
+Tread t=new Tread(new runable_name());
+
+4.
