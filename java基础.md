@@ -434,6 +434,6 @@ finally{}
 
 ### 第二种
 
-1.重写java.long.Runnable的接口，实现run，
+1.重写java.long.Runnable的**接口**，实现run，
 
 2.也是用start（）启动
