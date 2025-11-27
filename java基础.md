@@ -18,7 +18,6 @@
 16. 一个类既可以使用多个接口又可以使用一个继class ChildClass extends ParentClass implements InterfaceA, InterfaceB
 17. f
 
-
 package com.example.demo;
 import java.util.Date;
 import java.util.*;
@@ -468,7 +467,6 @@ void interrupt()
 
 2。阻塞->唤醒：实现了线程的暂停，资源的转让，定时唤醒
 
-
 #### 线程的终止
 
 ##### 方法一
@@ -492,6 +490,7 @@ if(run)
 1。抢占式
 
 ```
+
 ```
 
 **抢占线程**：join()当前线程阻塞，直到加入的线程执行完后，再继续执行。
@@ -510,4 +509,4 @@ if(run)
 
 1,线程同步：但是会牺牲一部分效率
 
-2。
+2.
