@@ -457,3 +457,7 @@ Tread t=new Tread(new runable_name());
 2，获取线程名字
 
 3。修改线程对象名字
+
+#### 线程的阻塞
+
+可以让这个线程暂停，让出cpu
