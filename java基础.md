@@ -446,4 +446,6 @@ finally{}
 
 Tread t=new Tread(new runable_name());
 
-4.
+4.他是一个接口所以使用他的类还可以继承别的类
+
+5.是一种常用的方法
