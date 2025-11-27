@@ -12,6 +12,8 @@
 10. 找不到包的时候直接*
 11. 以后用英文代替中文，因为java要报错
 12. 调用接口interface需要用implements
+13. jvm是java的核心运行载体，没有jvm，java字节码就是一个纯文本文件，无法执行。
+14. java默认导入lang包，不用手动导入
 
 package com.example.demo;
 import java.util.Date;
