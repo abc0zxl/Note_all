@@ -14,6 +14,7 @@
 12. 调用接口interface需要用implements
 13. jvm是java的核心运行载体，没有jvm，java字节码就是一个纯文本文件，无法执行。
 14. java默认导入lang包，不用手动导入
+15. 对象的括号，叫做**构造方法调用符**，也叫**实例化括号**
 
 package com.example.demo;
 import java.util.Date;
