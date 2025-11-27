@@ -461,3 +461,5 @@ Tread t=new Tread(new runable_name());
 #### 线程的阻塞
 
 可以让这个线程暂停，让出cpu
+
+1。幻想进程
