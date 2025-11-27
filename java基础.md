@@ -437,3 +437,5 @@ finally{}
 1.重写java.long.Runnable的**接口**，实现run，
 
 2.也是用start（）启动
+
+3.这种方法创建线程
