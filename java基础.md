@@ -15,14 +15,8 @@
 13. jvm是java的核心运行载体，没有jvm，java字节码就是一个纯文本文件，无法执行。
 14. java默认导入lang包，不用手动导入
 15. 对象的括号，叫做**构造方法调用符**，也叫**实例化括号**
-16. 一个类既可以使用多个接口又可以使用一个继承
-17. ```
-
-    ```
-
-class ChildClass extends ParentClass implements InterfaceA, InterfaceB {
-```
-18. f
+16. 一个类既可以使用多个接口又可以使用一个继class ChildClass extends ParentClass implements InterfaceA, InterfaceB
+17. f
 
 
 package com.example.demo;
@@ -170,6 +164,7 @@ System.out.println("这是辅助类");
 public class UnionPay implements Payable, Pointable {
     private String bankCardNo; // 银行卡号
 ```
+
 3. 继承的多个类可以没有任何关系
 4. 接口不能有普通变量，只能有静态变量，不用写类型的权限，自动补为public static final xxxx，只能是这个，且必须初始化。
 5. 接口里面的抽象方法可以不用谢abstract，编译器会自动补齐。
@@ -224,6 +219,7 @@ public interface Payable {
    }
 }
 ```
+
 ## java内置类和库
 
 **内置类：**不用各种导入的，约有150-200个。
