@@ -618,4 +618,6 @@ void setDaemon(boolean on)
 
 **park()**:用于检测标志位
 
+检测到标志位是0时，挂起进程。
+
 **unpark()**:用于把标志位置1
