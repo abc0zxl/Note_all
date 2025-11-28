@@ -634,3 +634,10 @@ void setDaemon(boolean on)
 1.所以设置了一个变量来检测是否是，正常的恢复阻塞。再配合while循环达到一直检测的效果。
 
 2.有点像双层锁，第二层不由系统来决定，由程序来决定。避免了 **虚假解锁**
+
+
+##### 应用
+
+1.**Queue_name.peek()**:表示查看队列头部的第一个线程
+
+2.**lock_name.compareAndSet（false,true)**:表示把锁从空闲改为占用。
