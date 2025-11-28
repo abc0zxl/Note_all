@@ -451,7 +451,6 @@ Tread t=new Tread(new runable_name());
 
 5.是一种常用的方法
 
-
 #### 第三种
 
 1.用**Callable**接口实现
@@ -606,7 +605,6 @@ void setDaemon(boolean on)
 
 例子：日志定时存储
 
-
 #### Object类
 
 1.**wait()**：让当前线程无限等待
@@ -614,3 +612,10 @@ void setDaemon(boolean on)
 2.**notify()**：唤醒当前对象正在等待的对象
 
 3.**notifyAll()**:唤醒所有进程
+
+
+#### LockSupport
+
+**park()**:用于检测标志位
+
+**unpark()**:用于把标志位置1
