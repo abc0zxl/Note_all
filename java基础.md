@@ -645,4 +645,4 @@ void setDaemon(boolean on)
 
 1.**Queue_name.peek()**:表示查看队列头部的第一个线程
 
-2.**lock_name.compareAndSet（false,true)**:表示把锁从空闲改为占用。
+2.**lock_name.compareAndSet（false,true)**:表示把锁从空闲改为占用。true,表示
