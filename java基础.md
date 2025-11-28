@@ -626,3 +626,9 @@ void setDaemon(boolean on)
 1.在t_namet.start()前调用，LockSupport.unpark(t_name)会保留这个**许可**，在执行到park（）时不会阻塞，直接过。
 
 2.一个线程同时调用两个unpark(t_name)只会保留一个
+
+#### 虚假锁
+
+指不是因为正常的**恢复阻塞** 而导致的**解锁**,可能是被强制结束了该行程，导致解锁。
+
+所以设置了一个变量来检测这个
