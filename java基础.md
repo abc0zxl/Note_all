@@ -613,7 +613,6 @@ void setDaemon(boolean on)
 
 3.**notifyAll()**:唤醒所有进程
 
-
 #### LockSupport
 
 **park()**:用于检测标志位
@@ -623,3 +622,7 @@ void setDaemon(boolean on)
 被挂起的进程，直到标志位被置为1，或者进程中断，超时为止。
 
 **unpark()**:用于把标志位置1。
+
+1.在t_namet.start()前调用，LockSupport.unpark(t_name)会保留这个**许可**，在执行到park（）时不会阻塞，直接过。
+
+2.一个线程同时调用两个unpark(t_name)只会保留一个
