@@ -227,6 +227,8 @@ tomcat启动到销毁
 
 **结束条件**：
 
+1.30分钟自动超时，或者再
+
 ## **ServletConfig**
 
 servletconfig就代表servlet中xml的配置信息，它可以或者这些信息。
