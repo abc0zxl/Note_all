@@ -221,6 +221,10 @@ tomcat启动到销毁
 
 3.知道销毁，关闭服务时，servlet销毁，这时就是真的结束了。
 
+### Session
+
+他从申请session生命周期开始，中途不会结束，
+
 ## **ServletConfig**
 
 servletconfig就代表servlet中xml的配置信息，它可以或者这些信息。
