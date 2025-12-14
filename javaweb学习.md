@@ -223,7 +223,9 @@ tomcat启动到销毁
 
 ### Session
 
-他从申请session生命周期开始，中途不会结束，
+他从申请session生命周期开始，中途不会结束
+
+**结束条件**：
 
 ## **ServletConfig**
 
