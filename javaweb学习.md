@@ -231,7 +231,7 @@ tomcat启动到销毁
 
 2.重启Session。
 
-3.利用session.invaild关闭会话。
+3.利用session.invaildate关闭会话。
 
 ## **ServletConfig**
 
