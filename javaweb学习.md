@@ -229,7 +229,9 @@ tomcat启动到销毁
 
 1.30分钟自动超时，或者通过Web.xml来设定超时时间
 
-2.
+2.重启Session。
+
+3.利用session.invaild关闭会话。
 
 ## **ServletConfig**
 
