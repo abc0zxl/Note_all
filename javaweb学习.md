@@ -180,7 +180,7 @@ tomcat会把收到的http请求按照http协议格式解析成一个httprequest�
 
 **void setCharacterEncoding(String charset)**：设置被发送客户端的**响应字符编码**
 
-**void sendRedirect(String location)**：制定重定向位置URL，通过httpsServletresponse来重写url
+**void sendRedirect(String location)**：制定重定向位置URL，通过httpsServletresponse来重写url，例如
 
 ![image.png](/assets/9affcb6f-dce0-47d9-bda7-a57f756f21f9.png)
 
