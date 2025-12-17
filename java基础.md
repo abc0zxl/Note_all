@@ -279,6 +279,12 @@ public interface Payable {
 **自定义顺序**:（在初始化对象时，在后面的括号中输入标准，例如：((k1,k2)->k2-k1）
 例如：TreeMap<Integer,Integer> Tress_name=new TreeMap<>((k1,k2)->k2-k1);
 
+#### .forEach
+
+他是默认方法，是所有List,Set等都有的方法，非collection类型没有这个方法。
+
+**作用** ：列表每个元素的打印
+
 ### java时间
 
 #### 获取时间
@@ -419,6 +425,8 @@ finally{}
 **finally**无论是否发生异常都会处理
 **自定义异常**:用java文件继承Exception，然后就可以把这个文件当作异常标准。**要用if**
 
+### 日志
+
 ## 多线程
 
 1.一个java程序中至少有两个线程（垃圾回收，main方法）
@@ -509,10 +517,6 @@ if(run)
 
 1。抢占式
 
-```
-
-```
-
 **抢占线程**：join()当前线程阻塞，直到加入的线程执行完后，再继续执行。
 
 **设置优先级**：setPriority（）
@@ -546,6 +550,12 @@ if(run)
 **弊端**：只能用this，每次同步整个方法体都会同步，执行效率低。
 
 **优点**：代码少
+
+###### volatile
+
+被volatile修饰的变量对所有线程可见
+
+当一个线程修改了这个变量的值是，其他线程可以立即看到修改后的值。
 
 #### 安全性
 
@@ -631,7 +641,6 @@ void setDaemon(boolean on)
 
 **锁不空闲** : 表示这个共享资源的锁是正在被使用的，不可以抢夺。
 
-
 #### 虚假锁
 
 指不是因为正常的**恢复阻塞** 而导致的**解锁**,可能是被强制结束了该行程，导致解锁。
@@ -640,9 +649,74 @@ void setDaemon(boolean on)
 
 2.有点像双层锁，第二层不由系统来决定，由程序来决定。避免了 **虚假解锁**
 
-
 ##### 应用
 
 1.**Queue_name.peek()**:表示查看队列头部的第一个线程
 
 2.**lock_name.compareAndSet（false,true)**:表示把锁从空闲改为占用。true,表示
+
+3.**AtomicBoolean()**:表示设置一个bool变量，**_name.set**:设置值
+
+### 线程池
+
+解决：每次使用对象功能时都会重新创建要给对象，非常浪费资源。
+
+**作用**：提高资源利用率，提高程序的响应速度，便于统一管理线程对象，可以控制最大并发数
+
+**模拟运行**：任务，对象。
+
+来了多个任务，线程池会从池中拿出线程对象去分配给这些任务，多余的任务则排队等待别的任务归还线程
+
+**当队列满了时**：会有两种情况
+
+1.让线程池创建**新的**线程对象
+
+2.拒绝任务
+
+**销毁线程**：当线程在一定时间内没有接到任务时就会**销毁**这个线程。
+
+关键字：
+
+ExecutorSerive
+
+TheadPoolExecutor
+
+```
+public ThreadPoolExecutor(
+    int corePoolSize,          // 核心线程数
+    int maximumPoolSize,       // 最大线程数
+    long keepAliveTime,        // 空闲线程存活时间
+    TimeUnit unit,             // 存活时间单位
+    BlockingQueue<Runnable> workQueue, // 工作队列
+    ThreadFactory threadFactory,       // 线程工厂
+    RejectedExecutionHandler handler   // 拒绝策略处理器
+)
+```
+
+![image.png](/assets/8b7c92c6-2710-4f71-bcde-7579e1159d1a.png)
+
+超过了最大上限，触发了**直接抛出异常**的**拒绝策略**
+
+**其他种类线程池**
+
+**FixedThreadPool**:固定大小线程池
+
+**SingleThreadExecutor**：单线程池
+
+### Lambda表达式
+
+主要用于**函数式接口**，适配于**单个抽象方法**的接口。
+
+单个抽象方法的接口，不代表只有一个抽像方法，**非抽象**方法存在。
+
+1. 有且仅有**一个抽象方法**（`handle(Order order)`）；
+2. 可以包含静态方法、默认方法（不影响抽象方法数量）；
+3. Lambda 表达式的核心作用：**简洁地实现这个唯一的抽象方法**（替代传统的匿名内部类）。
+
+### 枚举
+
+关键字：enum
+
+枚举元素的参数**完全和枚举构造器的参数顺序强挂钩**
+
+![image.png](/assets/1e4fcb01-05a0-4b46-ad53-0ffabcd08181.png)
