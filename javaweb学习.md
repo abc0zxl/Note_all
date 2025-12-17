@@ -49,6 +49,10 @@ WAR 专门面向 Java Web 应用
 
 **jsp**：
 
+## 学习路径
+
+![image.png](/assets/c327b70b-82f1-4a1c-b7d5-5abe6ebc7e3a.png)
+
 ### Servlet
 
 使用它需要继承**HttpServlet**
@@ -346,6 +350,22 @@ e()存储到会话范围
 3. **无法“接力”转发**：
    同一个请求不能多次调用 `forward()`，因为第一次 `forward()` 后响应已提交或关闭，再次操作会抛出 `IllegalStateException`。
 
+4.重定向需要完整路径
+
+5.**重定向（`sendRedirect`）默认会用 GET 方法请求目标 URL**
+
+**getContextPath()**获取当前路径
+
+![image.png](/assets/822c4b55-ac04-41d6-b53e-7d11af6bfa18.png)
+
 #### 转发链
 
 使 A → B → C 形成**转发链**，只要数据存储在 `request` 中，它就能在链中传递（因为 `forward()` 传递同一个 `request` 对象
+
+#### 解决方法
+
+可以利用Session来保持数据。
+
+```
+		HttpSession session = req.getSession(false); // false：不创建新Session，避免空数据
+```
