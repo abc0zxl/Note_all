@@ -328,7 +328,7 @@ public interface Payable {
    键盘写入对象：InputStream
 5. 可以向文件中写入数据
 6. 指定一个编码方式
-7. 吧键盘写入对象的数据写入到文件中·
+7. 吧键盘写入对象的数据写入到文件中
 8. 输出文件内容
    10.判断是否有错误
    catch(IOException e){
