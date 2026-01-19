@@ -1,0 +1,42 @@
+# Servlet 中
+
+1.**Service对象创建**：因为在Servlet中可能多处会用到，所以要把创建Service对象这个代码放在方法外面。
+
+2.**工厂类**：创建完工具类后在Service中调用这个工具时，会有很多词调用，所以把这个语句放在方法外面比较好。
+
+3.**注册账户是否存在**：用boolean返回
+
+4.**json请求响应数据**：要等待页面加载完成后再发送请求
+
+5.**运行web时html乱码**：在web.xml。
+
+![image.png](/assets/24188843-fe00-4792-937b-42336cd7156c.png)
+
+6.**html中表单写入，事件**：这些都用id
+
+7.**提交表单到后端**：要设置请求头，防止中文乱码
+
+![image.png](/assets/6c9ff114-1a8b-4d6d-83c1-d95857b6c3a7.png)
+
+8.**将原来AXIOS的手动异步请求，换成Vue的自动执行异步**：
+
+9.**Vue替换DOM**
+
+11.**多态service**：相较于原来的service，原来的service对象创建时只能在一个文件里修改，方法还不可以重名，现在将接口和实现类分离，就能实现多个实现类文件，更加灵活。
+
+12.**servlet太多，不利于编写**：将同一个实体的操作写到一个Servlet中，例如：**BrandServlet**，**UserServlet**。
+
+* 抛弃原来的HttpServlet继承方法，通过反射获取对象方法
+* 写一个总Servlet装httpservlet，新建的用于操作的servlet继承这个总servlet，
+* ![image.png](/assets/8114c4d2-c338-4593-b6ee-29c40f23d0a4.png)
+* 第一段用servlet获取，后面一段用方法名
+* **获取路径，this原理**：
+
+  1.**this是什么路径**：他是动态的，谁调用它，他就代表哪个路径，
+* **直接用模板**：
+
+  ![image.png](/assets/9f412ba0-2d9f-4f15-bda2-93a416fc523a.png)
+
+13.**vue对象调用**：平时在axios中要用回调_this来获取vue对象，现在直接在then(resp=>{XXXX用到this的代码XXX}）来替代原来的_this的场景
+
+14.**javaweb原生和前后端分离**：两个代码数量差距2：1
