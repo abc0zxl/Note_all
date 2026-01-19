@@ -504,3 +504,31 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 
 # 热部署和日志
+
+**热部署**：写代码时不用每次都重启，**提升开发效率**
+
+**日志**：用于记录错误信息，
+
+## 热部署
+
+**步骤**：
+
+1.**引入依赖**：org.springframework.boot
+
+spring-boot-devtools
+
+2.**配置idea**：
+
+* setting：compiler,勾选build project automatically
+* ctrl+shift+alt+/：选择registry，勾选……when.app.running
+
+
+## 日志
+
+**作用**：
+
+* 记录错误信息到文本中。
+* 输出一些关键变量
+
+
+**背景**：在编写项目时，想要获取一些关键信息，或者捕捉错误信息显示出来，只能用system.out.println，这种情况，在idea的控制台输出一大堆，很难查找，且每次运行都会清空记录。
