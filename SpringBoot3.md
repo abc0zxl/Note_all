@@ -490,3 +490,17 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 * **读懂这个bean**：可以知道在properties中专门配置参数，以及会有什么用，
   l例子
 * ![image.png](/assets/574dd7e5-5cda-4cde-83d9-7cd7c11bec7e.png)
+
+
+
+
+## 自动配置类总结
+
+**区分依赖和自动配置的区别**：
+
+1.**封装简化**：用少量starter依赖就能代替原来零散繁杂的jar包依赖。在springboot中通过一两个依赖就能代替（包含）掉原来一堆依赖，
+
+2.**配置层面**：而自动配置类，是指不用像原来那样ssm手动配置字符过滤器，各种过滤器，前端控制器，	扫描路径依赖注入规则等等配置，通过识别当前的项目环境，通过借助条件注解导入了要用到的配置，并设置了默认的值，不用自己编写一大堆配置了，专注于开发业务
+
+
+# 热部署和日志
