@@ -438,6 +438,9 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 1.**最终过滤**：getConfigurationClassFilter().filter(configuration)根据pom中的starter过滤出**有效的的配置类**
 
+这个原理就是查看每个自动配置类中的@Conditional开头的注解，查看哪些自动配置类符合，就保留这些配置类。
+
+在propertie配置文件输入debug=true运行项目也可以看到保留了哪些自动配置类。 
 
 
 ## 自动配置发展
@@ -468,3 +471,22 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 2.会给标记了这个注解的类，创建cglib动态代理，当调用方法时会先去ioc容器找。不用每次都创建对象。
 
 3.如果这个注解声明了proxyBeanMethods=false,则不采用动态代理。
+
+
+4.**启用一个配置类的属性**：@EnableConfigurationProperties，表示当前自动配置类用到了哪些属性，这个注解会声明出来一个专门放属性的类
+
+
+5.**条件注解**：用于规定当前的自动配置类注解能不能起作用的注解。
+
+* @Conditional10nWebApplication(type=Condition10nWebApplication.Type.SERVLET)web环境必须是servlet才可以起作用
+* @Conditional10nClass(CharacterEncodingFilter.class)
+* @Conditional10nProperty(prefix="server.servlet.encoding",value="enabled",matchIfMessing=true),
+* ![image.png](/assets/9fdf45da-c17a-4707-929f-a731f0ab9b69.png)
+
+
+6.**注入@bean**：
+
+* 在下面还有一个注解@Conditional0nMissingBean,表示如果这个bean不存在才注入这个bean到IOC中
+* **读懂这个bean**：可以知道在properties中专门配置参数，以及会有什么用，
+  l例子
+* ![image.png](/assets/574dd7e5-5cda-4cde-83d9-7cd7c11bec7e.png)
