@@ -703,3 +703,6 @@ logging:level:com:AAA:trace
 4.**设置日志显示的细节**：颜色，缩进，间隔等等
 
 上官网找：https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#logging.logback.rollingpolicy.max-file-size
+
+
+![image.png](/assets/6e89dab2-da47-497a-ae68-b5ce563b42c8.png)
