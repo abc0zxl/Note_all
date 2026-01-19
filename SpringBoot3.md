@@ -440,14 +440,11 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 这个原理就是查看每个自动配置类中的@Conditional开头的注解，查看哪些自动配置类符合，就保留这些配置类。
 
-在propertie配置文件输入debug=true运行项目也可以看到保留了哪些自动配置类。 
-
+在propertie配置文件输入debug=true运行项目也可以看到保留了哪些自动配置类。
 
 ## 自动配置发展
 
 在springboot3后，第三方的自动配置类不再从springboot.factories获取。
-
-
 
 #### 新的springboot3获取所有自动配置类
 
@@ -461,7 +458,6 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 用getConfigurationClassFilter().fileter()
 
-
 上面讲的是如何获取自动配置类，下面讲配置类如何运作
 
 ## 自动配置类原理
@@ -472,9 +468,7 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 3.如果这个注解声明了proxyBeanMethods=false,则不采用动态代理。
 
-
 4.**启用一个配置类的属性**：@EnableConfigurationProperties，表示当前自动配置类用到了哪些属性，这个注解会声明出来一个专门放属性的类
-
 
 5.**条件注解**：用于规定当前的自动配置类注解能不能起作用的注解。
 
@@ -483,16 +477,12 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 * @Conditional10nProperty(prefix="server.servlet.encoding",value="enabled",matchIfMessing=true),
 * ![image.png](/assets/9fdf45da-c17a-4707-929f-a731f0ab9b69.png)
 
-
 6.**注入@bean**：
 
 * 在下面还有一个注解@Conditional0nMissingBean,表示如果这个bean不存在才注入这个bean到IOC中
 * **读懂这个bean**：可以知道在properties中专门配置参数，以及会有什么用，
   l例子
 * ![image.png](/assets/574dd7e5-5cda-4cde-83d9-7cd7c11bec7e.png)
-
-
-
 
 ## 自动配置类总结
 
@@ -501,7 +491,6 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 1.**封装简化**：用少量starter依赖就能代替原来零散繁杂的jar包依赖。在springboot中通过一两个依赖就能代替（包含）掉原来一堆依赖，
 
 2.**配置层面**：而自动配置类，是指不用像原来那样ssm手动配置字符过滤器，各种过滤器，前端控制器，	扫描路径依赖注入规则等等配置，通过识别当前的项目环境，通过借助条件注解导入了要用到的配置，并设置了默认的值，不用自己编写一大堆配置了，专注于开发业务
-
 
 # 热部署和日志
 
@@ -521,7 +510,6 @@ spring-boot-devtools
 
 * setting：compiler,勾选build project automatically
 * ctrl+shift+alt+/：选择registry，勾选……when.app.running
-
 
 ## 日志
 
@@ -566,8 +554,6 @@ spring-boot-devtools
 * 需求多
 * 日志框架太多比较混乱
 
-
-
 ### 解决框架混乱
 
 1.**JCL的诞生**：他是用来整合日志的，不是先日志功能，它可以修改项目所用的日志框架，通过设置class来指定所用的日志框架，是主动去找日志框架
@@ -580,6 +566,26 @@ spring-boot-devtools
 * slf4j因为有桥接器，性能比jcl好
 * slf4j不好配比较复杂，jcl比较实用简单
 
+#### JCL使用
+
+1.**引入依赖**：commons-logging
+
+2.**指定日志框架**：通过设置一个properties配置文件
+
+![image.png](/assets/1b8e20b5-4af5-414c-b2fe-c2555a7752d0.png)
+
+```
+        Log log= LogFactory.getLog(JulMain.class);
+```
+
+#### Log4j使用
+
+1.要导入依赖，注意调用时别用错了，这个是apach的不是util的
+
+2.导入log4j的配置
+
+log4j.rootLogger=trace, stdout log4j.appender.stdout=org.apache.log4j.ConsoleAppender log4j.appender.stdout.layout=org.apache.log4j.PatternLayout log4j.appender.stdout.layout.ConversionPattern=%d %p [%c] - %m%n
+
 #### SLF4J
 
 它有两个重要的东西，**适配器，桥接器**
@@ -588,4 +594,58 @@ spring-boot-devtools
 
 2.**适配器**：一个项目的多个模块间可能用到日志门面不一样，日志框架也不一样，当**项目合并时**，slf4j为了统一，就设计了适配器，实现了转化作用，转换为slf4j.
 
-##### **使用**
+**使用**
+
+1.**引入依赖**：org.slf4j
+
+2.**引入类**：注意要slf4j的
+
+3.**添加桥接器**：不同的日志框架有不同的桥接器，通过引入桥接器依赖，自动通过依赖来确定用那个日志框架
+
+![image.png](/assets/a9205ddf-2dd7-406c-882f-a28aaae5df8f.png)
+
+* **添加依赖**：log4j12
+
+```
+        Logger logger= LoggerFactory.getLogger(Log4jMain.class);
+
+```
+
+##### **遇到两个不同日志框架的场景解决方法**
+
+不同的框架所记录日志的格式不相同
+
+**开发标准**：日志的使用不能直接使用日志框架，要通过门面来实现，这样好统一框架。
+
+**转换**：通过添加专用的适配器完成转换
+
+![image.png](/assets/615f7aae-a209-4e87-9a7d-bcd3d4891656.png)
+
+**步骤**：这里演示JCL的转换，可以看到上面要用jcl-over-slf4j.jar，
+
+1.**添加适配器**：jcl-over-slf4j.jar
+
+2.运行这个文件，就会发现变成了slf4j
+
+## SpringBoot的日志
+
+1.它也是采用的slf4j+logback的方式进行日志的记录
+
+2.Spring默认的框架是JCl，所以starter的时候会引入两个转换到slf4j的依赖，logback,log4j,jcl三个**适配器**
+
+![image.png](/assets/c536575f-6d76-4330-8ac0-a4778a9d5815.png) 
+
+
+### 使用
+
+#### 日志级别
+
+可以通过不同的级别来控制日志记录方式
+
+* TRACE
+* DEBUG
+* INFO
+* WARN
+* ERROR
+* FATAL
+* OFF
