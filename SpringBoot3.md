@@ -77,6 +77,10 @@
 
 7.**@SpringBootConfiguration**：用来声明他标注的类是一个配置类
 
+8.**@ComponentScan**：它里面可以放很多排除方法 excludeFilters
+
+9.**@EnableAutoConfiguration**：开启自动配置类注解
+
 # SpringBoot原理
 
 前置知识：SSM框架的使用经验，熟练使用Maven，idea的使用
