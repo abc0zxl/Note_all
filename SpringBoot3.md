@@ -330,3 +330,22 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 **他不是键值对**：所以直接写值
 
 ![image.png](/assets/b6e96bbc-107a-4259-845d-fdf85a7655b2.png)
+
+##### 绑定文件的其他用法
+
+他支持${AAA}去调用该文件的其他属性值，但AAA不可以是表达式
+
+**特定功能**：还有其他功能可以用（随机值，），在网站上查看http://docs.spring.io/spring-boot/reference/features/external-config.html#features.external-config.random-values
+
+
+### 数据校验
+
+**作用**：spring设定了特定的规范来限制数据的范围，不用自己写逻辑
+
+**使用步骤**：
+
+1.**添加依赖**：Spirng-boot-starteer-validation
+
+2.**写注释**：注意注释的来源有很多，要选上面这个以来里面的
+
+![image.png](/assets/d8dff009-dd94-424a-b789-448ad6dc56f2.png)
