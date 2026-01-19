@@ -73,6 +73,10 @@
 
 5.**@RestBody**：用于表示将方法的返回值变成json等格式，不在当作html等的名字作为跳转了，直接将返回值放到页面上，而不用非要到一个特定页面上
 
+6.**@RetentionPolicy**：用来声明该注解标注的类  ，编译后以什么方式保留
+
+7.**@SpringBootConfiguration**：用来声明他标注的类是一个配置类
+
 # SpringBoot原理
 
 前置知识：SSM框架的使用经验，熟练使用Maven，idea的使用
@@ -331,6 +335,12 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 ![image.png](/assets/b6e96bbc-107a-4259-845d-fdf85a7655b2.png)
 
+#### 绑定文件放置位置
+
+1.遇到多个绑定需要分类的场景，则将绑定的文件单独放到一个文件夹中，
+
+2.**声明绑定配置注解**：这个放到要作用的那个文件中去，在类上用@PropertySource("classpath:data/AAA.properties")但是这个只能用properties文件
+
 ##### 绑定文件的其他用法
 
 他支持${AAA}去调用该文件的其他属性值，但AAA不可以是表达式
@@ -348,4 +358,23 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 2.**写注释**：注意注释的来源有很多，要选上面这个以来里面的
 
+* 类注释：@Validated
+* 方法注释：@NotNull
+
 ![image.png](/assets/d8dff009-dd94-424a-b789-448ad6dc56f2.png)
+
+
+### 关于数据绑定的总结
+
+如果要批量绑定适合用@ConfigurationProperties
+
+如果只有一两个：用@Value
+
+如果需要用SpEL：用@Value
+
+
+## SpringBoot自动配置原理
+
+1.它提前设置了很多默认的配置
+
+2.一方面将这些底层封装起来了，变得好用，另一方面也是因为不知道原理，导致越来越傻
