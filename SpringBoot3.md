@@ -376,6 +376,7 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 ## SpringBoot自动配置原理
 
+
 1.它提前设置了很多默认的配置
 
 2.一方面将这些底层封装起来了，变得好用，另一方面也是因为不知道原理，导致越来越傻
@@ -390,9 +391,18 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 4.**变种Import**：DeferredImportSelector
 
-5.**没有GetImportSelector的时候**：他会直接调用该方法下的selectImport完成注入
+5.**没有GetImportSelector的时候**：他会直接调用该方法下的selectImport完成注入bean
 
-6.**有GetImportSelector**：会调用该方法下的selectImport
+6.**有GetImportSelector**：会调用该方法下的selectImport注入bean
 
+#### 到这里完成了bean的注入
 
 ![image.png](/assets/a4007c69-11c2-4dce-86fb-cfce76b6e80b.png)
+
+#### 接下来开始自动配置依赖
+
+1.也是DeferredImportSelector下的一个类，叫**process**
+
+2.**调用自动配置类的方法**：getSutoConfigurationEnty
+
+3.**进入上面这个类**：实现getCandidateConfigurations，实现将所有自动配置方法全部导入，用于整合所有第三方库的作用。
