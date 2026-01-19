@@ -684,3 +684,22 @@ logging:level:com:AAA:trace
 1.**去网站找**https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#logging.logback.rollingpolicy.max-file-size
 
 2.**编写修改信息**：在properties文件中用logging:pattern:console:XXXXXXXXXX导入修改的信息。一次性导入
+
+* 在日志格式中，大写的英文都是变量，它调用的是系统环境变量中的值
+* 可以在properties中编写对应的配置，然后就能设置到环境变量中，例如这个关于时间的变量，这个可以用到Logging：pattern下的**deteformat**，自己配置时间格式
+* ![image.png](/assets/0b2a4be0-2f3d-4ebb-b4d1-8c0f97c61596.png)
+* 更多的对应关系可以去官网查看
+
+
+3.**Logback的日志格式修改**：
+
+她不用变量，直接声明格式
+
+![image.png](/assets/5745c530-5b95-4172-8ecd-edc6a2a3701f.png)
+
+* **%d**：表示这个日志格式是logback的
+* **中括号里的**：这个是真的日志格式
+
+4.**设置日志显示的细节**：颜色，缩进，间隔等等
+
+上官网找：https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#logging.logback.rollingpolicy.max-file-size
