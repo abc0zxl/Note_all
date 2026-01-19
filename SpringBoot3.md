@@ -465,6 +465,6 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 1.**自动配置类标志性注解**：@Configuration每个自动配置类上面都会有这个注解。
 
-2.会给标记了这个注解的类，创建cglib动态代理
+2.会给标记了这个注解的类，创建cglib动态代理，当调用方法时会先去ioc容器找。不用每次都创建对象。
 
 3.如果这个注解声明了proxyBeanMethods=false,则不采用动态代理。
