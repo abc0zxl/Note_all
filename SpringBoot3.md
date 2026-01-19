@@ -390,8 +390,9 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 4.**变种Import**：DeferredImportSelector
 
-5.查看有没有实现getImportGroup()
+5.**没有GetImportSelector的时候**：他会直接调用该方法下的selectImport完成注入
 
-6.调用了这个getImportGroup返回一个实现类，DeferredImportSeletor.Group类,实现了内部的Group里面的selectImport方法
+6.**有GetImportSelector**：会调用该方法下的selectImport
+
 
 ![image.png](/assets/a4007c69-11c2-4dce-86fb-cfce76b6e80b.png)
