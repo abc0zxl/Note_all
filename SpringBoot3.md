@@ -376,7 +376,6 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 ## SpringBoot自动配置原理
 
-
 1.它提前设置了很多默认的配置
 
 2.一方面将这些底层封装起来了，变得好用，另一方面也是因为不知道原理，导致越来越傻
@@ -406,3 +405,66 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 2.**调用自动配置类的方法**：getSutoConfigurationEnty
 
 3.**进入上面这个类**：实现getCandidateConfigurations，实现将所有自动配置方法全部导入，用于整合所有第三方库的作用。
+
+#### 接下来开始是了解自动配置是如何实现的
+
+1.**进入getCandidateConfigurations方法**：发现她调用了一个loadFactoryNames ,他的参数中有一个是getSpringFactoriesLoaderFactoryClass().它获取了所有已经存在的配置类
+
+2.上面这个get……FacotryClass()**,返回了EnableAutoConfiguration.class**
+
+3.loadFactoryNames接收了这个上面返回的这个EnableAutoConfiguration.class.
+
+4.**获取到了一个完整的关于自动配置的类名**
+
+#### 讲解LoadFactoryNames如何实现返回自动配置类名字
+
+1.在LoadFactoryName中，调用**loadSpringFactories（）**，就返回了这个自动配置类的类名
+
+2.**LoadSpringFactories()**：读取一个专门存放配置类的文件，
+
+**下面是获取所有自动配置类**：
+
+* 它通过getResources（）读取一个常量FACTORIES_RESOURCE_LOCATION,这个常量存放的是一个路径，为了去读取spring.factories文件
+
+  ![image.png](/assets/1cb72255-c354-4dbc-b112-6a3293ff029a.png)
+* 这个getResources，回去每个jar包（打包好了的）的类路径下去找，BOOT-INF，里面有个lib，进去后在所有的jar包中找
+* 因为它很消耗新能，所以这个getResources已经在启动时就已经读取了，并放到了缓存中
+* 它返回的是一个Map结构，里面的值都是自动配置类，都已经读 取到
+* 由于这些获取到的类不全是自动配置，所以要过
+* **通过LodFactoryyName返回的自动配置类**，有一个类是专门来做过滤所有的自动配置类
+* 它过滤完获取到的是一个Map集合，这样就拿到了所偶有的自动配置类
+
+#### 目前还是导入，接下来讨论在某些场景下自动配置的场景
+
+1.**最终过滤**：getConfigurationClassFilter().filter(configuration)根据pom中的starter过滤出**有效的的配置类**
+
+
+
+## 自动配置发展
+
+在springboot3后，第三方的自动配置类不再从springboot.factories获取。
+
+
+
+#### 新的springboot3获取所有自动配置类
+
+1.**AutoConfigurationImportSelector.java**：原来是Def……，
+
+2.**getAutoConfigurationEntry方法**：里面有个用于获取所有自动配置类的方法，getCandidateConfigurations.
+
+3.去往新的地方获取自动配置类,不再是原来的.factories。而是。import文件
+
+4.通过一系列**条件注解**，判断这个项目是否需要某些类，然后就筛选出要的配置类。
+
+用getConfigurationClassFilter().fileter()
+
+
+上面讲的是如何获取自动配置类，下面讲配置类如何运作
+
+## 自动配置类原理
+
+1.**自动配置类标志性注解**：@Configuration每个自动配置类上面都会有这个注解。
+
+2.会给标记了这个注解的类，创建cglib动态代理
+
+3.如果这个注解声明了proxyBeanMethods=false,则不采用动态代理。
