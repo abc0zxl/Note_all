@@ -706,3 +706,27 @@ logging:level:com:AAA:trace
 
 
 ![image.png](/assets/6e89dab2-da47-497a-ae68-b5ce563b42c8.png)
+
+
+## 输出日志
+
+1.Spring仅仅记录到控制台，不写日志文件，
+
+2.**设置一个属性**：logging.file.name或者logging.file.path的属性在properties文件中，在后面接上要存储文件的文件名字
+
+* **loggin.file.name**：
+* 没有路径会放在项目的相对路径下
+* 可以指定存储路径和存储文件的名称
+* **loggin.file.path:**
+* 不可以指定名称，
+* 必须要指定一个物理路径
+* 名字默认用spring.log
+
+## 日志迭代
+
+**归档**：他是一种生命周期管理机制，当该文件满足某种条件（大小，时间），就会讲这个**满文件**，就会将该文件通过各种方式转存为历史归档文件。同时建立一个新的文件来继续记录新的日志。
+
+
+**设置归档的配置**：这个写在properties中
+
+![image.png](/assets/f20543e7-b35c-407d-a8dd-9725b805f59d.png)
