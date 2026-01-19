@@ -644,8 +644,16 @@ log4j.rootLogger=trace, stdout log4j.appender.stdout=org.apache.log4j.ConsoleApp
 
 * TRACE
 * DEBUG
-* INFO
+* INFO:到这是默认的日志级别，以下才会被日志记录
 * WARN
 * ERROR
 * FATAL
 * OFF
+
+![image.png](/assets/7a2ee256-eb2b-4ed7-89e8-3d625a656954.png)
+
+**修改默认日志级别**：在properties中写入，logging:level:root：trace它可以精确到某个文件
+
+logging:level:com:AAA:trace
+
+#### 日志格式
