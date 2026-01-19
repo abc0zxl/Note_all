@@ -351,7 +351,6 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 **特定功能**：还有其他功能可以用（随机值，），在网站上查看http://docs.spring.io/spring-boot/reference/features/external-config.html#features.external-config.random-values
 
-
 ### 数据校验
 
 **作用**：spring设定了特定的规范来限制数据的范围，不用自己写逻辑
@@ -367,7 +366,6 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 ![image.png](/assets/d8dff009-dd94-424a-b789-448ad6dc56f2.png)
 
-
 ### 关于数据绑定的总结
 
 如果要批量绑定适合用@ConfigurationProperties
@@ -376,9 +374,24 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 如果需要用SpEL：用@Value
 
-
 ## SpringBoot自动配置原理
 
 1.它提前设置了很多默认的配置
 
 2.一方面将这些底层封装起来了，变得好用，另一方面也是因为不知道原理，导致越来越傻
+
+**自动配置流程**：
+
+1.@SpringBootApplication：这个是springboot启动入口
+
+2.@EnableAutoConfiguration：开启自动配置，扫描所有配置类
+
+3.@Import调入方法
+
+4.**变种Import**：DeferredImportSelector
+
+5.查看有没有实现getImportGroup()
+
+6.调用了这个getImportGroup返回一个实现类，DeferredImportSeletor.Group类,实现了内部的Group里面的selectImport方法
+
+![image.png](/assets/a4007c69-11c2-4dce-86fb-cfce76b6e80b.png)
