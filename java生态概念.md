@@ -12,10 +12,9 @@
 
 # SSM
 
-SSM 是 **Spring + Spring MVC + MyBatis** 三个 Java 开源框架的组合
+SSM 是 **Spring + Spring MVC + MyBatis** 三个 Java 开源框架的组合，也俗称**三大框架**
 
 **Spring**：是一个框架，项目的容器，让各个工具整合在一起协同作业。管理对象。
-
 
 它的核心是 **IOC（控制反转）** 和 **AOP（面向切面编程）**
 
@@ -23,15 +22,70 @@ SSM 是 **Spring + Spring MVC + MyBatis** 三个 Java 开源框架的组合
 
 **MyBatis**：负责数据库的交互，简化sql
 
+![image.png](/assets/53ba1a10-c1a3-467c-8ebc-efd071764dd5.png)
+
+# B/S
+
+browser和Server，浏览器客户端架构
+
+# JavaEE
+
+指java企业版，指java企业级开发的技术规范总和
+
+![image.png](/assets/3a478070-c7ac-4cef-8335-8773dae59825.png)
+
 # MVC
+
+**起因**：
+
+* jsp+java的代码不利于解读
+* 原始代码**耦合性强**
+
+**优点**：
+
+* 任务分功明确
 
 ### Controller
 
+**载体**：Servlet
+
+**作用**：处理请求，调用模型和试图
+
 Controller 层的核心职责是 “接收请求、分发业务、返回响应”，而 Servlet 正是实现这个职责的**底层技术组件** —— 没有 Servlet，Controller 层就失去了和前端通信的 “入口”。
+
+**例子**：
+
+* **封装**：组合Model层的功能，实现复杂的数据处理，然后封装为一个功能
+* 例如实现：**注册**（selectbyname，insert）
 
 ### Model
 
+**载体**：JavaBean
+
+**作用**：业务模型，业务处理，CRUD基本操作
+
+**例子**：
+
+* 调用访问数据：selectByName，selectAll，insert，update，delete
+
 ### View
+
+**载体**：JSP，Servlet
+
+**作用**：接受请求，封装数据，调用controller，响应数据
+
+**例子**：
+
+* **调用**：首先调用Servlet实现的controller层
+* **接着调用**：接着controller层发挥作用获取到数据后，将数据返回给view层显示。
+
+## 流程
+
+浏览器请求会先访问cotroller层，
+
+controller调用model获取数据
+
+controller将数据交给view显示数据
 
 # XML
 
@@ -297,3 +351,117 @@ conn.close();
 5.处理结果
 
 6.释放资源
+
+# Maven Web项目创建
+
+他是一个用于管理和构建java项目的工具，有了它就统一了一个开发目录。
+
+## 步骤
+
+1.项目骨架创建
+
+* 选择Maven
+* 勾选使用骨架创建
+* ![image.png](/assets/9cf4e38f-f5ff-48f9-ad18-cd33ed9b9099.png)
+
+2.删除pom.xml中的多余坐标
+
+![image.png](/assets/bc635ccf-4875-4fb9-b939-f82944558752.png)
+
+3.补齐缺失的目录结构（我创建的缺少一个java文件）
+
+![image.png](/assets/16709c04-97ce-4ad0-b119-e70bae8d2b2c.png)
+
+# AJAX
+
+就是一种异步的JavaScript
+
+## 前端数据交互发展
+
+1.Servlet阶段：只能再java中写入复杂的html
+
+2.jsp阶段：可以用<%写入java代码，实现和后端的数据交互，但是可读性比较差，java，html相互嵌套
+
+3.Servlet+jsp阶段:相互配合，用Servlet处理逻辑封装数据，JSP获取数据，展示数据
+
+4.Servlet+html+ajax:后续大部分的开发方式
+
+# Vue
+
+1.是一个前端框架，用于简化javascript中的DOM操作，简化书写
+
+2.基于**MVVM**实现双向绑定，model-view-viewmodel
+
+* **动态的展示**：视图变了模型变，模型变了视图变
+  这个就省去了编写dom操作的代码，模型（json……），中的数据自动变，不用（byid获取，模型写入）操作。
+* f
+
+## DOM操作
+
+1.**数据录入**：前端中一个一个数据用id导入到对象中
+
+# Struts框架
+
+他是一套严格基于MVC设计javaweb应用框架，
+
+1. 依赖于ServletAPI
+2.
+
+现在已经被SpringMVC等框架替代
+
+## Struts1
+
+他是基于ServletAPI构建的，他的action类非线程安全，数据封装繁琐
+
+## Struts2
+
+基于WebWork框架构建的，他的action类是线程安全的，支持**注解**和**XML**，扩展性强，
+
+# WebWork框架
+
+他是一个开源的jave Web MVC框架，
+
+1.解决早期mvc框架的高耦合，等问题
+
+2.它**不依赖**Servlet API的特则，独立于Web容器，
+
+3.也是严格遵循**MVC**设计模式
+
+4.它取代了传统框架中的Filter的部分功能
+
+5.支持**注解**，**XML**简化配置流程
+
+# 前后端分离
+
+它可以将一个系统开发分为两个项目，一个前端，一个后端。
+
+**接口文档**：通过**需求分析**，**接口定义**，得到一个API接口文档。两个项目通过一个统一的**接口文档**，阅读**接口文档**显现开发。
+
+#### YApi
+
+他是一个高效，易用，功能强大的api管理平台。
+
+**使用步骤**：
+
+* 添加项目
+* 添加分类
+* 添加接口
+
+## 前端工程化
+
+**前端开发特点**：模块化、规范化、组件化、自动化
+
+**环境准备**：
+
+1.**脚手架**：Vue-cli用于快速生成一个vue模板，使统一目录结构
+
+2.**安装运行环境**：安装node.js
+
+3.**联网创建项目**：
+
+* 新建文件夹
+* 本文件夹运行cmd，输入vue ui加入图形化界面
+* 预设模板：手动。
+* 功能：主要要Router
+* 版本：vue2
+* 检测规范：ESLint with error prevention only
