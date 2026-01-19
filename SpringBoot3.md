@@ -339,6 +339,8 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 
 ![image.png](/assets/b6e96bbc-107a-4259-845d-fdf85a7655b2.png)
 
+3.遇到符号识别错误如%的情况，记得用单引号括起来
+
 #### 绑定文件放置位置
 
 1.遇到多个绑定需要分类的场景，则将绑定的文件单独放到一个文件夹中，
@@ -657,3 +659,28 @@ log4j.rootLogger=trace, stdout log4j.appender.stdout=org.apache.log4j.ConsoleApp
 logging:level:com:AAA:trace
 
 #### 日志格式
+
+默认的格式如下
+
+![image.png](/assets/f4041913-53ed-45a0-a423-fa1da1ddecdb.png)
+
+1.日期，毫秒级
+
+2.日志级别
+
+3.进程ID
+
+4.空格，分割正真主要的日志信息
+
+5.线程名称
+
+6.记录，日志的类
+
+7.日志消息
+
+
+##### 修改默认日志格式
+
+1.**去网站找**https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#logging.logback.rollingpolicy.max-file-size
+
+2.**编写修改信息**：在properties文件中用logging:pattern:console:XXXXXXXXXX导入修改的信息。一次性导入
