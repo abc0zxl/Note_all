@@ -126,7 +126,7 @@ User Mapper map=sqlSession
 并不是非要直观上的同一个文件，也可以在别的地方建立一个文件链接，如图所示。
 ```
 
-				**A**.这种有两种方法，一种是直接引入明确的xml路径，进行加载，这种要写好多个
+	**A**.这种有两种方法，一种是直接引入明确的xml路径，进行加载，这种要写好多个
 **B**.用**包扫描**的方式只用写一个，简化mapper对sql映射文件的扫描
 
 ```
@@ -146,7 +146,19 @@ User Mapper map=sqlSession
 
 2.**SQL 标签的 id 必须等于 Mapper 接口的方法名**
 
+3.**小于号条件报错**：需要用**转义字符**串来转义，或者**cdata区域**，
+
+例如，
+
+**&lt**就是<，
+
+**<![CDATA[** 这个后面就可以直接写符号
+
 ## Mybatis配置
+
+可以去看参考文档
+
+https://mybatis.org/mybatis-3/zh_CN/configuration.html#environments
 
 1.**多个数据库**：可以写多个environment，也就是说可以链接多个数据库，通过不同的defult属性（辨识数据库的唯一id）来切换environment
 
@@ -159,3 +171,15 @@ User Mapper map=sqlSession
 用TypeAliases起一个别名（这个必须写在environment上面，configuration下面）
 
 ![image.png](/assets/2e2e672c-dae8-45b3-9ee4-239efe3afdc0.png)
+
+### MyBatisX辅助插件
+
+1.**跳转**：辅助sql映射文件到对应mapper接口文件的**跳转过程**
+
+点击图标即可
+
+2.**创建**：可以两头互相创建，但要自己写id
+
+红色图标：sql映射文件
+
+蓝色图标：mapper接口
