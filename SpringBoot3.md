@@ -914,11 +914,15 @@ public class OrderController{
 
 **使用**：
 
+##### 这个是查询的场景
+
+1.编写配置信息
+
 * **写注解**：要两个SpringBootTest,AutoConfigureMockMvc
 * **从ioc获取mockmvc对象**：@Autowireed
 * **编写单元测试方法**：
 
-1.可以直接请求controller
+2..可以直接请求controller
 
 **发起一个模拟请求**：mockMvc.perform(
 
@@ -936,4 +940,22 @@ accept(MediaType.APPLICATION_JSON_UTF)
 
 .andExpect(MockMvcResultMatchers.status().isOk())
 
+.andExpect(MockMvcResultMatchers.jsonPath("$.data.username").value(expectedValue:"zhangsan");
+
 .andDo(MockMvcResultHandlers.print());
+
+![image.png](/assets/7bc6ffbe-a90a-4c02-a701-177d3ca970c8.png)
+
+
+
+##### 添加数据场景
+
+1.和上面相比，配置信息多了个响应文本类型。和文本类型
+
+2.然后把get改成post
+
+3.**编写添加的对象**：用json的形式编写
+
+![image.png](/assets/25e28cab-8b8a-486f-8c1d-091a6d454921.png)
+
+4.**关于断言部分**：
