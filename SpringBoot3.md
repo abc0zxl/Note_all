@@ -880,11 +880,9 @@ public class OrderController{
 
 5.**exchange**：用于修改数据用的，它可以用返回值,它也有删除功能，修改参数为httpmethod.delete就可以他是一个万用方法
 
-
 #### 以上是模拟前端
 
 也可以不用子模块，直接在主模块的测试类中测试这些方法，但注意这里用的RestTemplate和子模块用的不一样，这里有专用的方法TestRestTemplate
-
 
 #### Postman的使用
 
@@ -892,11 +890,9 @@ public class OrderController{
 
 * 不用编写爱出错的前端来请求响应数据
 
-
 **使用方法**：
 
 1.**添加对象**：在post模式下，点击body，编写json即可
-
 
 #### MockMvc的调用
 
@@ -909,8 +905,6 @@ public class OrderController{
 4.他自己调用controller来完成模拟。
 
 5.不依赖于网络环境，也提供了一套验证工具
-
-
 
 **使用**：
 
@@ -946,8 +940,6 @@ accept(MediaType.APPLICATION_JSON_UTF)
 
 ![image.png](/assets/7bc6ffbe-a90a-4c02-a701-177d3ca970c8.png)
 
-
-
 ##### 添加数据场景
 
 1.和上面相比，配置信息多了个响应文本类型。和文本类型
@@ -959,3 +951,42 @@ accept(MediaType.APPLICATION_JSON_UTF)
 ![image.png](/assets/25e28cab-8b8a-486f-8c1d-091a6d454921.png)
 
 4.**关于断言部分**：
+
+有的用于测试是否是期望值，有的是用于将信息返回到控制台。
+
+**andDo(print())**：将参数输出的![image.png](/assets/8afb61ec-1e05-43aa-88a9-8df5ad61e4a8.png)
+
+### swagger的使用
+
+**问题**：在前后端分离项目中
+
+* **前端调用**：他需要知道这个接口的功能，参数，返回参数等。前期需要用一个文档来说明这个接口的信息，会反反复复修改。十分麻烦。
+
+**作用**：
+
+* 他是一个描述呈现接口文档的工具
+* 通过添加注解的方式来标即功能。swagger通过读取注解了解到这个接口的各个信息，就会形成一个接口文档。
+* 减少了前后端接口配合的工作量。
+
+**实现步骤**：
+
+* **加入依赖**：springfox-swagger2和springfox-swagger-ui。这里看到了spring，因为它用到了springmvc的规则，因为他要识别注解，以及json规范。
+* **编写配置文档**：直接用模板即可
+
+![image.png](/assets/16331713-4904-4e41-b501-55344b1326ae.png)
+
+* **配置内容**：
+  1.声明这个java文件的作用
+  2.哪些加口会映射到文档中
+  3.可以设置接口选择器
+  4.哪些接口生成接口文档
+  5.设置文档的描述信息
+* **加入注解**：
+
+  ![image.png](/assets/d604dfa9-19db-4511-9b22-f3460ea8f7ad.png)
+* **获取中文描述文档**：
+* f
+* f
+
+
+f
