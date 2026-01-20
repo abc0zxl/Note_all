@@ -865,7 +865,7 @@ public class OrderController{
 
 4.**put**：用于修改数据。它没有返回值。
 
-5.**exchange**：用于修改数据用的，它可以用返回值
+5.**exchange**：用于修改数据用的，它可以用返回值,它也有删除功能，修改参数为httpmethod.delete就可以他是一个万用方法
 
 
 #### 以上是模拟前端
