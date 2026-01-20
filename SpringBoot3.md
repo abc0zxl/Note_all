@@ -81,6 +81,8 @@
 
 9.**@EnableAutoConfiguration**：开启自动配置类注解
 
+10.**@GetMapping**：这个相当于@RequestMapping+method=……get
+
 # SpringBoot原理
 
 前置知识：SSM框架的使用经验，熟练使用Maven，idea的使用
