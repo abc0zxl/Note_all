@@ -788,6 +788,12 @@ logging:level:com:AAA:trace
 5.**注意**：日志配置的文件名字也要改过来，原来logback-spring,改成log4j2-spring
 
 
+# 全局指令
+
+server.port=8081修改端口号
+
+server.servlet.context-path=/order给所有接口加一个前缀
+
 
 # SpringBoot与Web开发
 
