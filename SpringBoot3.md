@@ -851,4 +851,10 @@ public class OrderController{
 
 **修改结果类**：在主模块controller中，如果向存入不止一个User实体的data的话，就不要将泛型定为User，放置为空就好，或者设为list<user》因为springboot会自动识别传入的参数类型，自己设置。然后调用Service的getAllUser放到data参数的位置就好。用于记录每次修改数据后的数据状态。
 
-**获取**
+#### RestTemplate方法的使用
+
+1.**getForObject**：这个可以获取一个对象，可用于传递参数，他的参数具体看提示
+
+2.**getForEnity**：这个可以获取对象以及包含响应中的一些重要信息（响应头，响应状态码，响应体等）一起返回
+
+3.**postForEnity**：这个就是说是post的请求，用于存储敏感信息，注意，**传统编写它的返回类型和变量时，
