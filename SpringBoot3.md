@@ -757,7 +757,6 @@ logging:level:com:AAA:trace
 
 ![image.png](/assets/bcb23d3d-1caa-412a-b32c-8bbfcafb249b.png)
 
-
 #### 切换日志框架
 
 1.**Spring Boot 默认日志框架是 Logback**
@@ -787,16 +786,13 @@ logging:level:com:AAA:trace
 
 5.**注意**：日志配置的文件名字也要改过来，原来logback-spring,改成log4j2-spring
 
-
 # 全局指令
 
 server.port=8081修改端口号
 
 server.servlet.context-path=/order给所有接口加一个前缀
 
-
 # SpringBoot与Web开发
-
 
 ## RestTemplate的使用
 
@@ -804,12 +800,9 @@ server.servlet.context-path=/order给所有接口加一个前缀
 
 **问题**：原来需要通过前端来访问数据，传递数据，转换格式（两边都要），还要编写前端来测试，非常繁琐。
 
-
 **原理**：他是基于HttpMessageConverters,他的作用是自动完成json转换，省去了json转换代码的实现。
 
-
 一个项目多个子模块，直接按照spring initial正常创建就好
-
 
 ### 多模块分工
 
@@ -856,5 +849,6 @@ public class OrderController{
 
 4.**访问接口调整**：因为时子模块来访问主模块，所以两个端口不能一样。
 
-
 **修改结果类**：在主模块controller中，如果向存入不止一个User实体的data的话，就不要将泛型定为User，放置为空就好，或者设为list<user》因为springboot会自动识别传入的参数类型，自己设置。然后调用Service的getAllUser放到data参数的位置就好。用于记录每次修改数据后的数据状态。
+
+**获取**
