@@ -752,3 +752,10 @@ logging:level:com:AAA:trace
 5.它还可以**引用**到全局配置文件中的参数。  其中scope是使用范围，name是这个获取到参数的参数名，source表示获取位置，defaultValue是表示没有获取到的情况下设置的默认参数。
 
 ![image.png](/assets/bcb23d3d-1caa-412a-b32c-8bbfcafb249b.png)
+
+
+#### 切换日志框架
+
+1.**Spring Boot 默认日志框架是 Logback**
+
+2.目前logback和log4j2是市面上两个最好的框架，这两个如何转换呢？
