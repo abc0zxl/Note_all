@@ -809,3 +809,49 @@ server.servlet.context-path=/order给所有接口加一个前缀
 
 
 一个项目多个子模块，直接按照spring initial正常创建就好
+
+
+### 多模块分工
+
+**步骤：**
+
+1.多创建一个模块，专门用于用户操作。
+
+2.在controller添加连接控制模板
+
+```
+package org.example.demo2.controller;
+
+import org.example.demo2.entity.Result;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+public class OrderController{
+    //下单 访问远程rest服务
+    private final RestTemplate restTemplate;
+
+    // 直接创建RestTemplate实例，而不使用RestTemplateBuilder
+    public OrderController() {
+        this.restTemplate = new RestTemplate();
+    }
+
+    @RequestMapping("/order")
+    public String order() {
+        // 将Result改为String类型，并提供一个实际的id值
+        Result result = restTemplate.getForObject("http://localhost:8080/user/{id}", Result.class, 1);
+        System.out.println(result);
+        return result.toString();
+    }
+}
+
+```
+
+调用RestTemplate的方法，
+
+![image.png](/assets/4c5f2e2e-f30a-4620-82ed-aebfbabc70bd.png)
+
+3.**解耦操作**：在这个模块中添加上实体类，如存储结构的实体类，用户实体类
+
+4.**访问接口调整**：因为时子模块来访问主模块，所以两个端口不能一样。
