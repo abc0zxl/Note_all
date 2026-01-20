@@ -984,9 +984,11 @@ accept(MediaType.APPLICATION_JSON_UTF)
 * **加入注解**：
 
   ![image.png](/assets/d604dfa9-19db-4511-9b22-f3460ea8f7ad.png)
+
+  在各个位置描述
 * **获取中文描述文档**：
-* f
+
+  y有固定的访问地址http://localhost:8080/swagger-ui.html
 * f
 
-
-f
+**注意**：swagger适用于早期的springboot版本，新版的springboot大部分有了更新的方法SpringDoc OpenAPI
