@@ -802,4 +802,4 @@ logging:level:com:AAA:trace
 **原理**：他是基于HttpMessageConverters,他的作用是自动完成json转换，省去了json转换代码的实现。
 
 
-**使用**：
+一个项目多个子模块，直接按照spring initial正常创建就好
