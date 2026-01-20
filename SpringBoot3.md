@@ -604,6 +604,8 @@ log4j.rootLogger=trace, stdout log4j.appender.stdout=org.apache.log4j.ConsoleApp
 
 3.**添加桥接器**：不同的日志框架有不同的桥接器，通过引入桥接器依赖，自动通过依赖来确定用那个日志框架
 
+4.**注意**：一个slf4j只能有一个桥接器
+
 ![image.png](/assets/a9205ddf-2dd7-406c-882f-a28aaae5df8f.png)
 
 * **添加依赖**：log4j12
@@ -759,3 +761,13 @@ logging:level:com:AAA:trace
 1.**Spring Boot 默认日志框架是 Logback**
 
 2.目前logback和log4j2是市面上两个最好的框架，这两个如何转换呢？
+
+**场景启动器**：例如starter这种依赖，会根据你的项目环境配置依赖。
+
+3.因为springboot默认添加了logback的桥接器，但是slf4j只能有一个桥接器，想换成别的日志框架的话，得排除这个桥接器。（这个要去场景启动器内部设置）
+
+**实现步骤**
+
+1.**打开依赖图表**：选择到自动的日志依赖spring-boot-starter-logging
+
+2.**排除桥接器**：右键它选择Exclude
