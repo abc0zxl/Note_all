@@ -780,3 +780,11 @@ logging:level:com:AAA:trace
 ![image.png](/assets/576b98cb-5447-4cfa-b758-65b37de6eacb.png)
 
 4.**注意原来的日志配置**：不同的配置格式不一样，查官网转换过来
+
+![image.png](/assets/46439264-2f16-4c84-a960-06780d56024e.png)
+
+5.**注意**：日志配置的文件名字也要改过来，原来logback-spring,改成log4j2-spring
+
+
+
+# SpringBoot与Web开发
