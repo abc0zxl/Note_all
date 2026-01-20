@@ -635,8 +635,7 @@ log4j.rootLogger=trace, stdout log4j.appender.stdout=org.apache.log4j.ConsoleApp
 
 2.Spring默认的框架是JCl，所以starter的时候会引入两个转换到slf4j的依赖，logback,log4j,jcl三个**适配器**
 
-![image.png](/assets/c536575f-6d76-4330-8ac0-a4778a9d5815.png) 
-
+![image.png](/assets/c536575f-6d76-4330-8ac0-a4778a9d5815.png)
 
 ### 使用
 
@@ -678,7 +677,6 @@ logging:level:com:AAA:trace
 
 7.日志消息
 
-
 ##### 修改默认日志格式
 
 1.**去网站找**https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#logging.logback.rollingpolicy.max-file-size
@@ -689,7 +687,6 @@ logging:level:com:AAA:trace
 * 可以在properties中编写对应的配置，然后就能设置到环境变量中，例如这个关于时间的变量，这个可以用到Logging：pattern下的**deteformat**，自己配置时间格式
 * ![image.png](/assets/0b2a4be0-2f3d-4ebb-b4d1-8c0f97c61596.png)
 * 更多的对应关系可以去官网查看
-
 
 3.**Logback的日志格式修改**：
 
@@ -704,9 +701,7 @@ logging:level:com:AAA:trace
 
 上官网找：https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#logging.logback.rollingpolicy.max-file-size
 
-
 ![image.png](/assets/6e89dab2-da47-497a-ae68-b5ce563b42c8.png)
-
 
 ## 输出日志
 
@@ -726,7 +721,34 @@ logging:level:com:AAA:trace
 
 **归档**：他是一种生命周期管理机制，当该文件满足某种条件（大小，时间），就会讲这个**满文件**，就会将该文件通过各种方式转存为历史归档文件。同时建立一个新的文件来继续记录新的日志。
 
-
 **设置归档的配置**：这个写在properties中
 
 ![image.png](/assets/f20543e7-b35c-407d-a8dd-9725b805f59d.png)
+
+### 自定义日志配置文件
+
+原来是在全局配置文件properties中编写它的配置
+
+1.如果想实现日志通过邮件传输，
+
+2.BBBBBB
+
+****日志还可以实现项目的功能，但是实现上面的功能**的话还需要通过日志专用的配置文件来配置，因为**全局配置（springboot）**不能实现这些功能。
+
+#### logback.xml**基础框架**
+
+具体细节可以查看文档：https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging
+
+![image.png](/assets/1f61419f-3228-4d42-bc30-d763be3fd9a4.png)
+
+1.不同的输出方式，可以通过修改class的参数的方式来修改，上面就是i输出到控制台
+
+2.也可以控制全局的日志级别，和精确到文件的日志级别控制，**也会导致全局的日志配置文件失效**
+
+3.也可以更具全局配置文件的参数，在某些参数条件下设置特定的日志格式，
+
+4.还有在某些情况下需要将日志配置文件的名字 改为"logback-spring.xml"，因为，logback.xml会在springboot容器加载前先被logback给加载到，但是logback又需要springProfile的信息，所以会报错，但  是logback-spring.xml可以解决这个问题。
+
+5.它还可以**引用**到全局配置文件中的参数。  其中scope是使用范围，name是这个获取到参数的参数名，source表示获取位置，defaultValue是表示没有获取到的情况下设置的默认参数。
+
+![image.png](/assets/bcb23d3d-1caa-412a-b32c-8bbfcafb249b.png)
