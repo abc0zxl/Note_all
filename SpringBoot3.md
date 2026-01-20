@@ -770,4 +770,13 @@ logging:level:com:AAA:trace
 
 1.**打开依赖图表**：选择到自动的日志依赖spring-boot-starter-logging
 
-2.**排除桥接器**：右键它选择Exclude
+2.**排除桥接器**：右键它选择Exclude，这个方法失效了，没有了，只有通过在pom中手写排除方法才行。
+
+* <exclusions》
+* 《exclusion>
+
+3.**添加log4j2**：在配置文件中添加上log4j2的桥接器即可。
+
+![image.png](/assets/576b98cb-5447-4cfa-b758-65b37de6eacb.png)
+
+4.**注意原来的日志配置**：不同的配置格式不一样，查官网转换过来
