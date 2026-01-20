@@ -855,3 +855,6 @@ public class OrderController{
 3.**解耦操作**：在这个模块中添加上实体类，如存储结构的实体类，用户实体类
 
 4.**访问接口调整**：因为时子模块来访问主模块，所以两个端口不能一样。
+
+
+**修改结果类**：在主模块controller中，如果向存入不止一个User实体的data的话，就不要将泛型定为User，放置为空就好，或者设为list<user》因为springboot会自动识别传入的参数类型，自己设置。然后调用Service的getAllUser放到data参数的位置就好。用于记录每次修改数据后的数据状态。
