@@ -804,6 +804,19 @@ server.servlet.context-path=/order给所有接口加一个前缀
 
 一个项目多个子模块，直接按照spring initial正常创建就好
 
+**适用**：
+
+* 它适用于微服务的架构下，服务之间的远程调用
+* 他的闭端是，如果有很多子模块来访问的话有很多地址，没办法实现**负载均衡**，目前微服务有了更好的方法，所以也不太适用于微服务，而且好多方法已经停用了，在打代码的时候也知道
+
+### 平替的方法WebClient
+
+它也可以调用远程
+
+* 依赖于webflux
+* 他的访问时无阻塞的。而resttemplate是无阻塞的，响应的。
+* 它只有特定的项目才会用到。
+
 ### 多模块分工
 
 **步骤：**
@@ -871,3 +884,56 @@ public class OrderController{
 #### 以上是模拟前端
 
 也可以不用子模块，直接在主模块的测试类中测试这些方法，但注意这里用的RestTemplate和子模块用的不一样，这里有专用的方法TestRestTemplate
+
+
+#### Postman的使用
+
+他也是一个测试接口的工具，
+
+* 不用编写爱出错的前端来请求响应数据
+
+
+**使用方法**：
+
+1.**添加对象**：在post模式下，点击body，编写json即可
+
+
+#### MockMvc的调用
+
+1.不用启动web项目就能测试
+
+2.当项目所需的环境复杂时，为了速度可以用它
+
+3.它可以不依赖tomcat，模拟一个http请求的环境
+
+4.他自己调用controller来完成模拟。
+
+5.不依赖于网络环境，也提供了一套验证工具
+
+
+
+**使用**：
+
+* **写注解**：要两个SpringBootTest,AutoConfigureMockMvc
+* **从ioc获取mockmvc对象**：@Autowireed
+* **编写单元测试方法**：
+
+1.可以直接请求controller
+
+**发起一个模拟请求**：mockMvc.perform(
+
+//编写发送get请求的语句
+
+MockMvcRequestBuilders.get("/user/{id}",1),
+
+//设置响应的文本类型
+
+accept(MediaType.APPLICATION_JSON_UTF)
+
+)
+
+//添加响应断言.表示运行后的数据是否和我想要的数据匹配，
+
+.andExpect(MockMvcResultMatchers.status().isOk())
+
+.andDo(MockMvcResultHandlers.print());
