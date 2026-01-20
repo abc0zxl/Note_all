@@ -790,3 +790,16 @@ logging:level:com:AAA:trace
 
 
 # SpringBoot与Web开发
+
+
+## RestTemplate的使用
+
+**作用**：让访问后端，和后端传输数据更加便捷，他是一个模板类
+
+**问题**：原来需要通过前端来访问数据，传递数据，转换格式（两边都要），还要编写前端来测试，非常繁琐。
+
+
+**原理**：他是基于HttpMessageConverters,他的作用是自动完成json转换，省去了json转换代码的实现。
+
+
+**使用**：
