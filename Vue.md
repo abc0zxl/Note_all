@@ -2,6 +2,42 @@
 
 1.**普通变量**：例如int类型，在vue中就用let类型
 
+# Vue3
+
+
+他是一款偶关键用户界面的尖晶石javascript框架
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # HTML+Vue
 
 vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
@@ -145,8 +181,6 @@ element有两种布局方式
 * **原方法获取已选ID**：在element的复选框中，有一个multipleSelection[i]获取，因为它就存的**实体**
 * **提交id**：用axios提交
 
-
-
 # Vue项目
 
 通过在线床架目录框架后，可以用来编写前端代码。
@@ -198,7 +232,6 @@ element有两种布局方式
 
 ![image.png](/assets/8c577129-a719-4bdd-9cde-5493a05c2d70.png)
 
-
 ### VueRouter路由表
 
 它里面是一个**js**文件，
@@ -234,7 +267,6 @@ element有两种布局方式
 * f
 
 ## 打包Vue项目
-
 
 就是那个Build按钮，打包好后的文件会在项目的list文件夹下
 
