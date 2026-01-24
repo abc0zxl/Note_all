@@ -201,22 +201,52 @@ element有两种布局方式
 * **原方法获取已选ID**：在element的复选框中，有一个multipleSelection[i]获取，因为它就存的**实体**
 * **提交id**：用axios提交
 
-# Vue项目
+# Vue3项目
+
+
+## 创建Vue项目
+
+**步骤**：
+
+1.**创建位置**：象在哪里创建就直接去那个文件夹下
+
+2.**打开命令行**：注意要以管理员身份打开
+
+3.**运行创建程序**：npm init vue@latest
+
+* 记得开启github网络访问
+
+4.**项目参数设置**：一直回车就好
+
+5.**根据他的提示**：提示进入一个文件夹下，
+
+6.**安装项目**：这个也是和他给的提示放一起的。
+
+## Vue项目框架
 
 通过在线床架目录框架后，可以用来编写前端代码。
 
 ![image.png](http://asset.localhost/C%3A%5CUsers%5CZhuanZ1%5CAppData%5CRoaming%5Ccom.codexu.NoteGen%2Farticle%2F%2Fassets%2F0cbab111-b07e-4bb3-b307-81f12989e077.png)
 
-1.**修改端口号**：
 
-![image.png](/assets/a9207660-dea4-4bae-9d6b-8f0b90d0d7a8.png)
+### 项目开发流程
+
+1.**默认首页**：index.html,这个是开始访问Vue时，最初进入的页面，这个内部有一个代码，表示去执行main.js
+
+2.**入口文件**：这个时index后下一个要执行的文件，他导入了App.vue文件
+
+3.**根项目**：这个就是App.vue,他就是页面显示的核心
+
+
 
 2.**VsCode运行**：在界面左下角有一个npm脚步，点击serve，就可以运行。
 
 **.Vue文件**：他是Vue的**组件文件**
 
-* template:他是模板，用于生成HTML
+
+
 * script：控制模板中的**数据来源**和**行为**
+* template:他是模板，用于生成HTML
 * style：编写CSS的样式代码
 
   ![image.png](/assets/fe422988-a3f2-46ac-9611-fb01d289b742.png)
@@ -269,6 +299,17 @@ element有两种布局方式
 * f
 * f
 
+
+
+## 实际应用
+
+
+### **修改配置参数**：
+
+1.修改端口号
+
+![image.png](/assets/a9207660-dea4-4bae-9d6b-8f0b90d0d7a8.png)
+
 ### 列表数据的加载
 
 这里要用到axios完成数据的异步加载
@@ -307,23 +348,17 @@ element有两种布局方式
 他可以运行**打包好的前端Vue**。
 
 
+# Vue——API变成风格
+
+1.**组合式API**
+
+![image.png](/assets/c4fdc0ef-7a58-4f34-9e96-8220a132d251.png)
+
+2.**选项式API**
+
+![image.png](/assets/9511a9dc-ea26-43a9-890d-e5b492005015.png)
 
 
 
-# 创建Vue项目
 
-**步骤**：
-
-1.**创建位置**：象在哪里创建就直接去那个文件夹下
-
-2.**打开命令行**：注意要以管理员身份打开
-
-3.**运行创建程序**：npm init vue@latest
-
-* 记得开启github网络访问
-
-4.**项目参数设置**：一直回车就好
-
-5.**根据他的提示**：提示进入一个文件夹下，
-
-6.**安装项目**：这个也是和他给的提示放一起的。
+# Vue
