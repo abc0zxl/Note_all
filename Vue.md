@@ -389,3 +389,32 @@ element有两种布局方式
 
 * 函数的名词边上要加（）
 * 导入的原生Api要用{}，且名词左右两边要**加空格**
+
+
+
+
+
+# 实际应用
+
+## 列表显示
+
+### 获取异步数据
+
+这里还是用的axios
+
+* **下载axios依赖**：需要在这个项目文件夹下安装axios
+* **运行指令**：npm install axios,(需要**管理员**)
+
+### 编写axios
+
+* **导入axios**：import axios from ”axios“因为在项目的node_moduls下下好了一个叫axios的文件夹了
+* **编写axios代码**：和一起的一样，但要注意这里的变量不再是date，而是要提前声明一个**响应式数据**
+* ![image.png](/assets/66f62ce7-8bd6-45bd-8463-f00a583426d5.png)
+* **定义一个响应式变量**：import { ref } from ‘vue’；
+  const products=ref([]);
+* **保存数据**：products.value=result.data
+* 到这里还没完
+
+### 定义响应式
+
+这个用于上面的数据绑定，这个和axios同级
