@@ -203,7 +203,6 @@ element有两种布局方式
 
 # Vue3项目
 
-
 ## 创建Vue项目
 
 **步骤**：
@@ -228,7 +227,6 @@ element有两种布局方式
 
 ![image.png](http://asset.localhost/C%3A%5CUsers%5CZhuanZ1%5CAppData%5CRoaming%5Ccom.codexu.NoteGen%2Farticle%2F%2Fassets%2F0cbab111-b07e-4bb3-b307-81f12989e077.png)
 
-
 ### 项目开发流程
 
 1.**默认首页**：index.html,这个是开始访问Vue时，最初进入的页面，这个内部有一个代码，表示去执行main.js
@@ -237,13 +235,9 @@ element有两种布局方式
 
 3.**根项目**：这个就是App.vue,他就是页面显示的核心
 
-
-
 2.**VsCode运行**：在界面左下角有一个npm脚步，点击serve，就可以运行。
 
 **.Vue文件**：他是Vue的**组件文件**
-
-
 
 * script：控制模板中的**数据来源**和**行为**
 * template:他是模板，用于生成HTML
@@ -299,10 +293,7 @@ element有两种布局方式
 * f
 * f
 
-
-
 ## 实际应用
-
 
 ### **修改配置参数**：
 
@@ -347,18 +338,33 @@ element有两种布局方式
 
 他可以运行**打包好的前端Vue**。
 
-
 # Vue——API变成风格
 
 1.**组合式API**
+
+* 很方便的实现**响应式**
+* 但可读性很差
+* 这在实际开发中比较常用
 
 ![image.png](/assets/c4fdc0ef-7a58-4f34-9e96-8220a132d251.png)
 
 2.**选项式API**
 
+* 这种方式太死板
+
 ![image.png](/assets/9511a9dc-ea26-43a9-890d-e5b492005015.png)
 
 
+## 组合式API
 
+**实现步骤**：
 
-# Vue
+1.**标签格式**：用的也是script标签，但是旁边要加一个setup告知vue
+
+2.**代码结构**：分三部分**导入方法**，**变量区域**，**方法实现区域**
+
+* **API导入**
+* **声明响应式**
+* **声明函数**
+
+**注意**：这里用的生命周期函数（钩子函数），和别的地方不一样，这里是onMounted
