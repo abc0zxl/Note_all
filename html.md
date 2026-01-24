@@ -358,7 +358,27 @@ Java服务端页面
 
 ## AXIOS异步框架
 
-他是对原生的进行封装，
+他是对原生的进行封装，具体功能访问api文档
+
+https://www.axios-http.cn/docs/api_intro
+
+### 代码框架
+
+
+![image.png](/assets/ebd6e30a-110e-4b65-8553-0be4b61d340a.png)
+
+
+
+### **使用步骤**
+
+1.**导入接口文件**：引入js文件，推荐用导入连接的方式引入：
+
+![image.png](/assets/b6a1e7f4-4c8b-4a6b-868b-ad8d79173984.png)
+
+
+
+
+### 登录案例
 
 **步骤**：
 
@@ -373,7 +393,6 @@ Java服务端页面
 4.**Idea的html乱码**：给web.xml设置
 
 ![image.png](/assets/c65a8d25-e2a0-4410-8de2-2cfc9b393347.png)
-
 
 5.**简化Axios**：直接axios.get/post(url,paramater)
 
