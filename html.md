@@ -364,16 +364,40 @@ https://www.axios-http.cn/docs/api_intro
 
 ### 代码框架
 
-
 ![image.png](/assets/ebd6e30a-110e-4b65-8553-0be4b61d340a.png)
 
-
-
-### **使用步骤**
+### **请求发送使用步骤**
 
 1.**导入接口文件**：引入js文件，推荐用导入连接的方式引入：
 
 ![image.png](/assets/b6a1e7f4-4c8b-4a6b-868b-ad8d79173984.png)
+
+
+2.**获取数据**：
+
+![image.png](/assets/920ed5b6-4d3b-4952-ac13-6be2819dbea8.png)
+
+3.**发送数据**：
+
+![image.png](/assets/3585d6b8-b581-4d34-9ee8-0beb10b8d0af.png)
+
+
+
+### 请求发送升级版
+
+在请求数据的配置上，不用在用属性来名命
+
+1.**请求方式声明**：不用单独用一个method来说明
+
+* 集成到axios.post或者axios.get
+
+2.**data的传递**：也不用data：来特殊声明
+
+* 在第二个参数位置声明'id=1'即可。
+
+
+![image.png](/assets/f5ee21b9-3eff-4f1d-bb5f-89557eb74f02.png)
+
 
 
 
