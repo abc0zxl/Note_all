@@ -70,3 +70,13 @@ npm install element-plus --save
 2.**编写界面**：这个需要在src下创建这个页面
 
 然后参考element官网编写即可
+
+
+3.**语言问题**：有时候会显示英语，就要在main.js中导入element的中文包，并启用，两个步骤
+
+![image.png](/assets/1054f7a6-e1fd-4a0d-8459-f323da684ef4.png)
+
+
+## 实际情况
+
+1.表单的数据展示，用**card卡片**
