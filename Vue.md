@@ -5,12 +5,15 @@
 # Vue3
 
 
-他是一款偶关键用户界面的尖晶石javascript框架
+他是一款偶关键用户界面的渐进式javascript框架
 
+
+# Vue3——html
 
 ## 代码基本框架
 
 
+![image.png](/assets/dbd7b6f3-c194-4481-9bf5-67288d3c3623.png)
 
 
 
@@ -63,21 +66,39 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 
 1.**<v-bind**：为html标签绑定属性值，如href，css样式等，调用所属性为这些标签赋值。
 
+* 简单的说：原来是用<a href=""》XXX</a》
+* 现在不用在旁边写href了，就用<a标签括起来一个XXX就好了简洁明了
+* 在该绑定的实例内，编写url，AAA="https://xxxx"
+* 然后回到<a v-bind:href=”AAA“即可完成绑定
+* 或者简写为:href="AAA"
+
+![image.png](/assets/938c1569-0376-49d1-87b3-7276565b5f59.png)
+
 2.**<v-model**：为了创建双向绑定的，可以修改属性值。
 
 3.**<v-on**：为html标签绑定**事件**，这个要用methods:括起来
 
-4.**<v-else-if**：用于显示或者不显示<div
+4.**<v-else-if**：用于存在或者不存在<div
 
-5.**<v-show**：用于隐藏<div
+![image.png](/assets/8b8fe574-cb08-452c-80ce-b6d3f0b0af81.png)
+
+* 其中customer是return下的一个对象
+* ![image.png](/assets/6b92188a-d6e6-4788-890d-2d5b01f40020.png)
+
+5.**<v-show**：用于隐藏<div，用于高响应，
 
 6.**<v-for**：也是使用data中的数据，循环操作数组addrs，addr是变量
 
-![image.png](/assets/d442b0fb-7935-4d75-9f9b-1556a59f1d71.png)
+![image.png](http://asset.localhost/C%3A%5CUsers%5CZhuanZ1%5CAppData%5CRoaming%5Ccom.codexu.NoteGen%2Farticle%2F%2Fassets%2Fd442b0fb-7935-4d75-9f9b-1556a59f1d71.png)
 
-![image.png](/assets/7e605911-0473-404d-88d4-4c4bc8be96e0.png)
+![image.png](http://asset.localhost/C%3A%5CUsers%5CZhuanZ1%5CAppData%5CRoaming%5Ccom.codexu.NoteGen%2Farticle%2F%2Fassets%2F7e605911-0473-404d-88d4-4c4bc8be96e0.png)
 
-**
+* 这个数据的位置也是在data下的return中的一个数组。
+
+  ![image.png](/assets/efbd06dc-356b-452c-841e-2a3e1b92b71c.png)
+* 之所以能调取到这个数据 ，是因为div和下面的spcript标签中的某个应用实例的.mount("#xxx")，**完成了数据绑定**，所以在这个div下直接用这个数组名字就能调取到数据
+* ![image.png](/assets/10701965-3ae8-4331-b574-fc36d7e089af.png)
+
 
 ## Vue生命周期
 
