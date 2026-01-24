@@ -383,6 +383,8 @@ element有两种布局方式
   这个ApiVue是别名
 * **再次声明这个标签**：<ApiVue/》
 
+![image.png](/assets/cc288cad-3db9-4516-8040-513d5d0e9dc9.png)
+
 5.**里面容易出错的地方**
 
 * 函数的名词边上要加（）
