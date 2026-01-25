@@ -54,8 +54,6 @@ element有两种布局方式
 * **原方法获取已选ID**：在element的复选框中，有一个multipleSelection[i]获取，因为它就存的**实体**
 * **提交id**：用axios提交
 
-
-
 # 实际应用
 
 **在项目中下载依赖**：element-plus，原来采用**导包，连接，**，现在直接在这个项目中下一个。
@@ -66,17 +64,21 @@ npm install element-plus --save
 
 ![image.png](/assets/ae55157c-48c1-418d-9a3a-b441f20b305d.png)
 
-
 2.**编写界面**：这个需要在src下创建这个页面
 
 然后参考element官网编写即可
-
 
 3.**语言问题**：有时候会显示英语，就要在main.js中导入element的中文包，并启用，两个步骤
 
 ![image.png](/assets/1054f7a6-e1fd-4a0d-8459-f323da684ef4.png)
 
 
-## 实际情况
 
-1.表单的数据展示，用**card卡片**
+# 登录注册代码
+
+1.**表单验证**：
+
+* 用rules来编写规则，
+* 用prop来指定校验项
+
+2.****
