@@ -2,6 +2,8 @@
 
 1.**普通变量**：例如int类型，在vue中就用let类型
 
+2.**点击事件**：如果一个点击事件想执行多个事件时可以在双引号内用分号，隔开设置多个事件
+
 # Vue3
 
 他是一款偶关键用户界面的渐进式javascript框架
@@ -490,3 +492,22 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 * changOrigin:true
 * rewrite(重写):(path)=>path.replace()替换掉url中原来的/api
 * **注意这部分代码要写在export defult defineConfig之中![image.png](/assets/8f753004-9e6e-46e9-90cc-a537dc6e4633.png)
+
+
+
+
+## 拦截器
+
+1.原来的代码中执行请求接口时都会写判断是否成功的语句，这个太麻烦了，所以可以放在**响应拦截器中拦截**
+
+### 关于请求访问的拦截器
+
+这个拦截器可以设置到**请求代码中**：request.js
+
+#### 拦截器代码
+
+instance.interceptors.response.use()
+
+export default instance;
+
+![image.png](/assets/d36dac6c-fb7a-47c6-b289-719f155750d9.png)
