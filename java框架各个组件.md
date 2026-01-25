@@ -366,3 +366,40 @@ Java Persistence API
 ### SpringMVC
 
 1.**POJO**：有点像entity，bean，是一个实体类，要用的时候创建其对象，然后获取参数。他是个普通的java类，也是javaBean，需要用@Data注解，声明一下
+
+
+# SpringBoot——common模块
+
+1.**constant**：常量类
+
+2.**context**：上下文类
+
+3.**enumeration**：存放枚举类
+
+4.**exception**：存放异常的地方
+
+5.**json**：处理json转换的一些类
+
+6.**properties**：配置文件类
+
+7.**result**：返回结果类
+
+8.**utils**：工具类
+
+
+# SpringBoot-pojo模块
+
+用于存放实体类的模块
+
+1.**entity**：这个是存放实体的地方，通常和数据库中的表对应
+
+2.**dto**：数据传输对象，json对象，java对象，各种前后端类型的转换
+
+3.**vo**：视图对象，为前端展示数据的对象
+
+4.**pojo**：普通java对象，只有属性和对应的get和set
+
+
+# SpringBoot-Server模块
+
+![image.png](/assets/44f4c77f-ec05-4326-9622-9ae39cccc192.png)
