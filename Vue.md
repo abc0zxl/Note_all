@@ -489,3 +489,4 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 * target：替换这个/api之前的部分
 * changOrigin:true
 * rewrite(重写):(path)=>path.replace()替换掉url中原来的/api
+* **注意这部分代码要写在export defult defineConfig之中![image.png](/assets/8f753004-9e6e-46e9-90cc-a537dc6e4633.png)
