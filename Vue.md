@@ -145,62 +145,6 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 
 8.**去除默认**：e.preventDefalt();
 
-# Elementf
-
-他是饿了么公司开发的一套基于Vue的网站组件库，用于快速构建网页。
-
-可以查看有哪些样式，代码可以直接去网站调用
-
-https://element.eleme.cn/#/zh-CN
-
-1.**超链接**
-
-2.**按钮**
-
-![image.png](/assets/7c63fabd-cfbb-4367-b509-d945f735f792.png)
-
-3.**图片**
-
-4.**表格**
-
-## 布局
-
-element有两种布局方式
-
-1.**Layout布局**：以行和列来布局的，行有若干，列有24个分栏
-
-2.**Container布局容器**：顶部栏，侧边栏，中部列表，这些网站都有代码，懂vue就能看懂，网站中均有例子展示
-
-## 使用
-
-不用主动背诵这些按钮样式，直接看官网挑选自己需要的样式即可
-
-1.**引入element的三个依赖**：导入vue.js,element_ui,
-
-![image.png](/assets/355f6a09-1f58-40ed-aa54-25f8ffb41423.png)
-
-2.**创建vue核心对象**：
-
-3.上Element查组件，
-
-4.**修改事件**：例如点击按钮@click="AAA=true"就能弹出对话框，这个AAA就是控制对话框显示与否的代码。
-
-5.**发送数据到控制台**：console用this.product
-
-## 复选操作
-
-在裂变边上有选择框，![image.png](/assets/fbbeed77-5f4b-444c-87b8-ed2dd565970d.png)
-
-### 批量删除
-
-**步骤**：
-
-* **动态sql**：创建sql映射，
-* **json转数组**：连接上mapper，service，servlet，
-* **Vue核心创建链接的数组**：用于双向绑定，动态记录
-* **原方法获取已选ID**：在element的复选框中，有一个multipleSelection[i]获取，因为它就存的**实体**
-* **提交id**：用axios提交
-
 # Vue3项目
 
 ## 创建Vue项目
@@ -427,23 +371,48 @@ element有两种布局方式
 
 ![image.png](/assets/b7983972-8e8f-4ff8-884c-ef6add8ae35d.png)
 
+## vue中重复代码的处理
 
+### 请求头的处理
 
+因为很多地方都要用http……可以将这些请求的相同字段
 
+* 放到一个变量中
+* 声明给axios，让她知道，会返回一个实例
+* 之后就可以通过这个实列来替代axios.get
 
+![image.png](/assets/7f481758-c03f-4cfb-a300-5c844a832a43.png)
 
+* 注意这里的变量名必须是baseURL
 
+### axios中请求成功和失败部分的处理
 
+因为这里有很多相同的.then 和.catch，因为这里是关于请求响应的回调，在这两种情况下都会触发拦截器
 
+#### 拦截器的辅助
 
+所以直接用一个拦截器就能是实现所有axios的.then和.catch
 
+1.**请求工具**：
 
+* 放到项目的新文件夹util中
 
+2.**编写拦截器**：
 
+* 这个固定代码，固定模板
 
+![image.png](/assets/f6e91734-b3d1-4120-8a3b-ab48d3b2d49d.png)
 
+3.**暴露接口方法**：export default AAAA;同上
 
+![image.png](/assets/1a3be369-4b31-4ab7-b76b-f39fb5db8581.png)
 
+4.**调用这个接口**：
+
+* 由于又const AAA=axios.create(baseURL)
+* 所以需要将原来的axios.get替换成AAA.get
+
+5.**同步等待**：可以直接将调用这个拦截器接口位置的wait和async**删除掉**
 
 ## 封装接口
 
@@ -458,9 +427,7 @@ element有两种布局方式
 * **返回参数**：原来全写到一个Vue的时候，是将数据传递给一个对象的（循环数组，响应式变量），**但是现在文件中没有这些变量了**。所以都用return返回出去。
 * **传入参数**：原来实在axios中用param{}传递，现在直接用上面的参数来传递
 
-
 ![image.png](/assets/efc982ed-ca10-47dc-99d1-4c13fc70f9af.png)
-
 
 #### 调用接口
 
@@ -471,7 +438,6 @@ element有两种布局方式
 2.**调用函数**
 
 ![image.png](/assets/3939f2b8-55c2-4fc2-a8fc-4ef889c9b205.png)
-
 
 # 同步异步错误
 
@@ -489,3 +455,37 @@ element有两种布局方式
 ![image.png](/assets/e2af675a-c43b-4675-b7c1-24f278cb6614.png)
 
 ![image.png](/assets/2715a4c1-e8e7-4eb2-b53d-bd153fdb9aa5.png)
+
+# **跨域请求**：
+
+1.**浏览器的限制**：向不同源（协议，域名，端口）发送ajax请求会失败
+
+![image.png](/assets/67137a42-00d8-4519-a7d1-4e6f6042e6f5.png)
+
+2.**例子**：浏览器用的是vue的端口1234，后端端口是8080。
+
+* 浏览器可以随意向Vue发送请求，因为他俩同域
+* 但是向8080发送时就会失败，因为这个时**浏览器的限制**。
+
+### 解决方法
+
+1.**临时解决方法**：在后端控制器加一个@CrossOrigin
+
+#### 配置代理
+
+因为这个时浏览器的限制，可以直接避免跨域，采用发往同域的Vue服务器的方法。**让代理服务器发送请求给后端**
+
+![image.png](/assets/687553f9-b64d-4807-b7ae-9509bcbb118e.png)
+
+##### **实现步骤**：
+
+1.**替换请求路径**：去请求配置文件，
+
+* 修改baseURL='',修改为‘/api’
+
+2.**设置邀请配置文件**：vite.config.js
+
+* **配置代理**：server:{proxy:{将上面的/api进行处理
+* target：替换这个/api之前的部分
+* changOrigin:true
+* rewrite(重写):(path)=>path.replace()替换掉url中原来的/api
