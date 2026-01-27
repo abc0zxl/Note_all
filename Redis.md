@@ -146,3 +146,53 @@ key ->(field1,field2)=(value1,value2)
 按照**插入顺序**排序，操作类似一个队列，左侧按顺序插入，右侧按顺序删除
 
 ![image.png](/assets/4543586c-fd5a-4643-941b-011e6ee7066e.png)
+
+
+# 集合操作命令
+
+无序集合，没有重复元素
+
+![image.png](/assets/12021c80-702a-484e-aba6-237c0903ef38.png)
+
+# 有序集合操作命令
+
+这个集合中每个元素关联一个**分数**，根据分数的高低来升序排序，没有重复元素
+
+**实用**：排行榜
+
+![image.png](/assets/6a77e4a1-7dd9-4bb4-9d98-bab0e842de68.png)
+
+# 通用命令
+
+他跟具体数据类型无关，所有数据类型都能用的命令
+
+![image.png](/assets/4949c1d1-1c35-4b53-bf01-46d153782907.png)
+
+1.**第一个命令pattern**：他表示某种命令如*，表示查找所有
+
+
+
+
+# Redis的java客户端SpringDataRedis
+
+他也是spring的一部分，可以用这个工具来简化Redis的操作
+
+**使用步骤**：
+
+1.**导入他的依赖到xml中**
+
+![image.png](/assets/a2271c72-6abf-4418-9efa-ec64cb301b27.png)
+
+2.**配置Redis数据源**
+
+密码，端口号，数据库编号，ip地址
+
+![image.png](/assets/206cd48b-3d14-4038-8727-5ade42602b9d.png)
+
+3.**编写配置类，创建RedisTemplate对象**
+
+在config包下创建类
+
+![image.png](/assets/492c41aa-8013-4ef7-9ec2-18b01f436e6f.png)
+
+4.**通过RedisTemplate对象来操作Redis**
