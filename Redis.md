@@ -117,6 +117,7 @@
 * zset
 
 
+# 下面全都是在Redis的命令行中执行的命令，代码中的命令和这个完全不一样
 
 # 字符串常用命令
 
@@ -137,6 +138,9 @@ Redis hash 是一个String类型的field和value的映射表，特别适合用�
 **结构**：像一个二级存储目录
 
 key ->(field1,field2)=(value1,value2)
+
+下面图片没有插入命令
+
 
 ![image.png](/assets/a30b4d15-84a6-4385-ab8e-b53bf6da51d8.png)
 
@@ -196,3 +200,60 @@ key ->(field1,field2)=(value1,value2)
 ![image.png](/assets/492c41aa-8013-4ef7-9ec2-18b01f436e6f.png)
 
 4.**通过RedisTemplate对象来操作Redis**
+
+* 这个模板可以创建多个数据类型的操作对象
+* 在redis上看到value乱码没有关系，提取出来就不是乱的
+* 在上面的图片中仅设置了key的序列化器，所以key在redis 的图形界面上不会乱码
+* 然后就可以通过这些对应类型的模板来执行对应类型的指令。
+
+5.**String类型的操作**：上半部分是模板对象
+
+![image.png](/assets/a6ecd2fd-6a1f-48f1-aa30-55ad18503ac7.png)
+
+
+6.**Hash类型的操作**：
+
+* **插入**：对象AAA.put(key,hashkey,value)
+* **获取**：对象AAA.get(key,hashkey,value)
+* **删除**：对象AAA.delete(key,hashkey)
+* **获取指定key值的hashkey的列表**：set hashkeys=AAA.keys(BBB)
+* **获取指定key值的value列表**：List values=AAA.values(BBB)
+
+![image.png](/assets/d3183abd-38d1-46f4-a7ff-e31027826bcf.png)
+
+6.**列表类型的操作**：
+
+* **在一个key中连续插入多个value**：AAA.leftPushAll(key,value1,value2……）
+* **插入单个value**：AAA.leftPush(key,value)
+* **提取出key中地址范围的value**：
+  AAA.rightPop(key)
+* **统计该key中的value数**：
+  AAA.size(key)
+
+![image.png](/assets/3a4529a1-fcff-42bb-b060-1b00cd743641.png)
+
+7**集合类型的操作**：
+
+* **两个集合的交集**：AAA.intersect(key1,key2),用set集合来封装
+* **两个集合的并集**：AAA.union(key1,key2),用set来封装
+
+![image.png](/assets/35123733-cf94-4097-a004-314665950b0d.png)
+
+
+8.**有序集合的操作**：
+
+* **获取排序的value**：AAA..range(key,start,end),用set来封装
+* **给指定的key中的某个value添他的成绩**：AAA.incrementScore(key，value,delta)
+
+![image.png](/assets/2bdb6258-a320-4df8-bc13-272e2bcd389b.png)
+
+
+9.**通用命令**：
+
+* **查询指定查询标准的key**：redisTemplate.keys（XXX）
+* **查询指定的key是否存在**：redisTemplate.hasKey(BBB)结果用bool来接住
+* **查询该key的类型**：redisTemplate.type(AAA),结果用DataType来封装。
+* **删除指定的key**：redisTemplate.delete(AAA)
+*
+
+![image.png](/assets/da699ae5-eb61-4835-a618-b52449b889d9.png)
