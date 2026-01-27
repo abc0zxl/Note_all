@@ -65,3 +65,8 @@
 
 
 22.**批量删除sql优化**：原来是循环删除，要执行多个sql，现在用一条动态sql就完成删除。
+
+* 在sql映射文件中编写，
+* 用<forEach来编写
+
+![image.png](/assets/bc578e0a-8f3e-4d7d-bb54-159a98b174dc.png)
