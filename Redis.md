@@ -1,3 +1,14 @@
+# 散碎操作
+
+1.**修改密码**：在redis.windows.conf下查找requirepass代码
+
+* 去掉注释
+* 设置密码
+
+2.**通过密码连接Redis**：
+
+![image.png](/assets/17e7b4f4-062d-4232-a80f-fc70311d3053.png)
+
 # 应用场景
 
 1.缓存对象：最常用
@@ -79,6 +90,28 @@
 *
 
 
-# Redis
+# 目录结构
 
-他是一个基于**内存**的key-value结构数据库
+介绍redis文件的几个重要的文件
+
+1.**Redis配置文件**：redis.windows.conf
+
+2.**Redis客户端**：redis-cli.pdb
+
+3.**Redis服务端**：redis-server.exe
+
+
+# Redis数据类型
+
+1.**字符串string**：
+
+2.**哈希hash**：
+
+3.**列表list**
+
+4.集合set
+
+5.**有序集合**：
+
+* sorted set
+* zset
