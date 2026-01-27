@@ -107,11 +107,42 @@
 
 2.**哈希hash**：
 
-3.**列表list**
+3.**列表list**：可以有重复元素
 
-4.集合set
+4.集合set：无序集合，没有重复元素
 
-5.**有序集合**：
+5.**有序集合**：这个集合中每个元素关联一个**分数**，根据分数的高低来升序排序，没有重复元素（**排行榜**）
 
 * sorted set
 * zset
+
+
+
+# 字符串常用命令
+
+1.**设置指定key的值**：SET key value
+
+2.**获取指定key值**：GET key
+
+3.**设置指定的值，并设置过期时间**：SETEX key seconds value
+
+4.**只有在key不存在时设置key的值**：SETNX key value
+
+
+
+# 哈希操作命令
+
+Redis hash 是一个String类型的field和value的映射表，特别适合用于存储对象
+
+**结构**：像一个二级存储目录
+
+key ->(field1,field2)=(value1,value2)
+
+![image.png](/assets/a30b4d15-84a6-4385-ab8e-b53bf6da51d8.png)
+
+
+# 列表操作命令
+
+按照**插入顺序**排序，操作类似一个队列，左侧按顺序插入，右侧按顺序删除
+
+![image.png](/assets/4543586c-fd5a-4643-941b-011e6ee7066e.png)
