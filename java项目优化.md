@@ -55,14 +55,9 @@
 
 20.**逻辑外键**：数据库外键（物理外键），后期维护，性能等有弊端，所以采用java程序的逻辑外键是很好的选择。
 
-
-
 21.**标记接口**：当你的对象需要 **跨进程传输（如前后端交互、远程调用、消息队列传递）或持久化存储（如缓存到 Redis、写入文件** 时，就需要实现 Serializable 接口。
 
 * 这里的前后端交互排除http+json的传输方式
-
-
-
 
 22.**批量删除sql优化**：原来是循环删除，要执行多个sql，现在用一条动态sql就完成删除。
 
@@ -70,3 +65,17 @@
 * 用<forEach来编写
 
 ![image.png](/assets/bc578e0a-8f3e-4d7d-bb54-159a98b174dc.png)
+
+23.**如果报controller重复的错误**：是因为controller文件夹中识别到了同名的文件夹，需要利用controller注解的值来区别两个controller文件
+
+24.统计整型类型的List集合中，各个数值的总和。（其中orderCountList是List<integer》对象）
+
+![image.png](/assets/43af9a30-3ceb-4af4-b74d-92399a6067f7.png)
+
+* 先转换成一个Stream流
+* **reduce**。是Stream的一个规约的方法，把流里的元素通过一个规则合并成一个结果
+* integer::sum：就是把两个数相加
+
+25.利用stream流将DTO对象中name属性，转换为字符串类型并用逗号隔开
+
+![image.png](/assets/3a40f586-cabc-4860-bb80-5ae15aef146b.png)
