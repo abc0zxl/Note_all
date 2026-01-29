@@ -385,7 +385,11 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 * **保存数据**：products.value=result.data
 * **编写列表**：table.tbody.tr.td
   其中tr，td是用来编写循环绑定的
-*
+
+#### 如果遇到需要jwt验证的情况
+
+需要在handers:{token:xxxxxx}中，写入令牌
+
 
 ## 条件列表查询
 
