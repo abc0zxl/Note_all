@@ -79,3 +79,8 @@
 25.利用stream流将DTO对象中name属性，转换为字符串类型并用逗号隔开
 
 ![image.png](/assets/3a40f586-cabc-4860-bb80-5ae15aef146b.png)
+
+
+26.**快速打开管理员命令行**
+
+![image.png](/assets/f756ac5c-b65d-4289-ab24-f2a90ae6aebe.png)
