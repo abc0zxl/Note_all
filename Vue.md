@@ -8,6 +8,26 @@
 
 他是一款偶关键用户界面的渐进式javascript框架
 
+
+# 创建Vue项目
+
+## 有两种创建方式
+
+1.命令行创建
+
+* 到要创建的目录下，命令行运行vue create xxxx
+
+2.网页ui创建
+
+### Vue ui
+
+* 命令行输入Vue ui就能按步骤创建
+
+
+# 运行前端工程
+
+* 终端输入npm run server
+
 # Vue3——html
 
 ## 代码基本框架
@@ -439,7 +459,7 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 
 2.**调用函数**
 
-![image.png](/assets/3939f2b8-55c2-4fc2-a8fc-4ef889c9b205.png)
+![image.png]()
 
 # 同步异步错误
 
@@ -492,9 +512,6 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 * changOrigin:true
 * rewrite(重写):(path)=>path.replace()替换掉url中原来的/api
 * **注意这部分代码要写在export defult defineConfig之中![image.png](/assets/8f753004-9e6e-46e9-90cc-a537dc6e4633.png)
-
-
-
 
 ## 拦截器
 
