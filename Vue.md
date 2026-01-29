@@ -11,6 +11,8 @@
 
 # 创建Vue项目
 
+![image.png](/assets/ac46bff0-2ff2-4920-8453-fbe31f882d1f.png)
+
 ## 有两种创建方式
 
 1.命令行创建
@@ -27,6 +29,12 @@
 # 运行前端工程
 
 * 终端输入npm run server
+
+**修改前端运行端口号**：
+
+* 去vue项目中
+* 打开vue.config.js
+* 就能看到了
 
 # Vue3——html
 
@@ -459,7 +467,7 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 
 2.**调用函数**
 
-![image.png]()
+![image.png](/assets/3939f2b8-55c2-4fc2-a8fc-4ef889c9b205.png)
 
 # 同步异步错误
 
