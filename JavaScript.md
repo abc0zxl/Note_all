@@ -41,6 +41,4 @@ javascript的var类型他的特点是
 
 6.Symbol
 
-
-
 **作用**:undefind和null:是表示变量未赋值的时候,明确给它声明的一个类型.
