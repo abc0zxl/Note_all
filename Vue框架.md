@@ -420,3 +420,7 @@
 ![image.png](/assets/c3e1beca-da70-46a0-a126-c0bab86a8446.png)
 
 2.**也可以实现多个名字展示同一个页面**
+
+这个也是在定义路由的下面
+
+![image.png](/assets/2457f877-ccf5-4796-b590-7cda785f3a06.png)
