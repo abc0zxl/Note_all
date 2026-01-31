@@ -20,8 +20,6 @@
 请求头：//端口名/项目名/Servlet名（非java文件名字）/参数
 
 
-
-
 | 协议             | http://                                     | 必须写（Postman 中不写会报错），Servlet 常用 http，HTTPS 则是 https://   |
 | ---------------- | ------------------------------------------- | ------------------------------------------------------------------------ |
 | 服务器 IP / 域名 | [localhost](https://localhost/) / 127.0.0.1 | 本地测试用[localhost](https://localhost/)，远程服务器写域名 / 公网 IP    |
@@ -29,3 +27,16 @@
 | 项目上下文路径   | /myweb                                      | 项目部署到服务器的根路径（web.xml 或 tomcat 配置中设置，空项目可省略）   |
 | Servlet 映射路径 | /userServlet                                | web.xml 中`<url-pattern>`或注解`@WebServlet("/userServlet")`配置的路径   |
 | 参数（GET 方式） | ?id=1&name=test                             | 参数用`?`开头，多个参数用`&`分隔；POST 参数则放在 Body→form-data/raw 里 |
+
+
+# 测试场景
+
+### 含有JWT验证
+
+原来需要获取一个jwt，然后给每个请求都加上这个jwt，十分麻烦
+
+**解决**：设置请求前的一个脚本，会给每个请求都加上，然后就不用重复的写jwt了
+
+#### Pre-request Script
+
+1.**代码**：pm.request.addHeader("Authorization:AAAAAAAAAAAAAAAAAAAAAA");
