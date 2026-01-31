@@ -992,3 +992,371 @@ accept(MediaType.APPLICATION_JSON_UTF)
 * f
 
 **注意**：swagger适用于早期的springboot版本，新版的springboot大部分有了更新的方法SpringDoc OpenAPI
+
+# SpringBoot自动配置原理
+
+### 关于controller到视图输出的方面
+
+#### 主要功能：ContentNegotiatingViewResolver
+
+* 它不会解析视图，他是委派给其他视图解析器进行解析。（jsp，themeleaf）
+* ![image.png](/assets/5ed4da9a-3fee-4c45-b20a-b091db7f2fff.png)
+* 这个类中会执行一个方法resolveViewName，它会传入一个viewName,可能是jsp，或者themeleaf，然后获取，匹配他们
+
+1.**视图解析器初始化**：也是再上面的主要功能类中的一个方法iniServletContext
+
+#### 主要功能：BeanNameViewResolver
+
+他会更具hander方法返回视图名称，然后再IOC中查找，找到和它名字一摸一样的bean
+
+这个对应的bean（视图）是一个和controller中一个方法return的名称，它会实现View接口，
+
+### 关于静态资源的识别与调用
+
+**约定大于配置**
+
+原来需要再xml中编写这个静态资源的信息，现在再springboot就不用了，他有一个指定的位置存放，只要放在约定好的文件夹中就可以了。这就是**约定大于配置**
+
+**这个实现原理**：
+
+再springmvc的自动配置类中。会有一个专门处理静态资源的方法**addResourceHandlers**
+
+1.**addResourceHandlers**：
+
+* 他会判断当前的访问路径是不是一个WebJars。
+* 这个WebJars作用就是将静态资源放在jar中进行访问。
+* 当访问路径有webjars时他就会映射到项目的resource中的webjars进行寻找
+* 接着在这个寻找过后他有一个静态地址的访问，
+* ![image.png](/assets/bc67ff6b-c486-471b-8022-e4a56a020e11.png)
+* 这个静态资源地址映射到的是一个地址集，用于声明静态资源存放的地址，当不想再约定的位置放静态资源时，可以去立马加上
+* SpringBoot它主要写的是后端，关于前端的东西都视为静态资源，所以html直接放到啊静态资源中即可
+
+2.**自定义静态资源地址**：
+
+如果不想用默认的路径，可以再配置文件中指定一个特定的静态资源地址，但是要注意，原来默认的多个地址都会失效。
+
+![image.png](/assets/87ec087e-f033-4ccd-8053-700412f680ab.png)
+
+#### 日期转换
+
+原来需要编写专门的注解来设置日期格式，现在有现成的**默认格式**方法来实现，也能支持日期的**转换**。
+
+![image.png](/assets/8a69bf0f-dd49-46b7-85ff-c325a885a3ef.png)
+
+#### 关于http的报物转换处理
+
+这里用的时HttpMessageConverters,他能自动实现转换
+
+**使用**：
+
+1.**在配置文件中**：
+
+#### 视图解析器配置
+
+原来是去xml中配置前端控制器中的标签实现前后缀的设置，比较繁琐
+
+，现在在springboot中可以直接通过主配置文件的方式来设置前后缀，比较方便。
+
+![image.png](/assets/45805878-70b4-4ecb-bfad-4348b2756e05.png)
+
+设置了这个后，控制器return的名字就拼接上这个前后缀，找到这个html。这个要放到项目结构中的templates文件中。这个是约定好的。
+
+**原理**：草泥马晃晃晃，你tm谁啊你
+
+* 在WebMvcAutoConfiguration中有一个方法用来找到和这个静态资源的html
+* ![image.png](/assets/83a33ff1-f843-49ae-8fe4-6370e80e11fe.png)
+* 当然也可以不在全局配置文件中设置这个前后缀，因为有默认的。
+
+#### 数据转化为javabean的原理
+
+原来在上面说的是HttpMessage,现在 又出现了个ConfigurableWebBindingInitializer。
+
+**因为每个请求的方式不同，用的转换也不同**：如form请求，ajax的json提交，
+
+## 拦截器的设置
+
+**步骤**：
+
+* 创建一个文件interceptor，
+* **创建拦截器java文件**
+* **实现HandlerInterceptor接口**：有三个方法
+
+#### 实现一个拦截器记录时间的方法
+
+##### 编写拦截器
+
+* 创建一个时间对象在三个方法外面，
+* LocalDateTime.now()获取当前时间
+* Duration between=Duration.between(AAA,end)获取时间差
+* 然后可以用日志记录下来
+* ![image.png](/assets/4b97db9b-05f0-4e23-a0a7-88f375176069.png)
+
+##### 编写配置，让拦截器生效
+
+要设定拦截范围，排除拦截等
+
+* **在Config文件中创建MyWebMvcConfiguration.java文件**：
+* 实现接口WebMvcConfigurer
+* 添加拦截器addInterceptors
+* 参数为InterceptorRegistry registry
+* 编写拦截器，拦截器规则
+
+![image.png](/assets/d089fb18-a33c-43dc-bf39-f5fca73d1204.png)
+
+#### 配置跨域请求的代码CORS
+
+就是说不是一个模块或者项目，端口号不同。没有权限互相访问。这时就要在MyWebMvcConfigurer中配置跨域请求了。
+
+1.在配置文件中加入addCorsMappings
+
+2.参数是CoreRegistry registry
+
+3.**设置跨域接口**：
+
+4.**配置跨域请求方式**：
+
+**![image.png](/assets/258bf107-aea3-4e77-a486-fef9a7adebc2.png)**
+
+5.这样在前后端分离的场景就可以跨域访问了
+
+6.还可以设置特定的端口来允许访问端口：
+
+* .allowedOrigins("http://localhost:8081")
+
+#### WebMvcConfigurer原理
+
+这个有些需要自己配置，但是大部分都已经配置好了，在自动配置类**WebMvcAutoConfigurationAdapter**中他们实现了这个接口，已经完成了很多不常用的配置。
+
+1.我们只用定制我们需要的即可
+
+* 视图控制器
+* 拦截器
+
+2.**放到IOc中**：它会将所有实现了webmvcconfigure的配置类全部注入容器中，放到一个变量中configuras
+
+##### 委派器
+
+在收集完webmvcconfigurer到config（List）变量后，它会将这个config放到委派器中去。
+
+![image.png](/assets/71521cd8-0115-4250-9d5e-c2dfe8cbbc24.png)
+
+1.**调用配置方法**：调用的时候就是去循环委派器
+
+##### 注意
+
+在webMvcConfigurer中有个注解不能用，@EnableWebMvc，用了之后，这个在别的地方的默认配置就失效了
+
+# JSON国际化
+
+在springboot中jackson就是默认配置的库，他目前是最好的。
+
+1.例如不让user对象进行json转换，把@JsonIgnore放到User类上，可以用于排除json序列化
+
+2.**可以设置日期格式**：@JsonFormat（pattern="yyyy-mm-dd",locale="zh"）
+
+* **本地化**：locale=“zh”，表示以中国的地区的显示方法显示日期
+
+3.**设置Json注解执行条件**：@JsonInclude(JsonInclude.include.NON_NULL)表示只有这个属性非null时才启用这个json序列化
+
+**序列化**：表示启用json
+
+**格式化**：表示修改他的格式
+
+4.**设置别名**：@JsonProperty("aaa")
+
+![image.png](/assets/9b842aa4-e782-4d19-80d6-0c6b6b573da1.png)
+
+# SpringBoot嵌入式Servlet容器
+
+spring默认的servlet容器是tomcat，
+
+**传统容器方式**：容器就是像tomcat，jetty，项目打包好了后，放到这个容器立马运行，容器和应用分离
+
+**嵌入式容器**：tomcat和项目是一体的不需额外安装容器
+
+### 嵌入式Servlet容器的配置修改
+
+由于嵌入式容器的配置都是默认的，有的配置不满足需要，所以出现了自定义配置（定制servlet容器）
+
+**配置值修改位置**：有两个方式
+
+* yml和properties
+* java实现WebServerFactoryCustomer的方式
+* **第一种方式更简单**
+* ![image.png](/assets/526c3baa-8d42-4b29-b77a-7389006979fa.png)
+
+**网络设置**：server.port设置请求端口，绑定端口地址
+
+* **请求端口**:server.port设置端口号
+* **绑定端口**：server.address表示只有该地址可以访问
+
+**错误页面路径配置**：server.error.path
+
+**会话超时时间**：server.servlet.sesson.timeout
+
+1.在全局配置的书写内容中
+
+* 不带具体的服务器名称，比较简短的，则是全局通用配置
+* 如果带有具体的服务器名称则是单独对该服务器的配置。
+
+## Servlet的三大组件
+
+1.servlet
+
+2.listener
+
+3.filter
+
+### Servlet的使用
+
+#### Service3.0的使用
+
+1.基于service3.0,原生javaweb开发，通过注解来开发
+
+![image.png](/assets/4a1ec21d-b1a2-4c14-bb5e-a2002047e52c.png)
+
+**然后**：在启动类上加上@ServletComponnetScan
+
+#### Springboot中提供了bean
+
+通过提供的三个bean来动态注册，不通过注解方式
+
+![image.png](/assets/e6f3cf50-831f-4749-92d2-c245d00c4807.png)
+
+1.**ServletRegistrationBean**：实现servlet，
+
+* ![image.png](/assets/cfae3da9-1657-4ced-8713-898fd9aee98b.png)
+* 声明一个servlet注册bean，然后给她设置响应的Servlet，设置名字，添加映射，映射到原来要加注解的@WebServlet中去，return这个注册器bean
+* 注意加@Configuration
+
+### 服务器的切换
+
+主流三种Tomcat,Undertow,Jetty
+
+![image.png](/assets/601e2abc-dc93-4419-8942-c52aa686faff.png)
+
+#### 实现步骤
+
+1.**排除原来的依赖**：starter-Tomcat
+
+2.**写入jetty依赖**：spring-boot-starter-jetty
+
+## 嵌入式自动配置原理
+
+### Servlet容器的自动装配
+
+它最根源的原因是@import
+
+1.**imort中有三个关于服务器类**，他们内部就有一个条件注解，下面展示的是jetty，通过Servlet容器中的start依赖（Tomcat场景启动器）判断classpath是否存在对应的类。。
+
+![image.png](/assets/1b082eba-8c41-413f-a31a-b08ce92f38ac.png)
+
+![image.png](/assets/5abbaea2-e8d5-41fb-a2f2-f826b5f3a315.png)
+
+## 外部Servlet容器
+
+#### 内部Servlet
+
+原来的内部servlet容器，会将项目打包成jar包，运行它需要环境变量，导入场景启动器就好了 ，但是内部的servlet参数不好配。还是采用原来的方式比较好一点，这种情况要导成war包，给运维。
+
+#### 外部Servlet
+
+外部Sevlet会打包成war包，也需要安装tomcat环境变量，本地的开发工具也需要绑定tomcat
+
+1.**修改打包方式**：在pom。xml中修改
+
+#### 步骤
+
+1.下载tomcat容器
+
+2.将pom.xml设置为war包
+
+3.修改依赖，因为单独下载了个tomcat，有很多包重了，所以要将原来在pom.xml的tomcat依赖设置为provided，让她不参数打包。
+
+* tomcat在starter-web中，所以在下方新增一个tomcat依赖，告知为provided就好了
+
+4.**运行方式的修改**：原来是在run方法中运行开始，现在用原来的方式
+
+* 增添运行配置，
+* 采用本地tomcat部署
+* 如果是原来的Service3.0的方式的话可以运行了 ，如果是SPrinboot的话还不行，
+* Springboot项目，tomcat不知道启动类是哪个，所以要加一个启动类
+* 该启动类和springboot启动类平级，然后就可以运行了
+* ![image.png](/assets/a5a26f1f-9faa-43c1-abe7-6f660c3d6241.png)
+
+# SpringBoot与AOP
+
+**实现步骤**
+
+1.**添加AOP场景启动器**：spring-boot-starter-aop
+
+2.**创建AOP实现文件**：单独文件夹aspect，创建LogAspect.java
+
+3.**添加标记**：@Aspect,@Componet
+
+4.**补充内容**：
+
+模板
+
+![image.png](/assets/3a214ea7-d9d6-4a82-a6df-416a3eeac800.png)
+
+
+
+
+# SpringBoot+MyBatis
+
+##### 添加依赖
+
+1.Spring web
+
+2.JDBC API
+3.MyBatis Framework
+
+4.MySQL Driver
+
+##### 查看依赖是否齐全
+
+1，gdbc
+
+2.mybatis
+
+3.数据库驱动
+
+4.数据库连接池
+
+##### 编写全集配置
+
+1.如果东西比较多的话，推荐用yml。
+
+2.复制粘贴固定模板
+
+![image.png](/assets/5c58a2a4-d731-44e1-aced-a5075df9b3b2.png)
+
+##### 注意引入的依赖
+
+如果不是场景启动器类的依赖，还是需要自己设定一些配置参数。例如这里的druid
+
+1.**新建文件**：config文件下的DruidConfiguration.java
+
+2.**添加注解**：配置文件注解，条件注解（）
+
+3.**编写方法**：public DataSource dataSource()这个摸底为了导入数据库的配置参数，因为要自己配置一些配置参数，
+
+* 一个一个导入比较麻烦
+* 可以利用导入属性的注解@ConfigurationProperties(),这个注解作用是批量导入配置文件中的属性，然后绑定到java的字段上。
+* 这样省去了一个一个写的步骤，
+* 将注解写到方法上，配合上@Bean一起用
+* ![image.png](/assets/3cf9812f-c2dc-44ac-8eca-236739472283.png)
+
+
+* 上面是**第一种方式**
+* 第二种方式是这个DataSource独有的方法
+* ![image.png](/assets/7acd6387-4a0b-4eda-8efb-8b2803eecdd8.png)
+
+##### 配置连接池
+
+![image.png](/assets/5007f6ef-2b15-4fb9-884c-e68de68ae0cb.png)
+
+##### 配置监控过滤器
+
+![image.png](/assets/78fd71eb-5e43-4732-b59b-e81ce075687b.png)
