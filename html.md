@@ -372,7 +372,6 @@ https://www.axios-http.cn/docs/api_intro
 
 ![image.png](/assets/b6a1e7f4-4c8b-4a6b-868b-ad8d79173984.png)
 
-
 2.**获取数据**：
 
 ![image.png](/assets/920ed5b6-4d3b-4952-ac13-6be2819dbea8.png)
@@ -380,8 +379,6 @@ https://www.axios-http.cn/docs/api_intro
 3.**发送数据**：
 
 ![image.png](/assets/3585d6b8-b581-4d34-9ee8-0beb10b8d0af.png)
-
-
 
 ### 请求发送升级版
 
@@ -395,12 +392,37 @@ https://www.axios-http.cn/docs/api_intro
 
 * 在第二个参数位置声明'id=1'即可。
 
-
 ![image.png](/assets/f5ee21b9-3eff-4f1d-bb5f-89557eb74f02.png)
 
+**实操：查找列表所有数据**
+
+![image.png](/assets/d67ae033-491e-4f6d-b66d-c0d50d72b4f4.png)
+
+3.**注意**：
+
+* 参数的设定要用：而不是=
+* 要用http，不是https
+* 注意result和err要加括号
 
 
 
+### 列表显示
+
+将查询到的列表输出到页面上
+
+* 写一个钩子函数，在特定阶段查询数据
+* 查询到的数据放到data的实参对象中。
+* 通过v-for输出到列表中
+
+![image.png](/assets/5368ea4a-bd5c-42d5-89e4-9dde15ee9d3f.png)
+
+
+### 条件查询
+
+* 在方法中编写一个函数AAA.function(){
+* 编写拼接url的逻辑
+* 将数据写回data实例对象
+* ![image.png](/assets/926dda85-566b-4609-b3fa-d7b4ed7a7d4f.png)
 
 ### 登录案例
 
