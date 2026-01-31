@@ -286,3 +286,5 @@
 3.**在main.js中加入配置**：
 
 ![image.png](/assets/76c988fb-5693-4cb9-b150-33ee6e3a038d.png)
+
+### 搭建路由
