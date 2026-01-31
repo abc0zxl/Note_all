@@ -163,4 +163,12 @@
 
 1.**在template中编写事件或者别的也行，用于将参数传递到script中**
 
-2.**关键字this.$emit('AAA')**：这个是定义在，methods：中事件名内的。
+2.**关键字this.$emit('AAA'，'BBB')**：这个是定义在，methods：中事件名内的。这个AAA是回调的事件名
+
+3.**在父中实现这个事件**：
+
+![image.png](/assets/1f0e22ed-bf9c-4794-a1c7-f41d821f6afb.png)
+
+4.**将这个方法写到methods中**：
+
+![image.png](/assets/8bc0b0bc-4539-42ae-bca4-ff152cf7da90.png)
