@@ -349,4 +349,11 @@
 
 1.**首先将main.js中的提取出来**：下面标注出来的几个
 
-![image.png](/assets/dd62cce9-8622-4aad-9c31-e8879e820ca6.png)
+* 注意修改相对路由位置
+
+![image.png](/assets/06f46b64-55b8-4ad7-9c22-d35ce6255023.png)
+
+2.**挂载路由**
+
+* **首先将上面的路由消息导出去**：用export default
+* **在main.js中引入这个路由**
