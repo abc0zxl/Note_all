@@ -171,4 +171,13 @@
 
 4.**将这个方法写到methods中**：
 
-![image.png](/assets/8bc0b0bc-4539-42ae-bca4-ff152cf7da90.png)
+![image.png](/assets/8bc0b0bc-4539-42ae-bca4-ff152cf7da90.png) 
+
+## 插槽
+
+数据传递的一种方式
+
+* 数据
+* 视图
+
+**作用**：
