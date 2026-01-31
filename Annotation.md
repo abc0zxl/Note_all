@@ -54,9 +54,15 @@
 
 **位置**：在类上
 
-
 @CrossOrigin
 
 **作用**：支持跨域请求注解
 
 **位置**：controller的类上
+
+
+@DateTimeFormat(pattern="yyyy-mm-dd")
+
+用于表明时间的格式，这个要配合LocalDate一起用
+
+![image.png](/assets/4abc8ba0-6786-44f6-8a5a-d9044a87e745.png)
