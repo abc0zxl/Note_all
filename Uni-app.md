@@ -193,3 +193,15 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 
 
 # Pinia持久化
+
+**使用步骤**
+
+1.**导入pinia**：
+
+2.**创建pinia实例**：
+
+3.**使用pinia持久化存储**：
+
+4.**导出pinia**：
+
+![image.png](/assets/6cea3335-a104-4f8d-ae00-c301b8f61cbd.png)
