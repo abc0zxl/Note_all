@@ -271,3 +271,15 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 ### 添加token的请求头标识
 
 ![image.png](/assets/2cf9be05-c72c-40f7-8cfc-737d4deff226.png)
+
+
+
+### 将拦截器添进去
+
+* 表示发送request，发送uploadFile都启用这个拦截器
+
+![image.png](/assets/55e3c83e-ca89-4533-b851-7b1f37479395.png)
+
+## 请求函数的封装
+
+为了更加便捷的发送请求
