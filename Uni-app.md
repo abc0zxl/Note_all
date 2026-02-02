@@ -176,8 +176,14 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 
 **实现步骤**：
 
-1.**导入uni-ui**：npm i @dlcoudio/uni-ui
+1.**导入uni-ui**：npm i @dcloudio/uni-ui
 
 2.**配置easycom**：在pages.json中导入依赖
 
 ![image.png](/assets/fe8e703f-d62c-4937-9cad-9a1d45a59cce.png)
+
+3.**鼠标悬停提示效果**：
+
+* 在上面鼠标悬停显示的似乎undefine，不识别
+* **实现步骤**
+* **第一步**：npm i -D @uni-helper/uni-ui-types
