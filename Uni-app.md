@@ -176,4 +176,8 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 
 **实现步骤**：
 
-1.**导入uni-ui**：
+1.**导入uni-ui**：npm i @dlcoudio/uni-ui
+
+2.**配置easycom**：在pages.json中导入依赖
+
+![image.png](/assets/fe8e703f-d62c-4937-9cad-9a1d45a59cce.png)
