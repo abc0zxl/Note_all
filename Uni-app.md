@@ -187,3 +187,9 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 * 在上面鼠标悬停显示的似乎undefine，不识别
 * **实现步骤**
 * **第一步**：npm i -D @uni-helper/uni-ui-types
+
+
+
+
+
+# Pinia持久化
