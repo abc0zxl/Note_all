@@ -288,4 +288,6 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 
 * 这里用的Promise对象
 * 设置了一个回调函数
-* 有两个参数resolve，reject
+* 有两个参数resolve，reject，用于接住数据
+* 编写请求成功向resolve提交的树
+*
