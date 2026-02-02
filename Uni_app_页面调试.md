@@ -27,3 +27,7 @@
 ![image.png](/assets/28449ed7-cc96-4d58-8057-ffa4752e112d.png)
 
 3.**编写轮播图的显示效果**：
+
+* 首先在标签里加个类名，用于编写css时所用的名字
+* 注意这里的.banner,.banner要严格这样编写
+* ![image.png](/assets/58fbc3b4-ddd1-4a20-ad37-e9ad9a64aad9.png)
