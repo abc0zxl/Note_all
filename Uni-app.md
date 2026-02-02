@@ -50,7 +50,7 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 
 1.**uni.scss**：css编译器
 
-2.**pages.json**：**配置页面路由**的地方，导航栏，tabBar等页面类信息
+2.**pages.json**：**配置页面路由**的地方，导航栏，tabBar等页面类信息（启动页）。
 
 3.**main.js**：是vue应用的**入口文件**，程序启动时的第一个执行的js文件。启动这个vue的时候，就要从它开始启动，相当于spring里的application。
 
