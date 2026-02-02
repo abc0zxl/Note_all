@@ -1,3 +1,7 @@
+# 注意
+
+1.目前HBuilerX还不支持typeScript的语法报错，VsCode可以
+
 # TypeScript
 
 他是一款解决javascript缺点的编程语言
@@ -18,7 +22,6 @@
 
 5.**简写符号**：提高编码效率
 
-
 ## 大概使用过程
 
 **总的来说**：TypeScript像是JavaScript的补全，先用TypeScript编写代码，然后再转换成JavaScript用来运行。
@@ -32,7 +35,6 @@
 2.**转换语言**：因为TypeScript不能再浏览器运行，所以要先把它转换为JavaScript
 
 3.**运行**
-
 
 ## 实现步骤
 
