@@ -32,7 +32,6 @@
 * 注意这里的.banner,.banner要严格这样编写
 * ![image.png](/assets/58fbc3b4-ddd1-4a20-ad37-e9ad9a64aad9.png)
 
-
 # 返回提示信息
 
 ![image.png](/assets/629a8e6b-8e8d-46b8-b4c9-69f8eca75aa4.png)1.**uni.showToast()**：这个是uni-app提供的跨端API，作用是再页面上弹出一个轻量级的提示框
@@ -58,4 +57,6 @@
 3.**将原来的导航栏隐藏**：
 
 * 在pages.json中
-* 将
+* 添加一个导航栏的风格声明
+
+![image.png](/assets/21fc35cf-9a34-4155-b970-1388f26d9771.png)
