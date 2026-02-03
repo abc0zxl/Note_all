@@ -102,3 +102,10 @@
 ![image.png](/assets/505fd4b5-232c-44ad-a6a9-36727be51fa6.png)
 
 ### 推荐页面
+
+![image.png](/assets/1820bbe4-702e-4757-a688-33566a266c49.png)
+
+
+### 猜你喜欢模块
+
+**通用组件都要放在src下的component中**：
