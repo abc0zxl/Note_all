@@ -61,3 +61,14 @@ const getData=()=>{    }
 * 就保证了完整性
 
 ![image.png](/assets/65d4d630-df76-4e61-8a89-8c0579b0ff28.png)
+
+
+## 短路求值
+
+**关键字**：**||**或者**|**
+
+**A  ||  B**
+
+1.如果A为空或不存在，就会调用B
+
+![image.png](/assets/54dd46a9-a17e-48cc-8979-5af3310def41.png)
