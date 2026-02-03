@@ -96,3 +96,7 @@
 ### 配置底色，用于和别的区域区别开
 
 ![image.png](/assets/5a74f95c-1012-4950-815c-a0fe5d4855b4.png)
+
+### 配置每个分类的图标和标题
+
+![image.png](/assets/505fd4b5-232c-44ad-a6a9-36727be51fa6.png)
