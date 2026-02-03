@@ -77,3 +77,7 @@
 ![image.png](/assets/24359b63-bcd2-4037-8576-cf3b1b2f19b5.png)
 
 ### 将原来的导航栏样式的顶部间隔设置为动态值
+
+![image.png](/assets/95d5eaf3-754e-40d6-8757-7ef4c6a6c5a3.png)
+
+在最外层的标签上
