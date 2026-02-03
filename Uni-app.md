@@ -397,3 +397,9 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 7.**将这个获取到的bannerList传递给轮播图**
 
 ![image.png](/assets/2edf2ad3-552a-45f9-a559-2d789ebf2ee0.png)
+
+
+
+## 接收外部参数API
+
+Vue3提供了一个组件，用于接收外部属性，叫**defineProps**
