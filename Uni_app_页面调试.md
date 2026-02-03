@@ -73,14 +73,11 @@
 
 3.**然后根据导航栏的样式，再设置一下最顶部信息条的颜色，防止撞色**
 
-
 ### 获取顶部安全区域数值
-
 
 ![image.png](/assets/b7cfe821-3d1d-41c9-9e19-a7ee45804f38.png)
 
 ![image.png](/assets/24359b63-bcd2-4037-8576-cf3b1b2f19b5.png)
-
 
 ### 将原来的导航栏样式的顶部间隔设置为动态值
 
@@ -90,9 +87,12 @@
 
 ![image.png](/assets/11f8db5b-be12-4d9a-8fc8-966342b4f3d5.png)
 
-
 ### 修改顶部信息条字体颜色
 
 ![image.png](/assets/57dfb7c8-d788-4162-9669-93f12c9fac2e.png)
 
 ![image.png](/assets/cf47f8cc-601e-49e7-a8f2-a9c5303d9de8.png)
+
+### 配置底色，用于和别的区域区别开
+
+![image.png](/assets/5a74f95c-1012-4950-815c-a0fe5d4855b4.png)
