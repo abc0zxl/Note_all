@@ -31,3 +31,18 @@
 * 首先在标签里加个类名，用于编写css时所用的名字
 * 注意这里的.banner,.banner要严格这样编写
 * ![image.png](/assets/58fbc3b4-ddd1-4a20-ad37-e9ad9a64aad9.png)
+
+
+# 返回提示信息
+
+![image.png](/assets/629a8e6b-8e8d-46b8-b4c9-69f8eca75aa4.png)1.**uni.showToast()**：这个是uni-app提供的跨端API，作用是再页面上弹出一个轻量级的提示框
+
+2.**icon：’none‘**：指定提示框的图标样式为”无图标“，可以是**success**,**loading**
+
+![image.png](/assets/978b037a-677e-4c66-89b9-515c6df0aeaf.png)
+
+![image.png](/assets/332fac6d-ec78-4931-8a64-4ba8a2ad2941.png)
+
+# 自定义导航栏
+
+**原因**：不同的机型，顶部的显示效果不一样，有的好有的坏，所以要用到自定义导航栏
