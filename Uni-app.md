@@ -339,3 +339,7 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 
 
 ## 自动导入组件配置
+
+不用import就能使用的组件
+
+![image.png](/assets/8c6a118b-5259-4f72-a36e-6fab6aca9d62.png)
