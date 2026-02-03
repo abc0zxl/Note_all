@@ -325,6 +325,14 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 
 ![image.png](/assets/629a8e6b-8e8d-46b8-b4c9-69f8eca75aa4.png)1.**uni.showToast()**：这个是uni-app提供的跨端API，作用是再页面上弹出一个轻量级的提示框
 
-2.**icon：’none‘**：指定提示框的图标样式为”无图标“
+2.**icon：’none‘**：指定提示框的图标样式为”无图标“，可以是**success**,**loading**
 
-3.****
+![image.png](/assets/978b037a-677e-4c66-89b9-515c6df0aeaf.png)
+
+![image.png](/assets/332fac6d-ec78-4931-8a64-4ba8a2ad2941.png)
+
+3.**title:(res.data as Data<T》).msg || "网络错误"**
+
+* res.data：接口请求返回的响应数据
+* as Data<T：告诉编译器这个响应数据的数据类型
+* .msg：表示从响应数据中取出错误提示文本
