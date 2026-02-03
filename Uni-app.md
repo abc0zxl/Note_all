@@ -315,4 +315,8 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 
 #### 升级的请求函数封装
 
+1.**沿用axios判断规则**：状态码200~299表示成功，成功才调用resolve
+
+![image.png](/assets/64fb4d7a-4e78-4223-a3ea-bf6e64e29960.png)
+
 ![image.png](/assets/99644feb-7444-41ba-bbc1-70e3b0b9e63d.png)
