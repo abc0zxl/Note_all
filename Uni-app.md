@@ -320,3 +320,11 @@ app中的地图界面,导航等都是用了地图平台的API实现的
 ![image.png](/assets/64fb4d7a-4e78-4223-a3ea-bf6e64e29960.png)
 
 ![image.png](/assets/99644feb-7444-41ba-bbc1-70e3b0b9e63d.png)
+
+#### 返回提示信息
+
+![image.png](/assets/629a8e6b-8e8d-46b8-b4c9-69f8eca75aa4.png)1.**uni.showToast()**：这个是uni-app提供的跨端API，作用是再页面上弹出一个轻量级的提示框
+
+2.**icon：’none‘**：指定提示框的图标样式为”无图标“
+
+3.****
