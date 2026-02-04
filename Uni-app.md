@@ -520,6 +520,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 * 无延迟
 * 可能会触发穿透
 
+3.**@tap编写多个触发**：
+
+![image.png](/assets/01f99c69-3c1e-447d-86e7-02f89a306b05.png)
+
 ### ：class对象语法
 
 ![image.png](/assets/f4901654-3bc6-4418-80ef-5e275e863631.png)
@@ -532,13 +536,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 * 他的作用是是否要添加这个类名active
 
-
 ### 交叉类型
 
 用于补齐请求参数对象中的某个元素
 
 ![image.png](/assets/be7b78cc-a0c3-4d42-8d7b-c144a0e5495f.png)
-
 
 ### 类型简易封装
 
