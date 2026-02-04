@@ -476,3 +476,13 @@ export type AAA=InstanceType<typeof XtxGuess》
 ### 插值模板语法
 
 ![image.png](/assets/0bbab54c-d8a1-40e2-afe4-68be8e431f88.png)
+
+### 动态超链接
+
+![image.png](/assets/cc998c62-79e8-4f86-9f0a-82373aed6abf.png)
+
+1.**：**是属性绑定符号
+
+2.**``**：是ES6模板字符串写法,
+
+* **他的作用是实现在静态文本内用${}插值,且{}内的值可以动态变化**
