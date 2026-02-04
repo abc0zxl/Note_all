@@ -568,3 +568,12 @@ export type AAA=InstanceType<typeof XtxGuess》
 1.**每次换分类需要显示对应分类的内容**
 
 2.**这就要用到了计算函数**：computed
+
+![image.png](/assets/b3ec5a62-4486-49a7-b44b-d243a07ec339.png)
+
+
+### 代码安全
+
+获取子对象时要注意是否为空，不然ts会报错
+
+![image.png](/assets/85a36687-4c33-4910-91a1-0c619aeddf73.png)
