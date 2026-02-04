@@ -441,3 +441,7 @@
 
 
 #### 这个是测试专用接口
+
+1.具体用法如图所示
+
+![image.png](/assets/5efad4b2-c71b-4ead-bbd0-ddebe672d108.png)
