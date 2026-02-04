@@ -414,4 +414,8 @@ Vue3提供了一个组件，用于接收外部属性，叫**defineProps**
 
 export type AAA=InstanceType<typeof XtxGuess》
 
-### 暴露方法
+### 暴露方法或组件
+
+1.**之前在文件中集中暴露的是API接口**：用export就能暴露
+
+2.**单独在某个页面中暴露方法**：这里就要用到一个**暴露方法**，**defineExport**
