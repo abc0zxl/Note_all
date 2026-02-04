@@ -508,8 +508,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 2.**发出这个请求就能获得这个页面参数**
 
-
-
 ### 点击事件
 
 1.**普通点击事件**：@click
@@ -533,3 +531,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 3.**index===0**：是一个判断语句
 
 * 他的作用是是否要添加这个类名active
+
+
+### 交叉类型
+
+用于补齐请求参数对象中的某个元素
+
+![image.png](/assets/be7b78cc-a0c3-4d42-8d7b-c144a0e5495f.png)
