@@ -430,3 +430,5 @@ export type AAA=InstanceType<typeof XtxGuess》
 1.**之前在文件中集中暴露的是API接口**：用export就能暴露
 
 2.**单独在某个页面中暴露方法**：这里就要用到一个**暴露方法**，**defineExport**
+
+![image.png](/assets/a8b0cb9b-040e-47b5-ab97-651f0345053f.png)
