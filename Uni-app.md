@@ -538,3 +538,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 用于补齐请求参数对象中的某个元素
 
 ![image.png](/assets/be7b78cc-a0c3-4d42-8d7b-c144a0e5495f.png)
+
+
+### 类型简易封装
+
+也是和实例类型封装一样，将复杂难看的参数放到旁边，封装到一个单词的类型中
+
+![image.png](/assets/6a084924-a961-4fbe-a225-4a1231c6ea67.png)
