@@ -511,3 +511,13 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 
 ### ：class对象语法
+
+![image.png](/assets/f4901654-3bc6-4418-80ef-5e275e863631.png)
+
+1.**这个{active:index===0}**：是一个对象
+
+2.**active**：是一个类名
+
+3.**index===0**：是一个判断语句
+
+* 他的作用是是否要添加这个类名active
