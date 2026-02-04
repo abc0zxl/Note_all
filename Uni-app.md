@@ -510,6 +510,18 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 
 
+### 点击事件
+
+1.**普通点击事件**：@click
+
+* 移动端有延迟
+* 不会触发穿透
+
+2.**小程序专用点击事件**：@tap
+
+* 无延迟
+* 可能会触发穿透
+
 ### ：class对象语法
 
 ![image.png](/assets/f4901654-3bc6-4418-80ef-5e275e863631.png)
