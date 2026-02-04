@@ -53,8 +53,6 @@
 
 3.**方法**：这个是在文件中的具体的业务动作
 
-4.
-
 # API接口
 
 #### 地图导航API接口
@@ -474,3 +472,7 @@ export type AAA=InstanceType<typeof XtxGuess》
 2.**单独在某个页面中暴露方法**：这里就要用到一个**暴露方法**，**defineExport**
 
 ![image.png](/assets/a8b0cb9b-040e-47b5-ab97-651f0345053f.png)
+
+### 插值模板语法
+
+![image.png](/assets/0bbab54c-d8a1-40e2-afe4-68be8e431f88.png)
