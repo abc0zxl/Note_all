@@ -295,7 +295,17 @@
 
 ![image.png](/assets/0742b906-1fbe-4a4b-8cd8-5b9c19d9f6af.png)
 
-
 ## 动态设置页面标题
 
 ![image.png](/assets/0d9d2686-7c70-47e3-9c2e-6c133c2196ce.png)
+
+
+
+
+## 页面显示效果控制
+
+当前页**下标标记**，这个是利用了css控制的，有两个阶段控制css，
+
+1.**双控制**：当调用了这个css类中的active时就会改变他的样式而达到显示效果
+
+![image.png](/assets/6d2631ec-a234-4f69-8f64-38a0117b5430.png)
