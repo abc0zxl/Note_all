@@ -62,7 +62,6 @@ const getData=()=>{    }
 
 ![image.png](/assets/65d4d630-df76-4e61-8a89-8c0579b0ff28.png)
 
-
 ## 短路求值
 
 **关键字**：**||**或者**|**
@@ -72,3 +71,14 @@ const getData=()=>{    }
 1.如果A为空或不存在，就会调用B
 
 ![image.png](/assets/54dd46a9-a17e-48cc-8979-5af3310def41.png)
+
+
+## 数组查找.find（）
+
+![image.png](/assets/a4d793a9-5010-4b6a-9677-5b39487cdaa7.png)
+
+这个能查找数组对象中符合要求的数组，返回第一个满足条件的元素
+
+**v**：他表示数组中的每一个元素
+
+**v.type**：他表示当前元素的type属性
