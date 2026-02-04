@@ -308,4 +308,8 @@
 
 1.**双控制**：当调用了这个css类中的active时就会改变他的样式而达到显示效果
 
-![image.png](/assets/6d2631ec-a234-4f69-8f64-38a0117b5430.png)
+2.**所以要控制他显不显示，就调看他会不会调用这个active就知道**
+
+![image.png](/assets/1f75aaf5-47c1-48e7-9999-421807c12032.png)**
+
+![image.png](/assets/cd11a80d-2878-42b6-879a-4cdb5b1819f5.png)
