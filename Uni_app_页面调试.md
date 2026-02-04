@@ -188,7 +188,9 @@
 
 ![image.png](/assets/bc775ec6-f6fa-4279-a489-c572f341ec9b.png)
 
-
 4.然后将该暴露的方法放在**滑动触底事件中**，用.value就能获取的该方法得到的数据
 
 ![image.png](/assets/6ccce81e-9a1e-4300-9e9f-0f2e50d486d1.png)
+
+
+## **将页面信息**
