@@ -500,7 +500,14 @@ export type AAA=InstanceType<typeof XtxGuess》
 1.**独立封装一个请求API**：
 
 * 可以传递目标url
+
+![image.png](/assets/765194d3-a134-4486-91e2-e33f8c9d8c8d.png)
+
 * 可以设定该页的标题id
 * 可以设定该页的滚动页面参数
 
 2.**发出这个请求就能获得这个页面参数**
+
+
+
+### ：class对象语法
