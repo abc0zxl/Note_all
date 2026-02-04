@@ -449,6 +449,8 @@
 
 ### 跳转页面
 
-1.这里uniapp提示必须要用switchTab
+1.这里uniapp提示**跳转到Taber页面**必须要用**switchTab**
 
-2.还提示
+2.还提示**跳转到Taber页面**会立即**屏蔽所有非Taber页面**
+
+3.
