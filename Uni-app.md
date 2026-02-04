@@ -545,3 +545,9 @@ export type AAA=InstanceType<typeof XtxGuess》
 也是和实例类型封装一样，将复杂难看的参数放到旁边，封装到一个单词的类型中
 
 ![image.png](/assets/6a084924-a961-4fbe-a225-4a1231c6ea67.png)
+
+#### 传入复杂实例类型
+
+1.可以一个一个内部类型放进去，然后用一个{}框起来表示原来这个位置的实力类型参数
+
+![image.png](/assets/6aedf89c-2ba6-40a7-b909-1b150ec4db63.png)
