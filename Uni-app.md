@@ -656,3 +656,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 ![image.png](/assets/1466c6ed-4a38-4dd2-ad52-f76cf70740de.png)
 
 ## String转json
+
+![image.png](/assets/9678dbe4-3c81-490c-991f-5c9fb23024d5.png)
+
+**因为所需的avater在字符串中不能直接提取出来**
+
+**所以要先转换为JSON类型才能单独获取到avater**
+
+![image.png](/assets/10afa321-5d86-44bc-b85a-27577665ab4b.png)
