@@ -732,4 +732,8 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/df6a2743-b7e8-43f2-bbd9-98b3ec07755a.png)
 
-3.
+
+
+## 新增地址步骤
+
+1.**编写封装API**：用于传递新建的地址
