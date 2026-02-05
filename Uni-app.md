@@ -649,8 +649,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/3d4c4a5a-02d3-48d2-8be3-1928a91e59d4.png)
 
-
-
 ## ****对象解构赋值****
 
 表示调用了一个方法后在其返回的对象中，只**单独获取对象中的某个元素的值**
@@ -666,3 +664,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 **所以要先转换为JSON类型才能单独获取到avater**
 
 ![image.png](/assets/10afa321-5d86-44bc-b85a-27577665ab4b.png)
+
+
+
+## 类型的简化
+
+**问题**：定义的类型多了，但大多数类型中都有大量的相同属性
+
+1.
