@@ -579,3 +579,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 
 ### 组合式函数编写实例
+
+将一些公共的
+
+* 事件
+* 函数
+
+**封装到一个地方**
