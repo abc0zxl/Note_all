@@ -595,7 +595,7 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/2a75f54e-7020-4759-933c-80cb24c4e229.png)
 
-### 分包预下载
+### 分包预下载（仅限于微信小程序）
 
 在原来的情况下将各个页面，列表分开加载，已经体现了性能优化
 
