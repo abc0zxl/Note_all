@@ -715,3 +715,13 @@ export type AAA=InstanceType<typeof XtxGuess》
 4.**将日期提交到上传后台的方法中**
 
 ![image.png](/assets/cd5fbf3e-e29b-454f-9dfa-ce7d579d66ae.png)
+
+
+
+## 地址修改
+
+### 动态设置地址标题
+
+因为有可能是修改地址，也有可能是设置地址，这两个共用同一个页面
+
+![image.png](/assets/5d77134c-b1f0-499d-81dd-6811cd92f4af.png)
