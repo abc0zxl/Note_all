@@ -671,4 +671,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 **问题**：定义的类型多了，但大多数类型中都有大量的相同属性
 
-1.
+1.可以将这些相同的属性抽取出来，单独封装，然后要用的时候可以直接拼接
+
+#### 交叉类型:&
+
+#### 选取类型+交叉类型：Pick
+
+![image.png](/assets/57085c09-5d5e-4d8f-a066-14db80faff65.png)
