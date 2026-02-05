@@ -464,6 +464,7 @@
 5.**编写上传参数**：
 
 * 文件路径
+  `    const tempFilePath=res.tempFiles[0]`
 * 上传地址
 * 文件名字
 
