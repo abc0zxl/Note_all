@@ -682,3 +682,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 按钮类型需要用uniHelper来指定类型RadioGroupChange。
 
 `RadioGroupChange` 是 TS 中约束 `<radio-group>` 组件 `change` 事件参数的类型
+
+
+
+
+## 日期修改
+
+实现修改日期后能存储
