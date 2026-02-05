@@ -556,8 +556,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/6aedf89c-2ba6-40a7-b909-1b150ec4db63.png)
 
-
-
 ### 计算函数
 
 * 智能缓存管理
@@ -570,7 +568,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 2.**这就要用到了计算函数**：computed
 
 ![image.png](/assets/b3ec5a62-4486-49a7-b44b-d243a07ec339.png)
-
 
 ### 代码安全
 
