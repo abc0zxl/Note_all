@@ -611,4 +611,8 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 * 这样会在pages.json中自动导入分包
 
-3.****
+3.**设置预下载规则**：**preloadRule**
+
+* **编写触发预下载地址**
+* 网络方式：仅限于wifi，不限网络
+* 分包选择：指定预下载分包
