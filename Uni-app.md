@@ -577,7 +577,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/85a36687-4c33-4910-91a1-0c619aeddf73.png)
 
-
 ### 组合式函数编写实例
 
 将一些公共的
@@ -596,7 +595,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/2a75f54e-7020-4759-933c-80cb24c4e229.png)
 
-
 ### 分包预下载
 
 在原来的情况下将各个页面，列表分开加载，已经体现了性能优化
@@ -608,3 +606,9 @@ export type AAA=InstanceType<typeof XtxGuess》
 ##### 实现步骤
 
 1.**新建一个文件夹**：专门放预加载页面用的
+
+2.**创建分包**：记得要用快捷键创建
+
+* 这样会在pages.json中自动导入分包
+
+3.****
