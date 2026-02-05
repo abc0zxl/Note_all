@@ -727,3 +727,9 @@ export type AAA=InstanceType<typeof XtxGuess》
 ![image.png](/assets/5d77134c-b1f0-499d-81dd-6811cd92f4af.png)
 
 1.**可以通过前面传来的url参数**：作为依据判断是修改地址还是增加地址，
+
+2.**获取请求参数**：可以采用获取单个参数方式获取传递过来的参数集
+
+![image.png](/assets/df6a2743-b7e8-43f2-bbd9-98b3ec07755a.png)
+
+3.
