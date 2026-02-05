@@ -725,3 +725,5 @@ export type AAA=InstanceType<typeof XtxGuess》
 因为有可能是修改地址，也有可能是设置地址，这两个共用同一个页面
 
 ![image.png](/assets/5d77134c-b1f0-499d-81dd-6811cd92f4af.png)
+
+1.**可以通过前面传来的url参数**：作为依据判断是修改地址还是增加地址，
