@@ -659,6 +659,26 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ## 数组解构赋值
 
+1.会按照位置顺序将对象中的参数复制到左边的变量上
+
+**![image.png](/assets/0316e25f-673b-4126-938f-f88134832969.png)**
+
+2.**合并对象赋值**：将括号中右边的参数和编导左边的对象中
+
+![image.png](/assets/59548ccc-f53d-41f9-a572-78234dc1afe3.png)
+
+![image.png](/assets/8536711a-8174-4d11-9494-e99b22521424.png)
+
+![image.png](/assets/d25aae64-0de5-4cb9-aa85-7a1e0c509821.png)
+
+
+## result,value,detail
+
+1.**.detail(标准事件载体)**
+
+2.**.value(响应式变量的解析)**
+
+3.**.result（自定义函数的数据解析）**
 
 ## String转json
 
