@@ -613,6 +613,8 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 3.**设置预下载规则**：**preloadRule**
 
+**注意这个preloadRule和subPackages同级**
+
 * **编写触发预下载地址**
 * 网络方式：仅限于wifi，不限网络
 * 分包选择：指定预下载分包
