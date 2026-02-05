@@ -585,6 +585,9 @@ export type AAA=InstanceType<typeof XtxGuess》
 * 事件
 * 函数
 
+1. const {这个里面既可以有触发用的方法名字，也有获取参数的函数名字} = guess（）；
+2. 本质是把**需要对外暴露的 “可执行动作” 和 “可访问数据”** 都封装在返回对象里，想用哪个拆哪个。
+
 **封装到一个地方**
 
 ![image.png](/assets/f8a156eb-064a-46d9-959d-01a915c58af9.png)
