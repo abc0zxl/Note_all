@@ -607,4 +607,4 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ##### 实现步骤
 
-1.
+1.**新建一个文件夹**：专门放预加载页面用的
