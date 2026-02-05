@@ -737,3 +737,7 @@ export type AAA=InstanceType<typeof XtxGuess》
 ## 新增地址步骤
 
 1.**编写封装API**：用于传递新建的地址
+
+2.**编写地址的类型声明**：
+
+3.**获取再界面设定的参数**：要用双向绑定v-model
