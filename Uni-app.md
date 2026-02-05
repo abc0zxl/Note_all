@@ -45,7 +45,7 @@
 * 用命令运行的话可以参考目录下的**package.json**
 * 其中dev的脚步适合开发用，build适合部署上线用
 * 用npm 开头再接上双引号里的内容，就行了，这里运行了dev-weixin
-* 然后会生成一个dist文件，用微信小程序打开里面的mp-weixin即可
+* 然后会生成一个dist文件，用微信小程序打开里面dist/dev/的mp-weixin即可
 
 4.需要从main.js这个代码处开始运行
 
@@ -665,8 +665,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/10afa321-5d86-44bc-b85a-27577665ab4b.png)
 
-
-
 ## 类型的简化
 
 **问题**：定义的类型多了，但大多数类型中都有大量的相同属性
@@ -679,7 +677,8 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/57085c09-5d5e-4d8f-a066-14db80faff65.png)
 
-
 ## 按钮类型的方法
 
 按钮类型需要用uniHelper来指定类型RadioGroupChange。
+
+`RadioGroupChange` 是 TS 中约束 `<radio-group>` 组件 `change` 事件参数的类型
