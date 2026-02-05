@@ -654,3 +654,5 @@ export type AAA=InstanceType<typeof XtxGuess》
 表示调用了一个方法后在其返回的对象中，只**单独获取对象中的某个元素的值**
 
 ![image.png](/assets/1466c6ed-4a38-4dd2-ad52-f76cf70740de.png)
+
+## String转json
