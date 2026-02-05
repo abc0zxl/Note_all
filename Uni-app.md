@@ -741,3 +741,5 @@ export type AAA=InstanceType<typeof XtxGuess》
 2.**编写地址的类型声明**：
 
 3.**获取再界面设定的参数**：要用双向绑定v-model
+
+4.**因为地址的上传和显示**
