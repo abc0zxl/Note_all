@@ -586,3 +586,9 @@ export type AAA=InstanceType<typeof XtxGuess》
 * 函数
 
 **封装到一个地方**
+
+![image.png](/assets/f8a156eb-064a-46d9-959d-01a915c58af9.png)
+
+**获取数据**
+
+![image.png](/assets/2a75f54e-7020-4759-933c-80cb24c4e229.png)
