@@ -617,4 +617,4 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 * **编写触发预下载地址**
 * 网络方式：仅限于wifi，不限网络
-* 分包选择：指定预下载分包
+* 分包选择：指定预下载分包，**这个可以指定文件夹**
