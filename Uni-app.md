@@ -667,6 +667,12 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/10afa321-5d86-44bc-b85a-27577665ab4b.png)
 
+## JSON转String
+
+用join（“A”）方法，这个可以直接连接json各个字符元素，join中的A表示插入的间隔字符，没有的话表示不插入
+
+![image.png](/assets/10aec87b-f2d3-4e33-b859-8b24a607add6.png)
+
 ## 类型的简化
 
 **问题**：定义的类型多了，但大多数类型中都有大量的相同属性
