@@ -742,4 +742,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 3.**获取再界面设定的参数**：要用双向绑定v-model
 
-4.**因为地址的上传和显示**
+4.**因为picker标签上的：value**：是用于回显到，地址选择滚动器上的，所以要用json，而存储的地址，他是string，所以要转换
+
+![image.png](/assets/a4cf1131-309d-4cf0-a76d-f1d707443629.png)
+
+5.**picker选好后触发change传递过来的是一个json**：需要用join转换为string，存到对象中
+
+![image.png](/assets/16cfcf67-32bd-4acc-b2ef-aaf05fd5c67f.png)
