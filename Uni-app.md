@@ -691,3 +691,13 @@ export type AAA=InstanceType<typeof XtxGuess》
 ## 日期修改
 
 实现修改日期后能存储
+
+1.**他是一个关键字**：piker
+
+2.**设定一个修改触发方法**：@change
+
+3.**在方法中修改日期**
+
+4.**将日期提交到上传后台的方法中**
+
+![image.png](/assets/cd5fbf3e-e29b-454f-9dfa-ce7d579d66ae.png)
