@@ -680,4 +680,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 ![image.png](/assets/57085c09-5d5e-4d8f-a066-14db80faff65.png)
 
 
-## @change事件
+## 按钮类型的方法
+
+按钮类型需要用uniHelper来指定类型RadioGroupChange。
