@@ -560,6 +560,9 @@
 
 ![image.png](/assets/ee63750a-1f61-436b-af64-925cbbfea482.png)
 
+* 优化，增加两位小数：toFixed(2)
+* ![image.png](/assets/8ffc44cb-ee03-4fc4-a7f1-eec30a2997f7.png)
+
 2.按钮灰色变色：**reduce+filter**
 
 ![image.png](/assets/3adb4a88-6953-4f30-a7cf-cf60a0ceb485.png)
