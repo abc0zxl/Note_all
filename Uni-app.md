@@ -796,3 +796,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 2.有专门的工具来辅助
 
 ![image.png](/assets/e62cd376-4586-414e-92bf-dc258b3290dc.png)
+
+
+
+## 计算属性的使用
+
+可以计算return为true的数量
+
+![image.png](/assets/cc4a46bb-ad55-4ef5-8147-bec05543e9f7.png)
