@@ -554,10 +554,16 @@
 
 1，直接用uni.navigateback回到当时的页面
 
-
-
 ## 结算逻辑
 
-1.计算选中商品的总价
+1.计算选中商品的总价。**reduce**
 
-2.按钮灰色变色
+![image.png](/assets/ee63750a-1f61-436b-af64-925cbbfea482.png)
+
+2.按钮灰色变色：**reduce+filter**
+
+![image.png](/assets/3adb4a88-6953-4f30-a7cf-cf60a0ceb485.png)
+
+3.计算总件数:**reduce+filter**
+
+![image.png](/assets/c08f58f7-1d70-42b6-b1b9-2c3592aef76d.png)
