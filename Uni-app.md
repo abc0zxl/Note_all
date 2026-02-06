@@ -785,8 +785,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/e787e522-f521-4019-9478-d70272181fa4.png)
 
-
-
 ## 修改商品数量
 
 1.这个需要实时上传
@@ -797,8 +795,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/e62cd376-4586-414e-92bf-dc258b3290dc.png)
 
-
-
 ## 计算属性的使用
 
 1.可以计算return为true的数量
@@ -807,9 +803,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/cc4a46bb-ad55-4ef5-8147-bec05543e9f7.png)
 
-
 * 上面的value.every()是数组的every方法，列表中所有的成员必须满足v.selected全部为true，他才会返回true，否则就是false。
 * 这个用来判断是否已经全选比较有效
+
+3.**filter**：可以过滤出所有状态的数量
 
 ## 全选按钮点击的操作
 
