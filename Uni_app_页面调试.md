@@ -573,3 +573,22 @@
 3.计算总件数:**reduce+filter**
 
 ![image.png](/assets/c08f58f7-1d70-42b6-b1b9-2c3592aef76d.png)
+
+## 页面组件化
+
+1.**tabBar页跳转到A的页面自带底部导航条**
+
+2.**如果是别的地方跳转到A，不想带导航条，就可以利用组件化的页面**
+
+
+**tabBar特点**：
+
+1.pages.json的tabBar中只绑定一个tabBar页
+
+![image.png](/assets/bcc20a56-cb34-457a-86fc-9cb39c62dad3.png)
+
+2.pages页中的为普通跳转页的导航
+
+![image.png](/assets/f8fbeb16-cb25-4704-970d-fe2ad64fe176.png)
+
+3.**这样就实现了普通页和TabBar页的分离跳转**（路径要区分开）
