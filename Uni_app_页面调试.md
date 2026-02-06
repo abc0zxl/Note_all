@@ -580,6 +580,7 @@
 
 2.**如果是别的地方跳转到A，不想带导航条，就可以利用组件化的页面**
 
+![image.png](/assets/000e0346-c5ec-4fb8-81d0-13d677b14682.png)
 
 **tabBar特点**：
 
@@ -591,11 +592,10 @@
 
 ![image.png](/assets/f8fbeb16-cb25-4704-970d-fe2ad64fe176.png)
 
-3.**这样就实现了普通页和TabBar页的分离跳转**（路径要区分开）
+3.**这样就实现了普通页和TabBar页的分离跳转**（路径要区分开），**TabBar页中的页pages中也得有路径**
 
-4.记得修改导航标签中的跳转标记，
+4.**注意**：记得修改导航标签中的跳转标记，
 
 ![image.png](/assets/ee81d186-9ff8-498a-90af-65de00e933cf.png)
-
 
 ![image.png](/assets/b7a673af-a29b-4ae7-9553-00a303df5978.png)
