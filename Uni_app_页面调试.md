@@ -592,3 +592,10 @@
 ![image.png](/assets/f8fbeb16-cb25-4704-970d-fe2ad64fe176.png)
 
 3.**这样就实现了普通页和TabBar页的分离跳转**（路径要区分开）
+
+4.记得修改导航标签中的跳转标记，
+
+![image.png](/assets/ee81d186-9ff8-498a-90af-65de00e933cf.png)
+
+
+![image.png](/assets/b7a673af-a29b-4ae7-9553-00a303df5978.png)
