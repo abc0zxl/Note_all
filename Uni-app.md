@@ -829,7 +829,7 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 2.在数量修改器标签内编写这个步进器标签
 
-3.**配置参数等**
+3.**配置参数等，记得绑定index的skuid**
 
 4.注意触发函数的参数类型，他的类型去@change获得
 
