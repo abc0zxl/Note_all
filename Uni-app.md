@@ -808,4 +808,5 @@ export type AAA=InstanceType<typeof XtxGuess》
 ![image.png](/assets/cc4a46bb-ad55-4ef5-8147-bec05543e9f7.png)
 
 
-* 上面的value.every()是数组的every方法，必须
+* 上面的value.every()是数组的every方法，列表中所有的成员必须满足v.selected全部为true，他才会返回true，否则就是false。
+* 这个用来判断是否已经全选比较有效
