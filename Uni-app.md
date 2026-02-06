@@ -671,7 +671,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/d25aae64-0de5-4cb9-aa85-7a1e0c509821.png)
 
-
 ## result,value,detail
 
 1.**.detail(标准事件载体)**
@@ -702,8 +701,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 1.可以将这些相同的属性抽取出来，单独封装，然后要用的时候可以直接拼接~~~~
 
-
-
 ## 现场自定义类型
 
 令一个变量的类型为[string,string,string]
@@ -722,9 +719,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 `RadioGroupChange` 是 TS 中约束 `<radio-group>` 组件 `change` 事件参数的类型
 
-
-
-
 ## 日期修改
 
 实现修改日期后能存储
@@ -739,8 +733,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/cd5fbf3e-e29b-454f-9dfa-ce7d579d66ae.png)
 
-
-
 ## 地址修改
 
 ### 动态设置地址标题
@@ -754,8 +746,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 2.**获取请求参数**：可以采用获取单个参数方式获取传递过来的参数集
 
 ![image.png](/assets/df6a2743-b7e8-43f2-bbd9-98b3ec07755a.png)
-
-
 
 ## 新增地址步骤
 
@@ -772,3 +762,21 @@ export type AAA=InstanceType<typeof XtxGuess》
 5.**picker选好后触发change传递过来的是一个json**：需要用join转换为string，存到对象中
 
 ![image.png](/assets/16cfcf67-32bd-4acc-b2ef-aaf05fd5c67f.png)
+
+
+
+## 上传git报错没通过代码校验
+
+1.因为代码中有报错，没通过eslint
+
+2.**直接屏蔽eslint**
+
+### 屏蔽单个eslint
+
+1.**用代码提示生成//类型屏蔽语句**
+
+### 屏蔽多个eslint
+
+2.**在三个大标签上添加屏蔽语句**：
+
+![image.png](/assets/24718bd5-060b-400b-bdb7-5484a4d2e198.png)
