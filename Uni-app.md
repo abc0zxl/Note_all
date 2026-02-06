@@ -779,11 +779,20 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/24718bd5-060b-400b-bdb7-5484a4d2e198.png)
 
-
-
-
 ## 枚举类型
 
 在vue中的枚举类型也是因为让某些静态值，变得可读性更强。**更有语义**
 
 ![image.png](/assets/e787e522-f521-4019-9478-d70272181fa4.png)
+
+
+
+## 修改商品数量
+
+1.这个需要实时上传
+
+* 就是说要给她写一个API
+
+2.有专门的工具来辅助
+
+![image.png](/assets/e62cd376-4586-414e-92bf-dc258b3290dc.png)
