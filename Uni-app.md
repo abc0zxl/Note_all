@@ -810,3 +810,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 * 上面的value.every()是数组的every方法，列表中所有的成员必须满足v.selected全部为true，他才会返回true，否则就是false。
 * 这个用来判断是否已经全选比较有效
+
+## 全选按钮点击的操作
+
+1.取出全选按键的反色
+
+2.将所有成源修改为这个颜色
+
+![image.png](/assets/aad41e3a-e7ac-4906-bf28-2dee160a038a.png)
