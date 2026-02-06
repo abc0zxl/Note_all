@@ -518,3 +518,9 @@
 ## 删除地址
 
 **uniapp提供了以中国删除动画**，**侧滑删除**
+
+![image.png](/assets/9eda5d64-d78f-46f1-949b-11cd0c939e94.png)
+
+1.**侧滑删除标签结构**
+
+![image.png](/assets/e1e3b198-49d6-4389-8df3-229e95d2d00d.png)
