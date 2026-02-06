@@ -763,8 +763,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/16cfcf67-32bd-4acc-b2ef-aaf05fd5c67f.png)
 
-
-
 ## 上传git报错没通过代码校验
 
 1.因为代码中有报错，没通过eslint
@@ -780,3 +778,12 @@ export type AAA=InstanceType<typeof XtxGuess》
 2.**在三个大标签上添加屏蔽语句**：
 
 ![image.png](/assets/24718bd5-060b-400b-bdb7-5484a4d2e198.png)
+
+
+
+
+## 枚举类型
+
+在vue中的枚举类型也是因为让某些静态值，变得可读性更强。**更有语义**
+
+![image.png](/assets/e787e522-f521-4019-9478-d70272181fa4.png)
