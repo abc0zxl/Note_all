@@ -818,3 +818,21 @@ export type AAA=InstanceType<typeof XtxGuess》
 2.将所有成源修改为这个颜色
 
 ![image.png](/assets/aad41e3a-e7ac-4906-bf28-2dee160a038a.png)
+
+## 步进器
+
+用于处理商品数量的修改上传
+
+**使用步骤**
+
+1.**导入类型声明**
+
+2.在数量修改器标签内编写这个步进器标签
+
+3.**配置参数等**
+
+4.注意触发函数的参数类型，他的类型去@change获得
+
+5.然后就可以直接打印看函数参数，每次点击的时候都能修改成功，并有对应数值，和skuid
+
+![image.png](/assets/1d29fe22-3738-4a3d-af4d-3f3cd1fe02bc.png)
