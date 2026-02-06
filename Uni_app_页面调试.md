@@ -567,6 +567,9 @@
 
 ![image.png](/assets/3adb4a88-6953-4f30-a7cf-cf60a0ceb485.png)
 
+* 没有选中商品
+* ![image.png](/assets/9c85ebb4-0a4b-4c8b-a0f9-02b06a9a0692.png)
+
 3.计算总件数:**reduce+filter**
 
 ![image.png](/assets/c08f58f7-1d70-42b6-b1b9-2c3592aef76d.png)
