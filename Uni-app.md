@@ -801,6 +801,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ## 计算属性的使用
 
-可以计算return为true的数量
+1.可以计算return为true的数量
+
+2.它是**响应式，带缓存**，只要里面的变量变了，他就就会重新计算，
 
 ![image.png](/assets/cc4a46bb-ad55-4ef5-8147-bec05543e9f7.png)
+
+
+* 上面的value.every()是数组的every方法，必须
