@@ -660,7 +660,9 @@ ScrollTimeline)
 ![image.png](/assets/efcfd34b-6122-468d-a8aa-cda8ba105afd.png)
 
 
+1.**通过小程序获取到的页面事件**：
 
+![image.png](/assets/3f83c436-f3b5-4c5a-b697-dde1bb3fdf50.png)
 
 ## 页面栈
 
