@@ -41,3 +41,7 @@
 1.**安装TypeScript**：去官网下载
 
 **![image.png](/assets/8ba75908-0826-4752-a93c-db69985bf5d4.png)**
+
+---
+
+## 细节报错
