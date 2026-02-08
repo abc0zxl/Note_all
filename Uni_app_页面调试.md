@@ -674,6 +674,8 @@ ScrollTimeline)
 
 **页面栈**：查看这个栈
 
+* 微信小程序控制台输入**getCurrentPages()**
+
 ### **相关跳转 API**
 
 1. **`uni.navigateBack()`** 用于返回上一页面或多级页面。 可通过 `delta` 参数指定返回的层级数（例如，`delta: 2` 表示返回上两级页面）。 示例：
