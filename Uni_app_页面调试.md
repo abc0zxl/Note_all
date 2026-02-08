@@ -641,4 +641,16 @@
 
 这里的技术点就是**滚动效果**，**顶部导航渐隐效果**
 
-###
+### 页面滚动动画
+
+这个是微信小程序提供的一个接口，专门实现这个动画
+
+**接口名称**：this.**animate**(
+
+selector,
+
+keyframes,
+
+duration,
+
+ScrollTimeline)
