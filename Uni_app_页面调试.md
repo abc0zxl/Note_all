@@ -721,3 +721,4 @@ ScrollTimeline)
 **微调**：
 
 * 修改显示样式：直接再uni-countdown中用：color绑定属性
+* 是否显示天数等：show-day="false"
