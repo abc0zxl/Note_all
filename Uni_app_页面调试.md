@@ -722,4 +722,5 @@ ScrollTimeline)
 
 * 修改显示样式：直接再uni-countdown中**改变数字颜色**用：color绑定属性
 * 是否显示天数等：show-day="false"
-* **改变分隔符（就是中文的单位）**：show-colon="false"
+* **用中文的单位）**：show-colon="false"
+* **分隔符改成白色**：splitor-color="#fff"
