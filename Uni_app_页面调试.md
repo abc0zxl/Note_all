@@ -702,10 +702,6 @@ ScrollTimeline)
 
 3.**肯定要获取订单参数来渲染和改变订单状态**
 
-
-
-
-
 ## 支付倒计时
 
 **关键字**：uni-Countdown
@@ -727,15 +723,17 @@ ScrollTimeline)
 
 ![image.png](/assets/913df6fb-3f74-4e87-a9af-e946dd9a2ebc.png)
 
-
 # 微信支付
 
 在**开发环境**下，这个支付流程有区别，**发起微信支付暂不实现**
 
 ![image.png](/assets/b8b2decc-53b8-46f6-bbdf-658e35883c74.png)
 
-
 1.**调用用于模拟支付用的appid**：通过支付API支付
 
-
 2.**发送请求**：
+
+* **地址**：/pay/wxPay/miniPay
+* **参数**：appid：**wx26729f20b9efae3a**
+
+3.**返回参数类型**：WechatMiniprogram.RequestPaymentOption
