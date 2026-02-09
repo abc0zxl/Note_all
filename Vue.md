@@ -543,4 +543,10 @@ export default instance;
 
 就是控制台获取到的[[Target]]就是被代理的**原始原生对象/数组**，这个形式的数组（存储商品信息），这个是我遇到的，这个需要用官方API获取
 
+![image.png](/assets/e2b9b984-bcd5-41d4-a108-c8503a0f74c7.png)
+
+![image.png](/assets/a3002795-9b38-4cad-a4d8-9c4e8525972f.png)
+
 **专门拿取[[Target]]**：
+
+![image.png](/assets/837795c7-04aa-420f-975a-467ddf992d24.png)
