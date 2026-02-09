@@ -836,10 +836,18 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/1d29fe22-3738-4a3d-af4d-3f3cd1fe02bc.png)
 
-
-
 ## 数组方法includes
 
 表示这个数组的某个值，知否在这个自定义的数组的范围内
 
 ![image.png](/assets/a7c89187-bc8d-4024-9ae0-fddb0862a2bc.png)
+
+
+
+## 事件绑定+箭头函数
+
+1.**@change**：Vue事件绑定语法糖，轮播，标签页，选择器等
+
+2.**$event**：vue内置的**事件对象变量**，代表触发事件传递过来的
+
+![image.png](/assets/999ad04f-8542-43d6-b78a-6ba39b1b7dee.png)
