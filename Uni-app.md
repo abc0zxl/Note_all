@@ -835,3 +835,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 5.然后就可以直接打印看函数参数，每次点击的时候都能修改成功，并有对应数值，和skuid
 
 ![image.png](/assets/1d29fe22-3738-4a3d-af4d-3f3cd1fe02bc.png)
+
+
+
+## 数组方法includes
+
+表示这个数组的某个值，知否在这个自定义的数组的范围内
+
+![image.png](/assets/a7c89187-bc8d-4024-9ae0-fddb0862a2bc.png)
