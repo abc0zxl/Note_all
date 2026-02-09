@@ -724,3 +724,8 @@ ScrollTimeline)
 * 是否显示天数等：show-day="false"
 * **用中文的单位）**：show-colon="false"
 * **分隔符改成白色**：splitor-color="#fff"
+
+![image.png](/assets/913df6fb-3f74-4e87-a9af-e946dd9a2ebc.png)
+
+
+# 微信支付
