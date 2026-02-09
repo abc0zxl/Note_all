@@ -729,3 +729,10 @@ ScrollTimeline)
 
 
 # 微信支付
+
+在**开发环境**下，这个支付流程有区别，**发起微信支付暂不实现**
+
+![image.png](/assets/b8b2decc-53b8-46f6-bbdf-658e35883c74.png)
+
+
+1.**调用用于模拟支付用的appid**：通过支付API支付
