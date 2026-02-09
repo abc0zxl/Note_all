@@ -541,4 +541,6 @@ export default instance;
 
 ## Vue3的reactive代理对象Proxy
 
-就是控制台获取到的[[Target]]
+就是控制台获取到的[[Target]]就是被代理的**原始原生对象/数组**，这个形式的数组（存储商品信息），这个是我遇到的，这个需要用官方API获取
+
+**专门拿取[[Target]]**：
