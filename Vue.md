@@ -8,7 +8,6 @@
 
 他是一款偶关键用户界面的渐进式javascript框架
 
-
 # 创建Vue项目
 
 ![image.png](/assets/ac46bff0-2ff2-4920-8453-fbe31f882d1f.png)
@@ -24,7 +23,6 @@
 ### Vue ui
 
 * 命令行输入Vue ui就能按步骤创建
-
 
 # 运行前端工程
 
@@ -390,7 +388,6 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 
 需要在handers:{token:xxxxxx}中，写入令牌
 
-
 ## 条件列表查询
 
 **实现步骤**：
@@ -540,3 +537,8 @@ instance.interceptors.response.use()
 export default instance;
 
 ![image.png](/assets/d36dac6c-fb7a-47c6-b289-719f155750d9.png)
+
+
+## Vue3的reactive代理对象Proxy
+
+就是控制台获取到的[[Target]]
