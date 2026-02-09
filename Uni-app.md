@@ -848,6 +848,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 1.**@change**：Vue事件绑定语法糖，轮播，标签页，选择器等
 
-2.**$event**：vue内置的**事件对象变量**，代表触发事件传递过来的
+2.**$event**：vue内置的**事件对象变量**，代表触发事件传递过来的**事件对象**
 
-![image.png](/assets/999ad04f-8542-43d6-b78a-6ba39b1b7dee.png)
+![image.png](/assets/0a0dafb7-97f6-44be-a2c3-036f7c1db5e7.png)
