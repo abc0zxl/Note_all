@@ -792,3 +792,7 @@ ScrollTimeline)
 
 
 ## 订单组件
+
+**高内聚低耦合**
+
+![image.png](/assets/2de2c249-f4aa-4b9e-8d9a-2c7c316b36c3.png)
