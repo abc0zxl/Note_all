@@ -731,9 +731,14 @@ ScrollTimeline)
 
 1.**调用用于模拟支付用的appid**：通过支付API支付
 
-2.**发送请求**：
+2.**发送请求参数**：
 
 * **地址**：/pay/wxPay/miniPay
 * **参数**：appid：**wx26729f20b9efae3a**
 
 3.**返回参数类型**：WechatMiniprogram.RequestPaymentOption
+
+
+4.**发送请求**：
+
+![image.png](/assets/dc6a02bb-ff4c-4955-bc36-c3307893f062.png)
