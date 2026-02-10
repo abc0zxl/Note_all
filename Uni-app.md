@@ -860,6 +860,8 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 # 多端uniapp配置
 
+## 网页端打包
+
 * 网页端不支持微信平台授权登录功能
 * 可以用条件变也，让代码按照条件编译到不同平台
 
@@ -888,3 +890,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 * ![image.png](/assets/e469414e-41f0-4f4c-a87f-cce78d98cf3f.png)
 * **相关配置**：在manifest.json中的
 * ![image.png](/assets/6c8565b7-ed41-4f6b-a574-dc302d772876.png)
+
+
+
+
+## Android端打包
+
+* 用HBuilderX，利用其中的**运行到Android APP**
+*
