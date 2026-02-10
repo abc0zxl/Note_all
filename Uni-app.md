@@ -860,4 +860,9 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 # 多端uniapp配置
 
-##
+* 网页端不支持微信平台授权登录功能
+* 可以用条件变也，让代码按照条件编译到不同平台
+
+1.**条件编译和网页端打包**：通过不同的条件，讲代码编译到不同的平台
+
+![image.png](/assets/25d8e365-e944-4e7b-8f0d-00a79f8fb522.png)
