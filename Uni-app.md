@@ -881,4 +881,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 5.**更多**
 
-* **售后**功能在网页端也不能实现
+* **售后**：功能在网页端也不能实现
+* **路由**：这个是代码中的绝对地址不管用了，要用相对地址
+* ![image.png](/assets/1323bd60-5dd4-454c-88dd-adfc5902803c.png)
+* ![image.png](/assets/4ef4fd77-f1c1-4b04-b6a6-cce4d1a8ac5b.png)
+* ![image.png](/assets/e469414e-41f0-4f4c-a87f-cce78d98cf3f.png)
+* **相关配置**：在manifest.json中的
+* ![image.png](/assets/6c8565b7-ed41-4f6b-a574-dc302d772876.png)
