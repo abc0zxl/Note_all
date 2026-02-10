@@ -951,8 +951,10 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 
 
+# 跨端兼容
 
+因为有些小程序，对语法有不同的要求，同一个样式，不同端就会报错和显示不一样，例如
 
-
-
-IO**
+* 小程序端不支持*选择器
+* 视口差异
+* H5默认开启scoped
