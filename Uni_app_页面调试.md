@@ -796,3 +796,13 @@ ScrollTimeline)
 **高内聚低耦合**
 
 ![image.png](/assets/2de2c249-f4aa-4b9e-8d9a-2c7c316b36c3.png)
+
+
+
+# 页面地址
+
+1.**pages数组**：所有主包内的页面都必须在这里注册
+
+2.**tabBar数组**：这个时专为app底部的tab导航栏区域，必须和pages数组中已经注册的路径一致
+
+3.**subPackages数组**：
