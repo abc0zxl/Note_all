@@ -974,3 +974,8 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 使用了这个变量，就会让组件正常显示，像上面最右边的图片
 
 ![image.png](/assets/3415c2b7-250f-43d2-9fcc-785df095bbdd.png)
+
+
+3.**uniapp在H5开启样式隔离scoped**
+
+因为uniapp的也买你切换是在同一个页面中替换组件达到的换页，
