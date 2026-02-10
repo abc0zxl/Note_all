@@ -965,4 +965,12 @@ export type AAA=InstanceType<typeof XtxGuess》
 1.**多端语法差异**：用view.text文件来
 
 
-2.**视口差异**：在代码中声明好视口区域
+2.**视口差异**：在代码中声明好视口区域  
+
+H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮挡，
+
+**关键字**：uniapp提供了内置的css变量：**--window -bottom,**
+
+使用了这个变量，就会让组件正常显示，像上面最右边的图片
+
+![image.png](/assets/3415c2b7-250f-43d2-9fcc-785df095bbdd.png)
