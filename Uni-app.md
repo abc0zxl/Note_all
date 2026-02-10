@@ -1088,3 +1088,5 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 * ![image.png](/assets/902b0bb9-afa2-4e7d-9520-940f0e3ef21f.png)
 
 ![image.png](/assets/81e41c4a-d3cc-43b4-ba7c-8f35bcaee976.png)
+
+3.**再测试阶段这个需要用HBuilder来运行才能作用**
