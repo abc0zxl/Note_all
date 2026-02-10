@@ -842,8 +842,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/a7c89187-bc8d-4024-9ae0-fddb0862a2bc.png)
 
-
-
 ## 事件绑定+箭头函数
 
 1.**@change**：Vue事件绑定语法糖，轮播，标签页，选择器等
@@ -853,3 +851,13 @@ export type AAA=InstanceType<typeof XtxGuess》
 ![image.png](/assets/0a0dafb7-97f6-44be-a2c3-036f7c1db5e7.png)
 
 3.**detail.current**：代表当前滑动的页面数值
+
+![image.png](/assets/46c194ff-478a-4574-bf91-6b95bf4cc2c3.png)
+
+
+
+
+
+# 多端uniapp配置
+
+##
