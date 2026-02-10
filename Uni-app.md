@@ -1085,3 +1085,6 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 用**条件编译**：将**级联选择器**<uni-date-picker插进去
 
 * 这个H5显示的效果不一样，所以用的代码也不一样，**条件编译**的替换代码要去**uniapp**找
+* ![image.png](/assets/902b0bb9-afa2-4e7d-9520-940f0e3ef21f.png)
+
+![image.png](/assets/81e41c4a-d3cc-43b4-ba7c-8f35bcaee976.png)
