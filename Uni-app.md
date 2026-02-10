@@ -925,3 +925,23 @@ export type AAA=InstanceType<typeof XtxGuess》
 4.**发行App云打包**：点击hbuilder上面的发行中的APP云打包，****
 
 * 使用**云端证书**：需要去DCloud中申请（点击详情），然后点击下面的DCloud开发者中心，点击项目里面的Android证书。
+* **点击打包**
+
+### IOS端打包
+
+1.**项目导入到HBuilderX**
+
+2.**运行到手机模拟器**
+
+需要**苹果电脑**
+
+3.**运行到IOS基座**
+
+
+
+
+
+
+
+
+IO**
