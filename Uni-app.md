@@ -854,10 +854,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 ![image.png](/assets/46c194ff-478a-4574-bf91-6b95bf4cc2c3.png)
 
-
-
-
-
 # 多端uniapp配置
 
 ## 网页端打包
@@ -875,7 +871,7 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 3.**登录页输入框条件编译**：微信小程序不用账号密码输入框
 
-![image.png](/assets/e4dd2133-ecf2-4d67-96b8-6356a4c81d6c.png) 
+![image.png](/assets/e4dd2133-ecf2-4d67-96b8-6356a4c81d6c.png)
 
 4.**网页端不能唤起微信支付**：
 
@@ -890,9 +886,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 * ![image.png](/assets/e469414e-41f0-4f4c-a87f-cce78d98cf3f.png)
 * **相关配置**：在manifest.json中的
 * ![image.png](/assets/6c8565b7-ed41-4f6b-a574-dc302d772876.png)
-
-
-
 
 ## Android端打包
 
@@ -948,9 +941,6 @@ export type AAA=InstanceType<typeof XtxGuess》
 * 点击申请证书，**他需要登录IOS的开发者中心，并使用开发者账号，这个每年都需要好几百**
 * 申请到证书+密钥填写好就好了
 
-
-
-
 # 跨端兼容
 
 因为有些小程序，对语法有不同的要求，同一个样式，不同端就会报错和显示不一样，例如
@@ -964,8 +954,7 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 1.**多端语法差异**：用view.text文件来
 
-
-2.**视口差异**：在代码中声明好视口区域  
+2.**视口差异**：在代码中声明好视口区域
 
 H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮挡，
 
@@ -975,7 +964,6 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 
 ![image.png](/assets/3415c2b7-250f-43d2-9fcc-785df095bbdd.png)
 
-
 3.**uniapp在H5开启样式隔离scoped**
 
 因为uniapp的也买你切换是在同一个页面中替换组件达到的换页效果，
@@ -984,8 +972,6 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 * 小程序端是一个多页面应用所以不会报错
 * **例子**：骨架屏它是基于原来在这个页面上的样式生成的，在H5端样式被隔离后就会显示失败
 * **APP端**：他的组件样式也会**默认被隔离**
-
-
 
 ### H5端处理方法
 
@@ -1011,9 +997,6 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 
 ![image.png](/assets/efa6969a-81ae-492a-8ca2-1305fac941ce.png)
 
-
-
-
 ### 组件兼容
 
 在uniapp中用到的**小程序组件**，但在某些平台中，有些支持有些不支持。所以要通过**条件编译将不支持的组件作不显示处理**
@@ -1031,14 +1014,13 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 
 ![image.png](/assets/3667d421-3a78-46a8-b490-b4ca5bea9f11.png)
 
-
 ### Js API兼容
 
 因为某些api只支持某些平台，换了平台就不支持了，例如上传图片的API，只支持微信小程序端
 
 ![image.png](/assets/da3159cc-b5a4-4756-9786-c1f1e851d59d.png)
 
-1.**条件编译，不同的端用不同的API**：  
+1.**条件编译，不同的端用不同的API**：
 
 **小程序端**：chooseMedia
 
@@ -1047,3 +1029,11 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 ![image.png](/assets/5a5e9d1a-f16f-4401-aca5-35661b846232.png)
 
 ![image.png](/assets/69a15878-5063-4675-a02c-4e2cf075a9f8.png)
+
+# uniCloude云开发
+
+就是可以通过js来开发**服务端**，
+
+* 云数据库
+* 云函数
+* 云存储
