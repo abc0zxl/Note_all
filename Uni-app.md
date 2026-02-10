@@ -995,6 +995,10 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 
 ![image.png](/assets/9c7709b7-8f46-4b76-bd55-a401ca5c3638.png)
 
+3.**最好配上条件编译使用**：因为有的端他不会条件隔离
+
+![image.png](/assets/80b5a1cf-43aa-4c5b-a995-a15ea1e64d5e.png)
+
 ### App端处理方法
 
 1.**添加条件编译**
