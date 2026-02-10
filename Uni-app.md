@@ -898,3 +898,7 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 * 用HBuilderX，利用其中的**运行到Android APP**
 *
+
+![image.png](/assets/5c2ba47b-7bb9-427f-aeb2-c1f0f5640506.png)
+
+1.****
