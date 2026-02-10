@@ -866,3 +866,17 @@ export type AAA=InstanceType<typeof XtxGuess》
 1.**条件编译和网页端打包**：通过不同的条件，讲代码编译到不同的平台
 
 ![image.png](/assets/25d8e365-e944-4e7b-8f0d-00a79f8fb522.png)
+
+2.**登录页的快捷登录条件编译**：网页用不了快捷登录
+
+![image.png](/assets/74033856-4343-4736-96fc-748ec7dc464e.png)
+
+3.**登录页输入框条件编译**：微信小程序不用账号密码输入框
+
+![image.png](/assets/e4dd2133-ecf2-4d67-96b8-6356a4c81d6c.png) 
+
+4.**网页端不能唤起微信支付**：
+
+![image.png](/assets/5403a211-9a7d-4c95-b717-798b1518f65d.png)
+
+5.**更多**
