@@ -880,3 +880,5 @@ export type AAA=InstanceType<typeof XtxGuess》
 ![image.png](/assets/5403a211-9a7d-4c95-b717-798b1518f65d.png)
 
 5.**更多**
+
+* **售后**功能在网页端也不能实现
