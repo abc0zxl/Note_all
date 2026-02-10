@@ -1043,3 +1043,7 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 **小程序端**：chooseMedia
 
 **H5端**：chooseImage
+
+![image.png](/assets/5a5e9d1a-f16f-4401-aca5-35661b846232.png)
+
+![image.png](/assets/69a15878-5063-4675-a02c-4e2cf075a9f8.png)
