@@ -957,6 +957,7 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 * 小程序端不支持*选择器，非H5端不支持*选择器
 * 视口差异：会影响滚动触底的功能
+* ![image.png](/assets/bba24838-1997-441a-a4e5-c0dc2f711889.png)
 * H5默认开启scoped
 
 ## 解决方法
