@@ -908,3 +908,20 @@ export type AAA=InstanceType<typeof XtxGuess》
 2..**根据手机提示版本适配**：根据提示信息将编译版本升级到**指定版本**，直到适配即可
 
 ![image.png](/assets/7b56e6f3-8831-4d0f-ae82-b17227e49c7e.png)
+
+### 手机上下载运行
+
+1.**登录DCloud账号**：
+
+2.**获取Dcloud APPID**：用于云打包用的ID
+
+* 在minifest.json的文件中
+* 在基础配置中
+* 点击重新获取
+* ![image.png](/assets/61f1b6e3-0d86-4a24-a22a-58c915af1c4b.png)
+
+3.**在manifest中**：设置要用**名称，图标设置**
+
+4.**发行App云打包**：点击hbuilder上面的发行中的APP云打包，****
+
+* 使用**云端证书**
