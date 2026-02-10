@@ -897,8 +897,11 @@ export type AAA=InstanceType<typeof XtxGuess》
 ## Android端打包
 
 * 用HBuilderX，利用其中的**运行到Android APP**
-*
+* Android手机
 
 ![image.png](/assets/5c2ba47b-7bb9-427f-aeb2-c1f0f5640506.png)
 
-1.****
+
+1.**版本适配**：根据提示信息将编译版本升级到**指定版本**，直到适配即可
+
+![image.png](/assets/7b56e6f3-8831-4d0f-ae82-b17227e49c7e.png)
