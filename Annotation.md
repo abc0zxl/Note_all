@@ -84,7 +84,7 @@
 
 **作用**：在非四大注解中的类，手动创建并注册Bean到Spring容器中，
 
-**位置**：主要放在@Configuration的配置类上
+**位置**：主要放在@Configuration的配置类中的**方法上**
 
 17.**@Import**
 
