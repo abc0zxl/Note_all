@@ -168,6 +168,8 @@
 
 34.**@Transactioanl**
 
+**作用**：
+
 35.**@Component**
 
 36.**@Autowired**
