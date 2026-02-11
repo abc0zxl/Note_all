@@ -160,7 +160,7 @@
 
 33.**@Repository**
 
-**作用**：在Spring框架中，标记**数据访问层DAO/Mapper组件**的注解，让Spring容器管理这个类，比@component的异常处理更好
+**作用**：在Spring框架中，标记**数据访问层DAO/Mapper组件**的注解，让Spring容器管理这个类，比@component的异常处理更好，**如果是Mybatis项目，也推荐@Mapper+@Repository**
 
 **位置**：数据访问层的类上
 
@@ -168,7 +168,9 @@
 
 34.**@Transactioanl**
 
-**作用**：
+**作用**：为方法添加事务控制，确保一组数据的原子性。具有**回滚的功能**
+
+**位置**：优先放在**业务代码上**（service）
 
 35.**@Component**
 
