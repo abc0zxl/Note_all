@@ -139,3 +139,7 @@
 27.**@RetentionPolicy**
 
 **作用**：表示这个自定义注解类在java程序生命周期中能**存活**多久（source，class，runtime）三个阶段，大部分要用到runtime阶段
+
+28.**@SpringBootConfiguration**
+
+**作用**：声明他是标注的类是一个配置类
