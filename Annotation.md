@@ -142,4 +142,30 @@
 
 28.**@SpringBootConfiguration**
 
-**作用**：声明他是标注的类是一个配置类
+**作用**：声明他是标注的类是一个配置类，他的效果和@Configuration大致一样，更推荐用这个，可以适配springboot上下文
+
+29.**@ComponentScan**：
+
+**作用**：可以放很多排除方法在里面
+
+30.**@GetMapping**
+
+**作用**：他是在@RequestMapping增加条件后的一个注解，将指定的Url路径，映射到controller方法上，仅接收get类型的http请求
+
+**位置**：只能放在Controller/RestController的类中
+
+31.**@Controller**
+
+32.**@Service**
+
+33.**@Repository**
+
+**作用**：
+
+34.**@Transactioanl**
+
+35.**@Component**
+
+36.**@Autowired**
+
+37.**@Slf4j**
