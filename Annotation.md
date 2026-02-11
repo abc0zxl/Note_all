@@ -101,3 +101,11 @@
 19.**@EnableAutoConfiguration**：
 
 **作用**：告诉springboot根据项目引入依赖，自动配置对应的功能组件，**比如**：使用了Redis，就会自动引入RedisTemplate的配置
+
+
+
+20.**@Data**
+
+**作用**：自动生成setter，getter，tostring
+
+**位置**：类上面
