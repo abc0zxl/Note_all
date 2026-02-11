@@ -44,11 +44,11 @@
 
 **作用**：表示这个自定义注解将来运行时，在那些阶段会被保留。（运行时，）
 
-@Constraint（validatedBy={AAA.class}）
+10.**@Constraint（validatedBy={AAA.class}）**
 
 **作用**：表示谁来提供这个注解的校验规则
 
-@SpringBootTest
+11.**@SpringBootTest**
 
 **作用**：表示这个单元测试类在执行之前会先**初始化Spring容器**
 
