@@ -1,14 +1,14 @@
-@RequestBody：
+1.**@RequestBody**：
 
 **作用**：用于将前端发过来的json数据转换为java对象
 
 位置：参数前面
 
-@NotNULL
+2.**@NotNULL**
 
 参数不能为空
 
-@NotEmpty
+3.**@NotEmpty**
 
 表示参数不能为空外，字符串类型也不能为null
 
@@ -16,17 +16,17 @@
 
 **作用**：用于识别这个传过来的参数是不是一个合法的url地址
 
-@Validated
+4.**@Validated**
 
 如果不在实体类参数前面加这个注解的话，原来在实体中定义的校验方法,如@NotNull，@NotEmpty就不生效。
 
-@RequestParam(requed=flase)
+5.**@RequestParam(requed=flase)**
 
 **作用**：告知这个参数不是必须的
 
 **位置**：放在参数左边
 
-@RequestBody
+6.**@RequestBody**
 
 讲前端传过来的json字符串转换成java对象
 
@@ -60,9 +60,14 @@
 
 **位置**：controller的类上
 
-
 @DateTimeFormat(pattern="yyyy-mm-dd")
 
 用于表明时间的格式，这个要配合LocalDate一起用
 
 ![image.png](/assets/4abc8ba0-6786-44f6-8a5a-d9044a87e745.png)
+
+@Value
+
+**作用**：获取配置文件中的数据
+
+**位置**：在方法的参数中
