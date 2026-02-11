@@ -27,6 +27,40 @@
 
 4.**在pom.xml**中写一个父工程，这是固定的
 
+根据笔记内容，**在 `pom.xml` 中写一个父工程**是 SpringBoot 项目搭建的固定步骤，具体做法如下：
+
+### 1. **父工程配置**
+
+在 `pom.xml` 中声明 SpringBoot 的父工程依赖，这可以统一管理项目的依赖版本，避免版本冲突。配置示例如下：
+
+根据实际需求选择版本 -->
+<relativePath/>  从仓库查找，不继承本地父工程 -->
+</parent>
+
+```
+
+### 2. **作用说明**
+- **版本管理**：父工程定义了 SpringBoot 及相关依赖的默认版本，无需在子依赖中重复指定。
+- **插件配置**：内置了 Maven 编译、打包等插件配置（如 `spring-boot-maven-plugin`）。
+- **简化配置**：提供了默认的资源配置和依赖管理，减少冗余配置。
+
+### 3. **注意事项**
+- 版本选择应与项目技术栈兼容（如笔记中使用了 MyBatis、Redis 等）。
+- 如果已有父工程（如公司内部项目），可能需要调整或继承其他父工程。
+
+### 4. **后续步骤**
+配置父工程后，继续在 `pom.xml` 中添加项目所需依赖（如 `spring-boot-starter-web`、`mybatis-spring-boot-starter` 等），并编写全局配置文件（如 `application.properties` 或 `application.yml`）。
+
+如果需要更详细的代码示例或问题排查，请进一步提问！
+```
+
+```xml
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.7.0</version> 
+```
+
 ![image.png](/assets/5fcf3c31-0fb4-4983-9ef6-c7c2acb4c94e.png)
 
 5.导入依赖,自动类型依赖不用写版本号
@@ -372,12 +406,7 @@ lombok它可以在编译阶段，为实体类自动生成setter,getter,tostring�
 
 * 像这种能导入LocalDateTime.new()的属性，他们再实体类中都是LocalDateTime类型。不然会报错
 
-
-
-
-
 # 接口已经编写完毕
-
 
 # 实现接口和前端的交互
 
