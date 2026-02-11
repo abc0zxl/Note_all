@@ -52,22 +52,34 @@
 
 **作用**：表示这个单元测试类在执行之前会先**初始化Spring容器**
 
-**位置**：在类上
+**位置**：放在测试类上，一个项目可以有很多个这样的注解
 
-@CrossOrigin
+12.**@CrossOrigin**
 
 **作用**：支持跨域请求注解
 
 **位置**：controller的类上
 
-@DateTimeFormat(pattern="yyyy-mm-dd")
+13.**@DateTimeFormat(pattern="yyyy-mm-dd")**
 
-用于表明时间的格式，这个要配合LocalDate一起用
+**作用**：用于表明时间的格式，这个要配合LocalDate一起用
 
 ![image.png](/assets/4abc8ba0-6786-44f6-8a5a-d9044a87e745.png)
 
-@Value
+**位置**：放在LocalDate参数前面
+
+14.**@Value**
 
 **作用**：获取配置文件中的数据
 
 **位置**：在方法的参数中
+
+15.**@ConfigurationProperties(prefix="AAA")**
+
+**作用**：
+
+**位置**：
+
+16，**@Bean**
+
+**作用**：
