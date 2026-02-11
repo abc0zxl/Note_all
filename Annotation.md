@@ -124,7 +124,6 @@
 
 ![image.png](/assets/8a7ba8a8-df8d-4195-ade7-ce7ae19ec4c4.png)
 
-
 25.**@Inherited**
 
 **作用**：能让子类自动继承父类上**标注在类上**的注解
@@ -136,3 +135,7 @@
 **作用**：解析Http请求体的json，xml数据为java对象
 
 **位置**：方法的参数左边
+
+27.**@RetentionPolicy**
+
+**作用**：表示这个自定义注解类在java程序生命周期中能**存活**多久
