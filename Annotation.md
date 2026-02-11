@@ -160,7 +160,11 @@
 
 33.**@Repository**
 
-**作用**：
+**作用**：在Spring框架中，标记**数据访问层DAO/Mapper组件**的注解，让Spring容器管理这个类，比@component的异常处理更好
+
+**位置**：数据访问层的类上
+
+![image.png](/assets/e6410458-38eb-496e-9fab-20df7464f366.png)
 
 34.**@Transactioanl**
 
