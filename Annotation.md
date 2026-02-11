@@ -94,9 +94,9 @@
 
 18.**@Conditional**
 
-**作用**：
+**作用**：将一个用于判断的java文件，变得能调用
 
-**位置**：
+**位置**：类上
 
 19.**@EnableAutoConfiguration**：
 
