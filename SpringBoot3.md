@@ -58,6 +58,8 @@
 
 2.业务场景的需要，SpringCloud和SpringBoot相互促进
 
+**单体架构**：整个项目所有功能最终打包成一个**可运行的应用包**，部署在一个进程中，和内部多少模块无关
+
 # 常用注解
 
 1.**@Documented**：当你用 `javadoc` 命令生成项目文档时，被 `@Documented` 修饰的注解，会**被包含在它所修饰的类 / 方法的文档说明里**，让阅读文档的人知道这个类 / 方法使用了该注解。
@@ -1300,9 +1302,6 @@ spring默认的servlet容器是tomcat，
 
 ![image.png](/assets/3a214ea7-d9d6-4a82-a6df-416a3eeac800.png)
 
-
-
-
 # SpringBoot+MyBatis
 
 ##### 添加依赖
@@ -1347,8 +1346,6 @@ spring默认的servlet容器是tomcat，
 * 这样省去了一个一个写的步骤，
 * 将注解写到方法上，配合上@Bean一起用
 * ![image.png](/assets/3cf9812f-c2dc-44ac-8eca-236739472283.png)
-
-
 * 上面是**第一种方式**
 * 第二种方式是这个DataSource独有的方法
 * ![image.png](/assets/7acd6387-4a0b-4eda-8efb-8b2803eecdd8.png)
