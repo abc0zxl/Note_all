@@ -324,7 +324,7 @@ https://docs.spring.io/spring-boot/reference/features/spring-application.html#fe
 * 导入依赖在当前模块中：
 
   ![image.png](/assets/8089c0eb-8a27-4adb-976f-ac35a3b8b686.png)
-* 注意上面的optional>true：表示这个以来不会传播
+* 注意上面的optional>true：表示这个**依赖**不会传播
 * 去setting设置一下Annotation Processors,勾选上enable annotation processing，**注意要选中项目**
 * ![image.png](/assets/5c40b96e-6ca5-4c65-baab-91546e7bb617.png)
 * 实现了自动注释
