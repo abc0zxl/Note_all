@@ -397,6 +397,6 @@ Java Persistence API
 
 4.**pojo**：普通java对象，只有属性和对应的get和set
 
-# SpringBoot-Server模块
+# SpringhBoot-Server模块
 
 ![image.png](/assets/44f4c77f-ec05-4326-9622-9ae39cccc192.png)
