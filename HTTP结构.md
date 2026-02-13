@@ -12,16 +12,15 @@
 
 6.****
 
-
-
 HTTP结构
 
-1.**header**：
+1.**header**：请求头
 
 * 在url下方，body上方，一个单独的区域，用于描述这个请求的属性，
 * 存放Host
 * Authorization
 * Content_Type
+* Accept
 
 2.**body**：请求体，不可见
 
