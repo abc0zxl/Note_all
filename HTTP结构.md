@@ -20,7 +20,11 @@ HTTP结构
 * 存放Host
 * Authorization
 * Content_Type
-* Accept
+* Accept：指定客户端可以接受的响应数据格式，如application，text/html
+* **User-Agent**：指定客户端的类型和版本信息，用于服务端进行针对性的优化
+* **Accept-Encoding**：客户端可以接受的数据压缩格式，gzip，deflate等
+* **Cache-Control**：指定客户端缓存策略
+* **Cookie**：包含客户端发送给服务器的cookie信息。
 
 2.**body**：请求体，不可见
 
