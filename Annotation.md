@@ -174,10 +174,14 @@
 
 ![image.png](/assets/fddd83aa-b319-4ecb-a552-cf4b1b11bc2d.png)
 
-35.**@Component**
+35.**@Component**：将这个类交给spring管理
 
-36.**@Autowired**
+36.**@Autowired**：将这个对象交给spring的ioc容器管理
 
-37.**@Slf4j**
+37.**@Slf4j**：
 
-38.**@Overried**
+38.**@Overried**：表示这个是一个重写方法
+
+39.**@Aspect**：声明AOP位置
+
+40.**@Valid**：
