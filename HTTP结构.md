@@ -1,3 +1,7 @@
+# 错误问题
+
+**content_type和accept的区别**：content-type是后端告诉前端我返回的数据是什么格式，Accept作用是**前端来写，告诉后端**，前端能接受什么格式数据。
+
 ## 请求方式
 
 1.**Post**：它不会讲请求参数换成，而且是放到body来传递的，安全系数更高。
@@ -25,6 +29,7 @@ HTTP结构
 * **Accept-Encoding**：客户端可以接受的数据压缩格式，gzip，deflate等
 * **Cache-Control**：指定客户端缓存策略
 * **Cookie**：包含客户端发送给服务器的cookie信息。
+
 
 2.**body**：请求体，不可见
 
