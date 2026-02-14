@@ -357,6 +357,9 @@ Java Persistence API
 
 1.**dao**：存放对数据库操作的代码，全称Data Access Object,这个运用于传统的JDBC原生操作，不同于mapper的接口+xml注解，这个完全是实现类。
 
+* dao层是一个抽象的概念，不是特定指向哪个文件夹，他的作用是**封装数据库操作**，dao层可能包含在下面的文件夹中
+* mapper，entity，wrapper，config，handler，**这些文件夹中，只有直接服务于数据库交互的部分才归属于dao层**
+
 2.**entity**：是存放实体类的地方
 
 3.**impl**：这个是dao，service等文件夹中用于定义接口内容的文件夹
