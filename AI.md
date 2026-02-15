@@ -138,15 +138,11 @@ OpenAI Codex：能力强，能和Claudecode抗衡
 
 Claude code：有完整生态，skills，等
 
-
-
-
 # Cloude code
 
 他是一个运行在终端的ai agent
 
 **安装方式**：CLI命令行方式
-
 
 ## CLI命令行安装方式
 
@@ -156,4 +152,8 @@ Claude code：有完整生态，skills，等
 
 * 升级PowerShell：winget install Microsoft.PowerShell
 
-2.**指向Claude code 安装命令**：irm https://claude.ai/install.ps1 | iex
+2.**指向Claude code 安装命令**：irm https://claude.ai/install.ps1 | iex这个不行就去https://m.runoob.com/claude-code/claude-code-install.html寻找别的安装方式
+
+3.**运行ClaudeCode**
+
+![image.png](/assets/0eac8a3a-8be3-4576-9d8e-8f57a904b91c.png)
