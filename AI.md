@@ -154,4 +154,4 @@ Claude code：有完整生态，skills，等
 
 1.**打开命令行窗口**
 
-2.**指向Claude code 安装命令**
+2.**指向Claude code 安装命令**：irm https://claude.ai/install.ps1 | iex
