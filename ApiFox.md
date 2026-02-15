@@ -1,3 +1,11 @@
+# 解决问题
+
+1.**apifox参数中的缺少的标签**，在类型后面有一个调节图标这里
+
+![image.png](/assets/ab05cb3e-ccb4-48ce-826d-3ac460af8897.png)
+
+![image.png](/assets/d0bbd6b8-28b8-4daf-9b8e-95f3b902a2de.png)
+
 # API文档示例
 
 1.**apifox文件夹示例**
@@ -166,7 +174,6 @@ apifox的**鉴权组件**中**设置了authorization后**，在接口的Auth选�
 
 3.**联调和测试阶段**
 
-
 # 团队协作流程
 
 1.**新建团队**
@@ -174,3 +181,5 @@ apifox的**鉴权组件**中**设置了authorization后**，在接口的Auth选�
 2.**设置项目**
 
 3.**要求成员加入**
+
+# 分享文档
