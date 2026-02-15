@@ -157,3 +157,9 @@ Claude code：有完整生态，skills，等
 3.**运行ClaudeCode**
 
 ![image.png](/assets/0eac8a3a-8be3-4576-9d8e-8f57a904b91c.png)
+
+**注意事项**
+
+1.**国内网络不支持**：会报上面的错误
+
+2.**要用外网，用taiwan的可以使用**
