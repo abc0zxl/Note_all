@@ -94,11 +94,6 @@ Kimi
 
 28.飞书多维表格
 
-
-
-
-
-
 # AI编程工具
 
 AI可以讨论，创新，代码搜索，上下文，工具调用，交互性
@@ -129,7 +124,6 @@ warp
 
 TRAE
 
-
 ## S-类
 
 coursor
@@ -143,3 +137,21 @@ OpenAI Codex：能力强，能和Claudecode抗衡
 ## S类
 
 Claude code：有完整生态，skills，等
+
+
+
+
+# Cloude code
+
+他是一个运行在终端的ai agent
+
+**安装方式**：CLI命令行方式
+
+
+## CLI命令行安装方式
+
+**安装方法**
+
+1.**打开命令行窗口**
+
+2.**指向Claude code 安装命令**
