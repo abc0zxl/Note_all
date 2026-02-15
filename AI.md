@@ -152,6 +152,6 @@ Claude code：有完整生态，skills，等
 
 **安装方法**
 
-1.**打开命令行窗口**
+1.**打开Windows PowerShell窗口**
 
 2.**指向Claude code 安装命令**：irm https://claude.ai/install.ps1 | iex
