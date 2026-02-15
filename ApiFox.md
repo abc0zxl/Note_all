@@ -147,3 +147,15 @@ swwager可以自动生成API文档，apifox可以在**数据管理的导入数�
 ![image.png](/assets/ee1094d2-a625-45c9-9da6-3499657a690b.png)
 
 apifox的**鉴权组件**中**设置了authorization后**，在接口的Auth选项下的鉴权方式添加了这个鉴权组件，这样这个authorization算是嵌入到了header当中
+
+
+
+
+
+# ApiFox编写文档使用方法
+
+描述一个项目的开始到结束，apifox的协作流程
+
+1.**设计阶段**
+
+* 更具需求文档，讨论，确定接口设计思路
