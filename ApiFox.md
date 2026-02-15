@@ -1,6 +1,5 @@
 # API文档示例
 
-
 ## 返回响应
 
 在设计接口时需要返回响应，而响应的数据结构需要自己定义。
@@ -9,7 +8,6 @@
 
 2.**为什么要自己设定**：因为有的公司的响应结构不一样
 
-
 ## 引用模型
 
 在界面的左侧数据模型，他就是可以存放各种
@@ -17,7 +15,6 @@
 **公共**数据对象，用于日常引用
 
 1.**使用方法**：在编写参数类型时，在选类型的时候就会出现**引用模型**，就会将这个数据对象嵌入到这个Object对象中去
-
 
 ## 响应示例
 
@@ -37,4 +34,30 @@
 
 ![image.png](/assets/fd092925-fa8f-497e-abfb-ad1bba9fd19e.png)
 
-#### 通过连接数据库表生成
+#### 通过连接数据库表，sql语句生成
+
+连接数据库后可以导入数据库中的数据类型结构
+
+1.**连接数据库**
+
+![image.png](/assets/536d05eb-dfa6-4b3f-88b1-6d05708a94ca.png)
+
+2.**从数据库导入数据**
+
+![image.png](/assets/6a420d0e-57a7-4ad9-9fd1-ea6a7f8feb7b.png)
+
+3.**也可以通过sql语句DDL（Data Definition Language）**
+
+在上图的右边按钮就是
+
+## 响应组件
+
+这个就是返回响应的时候的**返回码**
+
+![image.png](http://asset.localhost/C%3A%5CUsers%5CZhuanZ1%5CAppData%5CRoaming%5Ccom.codexu.NoteGen%2Farticle%2F%2Fassets%2F0b187281-b859-4c2f-bd2d-586a908720e4.png)
+
+1.**设置响应码**
+
+在apifox左边的**组件库**->**响应组件**里面
+
+![image.png](/assets/8f7d6c42-a95b-4dda-832d-4a7fcf4b59ce.png)
