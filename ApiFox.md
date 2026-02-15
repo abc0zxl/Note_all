@@ -61,3 +61,13 @@
 在apifox左边的**组件库**->**响应组件**里面
 
 ![image.png](/assets/8f7d6c42-a95b-4dda-832d-4a7fcf4b59ce.png)
+
+## 自动生成API文档
+
+1.**swwager辅助**
+
+swwager可以自动生成API文档，apifox可以在**数据管理的导入数据中**，写入swwager的url，设置导入间隔时间，自动导入
+
+2.**Idea的ApiFox插件**
+
+这个直接就能自动导入代码中的存在接口，自动在界面中生成api文档
