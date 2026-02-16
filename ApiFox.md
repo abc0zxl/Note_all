@@ -108,6 +108,8 @@ swwager可以自动生成API文档，apifox可以在**数据管理的导入数�
 
 1.**字符串选择**：
 
+*
+
 ![image.png](/assets/025ec520-6101-482e-80aa-d9df71f8f508.png)
 
 ## 可以自动报错
