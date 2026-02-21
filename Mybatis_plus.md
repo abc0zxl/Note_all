@@ -8,6 +8,7 @@
 
 4.**mybatis-plus也能用sql映射**：当要返回List不要告诉xml，告诉list类型即可
 
+
 # 注解
 
 1.**@TableName（value="AAA", autoResultMap=true）**：
@@ -104,7 +105,10 @@
 
 3.**调用分页方法**：
 
-4.**返回分页结果**：总条数，总页数，当前页数据
+4.**返回分页结果**：总条数，总页数，当前页数据****
+
+**Mybatis-plus的sql.xml+Page<>**：
+
 
 # MyBatis-Plus
 
