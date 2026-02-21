@@ -112,7 +112,9 @@
 * mapper中返回类型和接收参数都设为Page
 * sql映射不用动
 * **自动完成分页**：mb会识别到在sql中自动拼接
+* 参数的传递可和Page一起
 
+![image.png](/assets/0626463a-6edf-42ef-834b-4d246fb48890.png)
 
 # MyBatis-Plus
 
