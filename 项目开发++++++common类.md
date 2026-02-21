@@ -207,4 +207,10 @@
 
 ## jwt生成算法
 
-1.
+1.**获取JWT加密生成token**
+
+![image.png](/assets/ad2c6f29-4725-460f-9cd1-8d3fc5490729.png)
+
+2.**Token解密**
+
+![image.png](/assets/6c93dbd8-48aa-415f-9420-57f7057910cb.png)
