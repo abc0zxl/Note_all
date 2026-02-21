@@ -208,3 +208,5 @@
 ![image.png](/assets/d9e84f79-be99-400b-ad38-13583478e4c8.png)
 
 2.**修改Mapper**
+
+原来用Page，现在要改用IPage
