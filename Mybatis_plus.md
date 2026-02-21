@@ -4,6 +4,8 @@
 
 2.**Page类型转List**：page有专属方法getRecords可以换
 
+3.**他没有多表联查方法**
+
 # 注解
 
 1.**@TableName（value="AAA", autoResultMap=true）**：
