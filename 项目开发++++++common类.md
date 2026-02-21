@@ -66,6 +66,9 @@
 
 ![image.png](/assets/e443411f-cd83-409f-a25c-7f9ed39cb876.png)
 
+* **添加json序列化类后**：
+
+![image.png](/assets/cb65b5ce-0eb0-46fa-8840-f8fa3f2ef915.png)
 
 
 在这里面配置json的转换逻辑
