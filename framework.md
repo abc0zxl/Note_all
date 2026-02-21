@@ -14,7 +14,7 @@
 * result
 * utils
 
-2.**子模块2**：server
+2.**子模块2**：server（启动类）
 
 * config
 * controller
@@ -28,8 +28,6 @@
 * dto
 * entity
 * vo
-
-
 
 ### 五层架构
 
@@ -56,7 +54,7 @@
 * manager
 * service
 
-5.**子模块5**：web
+5.**子模块5**：web（启动类）
 
 * controller
 * interceptor
