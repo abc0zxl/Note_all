@@ -212,3 +212,7 @@
 原来用Page，现在要改用IPage
 
 **注意事项**：
+
+* mapper中的方法的传入，返回的类型是一样的
+* ![image.png](/assets/9d8e8d06-1241-496b-808a-b29c94fbae7f.png)
+*
