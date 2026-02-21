@@ -1,6 +1,5 @@
 # FrameWork
 
-
 ### 三层架构
 
 1.**子模块1**：common
@@ -60,3 +59,19 @@
 * interceptor
 * config
 * aspect
+
+
+
+### common和service层
+
+1.**common适应放**：
+
+* 纯静态
+* 全局都要调用
+
+2.**service适应放**：
+
+* 需要用到配置类的
+* 需要用到spring的
+* 需要交给spring管理的
+* 需要和外界交互数据的
