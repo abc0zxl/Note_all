@@ -109,6 +109,10 @@
 
 **Mybatis-plus的sql.xml+Page<>**：
 
+* mapper中返回类型和接收参数都设为Page
+* sql映射不用动
+* **自动完成分页**：mb会识别到在sql中自动拼接
+
 
 # MyBatis-Plus
 
