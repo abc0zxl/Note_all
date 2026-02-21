@@ -116,6 +116,8 @@
 
 ![image.png](/assets/0626463a-6edf-42ef-834b-4d246fb48890.png)
 
+**在计算页面总数和总页数上**：不用通过查询，直接调用gettotal，getpages，mp就会自动计算。
+
 # MyBatis-Plus
 
 为了简化开发，提高效率而生，
