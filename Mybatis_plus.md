@@ -6,6 +6,8 @@
 
 3.**他没有多表联查方法**
 
+4.**mybatis-plus也能用sql映射**：当要返回List不要告诉xml，告诉list类型即可
+
 # 注解
 
 1.**@TableName（value="AAA", autoResultMap=true）**：
