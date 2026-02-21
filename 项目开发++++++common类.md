@@ -181,3 +181,24 @@
 * **doGet()**：调用查询类接口（比如查订单状态、查用户信息）；
 * **doPost()**：调用表单传参的接口（比如短信发送、简单提交）；
 * **doPost4Json()**：调用 JSON 传参的接口（比如微信支付、内部微服务）。
+
+
+1.**设置超时时间**：
+
+![image.png](/assets/8ea5ef26-3248-4777-86d9-5391c2647a55.png)
+
+2.**设置doGet**
+
+![image.png](/assets/03f23724-5ebd-498b-9a24-c9ef7a906932.png)
+
+3.**设置doPost**
+
+![image.png](/assets/21ea9cdd-d05f-49bb-b107-d7466e9fd7b8.png)
+
+4.**设置doPost4Jest**
+
+![image.png](/assets/f1050323-6e40-4fe0-b6b6-60215618c1e5.png)
+
+5.**初始化配置信息**
+
+![image.png](/assets/d16d768a-f5d0-4493-8ca5-1296d5e13b00.png)
