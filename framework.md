@@ -33,4 +33,22 @@
 
 ### 五层架构
 
-1.****
+1.**子模块1**：common
+
+* constant
+* enums
+* exception
+* result
+* utils
+
+2.**子模块2**：pojo
+
+* entity
+* dto
+* vo
+
+3.**子模块3**：mapper
+
+* mapper
+
+4.**子模块4**：service
