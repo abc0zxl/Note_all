@@ -224,3 +224,123 @@
 ## 加密工具
 
 1.**Spring自带加密工具**：DigestUtils
+
+2.**加密知识点**：所有敏感信息（密码、手机号）的加密，都必须在后端做，前端只负责通过 HTTPS 传输原始数据即可。
+
+3.**AES加密**：在下面讲了
+
+
+
+## AES加密
+
+1.**配置加密密钥**
+
+![image.png](/assets/53609b1a-23f9-40b5-9383-6e24359cfdfe.png)
+
+2.**编写加密工具**
+
+
+package com.shangmenbang.util;
+
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+import javax.crypto.Cipher;
+import javax.crypto.spec.SecretKeySpec;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
+
+/**
+
+* AES 对称加密工具类（用于手机号等敏感信息加密存储）
+* 特点：可加密、可解密、密钥可配置、基于 Spring
+  */
+  @Component
+  @ConfigurationProperties(prefix = "aes") // 自动读取 application.yml 里的 aes.key
+  @Data
+  public class AESUtil {
+
+  /**
+
+  * AES 密钥（从配置文件注入，必须 16/24/32 位）
+    */
+    private String key;
+
+  // 固定算法/模式/填充（ECB模式简单易用，适合敏感信息存储）
+  private static final String ALGORITHM = "AES";
+  private static final String TRANSFORMATION = "AES/ECB/PKCS5Padding";
+
+  /**
+
+  * AES 加密（明文 → 密文）
+  *
+  * @param plainText 待加密的明文（比如手机号：13800138000）
+  * @return 加密后的 Base64 编码密文（存数据库用）
+    */
+    public String encrypt(String plainText) {
+    if (plainText == null || plainText.isEmpty()) {
+    throw new IllegalArgumentException("加密内容不能为空");
+    }
+    if (key == null || key.length() != 16 && key.length() != 24 && key.length() != 32) {
+    throw new IllegalArgumentException("AES 密钥必须是 16/24/32 位");
+    }
+    try {
+    // 1. 生成密钥规范
+    SecretKeySpec keySpec = new SecretKeySpec(key.getBytes(StandardCharsets.UTF_8), ALGORITHM);
+    // 2. 初始化加密器
+    Cipher cipher = Cipher.getInstance(TRANSFORMATION);
+    cipher.init(Cipher.ENCRYPT_MODE, keySpec);
+    // 3. 执行加密
+    byte[] encryptedBytes = cipher.doFinal(plainText.getBytes(StandardCharsets.UTF_8));
+    // 4. 转 Base64 编码（方便存数据库）
+    return Base64.getEncoder().encodeToString(encryptedBytes);
+    } catch (Exception e) {
+    throw new RuntimeException("AES 加密失败", e);
+    }
+    }
+
+  /**
+
+  * AES 解密（密文 → 明文）
+  *
+  * @param cipherText 加密后的 Base64 密文（从数据库取的）
+  * @return 解密后的明文（比如原始手机号）
+    */
+    public String decrypt(String cipherText) {
+    if (cipherText == null || cipherText.isEmpty()) {
+    throw new IllegalArgumentException("解密内容不能为空");
+    }
+    try {
+    // 1. 生成密钥规范
+    SecretKeySpec keySpec = new SecretKeySpec(key.getBytes(StandardCharsets.UTF_8), ALGORITHM);
+    // 2. 初始化解密器
+    Cipher cipher = Cipher.getInstance(TRANSFORMATION);
+    cipher.init(Cipher.DECRYPT_MODE, keySpec);
+    // 3. 先把 Base64 密文转字节数组
+    byte[] decodedBytes = Base64.getDecoder().decode(cipherText);
+    // 4. 执行解密
+    byte[] decryptedBytes = cipher.doFinal(decodedBytes);
+    // 5. 转字符串返回
+    return new String(decryptedBytes, StandardCharsets.UTF_8);
+    } catch (Exception e) {
+    throw new RuntimeException("AES 解密失败", e);
+    }
+    }
+
+  // 测试方法（需在 Spring 环境下运行，或者临时把 key 硬编码测试）
+  public static void main(String[] args) {
+  // 临时测试（硬编码密钥，实际项目用 Spring 注入）
+  AESUtil aesUtil = new AESUtil();
+  aesUtil.setKey("ShangMenBang12345"); // 16位密钥
+
+  // 1. 加密测试（手机号）
+  String phone = "13800138000";
+  String encryptedPhone = aesUtil.encrypt(phone);
+  System.out.println("手机号加密后：" + encryptedPhone);
+
+  // 2. 解密测试
+  String decryptedPhone = aesUtil.decrypt(encryptedPhone);
+  System.out.println("手机号解密后：" + decryptedPhone);
+  }
+  }
