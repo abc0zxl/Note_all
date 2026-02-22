@@ -8,6 +8,7 @@
 
 4.**mybatis-plus也能用sql映射**：当要返回List不要告诉xml，告诉list类型即可
 
+5.**id自增**：当数据库的id字段未设置自增的时候用@TableId的auto会失效，且插入数据失败
 
 # 注解
 
@@ -112,7 +113,7 @@
 * mapper中返回类型和接收参数都设为Page
 * sql映射不用动
 * **自动完成分页**：mb会识别到在sql中自动拼接
-* 参数的传递可和Page一起
+* 参数的传递可和Page一起（**需要插件，具体代码去项目笔记common中看**）
 
 ![image.png](/assets/0626463a-6edf-42ef-834b-4d246fb48890.png)
 
