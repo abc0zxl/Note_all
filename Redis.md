@@ -1,3 +1,7 @@
+# 注意事项
+
+1.**在公共配置文件中**：yml文件的键和值要**隔开一个空格**
+
 # 散碎操作
 
 1.**修改密码**：在redis.windows.conf下查找requirepass代码
@@ -89,7 +93,6 @@
 * 秒杀，抢车票
 *
 
-
 # 目录结构
 
 介绍redis文件的几个重要的文件
@@ -99,7 +102,6 @@
 2.**Redis客户端**：redis-cli.pdb
 
 3.**Redis服务端**：redis-server.exe
-
 
 # Redis数据类型
 
@@ -116,7 +118,6 @@
 * sorted set
 * zset
 
-
 # 下面全都是在Redis的命令行中执行的命令，代码中的命令和这个完全不一样
 
 # 字符串常用命令
@@ -129,8 +130,6 @@
 
 4.**只有在key不存在时设置key的值**：SETNX key value
 
-
-
 # 哈希操作命令
 
 Redis hash 是一个String类型的field和value的映射表，特别适合用于存储对象
@@ -141,16 +140,13 @@ key ->(field1,field2)=(value1,value2)
 
 下面图片没有插入命令
 
-
 ![image.png](/assets/a30b4d15-84a6-4385-ab8e-b53bf6da51d8.png)
-
 
 # 列表操作命令
 
 按照**插入顺序**排序，操作类似一个队列，左侧按顺序插入，右侧按顺序删除
 
 ![image.png](/assets/4543586c-fd5a-4643-941b-011e6ee7066e.png)
-
 
 # 集合操作命令
 
@@ -173,9 +169,6 @@ key ->(field1,field2)=(value1,value2)
 ![image.png](/assets/4949c1d1-1c35-4b53-bf01-46d153782907.png)
 
 1.**第一个命令pattern**：他表示某种命令如*，表示查找所有
-
-
-
 
 # Redis的java客户端SpringDataRedis
 
@@ -210,7 +203,6 @@ key ->(field1,field2)=(value1,value2)
 
 ![image.png](/assets/a6ecd2fd-6a1f-48f1-aa30-55ad18503ac7.png)
 
-
 6.**Hash类型的操作**：
 
 * **插入**：对象AAA.put(key,hashkey,value)
@@ -239,14 +231,12 @@ key ->(field1,field2)=(value1,value2)
 
 ![image.png](/assets/35123733-cf94-4097-a004-314665950b0d.png)
 
-
 8.**有序集合的操作**：
 
 * **获取排序的value**：AAA..range(key,start,end),用set来封装
 * **给指定的key中的某个value添他的成绩**：AAA.incrementScore(key，value,delta)
 
 ![image.png](/assets/2bdb6258-a320-4df8-bc13-272e2bcd389b.png)
-
 
 9.**通用命令**：
 
