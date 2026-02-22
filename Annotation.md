@@ -1,4 +1,4 @@
-# SpringBoot的注解
+****# SpringBoot的注解
 
 1.**@RequestBody**：
 
@@ -32,9 +32,11 @@
 
 **位置**：放在参数左边
 
-6.**@RequestBody**
+6.**@ResponseBody**
 
-讲前端传过来的json字符串转换成java对象
+**作用**：像前端返回数据j，直接用json字符串
+
+**位置**：放在类上面
 
 7.**@Documented**
 
@@ -214,29 +216,13 @@
 
 **位置**：在实体属性上面
 
+44.**@RestControllerAdvice**
 
+**作用**：标记这个类是一个全局异常处理器
 
+**位置**：在异常处理类文件上面
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+45.**@RestController**
 
 # MyBatis-Plus的注解
 
