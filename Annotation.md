@@ -1,10 +1,10 @@
 ****# SpringBoot的注解
 
-1.**@RequestBody**：
+1.**@Builder**：
 
-**作用**：用于将前端发过来的json数据转换为java对象
+**作用**：表示这个pojo类可以用构造器方式赋值
 
-位置：参数前面
+**位置**：类前面
 
 2.**@NotNULL**
 
@@ -223,6 +223,16 @@
 **位置**：在异常处理类文件上面
 
 45.**@RestController**
+
+**作用**：@Controller+@ResponseBody结合体
+
+**位置**：类方法上面
+
+46.**@RequestMapping**
+
+**作用**：给这个controller补一段url
+
+**位置**：controller上面
 
 # MyBatis-Plus的注解
 
