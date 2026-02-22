@@ -219,3 +219,8 @@
 3.**修改service**
 
 ![image.png](/assets/413092c2-8997-4e42-8cc2-b60dafa8b400.png)
+
+
+## 加密工具
+
+1.**Spring自带加密工具**：DigestUtils
