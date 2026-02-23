@@ -71,7 +71,6 @@ System.out.println("这是辅助类");
 
 21.Java 中所有对象（包括 String）的变量，存储的都是「内存地址」（引用）；String phone2=phone;如果phone变了phone2会跟着变。
 
-
 ![image.png](/assets/1e00e93f-5437-455a-b674-3438a19a1926.png)
 
 ## 封装
@@ -243,10 +242,10 @@ public interface Payable {
    插入：list.add(xx);
    修改：list_name.set(int place,int num);
    查找：int_name.indexOf(xx);返回位置
-2. **Set**：不允许重复元素
+3. **Set**：不允许重复元素
    初始化：Set<Integer> list_name=new HashSet<>();
    长度：list_name.size();
-3. **Map**
+4. **Map**
 
 ### **List 子类**
 
@@ -321,6 +320,15 @@ public interface Payable {
 创建：Period p=Period.between(A,B);
 
 ## IO流
+
+
+![image.png](/assets/1f62fb4a-4c9a-453b-9884-f2e9330b9217.png)
+
+
+他的作用是：
+
+* map(AAA)：变换类型，将每个notices转换为converToVO类型
+* collect(BBB)：**把流里的元素 “收集” 成一个 List 集合**
 
 ### 字节流
 
