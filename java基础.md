@@ -73,6 +73,8 @@ System.out.println("这是辅助类");
 
 ![image.png](/assets/1e00e93f-5437-455a-b674-3438a19a1926.png)
 
+22.**实体转换VO**：如果java的版本不支持private为主类的方式就写成某个主类的方法，将其**实体转换VO**写成，ConverToVO::converToVO
+
 ## 封装
 
 #### getter和setter
@@ -327,7 +329,7 @@ public interface Payable {
 
 他的作用是：
 
-* map(AAA)：变换类型，将每个notices转换为converToVO类型
+* map(AAA)：变换类型，将每个notices转换为converToVO类型，`map(AAA)` 里的 `AAA` 本质是一个 \*\*“转换规则”\*\* —— 告诉程序：如何把 Stream 里的**当前元素**转换成你想要的**新元素**。
 * collect(BBB)：**把流里的元素 “收集” 成一个 List 集合**
 
 ### 字节流
