@@ -67,6 +67,13 @@ System.out.println("这是辅助类");
 |-主方法可以直接调用-|-主方法要new对象来调用-|
 **9.非公共类**：不在公共类中，外部不能调用，仅仅该文件内可以调用
 
+20.**Long型变量的赋值**
+
+21.Java 中所有对象（包括 String）的变量，存储的都是「内存地址」（引用）；String phone2=phone;如果phone变了phone2会跟着变。
+
+
+![image.png](/assets/1e00e93f-5437-455a-b674-3438a19a1926.png)
+
 ## 封装
 
 #### getter和setter
