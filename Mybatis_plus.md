@@ -10,6 +10,9 @@
 
 5.**id自增**：当数据库的id字段未设置自增的时候用@TableId的auto会失效，且插入数据失败
 
+6.**遇到需要mb的场景，但是数据变换太麻烦**：![image.png](/assets/6aef2d56-ef4a-408c-bba7-808930477336.png)
+
+
 # 注解
 
 1.**@TableName（value="AAA", autoResultMap=true）**：
