@@ -12,10 +12,11 @@
 
 6.**遇到需要mb的场景，但是数据变换太麻烦**：![image.png](/assets/6aef2d56-ef4a-408c-bba7-808930477336.png)
 
+7.**一个 Service 类中，MyBatis-Plus 封装的快捷指令，确实只能操作 `ServiceImpl<Mapper, Entity>` 里 `Entity` 对应的那一张数据库表**。
 
 # 注解
 
-1.**@TableName（value="AAA", autoResultMap=true）**：
+1.**@TableName（value="AAA", autoResultMap=true）**
 
 **作用**：这个是mybatis-plus的一个注解，用于连接表，AAA，后面的参数是关于映射值。
 
