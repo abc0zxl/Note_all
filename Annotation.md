@@ -234,6 +234,12 @@
 
 **位置**：controller上面
 
+47.**@Getter**
+
+**作用**：自动生成java类中的get类变量
+
+**位置**：在各种实体类，枚举上面
+
 # MyBatis-Plus的注解
 
 1.**@TableName(value="AAA")**
