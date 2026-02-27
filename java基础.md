@@ -75,6 +75,9 @@ System.out.println("这是辅助类");
 
 22.**实体转换VO**：如果java的版本不支持private为主类的方式就写成某个主类的方法，将其**实体转换VO**写成，ConverToVO::converToVO
 
+23.**类型转换**：String.valueOf(userId)
+
+
 ## 封装
 
 #### getter和setter
@@ -244,10 +247,10 @@ public interface Payable {
    插入：list.add(xx);
    修改：list_name.set(int place,int num);
    查找：int_name.indexOf(xx);返回位置
-3. **Set**：不允许重复元素
+2. **Set**：不允许重复元素
    初始化：Set<Integer> list_name=new HashSet<>();
    长度：list_name.size();
-4. **Map**
+3. **Map**
 
 ### **List 子类**
 
@@ -323,9 +326,7 @@ public interface Payable {
 
 ## IO流
 
-
 ![image.png](/assets/1f62fb4a-4c9a-453b-9884-f2e9330b9217.png)
-
 
 他的作用是：
 
