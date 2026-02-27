@@ -650,7 +650,7 @@ GenericBeanDefinition b=new GenericBeanDefinition();
 2.**设置隔离级别**：isolation，可以解决并发的问题
 
 * **脏读**：在transactional注释中添加isolation=isolation.READ_COMMITTED,
-* **不可重复性**：就是执行这个数据期间发生了数据变化，添加REPEATABLE_READ可以上锁不让别人操作这**行**数据
+* **不可重复性**：就是执行这个数据期间发生了数据变化，在此期间会添加一个**事务快照**，即使被修改了页还是这个数据。添加REPEATABLE_READ可以上锁不让别人操作这**行**数据，知道这个事务**回滚**或者**提交**，
 * **幻影读**：这个针对的是**多行**数据，在统计信息期间出现，行的增删改，通过增加SERIALIZABLE,防止别人操作这个**表**。性能比较差。
 
 ## 事务传播行为
