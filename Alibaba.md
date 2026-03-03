@@ -50,7 +50,7 @@ https://open.alipay.com/api#openapi
 
 ![image.png](/assets/14ee4f7e-5d66-4cf9-8318-ecade0c7ed07.png)
 
-## 用沙箱实现App跳转支付
+## 用沙箱实现浏览器跳转支付
 
 1.**打开支付宝开放平台**
 
@@ -58,4 +58,16 @@ https://open.alipay.com/api#openapi
 
 2.**进入沙箱环境**
 
-3.**下载工具**：
+### **对接沙箱**
+
+1.**下载密钥生成软件**
+
+2.**点击生成密钥**：私钥自己保管，公钥交给支付宝
+
+![image.png](/assets/1a1f41e9-1391-41cd-9431-fa91214aebca.png)
+
+3.**复制公钥到沙箱网站**：自定义密钥设置
+
+![image.png](/assets/eb5ab66a-432e-4ece-8096-c5a5b28f4fe9.png)
+
+4.**将接口各个参数放到配置类中**
