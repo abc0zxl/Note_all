@@ -6,13 +6,15 @@
 
 下面模拟的沙箱环境的支付实现流程
 
+**各种支付方式的教程**：
+
+https://open.alipay.com/api#openapi
+
 1.**沙箱网址**：https://open.alipay.com/develop/sandbox/account
 
 2.**密钥生成**：https://opendocs.alipay.com/common/02kipk?pathHash=0d20b438
 
 3.**必须要同一个账号**
-
-
 
 ## 支付宝App跳转支付实现
 
@@ -27,9 +29,6 @@
 3.**复制公钥到沙箱网站**：自定义密钥设置
 
 ![image.png](/assets/eb5ab66a-432e-4ece-8096-c5a5b28f4fe9.png)
-
-
-
 
 ## 如何跳转到支付APP上支付
 
@@ -50,9 +49,6 @@
 4.**设置程序中的**：支付宝公钥，用户私钥
 
 ![image.png](/assets/14ee4f7e-5d66-4cf9-8318-ecade0c7ed07.png)
-
-
-
 
 ## 用沙箱实现App跳转支付
 
