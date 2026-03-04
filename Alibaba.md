@@ -89,3 +89,23 @@ https://open.alipay.com/api#openapi
 
 * **修改订单状态**
 * **前端支付成功通知**
+
+
+
+
+# 传递的各个参数
+
+## 公共参数
+
+1.**网站查看**：https://open.alipay.com/api/detail?code=I1080300001000041203&index=1
+
+2.**method接口名称**：这个是要调用支付宝哪个接口的说明（支付，退款，查询，下载，下单）
+
+![image.png](/assets/c7c4e563-c83f-48bf-934b-ab73c91b059d.png)
+
+1.**biz_content请求参数集合**：他是存放业务请求参数的地方
+
+
+### 业务参数
+
+1.**product_code产品销售码**：
