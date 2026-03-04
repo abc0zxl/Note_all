@@ -108,4 +108,6 @@ https://open.alipay.com/api#openapi
 
 ### 业务参数
 
-1.**product_code产品销售码**：
+1.**product_code产品销售码**：告诉支付宝，需要调用那种支付场景。
+
+![image.png](/assets/d371cb89-ae72-4687-90e2-d0aee7d1368b.png)
