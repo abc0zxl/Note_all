@@ -71,3 +71,8 @@ https://open.alipay.com/api#openapi
 ![image.png](/assets/eb5ab66a-432e-4ece-8096-c5a5b28f4fe9.png)
 
 4.**将接口各个参数放到配置类中**
+
+这里有两种存放配置参数方式
+
+* 直接整个集成到一个Util类中
+* 在全局配置中写好参数，然后再利用
