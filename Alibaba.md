@@ -50,7 +50,7 @@ https://open.alipay.com/api#openapi
 
 ![image.png](/assets/14ee4f7e-5d66-4cf9-8318-ecade0c7ed07.png)
 
-## 用沙箱实现浏览器跳转支付
+## 用沙箱实现浏览器跳转支付（通用版）
 
 1.**打开支付宝开放平台**
 
@@ -76,3 +76,7 @@ https://open.alipay.com/api#openapi
 
 * 直接整个集成到一个Util类中
 * 在全局配置中写好参数，然后再利用**配置属性类**，读取出配置，在写入到**支付宝的配置参数中**
+
+5.**导入参数**：
+
+* 首先要去支付宝的文档中心下载他的**javaSDK**依赖
