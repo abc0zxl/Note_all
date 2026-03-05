@@ -9,6 +9,9 @@
 
 3.**hhh**
 
+4.**清空redis**：flushAll
+
+
 # 散碎操作
 
 1.**修改密码**：在redis.windows.conf下查找requirepass代码
