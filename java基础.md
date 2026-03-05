@@ -77,6 +77,9 @@ System.out.println("这是辅助类");
 
 23.**类型转换**：String.valueOf(userId)
 
+24.**类型转换**：Long转LocalDataTime
+
+![image.png](/assets/54dd4f0f-f74c-4729-88dd-6ac26cf8fedb.png)
 
 ## 封装
 
