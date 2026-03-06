@@ -483,6 +483,11 @@ vue它有专属的.vue文件可以编写，也可以在HTML中编写Vue
 
 这个十分麻烦，因为将内部获取列表的部分axios声明为**同步后**，整个函数又成为异步的了，所以在调用这个函数的位置也要说明为同步，同时外层函数又要声明为异步
 
+1.**async**：
+
+2.**await**：
+
+
 ![image.png](/assets/e2af675a-c43b-4675-b7c1-24f278cb6614.png)
 
 ![image.png](/assets/2715a4c1-e8e7-4eb2-b53d-bd153fdb9aa5.png)
@@ -537,7 +542,6 @@ instance.interceptors.response.use()
 export default instance;
 
 ![image.png](/assets/d36dac6c-fb7a-47c6-b289-719f155750d9.png)
-
 
 ## Vue3的reactive代理对象Proxy
 
