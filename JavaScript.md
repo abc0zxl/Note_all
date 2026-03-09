@@ -1,3 +1,13 @@
+# 注意
+
+1.函数没有return会返回undefine
+
+2.**遍历方法**：for in语法
+
+![image.png](/assets/cc2cbe32-10d1-4d55-a1d4-c4590aa10db0.png)
+
+3.**null**：他是**空对象**
+
 # JavaScript
 
 现在用的是最新版的ECMAScript,也叫ES6(2015年)
@@ -56,6 +66,9 @@ javascript的var类型他的特点是
 
 5.**中途删除**：AAA.splice(start,deleteCount)
 
+6.**对象数组**：这种含有**无对象名字**的方式和**有对象名字**的方式。
+
+* 数组中的对象，不管有名字还是无名字，**元素都可以不一样**
 
 ## 基础显示
 
@@ -80,6 +93,40 @@ javascript的var类型他的特点是
 
 **![image.png](/assets/01428a70-fe31-42b1-ab5d-8ccaf68f8a73.png)**
 
+## 匿名函数
+
+也叫**立即执行函数**
+
+* 他没有函数名字
+* 代码运行立即执行
+* 它有两种写法
+
+![image.png](/assets/17fed08f-2feb-4d8b-8b5a-6138b011c54d.png)
+
+![image.png](/assets/131b435e-c8b7-4edf-8bf6-8bc374f93bb1.png)
+
+1.**应用场景**：
+
+* 对象中的函数元素
+* ![image.png](/assets/a0560d39-ccca-4755-85dc-6d6f6455fcdd.png)
+* 含参数的函数元素
+* ![image.png](/assets/66d19798-da04-499e-8fef-8dd7d6ea2394.png)
+
+## 对象的定义
+
+1.**对象的增删改**
+
+* 可以用let，const，var定义
+* const的对象不可以修改值
+* 增加元素的时候直接.AAA即可
+* 删除元素的时候要用关键字 **delete AAA.BBB**
+
+![image.png](/assets/6432401d-d3e6-4167-a092-f46388594914.png)
+
+2.**访问对象的方式**
+
+* 点形式
+* []形式：AAA['BBB']
 
 ## 箭头函数
 
@@ -90,6 +137,13 @@ const getData=()=>{    }
 2.**（）=>**：这个是放参数的地方
 
 3.**{}**：这个是放函数体的地方
+
+
+## 内置函数
+
+1.访问mdn，可以查看各种内置函数，
+
+* 如math.pi，可以直接在搜索框搜索math
 
 ## 扩展运算符
 
