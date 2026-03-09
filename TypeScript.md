@@ -2,6 +2,8 @@
 
 1.目前HBuilerX还不支持typeScript的语法报错，VsCode可以
 
+2.typescript是javascript的超集，最终还是会被编译成为javascript
+
 # TypeScript
 
 他是一款解决javascript缺点的编程语言
@@ -49,6 +51,5 @@
 if里的参数上的？导致这个参数可能不存在，下面的方法逻辑上就会，可能导致一个参数为空，所以ts会报错
 
 ，这时就要在if中加上return来返回
-
 
 ![image.png](/assets/e0b0012d-a807-4e1c-a6f9-971ae6c9663b.png)
