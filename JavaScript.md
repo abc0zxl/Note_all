@@ -40,6 +40,18 @@ javascript的var类型他的特点是
 
 **作用**:undefind和null:是表示变量未赋值的时候,明确给它声明的一个类型.
 
+
+
+## 数组操作
+
+1.**新增**：AAA.push()
+
+* 一次可以加**一个** 或者**好几个**
+
+2.****
+
+
+
 ## 箭头函数
 
 const getData=()=>{    }
@@ -71,7 +83,6 @@ const getData=()=>{    }
 1.如果A为空或不存在，就会调用B
 
 ![image.png](/assets/54dd46a9-a17e-48cc-8979-5af3310def41.png)
-
 
 ## 数组查找.find（）
 
