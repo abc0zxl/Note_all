@@ -52,6 +52,34 @@ javascript的var类型他的特点是
 
 3.**尾部删除**：AAA.pop()
 
+4.**头部删除**：AAA.shift()
+
+5.**中途删除**：AAA.splice(start,deleteCount)
+
+
+## 基础显示
+
+1.**输入框**：prompt("AAA");
+
+2.**页面上显示**：document.write('BBB')
+
+* **双引号**：这个BBB可以是文本
+* **单引号**：这个给BBB可以是容器
+* **它可以组合成容器**：如条形图的每个条单元![image.png](/assets/c22fd151-adee-4722-8fd5-0b8db7b54613.png)
+*
+
+
+## 函数
+
+他的基本规则是
+
+* **默认值**：有参的时候，传递无参，需要让参数有默认值，
+* **类型**：可以传入**数组**，**常量**
+* **返回值**：可以在for内加一个**return**，返回数值
+
+**![image.png](/assets/01428a70-fe31-42b1-ab5d-8ccaf68f8a73.png)**
+
+
 ## 箭头函数
 
 const getData=()=>{    }
