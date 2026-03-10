@@ -254,6 +254,16 @@ dom对象.innerHTML
 
 ### 间歇函数
 
+1.**setInterval(AAA,BBB)**：函数AAA，每隔BBB毫秒执行一次
+
+* 鼠标悬浮到轮播图，轮播图自动切换
+
+2.**closeInterval（n)**：关闭定时器，关闭方法是
+
+* 获取到对应的setInterval的唯一标识n
+* 用closeInterval（n）关闭即可
+
+![image.png](/assets/3aa9f78b-96ab-4747-bd2c-c68dd922c855.png)
 
 # BOM
 
