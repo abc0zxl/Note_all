@@ -230,6 +230,14 @@ dom对象.innerHTML
 
 ![image.png](/assets/1503ce0b-5541-4c9e-9756-b05540cd159e.png)
 
+
+
+7.**类名变更**：可以通过dom对象和**classList**给目标对象修改类名
+
+* **添加类名**：AAA.classList.add('active')这个active是续接在原类名后面的名字。
+* **删除类名字**：AAA.classList.remove()
+* **有就删除，没有就加上**：AAA.classList.toggle()
+
 # BOM
 
 浏览器对象模型
