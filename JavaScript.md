@@ -12,6 +12,8 @@
 
 5.**DOM对象**：在html中div叫做标签，在js张叫做dom对象
 
+6.**Dom对象数组**：他是一个**伪数组**， 
+
 # JavaScript
 
 现在用的是最新版的ECMAScript,也叫ES6(2015年)
@@ -210,6 +212,19 @@ const getData=()=>{    }
 * ![image.png](/assets/d9a83bf8-304b-4d2a-875a-e560019323b0.png)
 * **获取dom数组**：获取只当某个层级的多个对象
 * ![image.png](/assets/a44d59a5-2abf-49b0-99d5-69085768b3bb.png)
+* **其他获取方式**：
+* getElementById()
+* getElementsByTagName()
+* getElementsByClassName()
+
+5.**修改dom内容**：
+
+dom对象.innerText
+
+dom对象.innerHTML
+
+* innerText不解析标签
+* innerHTML解析标签
 
 # BOM
 
