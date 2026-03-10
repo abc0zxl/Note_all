@@ -226,6 +226,8 @@ dom对象.innerHTML
 * innerText不解析标签
 * innerHTML解析标签
 
+6.**全局body**：这个也是一个盒子，就是整个页面容器，
+
 # BOM
 
 浏览器对象模型
