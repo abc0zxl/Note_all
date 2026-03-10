@@ -10,6 +10,8 @@
 
 4.**变量声明**：尽量用const，对象插入const不报错，但是将一个新的对象赋值给const变量，**会导致地址改变**，报错。
 
+5.**DOM对象**：在html中div叫做标签，在js张叫做dom对象
+
 # JavaScript
 
 现在用的是最新版的ECMAScript,也叫ES6(2015年)
@@ -181,14 +183,33 @@ const getData=()=>{    }
 
 # Web API
 
-使用js操作html和浏览器
-
+使用js操作html和浏览器，控制网页元素交互等各种网页交互效果
 
 # DOM
 
 文档对象模型
 
+1.**DOM树**：将HTML文档以树状结构直观表现出来，直观的表现标签与标签之间的关系
 
+![image.png](/assets/a1606ed7-9954-4c67-8505-4b0c64dcbd2c.png)
+
+2.**DOM对象**：如何一个标签都是一个对象，看上图每个结点都可以作为一个对象
+
+![image.png](/assets/51cb2647-bd72-451a-893e-cb0aeeb5a8f5.png)
+
+3.**document对象**：这个是dom提供一个对象，他是最大的一个对象
+
+* 可以操作页面内容：document.write()
+* 获取标签：document.queryment()
+
+4.**获取DOM对象**：获取某个对象（标签），可以操作，修改这个标签的内容
+
+* **获取dom对象**：document.querySelector("AAA")**只会选择第一个AAA标签**
+* ![image.png](/assets/10205e9f-2663-479e-b8ca-a2cd07d6368e.png)
+* **获取嵌套标签里的某个dom对象**：嵌套用空格隔开，
+* ![image.png](/assets/d9a83bf8-304b-4d2a-875a-e560019323b0.png)
+* **获取dom数组**：获取只当某个层级的多个对象
+* ![image.png](/assets/a44d59a5-2abf-49b0-99d5-69085768b3bb.png)
 
 # BOM
 
