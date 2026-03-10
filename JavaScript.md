@@ -240,6 +240,23 @@ dom对象.innerHTML
 * **删除类名字**：AAA.classList.remove()
 * **有就删除，没有就加上**：AAA.classList.toggle()
 
+8.**获取input和button**：
+
+* 可以操作input的内容
+* 可以操作button是否启用
+
+### 自定义属性
+
+规定用data-AAA的方式命名自定义属性
+
+1.**获取这个属性**：首先获取他的标签。在通过这个dom对象.**dataset**.AAA获取到这个属性值
+
+
+### 间歇函数
+
+
 # BOM
 
 浏览器对象模型
+
+![image.png](/assets/451be1de-8995-46bc-9fe3-76d8a4cde596.png)
