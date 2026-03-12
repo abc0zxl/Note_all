@@ -20,6 +20,10 @@
 
 9.**空的时候也是假**
 
+10.**模板字符串的使用**：标签的话需要改成斜杠好才能用
+
+![image.png](/assets/3506e330-0641-45fb-a04d-b01b0834d2e4.png)
+
 # JavaScript
 
 现在用的是最新版的ECMAScript,也叫ES6(2015年)
@@ -285,7 +289,8 @@ dom对象.innerHTML
 
 ![image.png](/assets/c8e4b825-6c8b-426f-98c7-ee21fbeab66d.png)
 
-### 
+### 事件流
+
 
 # BOM
 
