@@ -311,6 +311,10 @@ dom对象.innerHTML
 
 ![image.png](/assets/452835da-6a1d-4399-913e-f18f0701ec64.png)
 
+4.**页面事件**：
+
+5.**页面滚动事件**：
+
 # BOM
 
 浏览器对象模型
