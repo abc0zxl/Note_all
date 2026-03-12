@@ -320,7 +320,7 @@ dom对象.innerHTML
 
 5.**页面滚动事件**：scroll
 
-* **scrollTop**：被卷去的头部
+* **scrollTop**：被卷去的头部的距离
 
 
 
