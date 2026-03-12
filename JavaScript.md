@@ -20,7 +20,6 @@
 
 9.**空的时候也是假**
 
-
 # JavaScript
 
 现在用的是最新版的ECMAScript,也叫ES6(2015年)
@@ -285,6 +284,8 @@ dom对象.innerHTML
 3.**keyup**：**键盘**点击事件，可以获取点击的是键盘某个键的各种信息
 
 ![image.png](/assets/c8e4b825-6c8b-426f-98c7-ee21fbeab66d.png)
+
+### 
 
 # BOM
 
