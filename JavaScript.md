@@ -269,6 +269,8 @@ dom对象.innerHTML
 这个也是需要获得这个DOM对象，通过操作dom对象类设置焦点。
 ![image.png](/assets/2146dcfe-c2c4-40ee-b35a-a3e97ceb0fea.png)
 
+### 事件对象
+
 # BOM
 
 浏览器对象模型
