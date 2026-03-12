@@ -89,7 +89,6 @@ javascript的var类型他的特点是
 * **它可以组合成容器**：如条形图的每个条单元![image.png](/assets/c22fd151-adee-4722-8fd5-0b8db7b54613.png)
 *
 
-
 ## 函数
 
 他的基本规则是
@@ -145,7 +144,6 @@ const getData=()=>{    }
 2.**（）=>**：这个是放参数的地方
 
 3.**{}**：这个是放函数体的地方
-
 
 ## 内置函数
 
@@ -232,8 +230,6 @@ dom对象.innerHTML
 
 ![image.png](/assets/1503ce0b-5541-4c9e-9756-b05540cd159e.png)
 
-
-
 7.**类名变更**：可以通过dom对象和**classList**给目标对象修改类名
 
 * **添加类名**：AAA.classList.add('active')这个active是续接在原类名后面的名字。
@@ -251,7 +247,6 @@ dom对象.innerHTML
 
 1.**获取这个属性**：首先获取他的标签。在通过这个dom对象.**dataset**.AAA获取到这个属性值
 
-
 ### 间歇函数
 
 1.**setInterval(AAA,BBB)**：函数AAA，每隔BBB毫秒执行一次
@@ -264,6 +259,15 @@ dom对象.innerHTML
 * 用closeInterval（n）关闭即可
 
 ![image.png](/assets/3aa9f78b-96ab-4747-bd2c-c68dd922c855.png)
+
+3.**应用场景**：
+
+* 60秒倒计时关闭按钮
+
+### 焦点事件
+
+这个也是需要获得这个DOM对象，通过操作dom对象类设置焦点。
+![image.png](/assets/2146dcfe-c2c4-40ee-b35a-a3e97ceb0fea.png)
 
 # BOM
 
