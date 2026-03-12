@@ -24,6 +24,8 @@
 
 ![image.png](/assets/3506e330-0641-45fb-a04d-b01b0834d2e4.png)
 
+11.**不给body设置高度没有滚动条**：
+
 # JavaScript
 
 现在用的是最新版的ECMAScript,也叫ES6(2015年)
@@ -321,8 +323,12 @@ dom对象.innerHTML
 5.**页面滚动事件**：scroll
 
 * **scrollTop**：被卷去的头部的距离
+* **可以设置起始页面位置**：开始的时候就是显示设定的滚动位置
+* **可以设置滚动事件**：滚动到某个位置就显示某些组件
 
+6.**像素事件**：
 
+* 可以直接获取页面宽度，高度**clientWidth，clientHeight**
 
 # BOM
 
