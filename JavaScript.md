@@ -271,7 +271,15 @@ dom对象.innerHTML
 
 ### 事件对象
 
-1.**type**：获取
+1.**type**：获取当前事件的类型
+
+2.**click**：**鼠标**点击事件，可以获取点击这个操作的各种信息
+
+![image.png](/assets/277e21bf-89fe-4e16-8780-19777a099a91.png)
+
+3.**keyup**：**键盘**点击事件，可以获取点击的是键盘某个键的各种信息
+
+![image.png](/assets/c8e4b825-6c8b-426f-98c7-ee21fbeab66d.png)
 
 # BOM
 
