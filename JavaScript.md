@@ -329,6 +329,7 @@ dom对象.innerHTML
 6.**像素事件**：
 
 * 可以直接获取页面宽度，高度**clientWidth，clientHeight**
+* 可以获取元素自身宽度，高度**offsetWidth，offsetHeight**
 
 # BOM
 
