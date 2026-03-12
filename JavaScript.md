@@ -305,7 +305,9 @@ dom对象.innerHTML
 
 3.**事件委托**：就是获取父元素，给父元素加事件，点击子元素后，响应的是父元素。
 
-* ul中有多个li，点击li后就会
+* ul中有多个li，点击li后就可以操作这个li
+
+![image.png](/assets/e0968fb2-dff2-41e1-8185-1cf75b55a7d6.png)
 
 ![image.png](/assets/452835da-6a1d-4399-913e-f18f0701ec64.png)
 
