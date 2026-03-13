@@ -1,7 +1,5 @@
 # 注意
 
-1.函数没有return会返回undefine
-
 2.**遍历方法**：for in语法
 
 ![image.png](/assets/cc2cbe32-10d1-4d55-a1d4-c4590aa10db0.png)
@@ -25,6 +23,11 @@
 ![image.png](/assets/3506e330-0641-45fb-a04d-b01b0834d2e4.png)
 
 11.**不给body设置高度没有滚动条**：
+
+12.**css中选择不同的input**：通常是.和#指定某个盒子，
+![image.png](/assets/c55f3baf-9f99-46ea-a7c9-408e6a66d7a3.png)
+
+13.**精确的找盒子**：直接去浏览器看这个盒子的名字，都是下划线连接的
 
 # JavaScript
 
@@ -338,6 +341,23 @@ dom对象.innerHTML
 * 用scrollTop设定跳转距离
 
 ![image.png](/assets/8d1334ec-7cca-4caf-9d2b-1d6a3640c1bf.png)
+
+### 将日期写道div中
+
+* 自己添间隔函数，触发事件更新
+
+![image.png](/assets/eaeceda2-f160-4fcf-baf8-72158f841a20.png)
+
+### dom节点查找
+
+在div中，一般获取这个div类的对象后，获取的是当前这个等级的div对象，
+
+* 获取**父级**（高一级外围div）:**parentNode**
+* **可以实现点击X，关闭这个盒子的操作**：子div影响父级div
+
+![image.png](/assets/cc9802bc-1dbe-4918-90aa-3e951a61862f.png)
+
+* **也可以获取子级节点**：**children**
 
 # BOM
 
