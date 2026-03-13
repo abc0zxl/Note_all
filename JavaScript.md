@@ -395,6 +395,49 @@ dom对象.innerHTML
 
 # BOM
 
-浏览器对象模型
+浏览器对象模型，它属于window对象，
 
-![image.png](/assets/451be1de-8995-46bc-9fe3-76d8a4cde596.png)
+* window是最大的，其次是document
+
+下面展开window对象的**常见属性**，BOM对象的**基本功能**讲解
+
+1.**window对象**：
+
+* BOM
+* 定时器
+* js执行机制
+* location对象
+* navigator对象
+* histroy对象
+
+2.**BOM**：
+
+BOM包含DOM
+
+![image.png](/assets/d94e3b30-c6b1-4a8e-a25e-2e80077e58c3.png)
+
+3.**所有var定义的全局变量都会变成window对象的属性和方法**
+
+### 定时器
+
+他就是一个延时函数,只会执行一次
+
+1.**设置延时**：setTimeout
+
+2.**清除延时**：clearTime
+
+
+### js执行机制
+
+1.js是为了处理页面交互，操作DOM而生的。
+
+2.js是单线程的，同一个时间只能做一件事情。
+
+**同步**：
+
+* 前一个任务结束后，再执行后一个任务
+* 执行顺序和任务排列顺序是一致的
+
+**异步**：
+
+* 处理完这个任务后，这个任务执行
