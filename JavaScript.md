@@ -358,6 +358,40 @@ dom对象.innerHTML
 ![image.png](/assets/cc9802bc-1dbe-4918-90aa-3e951a61862f.png)
 
 * **也可以获取子级节点**：**children**
+* **也可以获取兄弟结点**：previousElementSibling，nextElementSibling
+
+### 创造节点
+
+不用手写出<div
+
+* **创建ul等标签**：createElement
+* **插入元素到某个位置**：insertBefore
+
+### 克隆，删除节点
+
+1.**克隆节点**
+
+关键字：**cloneNode（true）**
+
+* 克隆修改不会影响原来的节点
+
+2.**删除节点**
+
+关键字：**AAA.removeChild（BBB）**
+
+* 需要通过父组件AAA，来删除BBB
+
+### M端事件
+
+就是移动端事件，例如触屏事件
+
+* **touchstart**：开始触摸
+* **touchmove**：正在触摸
+* **touchend**：触摸结束
+
+### 表单验证
+
+![image.png](/assets/6511dd64-d2eb-420d-baf2-3902ade06622.png)
 
 # BOM
 
