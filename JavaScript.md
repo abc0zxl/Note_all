@@ -300,7 +300,6 @@ dom对象.innerHTML
 * 然后需要在添加事件对象的时候，将第三个参数设置为true，标识**捕获状态**，![image.png](/assets/0eff4c74-cb17-4c5b-be90-a1ccf61dad52.png)
 *
 
-
 2.**事件冒泡**，就是在上面的事件对象中的第二个参数设施事件响应内容function
 
 * 这几个事件必须是同一种类型的事件
@@ -330,6 +329,15 @@ dom对象.innerHTML
 
 * 可以直接获取页面宽度，高度**clientWidth，clientHeight**
 * 可以获取元素自身宽度，高度**offsetWidth，offsetHeight**
+
+7.**获取到大盒子的顶部距离**：用**offsetTop**
+
+8.**设定跳转的顶部距离位置**：先获取想要的top距离
+
+* 用offsetTop获取这个盒子的距离
+* 用scrollTop设定跳转距离
+
+![image.png](/assets/8d1334ec-7cca-4caf-9d2b-1d6a3640c1bf.png)
 
 # BOM
 
