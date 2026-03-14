@@ -63,6 +63,13 @@
 
 ![image.png](/assets/9b5d5ad5-fedd-4b8e-b329-b48bad69abf0.png)
 
+10.**用事件的方式来判断是否勾选**
+
+* this.classList.toggle('icon-queren2')发生点击事件，存在这个名称就删除，不存在就加上
+* 通过判断是否有这个名称来确实是否勾选了
+
+![image.png](/assets/3df008aa-8275-4203-a9b6-fc19107d7a4b.png)
+
 # 未学习
 
 1.**时间和日期**
