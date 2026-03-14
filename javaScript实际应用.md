@@ -89,6 +89,18 @@
 
 ![image.png](/assets/efbcb577-4a2a-4e7c-8aa4-1562c8bbef0c.png)
 
+
+
+# 数组
+
+1.**商品筛选**：用过滤filter
+
+![image.png](/assets/d26f2b8c-ee42-4bf6-aa3e-054b624d3457.png)
+
+2.**伪数组转为真数组方法**
+
+3.**字符串转数组**：split
+
 # 未学习
 
 1.**时间和日期**
