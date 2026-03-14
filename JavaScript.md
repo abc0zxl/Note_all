@@ -468,7 +468,7 @@ BOM包含DOM
 
 1.**可以实现url直接跳转**：location.hrl("")
 
-2.**可以实现页面刷新**：location.reload(true)强制刷新
+2.**可以实现页面刷新**：location.reload(true)强 制刷新
 
 3.**可以获取url的内容**：location.AAA
 
@@ -477,3 +477,45 @@ BOM包含DOM
 * hash:获取地址中#后的部分
 
 ### navigation对象
+
+1.**可以获取浏览器的版本及平台**:这个直接用现成的代码即可
+
+2.**查找历史。回到上一个页面，前进一个页面**
+
+![image.png](/assets/964d795c-4570-4f0f-bd69-b69fcef701a0.png)
+
+
+### localStorage本地存储和sessionStorage
+
+**语法**:
+
+1.**localStorage存储**:localStorage.setItem(key,value)
+
+2.**sessionStorage存储**:
+
+**存储规则**
+
+1.sessionStorage生命周期为关闭浏览器窗口
+
+1.localStorage可以永久存储在本地,除非手动删除,否则关闭页面也会存在
+
+2.在同一个窗口下数据可以共享
+
+3.以键值对的形式存储使用
+
+4.sessionStorage用法和localStorage相同
+
+5.本地存储只能存字符串数据类型
+
+#### 查询
+
+1.**localStorage增删查**
+
+* setItem
+* removeItem
+* getItem
+
+
+#### 复杂数据结构的存储
+
+例如用json存储的数据.
