@@ -605,3 +605,9 @@ BOM包含DOM
 **作用**：外部也能访问函数内部的变量
 
 **常见闭包形式**：
+
+![image.png](/assets/193c30be-8c4e-407e-8dc2-fee90a907547.png)
+
+**推导方式**：
+
+![image.png](/assets/963b75a7-b67b-40cd-94b5-9dc9ed4986a6.png)
