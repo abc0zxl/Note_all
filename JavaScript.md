@@ -31,6 +31,8 @@
 
 14.**通过拼接url跳转**：href='#/friend"
 
+15.正则表达式是字符组合匹配的一种模式
+
 # JavaScript
 
 现在用的是最新版的ECMAScript,也叫ES6(2015年)
@@ -92,6 +94,17 @@ javascript的var类型他的特点是
 6.**对象数组**：这种含有**无对象名字**的方式和**有对象名字**的方式。
 
 * 数组中的对象，不管有名字还是无名字，**元素都可以不一样**
+
+7.**map遍历数组**:他有返回值,可以返回一个处理后的新数组
+
+* map有映射的作用.
+* ![image.png](/assets/e6e43332-d37c-4c9d-a779-d3f5f4e58e21.png)
+
+8.**join方法**:
+
+作用是把数组装换为**字符串**
+
+* 可以设置各个元素的分割字符
 
 ## 基础显示
 
@@ -486,7 +499,6 @@ BOM包含DOM
 
 ![image.png](/assets/964d795c-4570-4f0f-bd69-b69fcef701a0.png)
 
-
 ### localStorage本地存储和sessionStorage
 
 **语法**:
@@ -505,18 +517,17 @@ BOM包含DOM
 
 3.以键值对的形式存储使用
 
-4.sessionStorage用法和localStorage相同
+4.sessionStorage用法和localStorage相同    
 
-5.本地存储只能存字符串数据类型
+5.本地存储只能存字符串数据类型json
 
-#### 查询
+#### 操作
 
 1.**localStorage增删查**
 
 * setItem
 * removeItem
 * getItem
-
 
 #### 复杂数据结构的存储
 
@@ -527,3 +538,8 @@ BOM包含DOM
 获取字符串类型的数据,转换为对象
 
 ![image.png](/assets/cda91073-e105-4cbd-8df2-d123ab5ddb56.png)
+
+
+### 正则表达式
+
+1.**测试时候匹配**:console.log(reg.test(str))
