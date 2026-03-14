@@ -480,6 +480,8 @@ BOM包含DOM
 
 1.**可以获取浏览器的版本及平台**:这个直接用现成的代码即可
 
+### history对象
+
 2.**查找历史。回到上一个页面，前进一个页面**
 
 ![image.png](/assets/964d795c-4570-4f0f-bd69-b69fcef701a0.png)
@@ -519,3 +521,9 @@ BOM包含DOM
 #### 复杂数据结构的存储
 
 例如用json存储的数据.
+
+![image.png](/assets/2bcfe32f-fb56-4a44-9293-53a1f1989b76.png)
+
+获取字符串类型的数据,转换为对象
+
+![image.png](/assets/cda91073-e105-4cbd-8df2-d123ab5ddb56.png)
