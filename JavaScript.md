@@ -717,7 +717,6 @@ js允许变量声明之前即被访问，仅存于var声明变量中
 
 ![image.png](/assets/227937cd-446b-4422-bc80-4ab03dba8b21.png)
 
-
 ## 数组解构
 
 1.**变量多，数字少**：未赋值的变量是undefind
@@ -726,4 +725,20 @@ js允许变量声明之前即被访问，仅存于var声明变量中
 
 ![image.png](/assets/8574d292-6787-4505-ba02-a02debd529fe.png)
 
-3.**传入**
+3.**传入json对象**：函数接收可以用**花括号**来解构这个对象，只获取某个熟悉的值，如下方的data
+
+![image.png](/assets/a9640e82-5fae-4757-a7bc-1b7ae9197a04.png)
+
+* 或者可以获取更深一级的值
+
+![image.png](/assets/ccd4659b-6cde-4714-a0f2-79b819513c53.png)
+
+## forEach遍历数组
+
+1.**语法**：
+
+![image.png](/assets/2bfe7017-143d-4a45-876b-06878147bcaa.png)
+
+## filter筛选
+
+他会创建一个新数组，新数组中的元素都是通过符合条件的**所有元素**
