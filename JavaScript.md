@@ -33,6 +33,10 @@
 
 15.正则表达式是字符组合匹配的一种模式
 
+16.类的索引必须要加.标签不用
+
+![image.png](/assets/d497dcc6-307f-487b-835a-ddc498084573.png)
+
 # JavaScript
 
 现在用的是最新版的ECMAScript,也叫ES6(2015年)
@@ -517,7 +521,7 @@ BOM包含DOM
 
 3.以键值对的形式存储使用
 
-4.sessionStorage用法和localStorage相同    
+4.sessionStorage用法和localStorage相同
 
 5.本地存储只能存字符串数据类型json
 
@@ -538,7 +542,6 @@ BOM包含DOM
 获取字符串类型的数据,转换为对象
 
 ![image.png](/assets/cda91073-e105-4cbd-8df2-d123ab5ddb56.png)
-
 
 ### 正则表达式
 
