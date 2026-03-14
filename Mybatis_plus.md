@@ -14,6 +14,12 @@
 
 7.**一个 Service 类中，MyBatis-Plus 封装的快捷指令，确实只能操作 `ServiceImpl<Mapper, Entity>` 里 `Entity` 对应的那一张数据库表**。
 
+8. **这个实体类可能没有加注解**
+
+System.out.println("addCartDTO is:"+addCartDTO); 这个实体类输出的为什么是这个
+
+addCartDTO is:com.shangmenbang.pojo.dto.request.AddCartDTO@4306fec5
+
 # 注解
 
 1.**@TableName（value="AAA", autoResultMap=true）**
