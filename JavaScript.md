@@ -81,6 +81,8 @@ javascript的var类型他的特点是
 
 ## 数组操作
 
+可以直接查文档https://developer.mozilla.org/zh-CN/
+
 1.**尾部新增**：AAA.push()
 
 * 一次可以在数组**后面**加**一个** 或者**好几个**
@@ -109,6 +111,18 @@ javascript的var类型他的特点是
 作用是把数组装换为**字符串**
 
 * 可以设置各个元素的分割字符
+
+9.**forEach遍历**
+
+10.**filter过滤**
+
+11.**reduce求和**
+
+12.**every判断是否是子集**：有则为true
+
+13.**some有交集就为true**
+
+14.**find查找元素**
 
 ## 基础显示
 
@@ -744,3 +758,28 @@ js允许变量声明之前即被访问，仅存于var声明变量中
 他会创建一个新数组，新数组中的元素都是通过符合条件的**所有元素**
 
 ![image.png](/assets/7cd08d59-07e7-40ef-9f34-49219252a8e2.png)
+
+# reduce
+
+1.Array有四种方法
+
+* forEach
+* filter
+* map
+* reduce
+
+2.**作用**：
+
+* 可以用于求和，结合了映射，当前值，前一个值，初始值一起计算的
+* 没有设置初始值的话，就默认将第一个值作为**前一个值**
+
+![image.png](/assets/4164924e-cc65-4f47-9022-f3f388bcfaf9.png)
+
+
+## String操作方法
+
+1.split：字符串转数组
+
+2.**substring（num1，num2）**：截取字符串num1到num2的内容
+
+3.**startWith**：
