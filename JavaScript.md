@@ -904,4 +904,13 @@ js允许变量声明之前即被访问，仅存于var声明变量中
 ![image.png](/assets/d7c67273-b5da-4f35-90ad-6ef5f84e67e1.png)
 
 * 原型链就是一个查找规则
-* 当想要使用某个方法的时候
+* 当想要使用某个方法的时候，可以通过map查找找到
+
+
+### instanceof
+
+用于检测构造函数的prototype属性
+
+是否出现在某个实例对象的原型链上
+
+![image.png](/assets/c4e4ca00-f968-4fde-888b-a508f7a041cd.png)
