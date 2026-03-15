@@ -917,6 +917,10 @@ js允许变量声明之前即被访问，仅存于var声明变量中
 
 3**后续也是一样的方法查找，直到null**
 
+
+
+**![image.png](/assets/3266c210-c18f-4827-abef-6258e01ba656.png)**
+
 ### instanceof
 
 用于检测构造函数的prototype属性
