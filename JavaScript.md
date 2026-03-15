@@ -811,7 +811,7 @@ js允许变量声明之前即被访问，仅存于var声明变量中
 
 用于解决**构造函数**浪费内存的问题，他也是一个对象，在
 
-### constructor属性
+### prototype属性
 
 1.**概念**
 
@@ -837,6 +837,23 @@ js允许变量声明之前即被访问，仅存于var声明变量中
 * ![image.png](/assets/5cc6360e-c93b-4602-ae47-dafd34bf0478.png)
 * ![image.png](/assets/1180c2df-12ac-48a1-8e46-23d2567e7883.png)
 
+3.**放到prototype中的方法，别的实例为什么能拿到？**
+
+#### __proto__对象原型
+
+创建的构造函数对象中的一个属性叫做__**proto**__
+
+**作用**：他指向prototype的**原型对象**
+
+* 因为有了__proto___别的实例才能用prototype的方法
+
+**注意**
+
+* [[prototype]]：这个和__proto__是一样的
+* __proto__这个里面也有一个constructor属性，指向该实例对象的构造函数
+
+![image.png](/assets/5baccd20-aea8-4024-be61-5fc16365275e.png)
+
 ## constructor属性
 
 这个是**每个原型属性**里面都有的一个属性
@@ -847,4 +864,28 @@ js允许变量声明之前即被访问，仅存于var声明变量中
 
 ![image.png](/assets/53b41f8a-adb9-443f-8800-b9d11fd3548b.png)
 
-1.**如果直接修改了原型函数里的方法**：相当于
+1.**如果直接修改了原型函数里的方法**：相当于直接给了个新的prototype对象,这会导致constructor丢失
+
+* 可以看到赋完方法后，这个构造函数的prototype中的constructor就没有了。找不到构造函数
+* ![image.png](/assets/c39b1a9d-7475-454d-8f66-3fa07963d65f.png)
+
+2.**解决上面的问题的方法**
+
+* 在赋的方法中，也加入constructor指向的对象
+* **让他重新指回构造函数对象**
+
+![image.png](/assets/63c25f3d-9737-4664-a7cd-aa6d71c9ff06.png)
+
+
+# 原型继承
+
+**作用**：通过继承来进一步提升代码的封装程度
+
+**实现**：js中大多数是接住原型对象实现继承的特性
+
+
+![image.png](/assets/aa4772f5-099e-4102-9a4e-36dc3b3e08a7.png)
+
+1.**如果想让添加的方法，只对个别继承的对象有作用**
+
+* 可以通过
