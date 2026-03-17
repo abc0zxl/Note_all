@@ -194,3 +194,19 @@ table表格有表格体标签
 3.**创建项目架子（vue项目）**：vue create project-name
 
 4.**启动项目**：npm run serve
+
+
+
+# main.js作用
+
+他是启动入口文件
+
+**目的**：导入App.vue，基于App.vue创建
+
+**任务**
+
+1.**导入vue核心包**：这个作用是为了**调用vue功能**
+
+2.**导入App.vue根组件**：
+
+2.
