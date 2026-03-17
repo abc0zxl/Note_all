@@ -257,4 +257,4 @@ table表格有表格体标签
 
 可以再每个vue文件中都能用
 
-* 通过
+* **在main.js中**通过Vue.component('AAA',AAA)
