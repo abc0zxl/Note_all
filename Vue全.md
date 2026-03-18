@@ -549,3 +549,24 @@ table表格有表格体标签
 # 单页应用程序（SPA）
 
 表示所有功能在一个html页面上显示
+
+* 按需跟新，性能高
+* 学习成本高
+* 适用于系统类网站，内部网站等
+
+# 多页应用程序
+
+
+# 路由VueRouter
+
+他是**组件**和**路径**的映射关系
+
+**使用步骤**：
+
+1.**下载模块**：npm install vue-router@AAA
+
+2.**引入模块**：import VueRouter from‘vue-router'
+
+3.**安装注册**：Vue.use(VueRouter)
+
+4.**创建路由对象**：
