@@ -393,4 +393,5 @@ table表格有表格体标签
 
 1.**v-model原理**：他在使用的时候是用**v-model="data"**,她等价于**:value="data"结合@input="data=$event" **
 
-* **在prop中**：必须要用一个叫value的参数
+* **在prop中**：必须要用一个叫value的参数，
+* **但是不是任何场景用value都合适，有时需要用别的属性名字**
