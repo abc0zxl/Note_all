@@ -39,6 +39,8 @@
 
 * 因为v-model的内部原理封装了**监听代码**
 
+14.**vue2只能装vue-router3.6……的版本**
+
 # 渐进式
 
 意思是vue可以像搭积木一样，从最小的核心功能开始，逐步扩展到完整的大型应用，不必一开始就把所有东西用上。
@@ -569,4 +571,6 @@ table表格有表格体标签
 
 3.**安装注册**：Vue.use(VueRouter)
 
-4.**创建路由对象**：
+4.**创建路由对象**： const router= new VueRouter()
+
+5.**注入**：new Vue({render:h=>h(App),router}).$mount('#app')
