@@ -451,7 +451,7 @@ table表格有表格体标签
 
 3.**调用组件内部方法**
 
-* this.$refs.baseForm.BBB()
+* this.$refs.baseForm  .BBB()
 
 
 # 异步更新
