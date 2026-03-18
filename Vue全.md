@@ -395,3 +395,12 @@ table表格有表格体标签
 
 * **在prop中**：必须要用一个叫value的参数，
 * **但是不是任何场景用value都合适，有时需要用别的属性名字**
+
+2.**.sync使用方法**：在属性AAA后加一个.sync
+
+* ![image.png](/assets/ce42bae5-06f4-4851-9652-28cadc422002.png)
+* 原理如下
+* ![image.png](/assets/5c189b75-2491-4ff3-adc0-629d9938b42a.png)
+* **数据获取**
+* 通过属性名字AAA获取即可
+* ![image.png](/assets/5a5ac194-b1fb-445c-bfe8-6a898853ea3e.png)
