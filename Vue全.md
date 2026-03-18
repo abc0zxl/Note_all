@@ -694,3 +694,28 @@ table表格有表格体标签
 2.**history模式**：这个是没带#模式
 
 * **但是history模式要配置访问规则**
+
+
+# 编程式导航
+
+点击了某个按钮后如何实现跳转
+
+1.**path跳转**：通过路径来跳转
+
+* 给按钮绑定**点击事件**
+* 编写methos，
+* **简写法**
+* ![image.png](/assets/a888a2ad-4333-4650-afff-8b2d29299fae.png)
+* **完整写法**：可以附带参数一起传
+* ![image.png](/assets/8d4cf2af-45fb-4d3a-9977-ce2965ac637f.png)
+* ng)
+
+2.**name命名路由跳转**
+
+* 首先要在router表中提前给路径**加个name名字**
+
+![image.png](/assets/b7e1c414-52f1-4761-b4e8-becf6f6845d0.png)
+
+* 调用name命名路由跳转
+
+![image.png](/assets/1643d816-0319-459e-82bc-b9125306ac47.png)
