@@ -597,7 +597,6 @@ table表格有表格体标签
 
 2.**复用组件**：放在components目录
 
-
 # 抽离出路由相关文件
 
 将**5+2**步骤中5步基本步骤的前4步放到单独的文件夹中
@@ -608,7 +607,6 @@ table表格有表格体标签
 
 * 导入index.js
 * 注入到Vue中
-
 
 # 声明式导航
 
@@ -631,7 +629,6 @@ table表格有表格体标签
 * **linkExactActiveClass**：'exact-active'
 
 这样就需要修改样式类名
-
 
 # 声明式导航
 
@@ -657,8 +654,6 @@ table表格有表格体标签
 
 2.**获取导航参数**：$route.params.参数名字
 
-
-
 # 重定向
 
 就是说在导航到某一个路径后，识别到用户要跳转这个地址，接下来就强制跳转到别的地址的操作
@@ -670,16 +665,13 @@ table表格有表格体标签
 
 ![image.png](/assets/f2483943-2bae-41e9-9496-ff7dd05bb8b1.png)
 
-
-
-
 # 404提示页面
 
 **作用**：当路径找不到匹配的时候，就给个提示页面
 
 **语法**：给path:""配置路径为*号即可，然后就可以跳到设置号的component页面。
 
-![image.png](/assets/c9229902-d6d6-4af5-a016-79c7d47d98b7.png) 
+![image.png](/assets/c9229902-d6d6-4af5-a016-79c7d47d98b7.png)
 
 **
 
@@ -694,7 +686,6 @@ table表格有表格体标签
 2.**history模式**：这个是没带#模式
 
 * **但是history模式要配置访问规则**
-
 
 # 编程式导航
 
@@ -731,3 +722,26 @@ table表格有表格体标签
 2.**name命名跳转**：query传递，params传递
 
 ![image.png](/assets/a7d8be42-6686-4ed3-a723-3111a08acfc9.png)
+
+# 页面请求渲染
+
+使用axios发送请求
+
+**实现步骤**
+
+* 下载axios
+* 导入axios
+* 编axios请求
+
+**编写axios**：这个有两种书写方式
+
+* 一种是老的一种新的
+* **新的**：它可以返回请求参数，这个参数的位置有两种
+
+1.**通过then（result）**
+
+![image.png](/assets/6de0998d-dc3f-4983-82a6-68611177fba6.png)
+
+2.**通过const result=接住**
+
+![image.png](/assets/ae5a98ef-016d-441b-88c5-10436752a7c4.png)
