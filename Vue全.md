@@ -616,7 +616,7 @@ table表格有表格体标签
 
 **作用**：替代原来的<a标签，实现跳转
 
-**使用场景**：实现导航的高亮效果，这个高亮要自己设置样式
+**使用场景**：实现导航的高亮效果，这个高亮**默认样式名字为**
 
 * **router-link-active**：模糊匹配模式的高亮样式，这个用的更多
 * **router-link-exact-active**：精确匹配下的高亮显示
@@ -624,3 +624,27 @@ table表格有表格体标签
 ![image.png](/assets/5c63d457-f298-4b20-a3c3-ee9293c2eee2.png)
 
 ![image.png]()/assets/cf1e1d1e-82cd-4bb6-af25-48494563ac25.png
+
+**自定义样式名字**：
+
+* **linkActiveClass**：'active'
+* **linkExactActiveClass**：'exact-active'
+
+这样就需要修改样式类名
+
+
+# 声明式导航
+
+**使用场景**：搜索框下方有**快捷搜索语句**，他会自动跳转到搜索页，并搜索出内容
+
+![image.png](/assets/fae2c16c-2030-4b70-adef-eccae673a414.png)
+
+**语法格式**：
+
+1.**查询语法格式**：
+
+2.**接收传递参数的语法格式**：
+
+![image.png](/assets/4a077c33-9585-4f71-be2f-6dae108f6063.png)
+
+![image.png](/assets/0545b728-7c3e-48bb-ad31-9ca44761017b.png)
