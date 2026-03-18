@@ -706,7 +706,7 @@ table表格有表格体标签
 * 编写methos，
 * **简写法**
 * ![image.png](/assets/a888a2ad-4333-4650-afff-8b2d29299fae.png)
-* **完整写法**：可以附带参数一起传
+* **完整写法**：可以附带参数一起传，如果是**动态路由传递参数就要用param传递参数  **
 * ![image.png](/assets/8d4cf2af-45fb-4d3a-9977-ce2965ac637f.png)
 * ng)
 
@@ -716,6 +716,18 @@ table表格有表格体标签
 
 ![image.png](/assets/b7e1c414-52f1-4761-b4e8-becf6f6845d0.png)
 
-* 调用name命名路由跳转
+* 调用name命名路由跳转，也可以传递参数
 
 ![image.png](/assets/1643d816-0319-459e-82bc-b9125306ac47.png)
+
+# 总结跳转传递参数方式
+
+总共有四种
+
+1.**path路径跳转**：query传递，拼接传递
+
+![image.png](/assets/44525696-7aca-4198-b4dd-4f34ef2b86d4.png)
+
+2.**name命名跳转**：query传递，params传递
+
+![image.png](/assets/a7d8be42-6686-4ed3-a723-3111a08acfc9.png)
