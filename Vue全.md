@@ -616,6 +616,11 @@ table表格有表格体标签
 
 **作用**：替代原来的<a标签，实现跳转
 
-**使用场景**：实现导航的高亮效果
+**使用场景**：实现导航的高亮效果，这个高亮要自己设置样式
 
-![image.png](/assets/cf1e1d1e-82cd-4bb6-af25-48494563ac25.png)
+* **router-link-active**：模糊匹配模式的高亮样式，这个用的更多
+* **router-link-exact-active**：精确匹配下的高亮显示
+
+![image.png](/assets/5c63d457-f298-4b20-a3c3-ee9293c2eee2.png)
+
+![image.png]()/assets/cf1e1d1e-82cd-4bb6-af25-48494563ac25.png
