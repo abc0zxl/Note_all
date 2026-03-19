@@ -70,3 +70,6 @@ de65e2aee07c.png)
 19.**vue快速生成增删改查工具**：json-server
 
 * 他能快速生成基础的CRUD
+* 然后就能暂时代替数据库，来实现数据的交互
+
+![image.png](/assets/4646d6ab-0ca9-44ff-9fcc-ef2833d7d527.png)
