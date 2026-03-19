@@ -846,3 +846,32 @@ table表格有表格体标签
 * **操作简洁**：提供了很多辅助函数
 
 ![image.png](/assets/587d2f1d-cd9c-4447-9367-815fc48e47ac.png)
+
+
+
+### 实现方法
+
+1.**下载插件**：
+
+* 安装vuex插件：npm install vuex@3
+
+2.**新建vuex模块文件**：
+
+* 新建store文件夹
+* 再store文件夹下存放一个index.js文件
+
+![image.png](/assets/00b1099c-eab2-4375-bd76-c7cc0cd83bec.png)
+
+3.**创建仓库**：
+
+* Vue.use(Vuex)
+* new Vuex.Store()
+
+4.**导入main.js挂载**
+
+![image.png](/assets/b1e7a588-5128-4423-ad7a-e6a0018e91a4.png)
+
+5.**测试是否安装成功**：
+
+* 安装成功的话所有组件都能访问到这个仓库的
+* 通过再别的组件中调用**this.$store**，就能 看到仓库信息
