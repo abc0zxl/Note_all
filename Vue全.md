@@ -945,6 +945,46 @@ vuex是单向数据流，**组件**不能直接修改仓库的数据
 
 **使用它的原因**：在上面调用vuex方法时，布局要在vuex文件中声明方法，也要在组件中给每个方法**单独再声明一个方法**，十分麻烦
 
-**作用**：将mutations中的方法**提取出来**，映射到**methouds中**，直接调用原来声明再vuex文件中的方法即可。
+**作用**：将mutations中的方法**提取出来**，映射到**methouds中**，直接调用原来声明再vuex文件中的方法即可。 
 
 ![image.png](/assets/3b3d3d4a-42e1-48a9-aa1e-c0d3c4cf2c52.png)
+
+
+
+#### Vuex的辅助函数actions
+
+**意义**：异步操作放到mutations中会出问题，处理不了异步的操作，只能处理同步的操作，**所以要用actions来处理异步的操作**
+
+#### **使用方法**
+
+1.**在vuex中声明方法**：
+
+* 注意不再是mutations了
+* 是用actions：它也可以调用mutations中的方法
+* ![image.png](/assets/cc2768de-96d8-4d68-a018-96d126fc8c19.png)
+
+2.**调用方法**：
+
+* 这个也**不能用**mapMutations，简化代码
+* 用的是**mapActions**，简化的代码
+* 要用原始的调用store开始，通过**dispatch**调用方法
+* ![image.png](/assets/251ee21d-96a5-4f55-8aab-8be75ba7dfa8.png)
+
+#### Vuex的辅助函数getters
+
+**作用**：用于辅助操作并获取state
+
+**特点**：他的方法参数是state
+
+**使用场景**：操作数组，
+
+**定义方法**：
+
+* ![image.png](/assets/226df0be-3b7a-4789-b248-341534ed51dc.png)
+
+**获取方法**：有两种方法
+
+* **直接通过store找**：{{$store.getters.filterList}}
+* **通过辅助函数**：用辅助函数**mapGetters**
+
+![image.png](/assets/b0bb1180-cf0b-4f32-bd78-190fc0bdb51a.png)
