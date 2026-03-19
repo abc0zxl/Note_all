@@ -936,3 +936,15 @@ vuex是单向数据流，**组件**不能直接修改仓库的数据
 * 用一个自定义的方法名字包裹这个原始操作即可
 
 ![image.png](/assets/87c4f075-bb53-4876-83c8-d3ab931bf71e.png)
+
+3.**总流程**
+
+![image.png](/assets/efee7aba-7b6b-4512-9be2-cc9d1ec77515.png)
+
+#### vuex辅助函数mapMutations
+
+**使用它的原因**：在上面调用vuex方法时，布局要在vuex文件中声明方法，也要在组件中给每个方法**单独再声明一个方法**，十分麻烦
+
+**作用**：将mutations中的方法**提取出来**，映射到**methouds中**，直接调用原来声明再vuex文件中的方法即可。
+
+![image.png](/assets/3b3d3d4a-42e1-48a9-aa1e-c0d3c4cf2c52.png)
