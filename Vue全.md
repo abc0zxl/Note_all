@@ -1034,3 +1034,24 @@ vuex是一个**单一状态树**，应用的所有状态会集中到一个比较
 2.**通过mapState映射访问**：
 
 **mapState('AAA',['BBB'])**,表示访问的是AAA模块的BBB属性
+
+![image.png](/assets/eeab206e-c7bf-4439-b350-65ded2c726f0.png)
+
+* 这种访问有两种方式
+* **直接导入整个模块**：如上图
+* **单独导入某个模块的某些属性**：这个必须得开启命名空间，在**模块中的暴露代码中加入namespaced:true即可**
+* ![image.png](/assets/f52cde07-d13a-43d8-9026-4793498133ee.png)
+
+
+### 模块化state概念
+
+1.即便依据模块化了state，在挂载的时候，**依旧会挂到根级别的state中，属性就是模块名**
+
+2.**获取模块中的getters**：
+
+* 直接通过模块名访问：$store.getter['AAA/XXX']
+* 通过mapGetter映射：mapGetters('AAA',['xxx'])
+
+3.**获取模块中的方法**
+
+![image.png](/assets/03f20c8f-da5f-405e-9044-059fd177a1cf.png)
