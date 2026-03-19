@@ -836,6 +836,7 @@ table表格有表格体标签
 **作用**：多个组件共同维护一份数据，
 
 * 某个数据被很多个组件来使用
+* vuex提到的状态说的是state关键字，他相当于vue组件中的data
 
 **目的**：构建vuex多组件数据共享环境
 
@@ -865,7 +866,7 @@ table表格有表格体标签
 3.**创建仓库**：
 
 * Vue.use(Vuex)
-* new Vuex.Store()
+* const AAA=new Vuex.Store()
 
 4.**导入main.js挂载**
 
@@ -875,3 +876,32 @@ table表格有表格体标签
 
 * 安装成功的话所有组件都能访问到这个仓库的
 * 通过再别的组件中调用**this.$store**，就能 看到仓库信息
+
+
+#### state状态
+
+1.**state和data区别**
+
+* state存放的是共享数据
+* data是组件中的数据
+
+#### 导入数据
+
+在index.js中给state写入数据
+
+![image.png](/assets/4b814753-b81a-4c6a-a789-b450fd39fa1a.png)
+
+#### 使用数据
+
+直接在组件中通过{{}}访问
+
+1.**在template模板中访问**
+
+* 连this都不用
+* 直接用**$store.state.title**(演示的是上面的图片中的例子)
+
+
+2.**在script逻辑模块中访问**
+
+* 可以用this，也可以不用this
+* 直接用**$store.state.title**(演示的是上面的图片中的例子)
