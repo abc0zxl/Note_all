@@ -945,17 +945,15 @@ vuex是单向数据流，**组件**不能直接修改仓库的数据
 
 **使用它的原因**：在上面调用vuex方法时，布局要在vuex文件中声明方法，也要在组件中给每个方法**单独再声明一个方法**，十分麻烦
 
-**作用**：将mutations中的方法**提取出来**，映射到**methouds中**，直接调用原来声明再vuex文件中的方法即可。 
+**作用**：将mutations中的方法**提取出来**，映射到**methouds中**，直接调用原来声明再vuex文件中的方法即可。
 
 ![image.png](/assets/3b3d3d4a-42e1-48a9-aa1e-c0d3c4cf2c52.png)
-
-
 
 #### Vuex的辅助函数actions
 
 **意义**：异步操作放到mutations中会出问题，处理不了异步的操作，只能处理同步的操作，**所以要用actions来处理异步的操作**
 
-#### **使用方法**
+**使用方法**
 
 1.**在vuex中声明方法**：
 
@@ -988,3 +986,51 @@ vuex是单向数据流，**组件**不能直接修改仓库的数据
 * **通过辅助函数**：用辅助函数**mapGetters**
 
 ![image.png](/assets/b0bb1180-cf0b-4f32-bd78-190fc0bdb51a.png)
+
+
+# 进阶语法（module）
+
+vuex是一个**单一状态树**，应用的所有状态会集中到一个比较大的对象。
+
+**缘由**：全部写道store会**导致state对象非常臃肿**
+
+**例子**：如购物车，收藏夹，等**模块**都放到这里面会导致**难以维护**，如下图所示
+
+![image.png](/assets/9441695c-c8ba-4046-9def-cb01ddd351f4.png)
+
+
+**实现步骤**
+
+1.**新建文件夹**：创建一个user模块为例子。
+
+* 在store文件夹下创建一个modules文件夹
+* 在modules文件夹下创建user.js
+
+2.**编写user.js**：如下图所示
+
+![image.png](/assets/0eabfbcc-9904-4ed5-91c2-1c593e9756c3.png)
+
+3.**导入模块**：
+
+* 在vue文件中导入user.js
+* 再导入到modules中
+
+![image.png](/assets/53d7d954-2f00-49f5-b9f3-88c89b53156d.png)
+
+6.**查看是否导入成功**：
+
+* 运行后打开浏览器的**控制台**，就能查看
+
+![image.png](/assets/f82fd138-dc8e-4eda-a777-a03f118be95a.png)
+
+## 模块中的state访问方法
+
+有两种访问方式。
+
+1.**直接通过模块名访问**：
+
+**$store.state.AAA.BBB**
+
+2.**通过mapState映射访问**：
+
+**mapState('AAA',['BBB'])**,表示访问的是AAA模块的BBB属性
