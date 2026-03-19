@@ -808,8 +808,6 @@ table表格有表格体标签
 
 7.**选择将配置文件放在单独的文件中**：In dedicated config files
 
-
-
 # ESLint规范
 
 1.**代码规范**：
@@ -825,9 +823,7 @@ table表格有表格体标签
 * **函数名字后**要加空格
 * 用**===**，放弃用**==**
 
-
 3.**辅助代码规范编写插件**：vscode中的ESLint可以**高亮错误**
-
 
 # Vuex
 
@@ -847,8 +843,6 @@ table表格有表格体标签
 * **操作简洁**：提供了很多辅助函数
 
 ![image.png](/assets/587d2f1d-cd9c-4447-9367-815fc48e47ac.png)
-
-
 
 ### 实现方法
 
@@ -877,7 +871,6 @@ table表格有表格体标签
 * 安装成功的话所有组件都能访问到这个仓库的
 * 通过再别的组件中调用**this.$store**，就能 看到仓库信息
 
-
 #### state状态
 
 1.**state和data区别**
@@ -900,8 +893,34 @@ table表格有表格体标签
 * 连this都不用
 * 直接用**$store.state.title**(演示的是上面的图片中的例子)
 
-
 2.**在script逻辑模块中访问**
 
 * 可以用this，也可以不用this
 * 直接用**$store.state.title**(演示的是上面的图片中的例子)
+
+#### 加入vuex的辅助函数mapState
+
+**作用**：简化调用store时的书写
+
+1.**导入mapState**
+
+![image.png](/assets/86d744dd-4747-49cf-9b6a-ec6e733a56a6.png)
+
+2.**将mapState导入到computed中**：
+
+![image.png](/assets/acf1518d-746f-4c23-9af6-70b4d3701651.png)
+
+#### 修改vuex中的数据
+
+vuex是单向数据流，**组件**不能直接修改仓库的数据
+
+**开启严格模式**：在store的index.js中声明
+
+* strict:true：表示不能随意修改数据
+* 添加了这个后，就会帮你报错不规范的vuex操作
+
+**修改方式**
+
+* 需要先通知vuex，申请修改数据
+* 让vuex去修改数据
+* **关键字**：mutations
