@@ -68,6 +68,8 @@
 
 * 在utils中新建一个**vant-ui.js**
 * 在mian.js中导入这个文件即可
+* 在main.js中导入还要注意格式。**不要写后缀**
+* **vant_ui。js格式**：导入的组件都必须要在一个import中，还要import vue
 
 # 移动端页面单位
 
