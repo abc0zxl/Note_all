@@ -26,11 +26,15 @@
 
 * vue3适用于vant3，4
 
+**官网地址**：https://vant-ui.github.io/vant/v2/#/zh-CN/button
+
 ![image.png](/assets/563b22d6-60ae-46f8-853a-65b4646b34f7.png)
 
 ![image.png](/assets/3341eb98-ed05-4b6c-8ad4-c1cef7c84f17.png)
 
 ### vant的使用
+
+#### 整体导入
 
 1.**下载vant**：注意版本
 
@@ -39,3 +43,13 @@
 3.**测试是否导入成功**：
 
 ![image.png](/assets/6858ac69-bd92-4d92-bda2-a55b1b35f87f.png)
+
+#### 按需引用（插件辅助）
+
+**原因**：整体导入会导致空间问题（直接导入vant）
+
+* 按需导入会导致**引用的导入代码难写**（导入部分Button）
+
+**解决方法**：安装一个专门辅助导入的插件**babel-plugin-import**
+
+* ****
