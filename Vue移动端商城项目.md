@@ -33,3 +33,9 @@
 ### vant的使用
 
 1.**下载vant**：注意版本
+
+2.**在main.js中注册**：
+
+3.**测试是否导入成功**：
+
+![image.png](/assets/6858ac69-bd92-4d92-bda2-a55b1b35f87f.png)
