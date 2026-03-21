@@ -572,7 +572,6 @@
 
 ![image.png](/assets/1c07f5f8-a7cb-4e2c-9757-1de7fbf9df0f.png)
 
-
 这个场景需要特殊处理一下
 
 **解决方法**：
@@ -586,8 +585,15 @@
 * **调用stores中的actions中的方法**
 * store中的代码，**先本地修改，在上传**
 * ![image.png](/assets/4ee195d9-5c92-4ba1-9981-eed44b65e2c4.png)
-*
 
+
+# store中的context参数
+
+给store传递context作用
+
+**定义**：他是vuex给action函数自动传递的一个**工具箱**，
+
+**原因**：action不是vue组件，没有this，在内部调用方法得用**context错做Vuex**
 
 # 删除购物车
 
