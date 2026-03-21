@@ -1,11 +1,5 @@
 # 注意
 
-1.vue的json对象序列化为stirng的方法为
-
-**JSON.stringify(obj)**
-
-2.**Toast特性**：采用单例模式，同时一个事件只会存在一个Toast
-
 # 重建项目
 
 1.**基于VueCli**搭建项目架子
@@ -477,6 +471,11 @@
 
 # 拦截器给每个请求添加tokne
 
+* 在store中获取token，
+
+* 然后在请求配置中自动加入token
+
+![image.png](/assets/9a5543ae-2164-4b00-93e4-604c6b5e5caa.png)
 
 # 加入购物车的业务
 
@@ -485,3 +484,55 @@
 **注意**：
 
 * 请求时需要携带上token
+
+**商品详情页面，购物车图标的角标数量显示**：
+
+![image.png](/assets/aa091236-3fab-47da-b3dd-9610abbd4f93.png)
+
+![image.png](/assets/d4903cbf-7d5d-4d22-8966-b3ba9c4a6683.png)
+
+* 这个也是需要请求的，
+
+**点击左下角自动跳转**：快捷编配跳转路由，直接在点击事件边上写跳转
+
+![image.png](/assets/5dfc8b51-2cb3-4c01-97c9-8c56d10f6c20.png)
+
+
+# 给列表加上复选框
+
+这个也时区vant中找，通过v-model绑定勾选状态
+
+![image.png](/assets/f0bdce3c-afea-4b34-8053-2e5b7ec3234a.png)
+
+1.**全选的情况**
+
+![image.png](/assets/ddc5793e-e15f-48d8-882f-c4414f4f6e22.png)
+
+2.**列表复选**
+
+![image.png](/assets/ffd9f282-4e5b-4078-8fab-f507b7decb3d.png)
+
+
+# 购物车列表的显示
+
+1.**设置购物车列表的store.state**
+
+* 由于时购物车列表，所以要用数组
+
+![image.png](/assets/97472bd7-13cc-47ee-a628-747046c402d3.png)
+
+2.**挂载到主store中**
+
+3.**封装获取列表的接口**
+
+![image.png](/assets/362c5303-71e9-4f4f-8235-134af343ae13.png)
+
+* 注意异步请求要放在store的actions中
+* actions中获取到数据后就要调用mutations中的方法区存储到store中
+
+
+4.**购物车历史预选记录**：这个意思就是说上一次勾选的购物车列表。
+
+* **目的**：再次获取购物车列表要识别出来这些已经背勾选的。
+* 这个虽然是全勾选，但可以改成判断
+* ![image.png](/assets/50074245-44f3-496c-823d-df1b50803852.png)
