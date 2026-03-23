@@ -247,3 +247,37 @@
 **测试**:运行函数时,在控制台中可以通过proxy看到子组件开放的属性和方法
 
 ![image.png](/assets/0eb19777-9ce6-4e6e-9724-6ee9d689e38a.png)
+
+
+# 跨层传递参数
+
+例如一个页面中,有商品信息,商品信息的某个区域有一个评论信息.
+
+* **顶层**:整个框
+* **中间**:商品信息
+* **底层**:评论区域
+
+1.**顶层传递到底层**:通过**provide(AAA,BBB)**:来传递
+
+![image.png](/assets/59e91147-f44a-40af-b9e9-038f6eb04f03.png)
+
+2.**接收数据**:通过**inject(AAA)**接收
+
+![image.png](/assets/5aa42612-9170-400f-8358-cfea56c92551.png)
+
+3.**还可以传递方法**:
+
+![image.png](/assets/f32ccc0f-0bbc-40d6-9e2a-b15ca0401b60.png)
+
+![image.png](/assets/b43d8b6b-36c3-46ac-b6ad-9c1df50f9152.png)
+
+
+# defineOpitons
+
+**原因**:像props,emits等都有**编译器宏**来设置,而像设置组件名字等一些vue2的功能则没有办法实现
+
+**实现方法**:通过**defineOptions**来实现,在内部定义这些属性
+
+![image.png](/assets/31f20a7d-303c-4674-ae6c-8933b3a279d7.png)
+
+# defineModel
