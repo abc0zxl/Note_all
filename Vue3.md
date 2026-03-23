@@ -281,3 +281,35 @@
 ![image.png](/assets/31f20a7d-303c-4674-ae6c-8933b3a279d7.png)
 
 # defineModel
+
+vue3的v-model和vue2的v-model底层中是不一样的
+
+他用的是:modelvalue
+
+![image.png](/assets/eec9e0c2-9102-48a8-a819-1a1d22e4e396.png)
+
+**优点**
+
+不在通过props来接收了,通过defineModel()来接收
+
+![image.png](/assets/0dc9e201-c394-4611-b4db-190a26bbfa98.png)
+
+**作用**:可以便捷的实现传递v-model的值
+
+### 实际应用
+
+**简单的说**:就是实现**组件级别的双线绑定**
+
+value="modelvalue"是接收父组件传递的值，modelValue=e.target.value是给父组件传递值
+
+1.**父组件**
+
+![image.png](/assets/bb3af768-b9d7-4af2-96a9-c4c5fbe13435.png)
+
+2.**子组件**![image.png](/assets/84de6ec3-b49d-4f7f-9632-f6fc36b58670.png)
+
+3.**让它生效方法**:不启用无法起作用
+
+在vite.config.js中编写
+
+![image.png](/assets/c8790bb4-39df-4abc-8c76-c321dfef219e.png)
