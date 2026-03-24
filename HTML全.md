@@ -127,3 +127,23 @@
 
 * **页内跳转实现滑动效果**:在style中添加滑动效果
 * ![image.png](/assets/40fabfad-28f1-45f9-8db0-d1e842ae0572.png)
+
+
+# 布局标签
+
+
+# 网站结构标签
+
+![image.png](/assets/1666b7e6-dadd-4f04-9dcb-87eb70058898.png)![image.png](/assets/3ddca204-daca-4daa-8660-9388f716559d.png)
+
+# 无语义标签
+
+**关键字**:<div<span
+
+* <div:行级标签,会独占一行
+* <span:行内标签,不会独占一行
+
+![image.png](/assets/c19ea9a5-90a9-422d-95a9-e71c5686173d.png)
+
+
+# 列表标签
