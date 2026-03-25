@@ -153,3 +153,19 @@
 * **关键字**:even,odd,分别表示**基数偶数**
 
 ![image.png](/assets/9f8dba07-a1f0-4f1e-9984-94044c92907e.png)
+
+
+## 表单禁用伪类选择器
+
+1.**:disabled**:表示这个类已经被禁用了
+
+* **可以设置透明度**:opacity,参数用0~1百分数
+* **去除这个选择器**:需要通过js
+
+![image.png](/assets/deab7594-3ee2-4a39-bdb1-d146c17bb689.png)
+
+## 表单被选中选择器
+
+1.**AAA:checked+label**:解读就是检查到被选中后,就会触发+label,表示这个按钮的解释部分的样式改变
+
+![image.png](/assets/1d0f5243-b973-4a84-83c6-d7aa66262f48.png)
