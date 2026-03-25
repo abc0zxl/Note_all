@@ -169,3 +169,39 @@
 1.**AAA:checked+label**:解读就是检查到被选中后,就会触发+label,表示这个按钮的解释部分的样式改变
 
 ![image.png](/assets/1d0f5243-b973-4a84-83c6-d7aa66262f48.png)
+
+
+## 伪元素选择器
+
+选中文本框<p中的文字,对这些文字进行选择
+
+1.**::first-line**:选择首行
+
+2.**::first-letter**:首字母
+
+3.**::placeholder**:选择input或者textarea占位符
+
+* placeholdr:就是设置文本框中的浅色提示字符串
+
+
+4.**::before**:元素内插入为元素,作为第一个元素
+
+* **插入位置**:在div中
+
+5.**::after**:元素内插入为元素,作为最后一个元素
+
+* **插入位置**:在div中
+
+
+## 属性选择器
+
+意思是,选中某个标签中,如果**包含括号内的属性**就添加这个样式
+
+* 括号内可以设置class=AAA
+
+![image.png](/assets/2fdb1522-dab5-42f4-9910-f56ca5bf67ee.png)
+
+![image.png](/assets/f6787ea2-0da0-4a0e-aab2-dba47a7cf206.png)
+
+
+# 选择器优先级
