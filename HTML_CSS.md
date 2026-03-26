@@ -4,6 +4,18 @@
 
 2.**表格单元格边线合并**:border-collapse:collapse
 
+3.**盒子变换样式缓慢过度属性,transition:ns**
+
+4.**文字不换行**：white-space:nowrap
+
+5.**文字一行显示，溢出则隐藏**：overflow:hidden
+
+6.**文字溢出的处理方法（省略号）**：text-overflow:ellipsis
+
+![image.png](/assets/45a22294-5255-463e-b9b6-a26cb62297db.png)
+
+![image.png](/assets/fe59ca33-9058-498c-a85d-40caf81a8a1f.png)
+
 # CSS
 
 # 盒子
@@ -299,7 +311,6 @@
 
 3.**用法**:在样式中设置**box-sizing:content-box**
 
-
 ## background属性
 
 1.**background-image**
@@ -332,7 +343,6 @@
 
 ![image.png](/assets/183df43d-d128-4b59-8487-b882f47887f9.png)
 
-
 # 背景渐变
 
 可以实现**线性渐变**,**径向渐变**
@@ -351,3 +361,38 @@
 * **可以在别的应用中比如ppt中就能设置,快速查看参数**
 
 2.**radial-gradient**径向渐变
+
+# 盒子阴影
+
+**关键词**:box-shadow
+
+**简写方式要按照下面的顺序写**
+
+* **y**
+* **x**
+* **模糊半径**
+* **扩散半径**
+* **颜色**
+* **外阴影,内阴影**
+
+![image.png](/assets/c0b10fc1-b99c-49b4-8be1-dff37d2d07b8.png)
+
+# 过渡
+
+**关键词**:transition: AAA BBB
+
+1.**AAA**:过度属性
+
+2.**BBB**:过度时间
+
+# 样式初始化
+
+**原因**:不同浏览器的默认样式不一样
+
+**作用**:没有就都没有
+
+![image.png](/assets/3f2f60ea-6001-43cd-976e-c05f7ee9c062.png)
+
+直接用这个也可以
+
+![image.png](/assets/a1a3d506-d195-496c-a39b-849efe9ec9cc.png)
