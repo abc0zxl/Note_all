@@ -48,6 +48,19 @@
 
 1.**支持细节页面修改**：框选中页面中想要修改的部分，输入评论
 
-* 点击add to chat就能提交修改
+* 点击add to chat就能提交修改，点击More->Export
+* 选择AI studio
+* 点击**build with ai studio**,自动跳转到AIstudio
+* **可以看到**：导入的是5个ui设计图和html
+* 可以在Ai studio中修改按钮等
+
+2.**支持将多个页面拼合在一起**
+
+* 在stitch端，选中这些页面
+*
 
 ## Antigravity
+
+1.**在AI studio中**：点击上面的**下载按钮**。
+
+2.**导入到Antigravity**：让他生成**执行计划**
