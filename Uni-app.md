@@ -22,6 +22,8 @@
 
 11.**页面跳转**
 
+12.**不行，uni-app 的原生 tabBar 不能在 pages.json 里直接设置圆角。**
+
 # Uni-app
 
 他是一个**使用Vue.js开发**所有的前端应用框架
@@ -1164,8 +1166,6 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 * ![image.png](/assets/f783705c-1a1a-4cf4-96f4-43c558b9596a.png)
 * **发现H5不回显地址**：只需绑定一个区地址即可完成**省市区的显示**，
 * ![image.png](/assets/f4f4f872-2317-4b16-9086-7a952f860af2.png)
-
-
 
 # uniCloud
 
