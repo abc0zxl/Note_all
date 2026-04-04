@@ -607,6 +607,13 @@ export type AAA=InstanceType<typeof XtxGuess》
 
 * 他的作用是是否要添加这个类名active
 
+4.**样式匹配**
+
+* 严格模式下是在当前类名后面追加一个类名
+* 宽松模式下是将其作为当前类名的兄弟，找到样式后和当前样式合并
+
+![image.png](/assets/6b970ff1-7f31-40ef-85ea-d8a9b7f8c6d3.png)![image.png](/assets/bb1efd01-35d5-45a1-a5fc-ccc9ef5684c4.png)
+
 ### 交叉类型
 
 用于补齐请求参数对象中的某个元素
