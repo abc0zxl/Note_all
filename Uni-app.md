@@ -32,6 +32,12 @@
 
 15.**微信小程序不允许跳转到taber页面**
 
+16.**微信小程序给后端传递多个参数**，
+
+![image.png](/assets/3524cb71-123f-4600-afba-d3ea59971bc8.png)
+
+![image.png](/assets/74905aff-6aa1-49f9-9b04-6fefb9828cd5.png)
+
 # Uni-app
 
 他是一个**使用Vue.js开发**所有的前端应用框架
