@@ -24,6 +24,8 @@
 
 12.**不行，uni-app 的原生 tabBar 不能在 pages.json 里直接设置圆角。**
 
+13.**发送请求的时候**：如何将参数放到body中，将请求改成post，它自动会将data中的参数转到body中。
+
 # Uni-app
 
 他是一个**使用Vue.js开发**所有的前端应用框架
