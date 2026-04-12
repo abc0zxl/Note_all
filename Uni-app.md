@@ -30,6 +30,8 @@
 
 ![image.png](/assets/826b17b6-f742-48ab-80cf-6ecaadff8cad.png)
 
+15.**微信小程序不允许跳转到taber页面**
+
 # Uni-app
 
 他是一个**使用Vue.js开发**所有的前端应用框架
