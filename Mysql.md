@@ -29,6 +29,8 @@ AND TABLE_NAME = 'tb_cart';
 
 7.**强行修改自增数字**：ALTERTABLEuserAUTO\_INCREMENT=100;
 
+8.**替换字符**：![image.png](/assets/f6cf8c4c-336d-44bd-aae9-3b39fbedf390.png)
+
 ## 关系型数据库
 
 Oracle,MySQL,IBM Db2,SQL Server,PostgreSQL
