@@ -1240,6 +1240,9 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 
 
 
+# A到B页面返回A时如何传递参数
+
+![image.png](/assets/4172dcd9-35bb-49c1-99d6-23e78ea1cd37.png)
 
 # Uniapp生命周期
 
