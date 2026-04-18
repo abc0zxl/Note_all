@@ -1228,15 +1228,21 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 * **如果有自己的后端**：就需要这个，这个是为了便捷开发所提供的东西。
 * **如果用的是uniCloud+uniApp体系**：就需要这个文件
 
-
-
 # uniapp传递参数方式
 
 1.通过URL Query传输
 
 ![image.png](/assets/5f86a610-84a5-4060-bc0c-5ece2f9f99cb.png)
 
-
 2.通过EventChannel传播
 
 ![image.png](/assets/23883505-e434-4c8c-9ae1-dd609e9ad99a.png)
+
+
+
+
+# Uniapp生命周期
+
+**下面主要是针对uniapp页面的时候的常用生命周期钩子函数**：包含了vue3**和**uniapp的生命周期
+
+![image.png](/assets/641cd0fa-10b5-4323-8bc2-411c7836b2b3.png)
