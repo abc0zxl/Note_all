@@ -38,6 +38,10 @@
 
 ![image.png](/assets/74905aff-6aa1-49f9-9b04-6fefb9828cd5.png)
 
+17.**传递参数最好的两种方式：详情往下翻**
+
+![image.png](/assets/ce3d7656-0b4b-4c9b-bf0d-71baf9d0893c.png)
+
 # Uni-app
 
 他是一个**使用Vue.js开发**所有的前端应用框架
@@ -1223,3 +1227,16 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 
 * **如果有自己的后端**：就需要这个，这个是为了便捷开发所提供的东西。
 * **如果用的是uniCloud+uniApp体系**：就需要这个文件
+
+
+
+# uniapp传递参数方式
+
+1.通过URL Query传输
+
+![image.png](/assets/5f86a610-84a5-4060-bc0c-5ece2f9f99cb.png)
+
+
+2.通过EventChannel传播
+
+![image.png](/assets/23883505-e434-4c8c-9ae1-dd609e9ad99a.png)
