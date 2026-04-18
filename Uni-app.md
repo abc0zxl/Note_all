@@ -1246,3 +1246,5 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 **下面主要是针对uniapp页面的时候的常用生命周期钩子函数**：包含了vue3**和**uniapp的生命周期
 
 ![image.png](/assets/641cd0fa-10b5-4323-8bc2-411c7836b2b3.png)
+
+1.**uniapp页面跳转**：从A页面到B页面，再回到A页面的时候不会执行onMounted,可以适用于修改A页面的参数的场景
