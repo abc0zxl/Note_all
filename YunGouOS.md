@@ -15,9 +15,27 @@
 * 能实现真实的资金流动
 * 也能模拟出原生官方API的大部分流程
 
+# 规则
+
+1.**资金流动规则**
+
+* 交易的金额在次日到达账户
+* 查看交易，资金管理网站：[https://pay.weixin.qq.com/guide/miniapp\_assistant.shtml](https://pay.weixin.qq.com/guide/miniapp_assistant.shtml "https://pay.weixin.qq.com/guide/miniapp_assistant.shtml")
+* 银行收到账的名字，是YunGouOS的自己公司名字。
+* 费率：0.6%
+
+2.**违规操作**
+
+* 要同时遵循微信的限制和YunGouOS的限制。
+
+3.**签名**
+
+* YunGouOS和微信的签名算法一致
+* 只有文档中的必传参数才参与前面
+* 官方验签工具：[https://pay.weixin.qq.com/doc/v2/tool/sign\_verify](https://pay.weixin.qq.com/doc/v2/tool/sign_verify)
 
 ## 开发的微信小程序如何实现支付
 
 1.**在微信小程序中无法实现支付**
 
-2，**需要将小程序运行在手机的微信上才能实现。**：且必须是**体验版**，或者**正式版**
+2.**需要将小程序运行在手机的微信上才能实现。**：且必须是**体验版**，或者**正式版**
