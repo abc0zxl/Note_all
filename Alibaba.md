@@ -4,6 +4,8 @@
 
 2.**UUID**：这个是全球唯一的
 
+3.**支付宝回调传入的参数**：这个还是在官方文档中有
+
 # 支付宝支付
 
 下面模拟的沙箱环境的支付实现流程
@@ -90,9 +92,6 @@ https://open.alipay.com/api#openapi
 * **修改订单状态**
 * **前端支付成功通知**
 
-
-
-
 # 传递的各个参数
 
 ## 公共参数
@@ -104,7 +103,6 @@ https://open.alipay.com/api#openapi
 ![image.png](/assets/c7c4e563-c83f-48bf-934b-ab73c91b059d.png)
 
 1.**biz_content请求参数集合**：他是存放业务请求参数的地方
-
 
 ### 业务参数
 
