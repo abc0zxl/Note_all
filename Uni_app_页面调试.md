@@ -1,3 +1,11 @@
+# 注意
+
+1.**素材网站**：
+
+* https://gitee.com/ZhongBangKeJi/CRMEB商城内部页面
+* https://gitee.com/fuyang_lipengjun/platform商城内部页面
+
+
 # 首页修改
 
 修改头部
@@ -776,7 +784,6 @@ ScrollTimeline)
 
 这个直接去抄代码即可
 
-
 ## 页面的传参
 
 如跳转页面，我的页面到订单的操作，评价，待收货订单，已发货订单。点击进去时需要**传参**
@@ -788,16 +795,11 @@ ScrollTimeline)
 * **发送方**
 * ![image.png](/assets/a5aae2e9-8f5e-402f-9761-81c45076a850.png)
 
-
-
-
 ## 订单组件
 
 **高内聚低耦合**
 
 ![image.png](/assets/2de2c249-f4aa-4b9e-8d9a-2c7c316b36c3.png)
-
-
 
 # 页面地址
 
