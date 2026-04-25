@@ -32,6 +32,10 @@
 
 10.**实体类中的boolean和Boolean类型有区别的**：boolean不能自动生成get
 
+11.**BigDecimal类型转String，会出现两位小数变成一位**：需要先变成decimalformat类型再转
+
+![image.png](/assets/e499fb3e-685c-4676-8021-812423433e95.png)
+
 # 约定大于配置
 
 **注意**
