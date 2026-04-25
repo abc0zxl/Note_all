@@ -16,6 +16,8 @@
 
 ![image.png](/assets/f508888c-b348-4d7a-874e-e9c7a6817edd.png)
 
+* 同步回调是用来跳转页面的，和后端业务分离，用户可能会立即删除后台，直接切回来等操作，就不会触发了，不会影响订单数据。
+
 7.**支付宝不能返回一个页面**：要告诉支付宝不用解析视图@ResponseBody
 
 8.**web端异步回调参数**：[https://opendocs.alipay.com/open/203/105286?pathHash=022a439c](https://opendocs.alipay.com/open/270/105902?pathHash=d5cd617e)
@@ -25,6 +27,8 @@
 10.**异步回调接收参数方式**：![image.png](/assets/97cd6553-c167-4815-8a5e-48ee9fb59c36.png)
 
 11.**手机端和电脑端浏览器支付**：公共参数请求类不太一样。手机端要用：AlipayTradeWapPayRequest
+
+12.
 
 # 支付宝支付
 
