@@ -15,6 +15,8 @@
 * 这个地址主要还是用来跳转页面用的，因为要回来。
 * ![image.png](/assets/f508888c-b348-4d7a-874e-e9c7a6817edd.png)
 * **支付宝不能返回一个页面**：要告诉支付宝不用解析视图@ResponseBody
+* **web端异步回调参数**：[https://opendocs.alipay.com/open/203/105286?pathHash=022a439c](https://opendocs.alipay.com/open/270/105902?pathHash=d5cd617e)
+* **web端同步回调参数**：订单号，交易号，订单金额
 
 # 支付宝支付
 
