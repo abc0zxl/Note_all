@@ -17,6 +17,7 @@
 * **支付宝不能返回一个页面**：要告诉支付宝不用解析视图@ResponseBody
 * **web端异步回调参数**：[https://opendocs.alipay.com/open/203/105286?pathHash=022a439c](https://opendocs.alipay.com/open/270/105902?pathHash=d5cd617e)
 * **web端同步回调参数**：订单号，交易号，订单金额
+* **异步回调接收参数方式**：![image.png](/assets/97cd6553-c167-4815-8a5e-48ee9fb59c36.png)
 
 # 支付宝支付
 
