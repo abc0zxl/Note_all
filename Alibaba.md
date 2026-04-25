@@ -12,12 +12,19 @@
 
 6.**同步回调**：这个也是发起支付请求的时候传递给支付宝官方的后端地址，它主要实现的是，用户界面的信息更新以及跳转。当用户在**弹起的第三方页面用户点击返回的时候**，用户手机会向后端发起请求，后端查询支付结果数据，。
 
-* 这个地址主要还是用来跳转页面用的，因为要回来。
-* ![image.png](/assets/f508888c-b348-4d7a-874e-e9c7a6817edd.png)
-* **支付宝不能返回一个页面**：要告诉支付宝不用解析视图@ResponseBody
-* **web端异步回调参数**：[https://opendocs.alipay.com/open/203/105286?pathHash=022a439c](https://opendocs.alipay.com/open/270/105902?pathHash=d5cd617e)
-* **web端同步回调参数**：订单号，交易号，订单金额
-* **异步回调接收参数方式**：![image.png](/assets/97cd6553-c167-4815-8a5e-48ee9fb59c36.png)
+这个地址主要还是用来跳转页面用的，因为要回来。
+
+![image.png](/assets/f508888c-b348-4d7a-874e-e9c7a6817edd.png)
+
+7.**支付宝不能返回一个页面**：要告诉支付宝不用解析视图@ResponseBody
+
+8.**web端异步回调参数**：[https://opendocs.alipay.com/open/203/105286?pathHash=022a439c](https://opendocs.alipay.com/open/270/105902?pathHash=d5cd617e)
+
+9.**web端同步回调参数**：订单号，交易号，订单金额
+
+10.**异步回调接收参数方式**：![image.png](/assets/97cd6553-c167-4815-8a5e-48ee9fb59c36.png)
+
+11.**手机端和电脑端浏览器支付**：公共参数请求类不太一样。手机端要用：AlipayTradeWapPayRequest
 
 # 支付宝支付
 
