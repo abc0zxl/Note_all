@@ -42,6 +42,12 @@
 
 ![image.png](/assets/ce3d7656-0b4b-4c9b-bf0d-71baf9d0893c.png)
 
+18.**onMound会导致并发，导致有参数需求的方法无法得到参数**：需要给onMound加上异步等待
+
+![image.png](/assets/119507a6-9c15-4c06-8edd-645186b38332.png)
+
+19.**url传递参数**：会限制传递长度
+
 # Uni-app
 
 他是一个**使用Vue.js开发**所有的前端应用框架
@@ -1237,8 +1243,6 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 2.通过EventChannel传播
 
 ![image.png](/assets/23883505-e434-4c8c-9ae1-dd609e9ad99a.png)
-
-
 
 # A到B页面返回A时如何传递参数
 
