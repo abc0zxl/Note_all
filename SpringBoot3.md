@@ -36,6 +36,16 @@
 
 ![image.png](/assets/e499fb3e-685c-4676-8021-812423433e95.png)
 
+12.**回调返回html页面**：用的模板，这个模板放在resource中，如何传递参数？
+
+* 用model.setAttruibute传递
+* html中用
+  ```
+
+  /*[[${outTradeNo}]]*/
+  ```
+* 因为template会先解析这个/**/
+
 # 约定大于配置
 
 **注意**
