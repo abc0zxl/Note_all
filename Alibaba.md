@@ -30,7 +30,11 @@
 
 11.**手机端和电脑端浏览器支付**：公共参数请求类不太一样。手机端要用：AlipayTradeWapPayRequest
 
-12.
+12.**app内吊起支付html页面核心代码**：
+
+![image.png](/assets/cc16348e-4883-44c7-80c2-2c7d71c3cad0.png)
+
+13.**为什么androidApp能在不跳出app的情况打开html**：**HTML 确实需要“浏览器内核”才能渲染**。**移动操作系统（iOS/Android）为 App 提供了内嵌的浏览器引擎**，不需要你安装 Chrome 或 Safari，也不需要你在 App 里“手动加浏览器”。
 
 # 支付宝支付
 
