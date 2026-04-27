@@ -1,7 +1,5 @@
 # 移动端技术
 
-
-
 # URL Scheme(跳转其他应用)
 
 **作用**：在移动端可以根据各个应用在手机上注册的URL_scheme跳转过来
@@ -13,7 +11,6 @@
 这个技术适用于移动端Android，IOS。
 
 * **不适用于小程序，因为他们是封闭管理的微信小程序不可能打开支付宝app**
-
 
 **什么是urlscheme**：
 
@@ -37,5 +34,7 @@ plus.runtime.openURL('alipays://platformapi/startapp?appId=2019051064522000'，f
 
 plus.runtime.openURL('https://www.baidu.com')
 
-
 # uniapp的app跳转浏览器实现支付
+
+
+# 实现安装app的时候注册URL Scheme
