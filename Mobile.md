@@ -36,5 +36,9 @@ plus.runtime.openURL('https://www.baidu.com')
 
 # uniapp的app跳转浏览器实现支付
 
-
 # 实现安装app的时候注册URL Scheme
+
+
+# uniapp钩子
+
+uniapp钩子，在android中也能触发
