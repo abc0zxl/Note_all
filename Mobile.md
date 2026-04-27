@@ -2,7 +2,7 @@
 
 
 
-# URL Scheme
+# URL Scheme(跳转其他应用)
 
 **作用**：在移动端可以根据各个应用在手机上注册的URL_scheme跳转过来
 
@@ -29,4 +29,13 @@
 
 1.**uniapp中实现方法**
 
+* **打开沙箱支付宝**
+
 plus.runtime.openURL('alipays://platformapi/startapp?appId=2019051064522000'，function111)
+
+* **打开默认浏览器**
+
+plus.runtime.openURL('https://www.baidu.com')
+
+
+# uniapp的app跳转浏览器实现支付
