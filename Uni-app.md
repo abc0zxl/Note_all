@@ -48,6 +48,11 @@
 
 19.**url传递参数**：会限制传递长度
 
+20.**url传递参数**：可以用onLoad（option）可以获得url传递的参数，用option.AAA等。
+
+21.**uniapp的钩子导入方法**：import { onLoad,onShow, onReady, onHide, onUnload } from '@dcloudio/uni-app'
+
+
 # Uni-app
 
 他是一个**使用Vue.js开发**所有的前端应用框架
