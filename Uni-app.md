@@ -52,6 +52,7 @@
 
 21.**uniapp的钩子导入方法**：import { onLoad,onShow, onReady, onHide, onUnload } from '@dcloudio/uni-app'
 
+22.**如果uniapp中两个带await和async的方法放在一个方法中，他是会按照顺序执行**
 
 # Uni-app
 
@@ -1260,3 +1261,22 @@ H5端的tabBar高度就是最底部，会导致一些内容和组件被tabBar遮
 ![image.png](/assets/641cd0fa-10b5-4323-8bc2-411c7836b2b3.png)
 
 1.**uniapp页面跳转**：从A页面到B页面，再回到A页面的时候不会执行onMounted,可以适用于修改A页面的参数的场景
+
+
+
+
+
+# 监听发送消息
+
+## **全局事件总线**
+
+**关键字**：
+
+* uni.$emit
+* uni.$on
+
+1.**A页面发送消息**：uni.$emit('事件名',{data:'传递的参数'})
+
+2.**B页面监听事件**：uni.$on('事件名',(data)=>{……})
+
+3.**一定要移除监听**：uni.$off('eventName')
