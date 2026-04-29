@@ -56,6 +56,8 @@
 
 23.**导入组件的方式**：**选项式API**是import和components一起倒入，**组合式API**是import直接导入
 
+24.**在js中访问响应式需要用value解析，在template中解析响应式不用加value**
+
 # Uni-app
 
 他是一个**使用Vue.js开发**所有的前端应用框架
