@@ -28,6 +28,8 @@
 
 **![image.png](/assets/7c75ccd7-2375-4aee-b816-a970278726f7.png)**
 
+12.**让滚动的起始位置从容器的顶部开始**：align-items:flex-start
+
 # CSS
 
 # 盒子
