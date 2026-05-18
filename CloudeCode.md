@@ -22,6 +22,8 @@
 
 9.他能直接拖拽图片进去
 
+10.claude可以和很多ai工具直连，可以让claude调用他们
+
 ## Claude 指令
 
 1.**执行终端命令不在询问是否允许**：在启动claude 时候在后面加上--dangerously-skip-permissions
@@ -35,6 +37,8 @@
 3.**查看后台任务**：/tasks
 
 4.**查看目录**:ls
+
+5.**显示历史对话**：/resume
 
 # 使用
 
@@ -129,3 +133,5 @@
 实现步骤
 
 1.**去官网复制命令**
+
+claude mcp add --transport http figma https://mcp.figma.com/mcp
