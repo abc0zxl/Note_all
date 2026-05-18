@@ -14,10 +14,7 @@
 * 调用完工具后，数据全部在平台上，然后再次发送给大模型，大模型处理完后就会给平台
 * 最后将处理好的数据给到用户。
 
-
 ![image.png](/assets/6adaecbf-d138-4b36-980a-a233a503e3dc.png)
-
-
 
 ## MCP
 
@@ -31,9 +28,6 @@ Model Context Protocol统一接入标准
 
 * 各个平台的接入规范都不一样
 
-
-
-
 ## Agent
 
 **自主规划，调用工具**
@@ -43,7 +37,6 @@ Model Context Protocol统一接入标准
 ![image.png](/assets/4e63c408-8216-404f-89a7-237f08f68112.png)
 
 **作用**：他是一个调度中心，能够和大模型主动配合，自主完成一系列循环。
-
 
 ## Agent skill
 
@@ -60,3 +53,16 @@ Model Context Protocol统一接入标准
 * 示例：用户问题，定位工具，天气工具，最终输出。
 
 **注意**：必须按照Agent Skill的命名规范来设定名字。
+
+**市场上常用的两种方式**：
+
+1. **LLM 自主调用模式**（如 LangChain、AutoGen）：Skill 作为工具注册，LLM 在循环中决定调用。
+2. **前置注入模式**（如 Claude Code 的 Skill）：Skill 作为提示词的一部分，在 LLM 决策前就告诉了 LLM “你有这些能力”，但不强制调用。
+
+## LLM执行流程案例
+
+1.启动核心文件，建立与DeepSeek的链接
+
+2.创建空对话历史
+
+3.生成系统提示词（告诉LLM他的身份和职责）
