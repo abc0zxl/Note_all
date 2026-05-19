@@ -59,7 +59,7 @@
 
 * 添加对某个操作的hook，比如write和edit
 * 添加hook操作
-* 如
+* 如（下面的jq和prettier要安装）
 * ![image.png](/assets/12b31d1c-13c0-4e16-a801-57f1d00cadd7.png)
 * 保存hook，可以保存在三个地方
 * ![image.png](/assets/e59f20a1-a213-41dd-88d9-645df3caf002.png)
