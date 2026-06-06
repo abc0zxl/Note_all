@@ -38,6 +38,8 @@ Model Context Protocol统一接入标准
 
 **作用**：他是一个调度中心，能够和大模型主动配合，自主完成一系列循环。
 
+**例子**：claudecode，geminiCLI，codex
+
 ## Agent skill
 
 **大模型可以随时翻阅的说明文档**
@@ -54,7 +56,6 @@ Model Context Protocol统一接入标准
 * 输出格式
 * 示例：用户问题，定位工具，天气工具，最终输出。
 
-
 **注意**：必须按照Agent Skill的命名规范来设定名字。
 
 * 如果内容过于复杂的话，可以在skill中说明条件。让其查看其他更精细的skill，便于节省token
@@ -66,7 +67,6 @@ Model Context Protocol统一接入标准
 1. **LLM 自主调用模式**（如 LangChain、AutoGen）：Skill 作为工具注册，LLM 在循环中决定调用。
 2. **前置注入模式**（如 Claude Code 的 Skill）：Skill 作为提示词的一部分，在 LLM 决策前就告诉了 LLM “你有这些能力”，但不强制调用。
 
-
 ### Skill高级用法
 
 1.**添加脚本**：比如在skill中要求将总结的内容上传到服务器
@@ -76,8 +76,6 @@ Model Context Protocol统一接入标准
 ### 渐进式批漏
 
 ![image.png](/assets/d7f0220a-1009-4406-8e4f-ac25ad42c86d.png)
-
-
 
 ### AgentSkill和MCP
 
