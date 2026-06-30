@@ -152,3 +152,64 @@
 
 
 9.州担保：15
+
+
+**加分总分**：110
+
+
+
+#### 更牛逼的情况
+
+1.想办法在澳洲本地工作1年，并打出工资单：5
+
+**裸分总分**：100
+
+**加分总分**：115
+
+
+
+### 189录取标准
+
+1.100%的择优录取
+
+2.只看分数
+
+3.以及提交时间
+
+4.没有其他因素
+
+### 190州担保
+
+1.这个除了189的以外
+
+2.每个州的配额不一样,也会影响
+
+### 额外可能因素
+
+1.同分情况下
+
+2.有本地经验的肯定会先获邀
+
+3.更年轻的年龄也会容易一点
+
+4.在该州学习过也会加分
+
+
+# 职业评估
+
+这个是每个技术类签证，189，186，491，190，191等都需要先做完职业评估才能执行下一步操作来判断是否给予签证。
+
+每个职业的职业评估标准都是公开透明的，在一些官网上就能查到，不是必须要到专门的机构去获取。
+
+
+1. IT类职业：ACS（Australian Computer Society）
+   - 官网：https://www.acs.org.au
+2. 工程师类：EA（Engineers Australia）
+   - 官网：https://www.engineersaustralia.org.au
+3. 管理类职业：AIM（Australian Institute of Management）
+   - 官网：https://www.managersandleaders.com.au
+4. 技工类职业：TRA（Trades Recognition Australia）
+   - 官网：https://www.tradesrecognitionaustralia.gov.au
+5. 大部分通用职业：VETASSESS
+   - 官网：https://www.vetassess.com.au
+6. 会计类：CPA Australia、CA ANZ、IPA
